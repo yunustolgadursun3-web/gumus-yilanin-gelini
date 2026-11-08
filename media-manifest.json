@@ -1,0 +1,1613 @@
+{
+  "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+  "assets": [
+    {
+      "id": "cinzel.woff2",
+      "src": "assets/fonts/cinzel.woff2",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "font",
+      "sha256": "a5779eb98b5046090f99169b529743e356b452909295ad7db4cb70011e0425e0"
+    },
+    {
+      "id": "lora-italic.woff2",
+      "src": "assets/fonts/lora-italic.woff2",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "font",
+      "sha256": "3bb65e234cd07a69127592cafd08ce4242a1a4ace24dcc4c466881693fc74867"
+    },
+    {
+      "id": "lora.woff2",
+      "src": "assets/fonts/lora.woff2",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "font",
+      "sha256": "525551030c504c0eb42d71b48ce10027e4431bd405d6cd04c468a535ce8d961b"
+    },
+    {
+      "id": "aethros-480.webp",
+      "src": "assets/images/aethros-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "20eb0fed4f924b6841987944c2a39e0e30f6d1dd3ccc2f6b1461f5a4c4f6e829"
+    },
+    {
+      "id": "aethros.webp",
+      "src": "assets/images/aethros.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "207abdc43dfd3b2946b0e004adbf087fa8c5df231058390a386bec54459d71b8"
+    },
+    {
+      "id": "atlas-480.webp",
+      "src": "assets/images/atlas-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "390f34c65a3374470901d06c5147ed06da6953c4741594ddf9fc1201b6717560"
+    },
+    {
+      "id": "atlas.webp",
+      "src": "assets/images/atlas.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "e82ee7cc76b1ec338bb750a63c7ef2793a38fad44f5e99cfa7157adadfab4181"
+    },
+    {
+      "id": "book-sigil.svg",
+      "src": "assets/images/book-sigil.svg",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "aa3066fafbdc67b0ef0a0d27b8aade3e200c90443c6e64fa8690dd68c7f728b4"
+    },
+    {
+      "id": "chapter-01-480.webp",
+      "src": "assets/images/chapter-01-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "df69b71f4406d408a928949cf9be935b9b417f7a4447267aea70e3712229e8e2"
+    },
+    {
+      "id": "chapter-01.webp",
+      "src": "assets/images/chapter-01.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "9e8c1b82d61e8e1932662d623aa355913631f5e67de3b079f88770484543fbbf"
+    },
+    {
+      "id": "chapter-02-480.webp",
+      "src": "assets/images/chapter-02-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "00b01af31bc7bb8daf4028fd4b9430be0ec60c6ca3ac694e699d06d4828e6dcc"
+    },
+    {
+      "id": "chapter-02.webp",
+      "src": "assets/images/chapter-02.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "eca01ab1841d35cda6b6ec31f29f0b9425bfa561fee6ba95f20514ec19b7756d"
+    },
+    {
+      "id": "chapter-03-480.webp",
+      "src": "assets/images/chapter-03-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "984b7207f6b785ca37354e57a147ffc461d9388037d8242b8a5428faafa1a83f"
+    },
+    {
+      "id": "chapter-03.webp",
+      "src": "assets/images/chapter-03.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "25d739a875e7cd9e003491117752533dbac26f632fbadd70793508539563af03"
+    },
+    {
+      "id": "chapter-04-480.webp",
+      "src": "assets/images/chapter-04-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "aefc28229e035b24bf14f8959dcacaf96f269614708de38680e11a310ec951a5"
+    },
+    {
+      "id": "chapter-04.webp",
+      "src": "assets/images/chapter-04.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "36b1acca4763975b11fd7682f3295917a95088cc095f9a5391f9259ddc5452ec"
+    },
+    {
+      "id": "chapter-05-480.webp",
+      "src": "assets/images/chapter-05-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "9834f6a5e8704b57848a077a0114f82ec5d7d1a41cbd655ea13b295fb3948c74"
+    },
+    {
+      "id": "chapter-05.webp",
+      "src": "assets/images/chapter-05.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "7115a416a5743c3bc5859f6b3e36d70b9ae7322b88c8e10c2261e2e6438b1dad"
+    },
+    {
+      "id": "chapter-06-480.webp",
+      "src": "assets/images/chapter-06-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "fc06ffc39323c78f19c3a7913f5d5a9d6fe4ff55aebc5e19f970a4360ea5bac4"
+    },
+    {
+      "id": "chapter-06.webp",
+      "src": "assets/images/chapter-06.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "1dd639a5a8072257004d0aef0b6a6dc72b37aa32c036b8b63eebb5b0a1d28c48"
+    },
+    {
+      "id": "chapter-07-480.webp",
+      "src": "assets/images/chapter-07-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "4f6ca04e871246aa704fbd584cece9548974d47f1a5c777a871ce3b9ee8f12b0"
+    },
+    {
+      "id": "chapter-07.webp",
+      "src": "assets/images/chapter-07.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "c0b32b863b622e4fe22eb0e024befc90f24753956359f945bd83d883f519fa3c"
+    },
+    {
+      "id": "chapter-08-480.webp",
+      "src": "assets/images/chapter-08-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "dae335f2f0775075c90d50eeba0f8747bd576c6f0ec2926f283a6850711977f8"
+    },
+    {
+      "id": "chapter-08.webp",
+      "src": "assets/images/chapter-08.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "0fa41b67d5550ff6990fa6985358edc6137e9084561366fd272bd514ff1a5aba"
+    },
+    {
+      "id": "chapter-09-480.webp",
+      "src": "assets/images/chapter-09-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "019f6991e4e35c4d7442408618d1c8040d110c2ca045fb7e8ababaf4b751d830"
+    },
+    {
+      "id": "chapter-09.webp",
+      "src": "assets/images/chapter-09.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "a7c9b6f7c10b74ae573903957606a532b649a17535cfc8169fcd2d11848055e1"
+    },
+    {
+      "id": "chapter-10-480.webp",
+      "src": "assets/images/chapter-10-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "8cc234fca9a12956b4c167a0877a26fa934ac4b610d70e32b21f2ae224f664f7"
+    },
+    {
+      "id": "chapter-10.webp",
+      "src": "assets/images/chapter-10.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "8821329cf1410e02ae23a738019bf9935182891575bcb7fb1ae1c553f3068ce9"
+    },
+    {
+      "id": "chapter-11-480.webp",
+      "src": "assets/images/chapter-11-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "71b1e6641b8639d1ff67cf13c51ac87a13f860415fdb2c5cf3c20b6240c590db"
+    },
+    {
+      "id": "chapter-11.webp",
+      "src": "assets/images/chapter-11.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "bcf5e6eed46ec8896488b56b94ec1aaac556e074504a817077fdb45e356d8c36"
+    },
+    {
+      "id": "chapter-12-480.webp",
+      "src": "assets/images/chapter-12-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "b33b5999d77b62950026fa4a37b3270b7c4f059a8e9ee05eaea843dec020c1a9"
+    },
+    {
+      "id": "chapter-12.webp",
+      "src": "assets/images/chapter-12.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "5b74e3b80a3163f4d5116e19a1e921139389c616aaa97f5ffbab5093fc00cff7"
+    },
+    {
+      "id": "chapter-13-480.webp",
+      "src": "assets/images/chapter-13-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "76df39a2fcf8bc5e8601593d8835b6cfe3e7c2405a33d44130e0e2e3d65f37ed"
+    },
+    {
+      "id": "chapter-13.webp",
+      "src": "assets/images/chapter-13.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "5d457317ab8f2716f3fd90bd104f77abaeeba956bebd21089a827d80e604df55"
+    },
+    {
+      "id": "chapter-14-480.webp",
+      "src": "assets/images/chapter-14-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "09db063a89820db95b9ea030480cd96666cc7a826efd5fa277afa11d718c26f3"
+    },
+    {
+      "id": "chapter-14.webp",
+      "src": "assets/images/chapter-14.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "9433216554385f6c051e4867b7100a18b353fabd20b585cf3749ac79d8f87c70"
+    },
+    {
+      "id": "cover-480.webp",
+      "src": "assets/images/cover-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "d2f5ad94f1cb7ee816a877334f706599416b84a748b0912f33ee4e4b00af50a8"
+    },
+    {
+      "id": "cover.webp",
+      "src": "assets/images/cover.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "23988ccc08db96975c05f984a47e2c0ec610fd3bdf0252fcc9a1caa2d5bce285"
+    },
+    {
+      "id": "aethros.webp",
+      "src": "assets/images/detail/aethros.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "9c29dbb341a5dc1b2f67394089619c753924620da1d4975e6d46aeb5403611d3"
+    },
+    {
+      "id": "atlas.webp",
+      "src": "assets/images/detail/atlas.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "3b90e846285ec98d0901649bdb43f76bca57190dc90fd9da78c5bb0e509b63a3"
+    },
+    {
+      "id": "chapter-01.webp",
+      "src": "assets/images/detail/chapter-01.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "dad7fa46c849c9c7a6b8b26905bf83abecdc7de9ac411014e3795645a0c2323e"
+    },
+    {
+      "id": "chapter-02.webp",
+      "src": "assets/images/detail/chapter-02.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "b5214a0ed3d3dd4befb2f9862ae85e600dd62c1c6e3bd5661f1f33fddb736224"
+    },
+    {
+      "id": "chapter-03.webp",
+      "src": "assets/images/detail/chapter-03.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "099cc99b1cc45adf373eed9f6bece87835c5147c144de5a832e819a49c5ceb3c"
+    },
+    {
+      "id": "chapter-04.webp",
+      "src": "assets/images/detail/chapter-04.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "0492bcc690d990064626fb4b56ac2de0efff762220400062fa5172ce4d7ba255"
+    },
+    {
+      "id": "chapter-05.webp",
+      "src": "assets/images/detail/chapter-05.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "7b8f8bf3beaa2816b5b6ae1aa65665c7797ac26d9b270d4a549e378a17e6551c"
+    },
+    {
+      "id": "chapter-06.webp",
+      "src": "assets/images/detail/chapter-06.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "0dd0302ee36194561252947593ab7d9559ea98846c205f97ed3838f77450a627"
+    },
+    {
+      "id": "chapter-07.webp",
+      "src": "assets/images/detail/chapter-07.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "25b0a4dab62b06683bac88e6dc4ca64506d66ca43e894514b360da046a53e5c3"
+    },
+    {
+      "id": "chapter-08.webp",
+      "src": "assets/images/detail/chapter-08.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "aaafca86d64f3154014ce3c11c6613e141a542c2731b8111165258ef42ffa58e"
+    },
+    {
+      "id": "chapter-09.webp",
+      "src": "assets/images/detail/chapter-09.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "e6c6586192ca09cee0daf94051acb317d588d7c09f28ad0a3831425467b9b797"
+    },
+    {
+      "id": "chapter-10.webp",
+      "src": "assets/images/detail/chapter-10.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "d39e7777efddee25cd66a1253ff1d67989c673bb045f356da6ce09cef54b5e28"
+    },
+    {
+      "id": "chapter-11.webp",
+      "src": "assets/images/detail/chapter-11.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "839b9eec12d70f5422259c403a51f967d33543fb185f0cbc66984082922654ff"
+    },
+    {
+      "id": "chapter-12.webp",
+      "src": "assets/images/detail/chapter-12.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "05fa30cefadb254e5414c086522edeb79b94f66d5a52f2b7c40b33a9466c919e"
+    },
+    {
+      "id": "chapter-13.webp",
+      "src": "assets/images/detail/chapter-13.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "ea573a80a6383bb3e6c28dfdc8367d2ec5e8ccf164183992789c8c1d6f6bcec3"
+    },
+    {
+      "id": "chapter-14.webp",
+      "src": "assets/images/detail/chapter-14.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "61da9c60b950a9b4a882dd91837c4b121fd11b69a50389a00ef084a2411879f2"
+    },
+    {
+      "id": "cover.webp",
+      "src": "assets/images/detail/cover.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "f4e8e311e13e1e1eb60c924b8e5b010ec8edbafde89665716867c12703e0fecb"
+    },
+    {
+      "id": "epilogue.webp",
+      "src": "assets/images/detail/epilogue.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "fd2e1544d7ff5eeb022dccb1674bb4f97258720f0811dc722166ef8e781ff84a"
+    },
+    {
+      "id": "ilyne.webp",
+      "src": "assets/images/detail/ilyne.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "13171da451122edf0666586111c6142f6be0a551db75c1ed35d31cadc0c0c6e7"
+    },
+    {
+      "id": "kaelor.webp",
+      "src": "assets/images/detail/kaelor.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "04f1571e1e5b70cca6633a529d815bbd5f7eccd23a6642fdd564153255d2250f"
+    },
+    {
+      "id": "morvain.webp",
+      "src": "assets/images/detail/morvain.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "4ba397b1b3fa244884a24aa6e6244e1d9b48661ce7779001ff4eeaa39c2c9809"
+    },
+    {
+      "id": "nymera.webp",
+      "src": "assets/images/detail/nymera.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "39f173ebc24a5d6e5839e9a3e341c6afd4a772734416df1115c0971fd2b1a105"
+    },
+    {
+      "id": "prologue.webp",
+      "src": "assets/images/detail/prologue.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "ca26c4c55f92e8658304c7e48d8ff88ff99ebe43d5e15cb4e7e2c06687d7ab72"
+    },
+    {
+      "id": "selvara.webp",
+      "src": "assets/images/detail/selvara.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "c9c5829e32afd559554e8aa6e675d519610a526523cd9d55c7edfa9da064481e"
+    },
+    {
+      "id": "epilogue-480.webp",
+      "src": "assets/images/epilogue-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "3e9a26a81a0e789c51d5615b51812db98930008afc15a2e71dcd5e2c51641b7f"
+    },
+    {
+      "id": "epilogue.webp",
+      "src": "assets/images/epilogue.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "def3c02b992a43d889a1283cabe16322503b165e6a20fc290827623bab790b45"
+    },
+    {
+      "id": "favicon.svg",
+      "src": "assets/images/favicon.svg",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "aa3066fafbdc67b0ef0a0d27b8aade3e200c90443c6e64fa8690dd68c7f728b4"
+    },
+    {
+      "id": "hero-480.webp",
+      "src": "assets/images/hero-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "b7391c2a6346213b5ce7690a2cd111a0b62fbd6a34c3336c75de592e98386aaf"
+    },
+    {
+      "id": "hero.webp",
+      "src": "assets/images/hero.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "509cd6d5922f4b41d33b8ecfdb77c268d229babc2fa50b7f63366ca76eae5898"
+    },
+    {
+      "id": "icon-192.png",
+      "src": "assets/images/icon-192.png",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "21cad5f1b49d4179a3ff1a05ca05ae5c838b3d06844ebd02dee9a9f8834b1d27"
+    },
+    {
+      "id": "icon-512.png",
+      "src": "assets/images/icon-512.png",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "c09c67c32b2ff431fda3c35245224e86def2ce66f8d57062b37aa18de9cb6257"
+    },
+    {
+      "id": "ilyne-480.webp",
+      "src": "assets/images/ilyne-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "4be905c76930c31d3d8835b2b9586914ba39bb2fc62c2df642795b56123e32bb"
+    },
+    {
+      "id": "ilyne.webp",
+      "src": "assets/images/ilyne.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "38c14afb1de2c735a63486613fabafc0e837c3b15d5ef1b5bcad3e28925f86d3"
+    },
+    {
+      "id": "kaelor-480.webp",
+      "src": "assets/images/kaelor-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "32019df26e6e7c1ad2d6ce76460dc0259fc9fa76b2c33f1640591a7e81b9c6e2"
+    },
+    {
+      "id": "kaelor.webp",
+      "src": "assets/images/kaelor.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "ce32c5b7712556bdd21c01d5735fd74bdbff9a1b059a571a67c8928f6306c8bb"
+    },
+    {
+      "id": "morvain-480.webp",
+      "src": "assets/images/morvain-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "bd675dd234822f8b121502340c07e9830d1677ca870c2e118b18e61124f71b35"
+    },
+    {
+      "id": "morvain.webp",
+      "src": "assets/images/morvain.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "e3f614aa91e4c733eb0c3650b269da71137f54e320fb40c18962197f4689eb1c"
+    },
+    {
+      "id": "nymera-480.webp",
+      "src": "assets/images/nymera-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "aeb3885633b2680a441204cecde8b5057a5f6a924989ccdffb9e4ace34149d85"
+    },
+    {
+      "id": "nymera.webp",
+      "src": "assets/images/nymera.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "14ba8e025c409ee041234f6780940288e5c2ff8da1b1102bc81cddd17622a06d"
+    },
+    {
+      "id": "og-cover.webp",
+      "src": "assets/images/og-cover.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "e62c4b4126d742958e5ceb42ead23f59830fdc282730db7592b7e6d3a2d96ac6"
+    },
+    {
+      "id": "prologue-480.webp",
+      "src": "assets/images/prologue-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "ee42a5b1a8a2558bd59ed58b055930b86854fefeaa9fd51d41ec9b4216de8dbb"
+    },
+    {
+      "id": "prologue.webp",
+      "src": "assets/images/prologue.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "3dda950ad00b40beea5c6ec43511eaef02e3611cfcfb37dac12c296bae083d6f"
+    },
+    {
+      "id": "selvara-480.webp",
+      "src": "assets/images/selvara-480.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "cc7e3824dcd84b972718657a98cdc8689641a6418ad5edd4cabbb6583643a41a"
+    },
+    {
+      "id": "selvara.webp",
+      "src": "assets/images/selvara.webp",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "image",
+      "sha256": "90830c20a5eb4f80555f5c381f521f63c0683338bb8487a831852f2256a38d3e"
+    },
+    {
+      "id": "ay-sisi.mp3",
+      "src": "assets/music/ay-sisi.mp3",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "audio",
+      "sha256": "7bfdfb577dd48e51ec96a466978173429ce3efb619454a6d57144760950c8195"
+    },
+    {
+      "id": "sayfa.wav",
+      "src": "assets/sounds/sayfa.wav",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "audio",
+      "sha256": "2adf7c997976d5aeaff4d70cb52cf34cb4db0493822ffa66cdeb31288643f242"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "prologue",
+      "number": 0,
+      "title": "PROLOG — AYIN YEDİ YEMİNİ",
+      "gallery": "assets/images/prologue.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/prologue.webp"
+      ],
+      "discoveries": [
+        "velmora",
+        "first-howl"
+      ]
+    },
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "title": "BÖLÜM 1 — SANA KURDUMU VERİYORUM",
+      "gallery": "assets/images/chapter-01.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-01.webp"
+      ],
+      "discoveries": [
+        "palace",
+        "balcony",
+        "kaelor",
+        "selvara",
+        "vargan"
+      ]
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "title": "BÖLÜM 2 — KIRILAN AY BAĞI",
+      "gallery": "assets/images/chapter-02.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-02.webp"
+      ],
+      "discoveries": [
+        "nymera",
+        "morvain",
+        "broken-bond"
+      ]
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "title": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN",
+      "gallery": "assets/images/chapter-03.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-03.webp"
+      ],
+      "discoveries": [
+        "pinewoods",
+        "aethros"
+      ]
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "title": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+      "gallery": "assets/images/chapter-04.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-04.webp"
+      ],
+      "discoveries": [
+        "greyhollow",
+        "ilyne",
+        "fen"
+      ]
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "title": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+      "gallery": "assets/images/chapter-05.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-05.webp"
+      ],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "title": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT",
+      "gallery": "assets/images/chapter-06.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-06.webp"
+      ],
+      "discoveries": [
+        "rhaedon"
+      ]
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "title": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA",
+      "gallery": "assets/images/chapter-07.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-07.webp"
+      ],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "title": "BÖLÜM 8 — YEDİNCİ MÜHÜR",
+      "gallery": "assets/images/chapter-08.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-08.webp"
+      ],
+      "discoveries": [
+        "vault",
+        "black-mirror"
+      ]
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "title": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI",
+      "gallery": "assets/images/chapter-09.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-09.webp"
+      ],
+      "discoveries": [
+        "refuge"
+      ]
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "title": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI",
+      "gallery": "assets/images/chapter-10.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-10.webp"
+      ],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-11",
+      "number": 11,
+      "title": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI",
+      "gallery": "assets/images/chapter-11.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-11.webp"
+      ],
+      "discoveries": [
+        "veyloth",
+        "first-chain"
+      ]
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "title": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT",
+      "gallery": "assets/images/chapter-12.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-12.webp"
+      ],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-13",
+      "number": 13,
+      "title": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+      "gallery": "assets/images/chapter-13.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-13.webp"
+      ],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "title": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA",
+      "gallery": "assets/images/chapter-14.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/chapter-14.webp"
+      ],
+      "discoveries": []
+    },
+    {
+      "id": "epilogue",
+      "number": 0,
+      "title": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+      "gallery": "assets/images/epilogue.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/epilogue.webp"
+      ],
+      "discoveries": [
+        "infirmary"
+      ]
+    }
+  ],
+  "music": [
+    {
+      "id": "ay-sisi",
+      "ad": "Ay Sisi",
+      "dosya": "ay-sisi.mp3",
+      "duration": 32,
+      "format": "mp3",
+      "sira": 1,
+      "artist": "Özgün ambient beste"
+    }
+  ],
+  "sounds": [
+    {
+      "id": "sayfa.wav",
+      "src": "assets/sounds/sayfa.wav",
+      "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+      "type": "audio",
+      "sha256": "2adf7c997976d5aeaff4d70cb52cf34cb4db0493822ffa66cdeb31288643f242"
+    }
+  ],
+  "atlas": {
+    "src": "assets/images/atlas.webp",
+    "width": 1200,
+    "height": 800,
+    "schematic": true,
+    "note": "Anlatıdan doğrulanan mekânlar. İşaretlerin konumu temsili bir keşif düzenidir.",
+    "hierarchy": {
+      "velmora": {
+        "fact": "velmora",
+        "kind": "region",
+        "title": "Velmora",
+        "src": "assets/images/prologue.webp",
+        "quote": "Velmora\tKızıl kurtlar; ateş ve savaş gücü",
+        "sourceStart": 846,
+        "sourceEnd": 887,
+        "sourceChapter": 0,
+        "unlock": 887,
+        "children": [
+          {
+            "node": "palace",
+            "x": 64,
+            "y": 54,
+            "quote": "Kızılçam Sarayı'nın büyük salonunda yüzlerce kurtadam toplanmıştı.",
+            "sourceChapter": 1,
+            "sourceStart": 1722,
+            "sourceEnd": 1788,
+            "unlock": 1788
+          }
+        ]
+      },
+      "palace": {
+        "fact": "palace",
+        "kind": "landmark",
+        "title": "Kızılçam Sarayı",
+        "src": "assets/images/chapter-05.webp",
+        "quote": "Kızılçam Sarayı'nın büyük salonunda yüzlerce kurtadam toplanmıştı.",
+        "sourceStart": 1722,
+        "sourceEnd": 1788,
+        "sourceChapter": 1,
+        "unlock": 1788,
+        "children": [
+          {
+            "node": "balcony",
+            "x": 64,
+            "y": 54,
+            "quote": "Törenden önce Selvara, Kaelor'u sarayın eski balkonuna çağırdı.",
+            "sourceChapter": 1,
+            "sourceStart": 2727,
+            "sourceEnd": 2790,
+            "unlock": 2790
+          },
+          {
+            "node": "vault",
+            "x": 64,
+            "y": 54,
+            "quote": "Velmora — Yasak Mahzen",
+            "sourceChapter": 8,
+            "sourceStart": 23013,
+            "sourceEnd": 23035,
+            "unlock": 23035
+          }
+        ],
+        "parent": "velmora"
+      },
+      "balcony": {
+        "fact": "balcony",
+        "kind": "landmark",
+        "title": "Sarayın Eski Balkonu",
+        "src": "assets/images/chapter-01.webp",
+        "quote": "Törenden önce Selvara, Kaelor'u sarayın eski balkonuna çağırdı.",
+        "sourceStart": 2727,
+        "sourceEnd": 2790,
+        "sourceChapter": 1,
+        "unlock": 2790,
+        "children": [],
+        "parent": "palace"
+      },
+      "pinewoods": {
+        "fact": "pinewoods",
+        "kind": "nature",
+        "title": "Ay Işığındaki Orman",
+        "src": "assets/images/chapter-03.webp",
+        "quote": "Bir anda orman kayboldu.",
+        "sourceStart": 9327,
+        "sourceEnd": 9351,
+        "sourceChapter": 3,
+        "unlock": 9351,
+        "children": []
+      },
+      "greyhollow": {
+        "fact": "greyhollow",
+        "kind": "settlement",
+        "title": "Greyhollow Vadisi",
+        "src": "assets/images/chapter-04.webp",
+        "quote": "Greyhollow Vadisi — Altı yıl sonra",
+        "sourceStart": 12291,
+        "sourceEnd": 12325,
+        "sourceChapter": 4,
+        "unlock": 12325,
+        "children": [
+          {
+            "node": "refuge",
+            "x": 64,
+            "y": 54,
+            "quote": "Greyhollow halkı eski taş sığınağa çekildi.",
+            "sourceChapter": 9,
+            "sourceStart": 25615,
+            "sourceEnd": 25658,
+            "unlock": 25658
+          },
+          {
+            "node": "infirmary",
+            "x": 64,
+            "y": 54,
+            "quote": "Eski şifahane yeniden büyütülmüştü.",
+            "sourceChapter": 15,
+            "sourceStart": 44890,
+            "sourceEnd": 44925,
+            "unlock": 44925
+          }
+        ]
+      },
+      "vault": {
+        "fact": "vault",
+        "kind": "landmark",
+        "title": "Yasak Mahzen",
+        "src": "assets/images/chapter-08.webp",
+        "quote": "Velmora — Yasak Mahzen",
+        "sourceStart": 23013,
+        "sourceEnd": 23035,
+        "sourceChapter": 8,
+        "unlock": 23035,
+        "children": [],
+        "parent": "palace"
+      },
+      "refuge": {
+        "fact": "refuge",
+        "kind": "landmark",
+        "title": "Eski Taş Sığınak",
+        "src": "assets/images/chapter-09.webp",
+        "quote": "Greyhollow halkı eski taş sığınağa çekildi.",
+        "sourceStart": 25615,
+        "sourceEnd": 25658,
+        "sourceChapter": 9,
+        "unlock": 25658,
+        "children": [],
+        "parent": "greyhollow"
+      },
+      "infirmary": {
+        "fact": "infirmary",
+        "kind": "landmark",
+        "title": "Greyhollow Şifahanesi",
+        "src": "assets/images/epilogue.webp",
+        "quote": "Eski şifahane yeniden büyütülmüştü.",
+        "sourceStart": 44890,
+        "sourceEnd": 44925,
+        "sourceChapter": 15,
+        "unlock": 44925,
+        "children": [],
+        "parent": "greyhollow"
+      }
+    },
+    "routes": [
+      {
+        "id": "palace-to-balcony",
+        "from": "palace",
+        "to": "balcony",
+        "label": "Kızılçam Sarayı · Sarayın Eski Balkonu",
+        "quote": "Kaelor elini Selvara'nın göğsüne koydu.",
+        "sourceStart": 4160,
+        "sourceEnd": 4199,
+        "unlock": 4199,
+        "sourceChapter": 1
+      },
+      {
+        "id": "greyhollow-to-refuge",
+        "from": "greyhollow",
+        "to": "refuge",
+        "label": "Greyhollow Vadisi · Eski Taş Sığınak",
+        "quote": "İlk kurtadam durdu.",
+        "sourceStart": 27028,
+        "sourceEnd": 27047,
+        "unlock": 27047,
+        "sourceChapter": 9
+      },
+      {
+        "id": "greyhollow-to-palace",
+        "from": "greyhollow",
+        "to": "palace",
+        "label": "Greyhollow Vadisi · Kızılçam Sarayı",
+        "quote": "Devasa bir göz açılmıştı.",
+        "sourceStart": 31542,
+        "sourceEnd": 31567,
+        "unlock": 31567,
+        "sourceChapter": 10
+      }
+    ],
+    "temporal": {},
+    "riders": [],
+    "regions": [
+      {
+        "id": "velmora",
+        "name": "Velmora",
+        "motif": "Velmora",
+        "quote": "Velmora\tKızıl kurtlar; ateş ve savaş gücü",
+        "sourceStart": 846,
+        "sourceEnd": 887,
+        "sourceChapter": 0,
+        "unlock": 887
+      }
+    ]
+  },
+  "visuals": {
+    "velmora": {
+      "src": "assets/images/prologue.webp",
+      "type": "illustration",
+      "scene": "prologue",
+      "unlock": 887
+    },
+    "palace": {
+      "src": "assets/images/chapter-05.webp",
+      "type": "illustration",
+      "scene": "chapter-05",
+      "unlock": 1788
+    },
+    "balcony": {
+      "src": "assets/images/chapter-01.webp",
+      "type": "illustration",
+      "scene": "chapter-01",
+      "unlock": 2790
+    },
+    "pinewoods": {
+      "src": "assets/images/chapter-03.webp",
+      "type": "illustration",
+      "scene": "chapter-03",
+      "unlock": 9351
+    },
+    "greyhollow": {
+      "src": "assets/images/chapter-04.webp",
+      "type": "illustration",
+      "scene": "chapter-04",
+      "unlock": 12325
+    },
+    "vault": {
+      "src": "assets/images/chapter-08.webp",
+      "type": "illustration",
+      "scene": "chapter-08",
+      "unlock": 23035
+    },
+    "refuge": {
+      "src": "assets/images/chapter-09.webp",
+      "type": "illustration",
+      "scene": "chapter-09",
+      "unlock": 25658
+    },
+    "infirmary": {
+      "src": "assets/images/epilogue.webp",
+      "type": "illustration",
+      "scene": "epilogue",
+      "unlock": 44925
+    },
+    "kaelor": {
+      "src": "assets/images/kaelor.webp",
+      "type": "portrait",
+      "unlock": 2277
+    },
+    "selvara": {
+      "src": "assets/images/selvara.webp",
+      "type": "portrait",
+      "unlock": 1888
+    },
+    "nymera": {
+      "src": "assets/images/nymera.webp",
+      "type": "portrait",
+      "unlock": 8586
+    },
+    "aethros": {
+      "src": "assets/images/aethros.webp",
+      "type": "portrait",
+      "unlock": 10927
+    },
+    "ilyne": {
+      "src": "assets/images/ilyne.webp",
+      "type": "portrait",
+      "unlock": 13188
+    },
+    "morvain": {
+      "src": "assets/images/morvain.webp",
+      "type": "portrait",
+      "unlock": 5704
+    }
+  },
+  "locations": {
+    "velmora": {
+      "name": "Velmora",
+      "src": "assets/images/prologue.webp",
+      "areas": [
+        {
+          "id": "prologue",
+          "name": "PROLOG — AYIN YEDİ YEMİNİ",
+          "label": "PROLOG — AYIN YEDİ YEMİNİ",
+          "quote": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
+          "sourceChapter": 0,
+          "src": "assets/images/prologue.webp",
+          "memorySrc": "assets/images/prologue.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 1437,
+          "sourceEnd": 1511,
+          "unlock": 1511,
+          "chapter": {
+            "id": "prologue",
+            "number": 0,
+            "sourceChapter": 0,
+            "title": "PROLOG — AYIN YEDİ YEMİNİ",
+            "offset": 652
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "navigate-palace",
+          "node": "palace",
+          "kind": "city",
+          "name": "Kızılçam Sarayı",
+          "label": "Kızılçam Sarayı",
+          "x": 64,
+          "y": 54,
+          "src": "assets/images/chapter-05.webp",
+          "memorySrc": "assets/images/chapter-05.webp",
+          "quote": "Kızılçam Sarayı'nın büyük salonunda yüzlerce kurtadam toplanmıştı.",
+          "sourceStart": 1722,
+          "sourceEnd": 1788,
+          "unlock": 1788,
+          "characters": []
+        }
+      ]
+    },
+    "palace": {
+      "name": "Kızılçam Sarayı",
+      "src": "assets/images/chapter-05.webp",
+      "areas": [
+        {
+          "id": "chapter-01",
+          "name": "BÖLÜM 1 — SANA KURDUMU VERİYORUM",
+          "label": "SANA KURDUMU VERİYORUM",
+          "quote": "Kaelor elini Selvara'nın göğsüne koydu.",
+          "sourceChapter": 1,
+          "src": "assets/images/chapter-01.webp",
+          "memorySrc": "assets/images/chapter-01.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 4160,
+          "sourceEnd": 4199,
+          "unlock": 4199,
+          "chapter": {
+            "id": "chapter-01",
+            "number": 1,
+            "sourceChapter": 1,
+            "title": "BÖLÜM 1 — SANA KURDUMU VERİYORUM",
+            "offset": 1657
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-05",
+          "name": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+          "label": "YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+          "quote": "Başında siyah-kızıl bir taç bulunuyordu.",
+          "sourceChapter": 5,
+          "src": "assets/images/chapter-05.webp",
+          "memorySrc": "assets/images/chapter-05.webp",
+          "x": 53,
+          "y": 37,
+          "sourceStart": 14475,
+          "sourceEnd": 14515,
+          "unlock": 14515,
+          "chapter": {
+            "id": "chapter-05",
+            "number": 5,
+            "sourceChapter": 5,
+            "title": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+            "offset": 14371
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-10",
+          "name": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI",
+          "label": "YEDİ ALFA'NIN SON TOPLANTISI",
+          "quote": "Devasa bir göz açılmıştı.",
+          "sourceChapter": 10,
+          "src": "assets/images/chapter-10.webp",
+          "memorySrc": "assets/images/chapter-10.webp",
+          "x": 73,
+          "y": 37,
+          "sourceStart": 31542,
+          "sourceEnd": 31567,
+          "unlock": 31567,
+          "chapter": {
+            "id": "chapter-10",
+            "number": 10,
+            "sourceChapter": 10,
+            "title": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI",
+            "offset": 28428
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-12",
+          "name": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT",
+          "label": "KARA AYIN KARŞISINDAKİ SON KURT",
+          "quote": "Şimdi yedi sürünün tamamını kurtarmıştı.",
+          "sourceChapter": 12,
+          "src": "assets/images/chapter-12.webp",
+          "memorySrc": "assets/images/chapter-12.webp",
+          "x": 33,
+          "y": 51,
+          "sourceStart": 39056,
+          "sourceEnd": 39096,
+          "unlock": 39096,
+          "chapter": {
+            "id": "chapter-12",
+            "number": 12,
+            "sourceChapter": 12,
+            "title": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT",
+            "offset": 34681
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-13",
+          "name": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+          "label": "YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+          "quote": "Yedi kurt ruhu ulumaya başladı.",
+          "sourceChapter": 13,
+          "src": "assets/images/chapter-13.webp",
+          "memorySrc": "assets/images/chapter-13.webp",
+          "x": 53,
+          "y": 51,
+          "sourceStart": 42383,
+          "sourceEnd": 42414,
+          "unlock": 42414,
+          "chapter": {
+            "id": "chapter-13",
+            "number": 13,
+            "sourceChapter": 13,
+            "title": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+            "offset": 39098
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "navigate-balcony",
+          "node": "balcony",
+          "kind": "city",
+          "name": "Sarayın Eski Balkonu",
+          "label": "Sarayın Eski Balkonu",
+          "x": 64,
+          "y": 54,
+          "src": "assets/images/chapter-01.webp",
+          "memorySrc": "assets/images/chapter-01.webp",
+          "quote": "Törenden önce Selvara, Kaelor'u sarayın eski balkonuna çağırdı.",
+          "sourceStart": 2727,
+          "sourceEnd": 2790,
+          "unlock": 2790,
+          "characters": []
+        },
+        {
+          "id": "navigate-vault",
+          "node": "vault",
+          "kind": "city",
+          "name": "Yasak Mahzen",
+          "label": "Yasak Mahzen",
+          "x": 64,
+          "y": 54,
+          "src": "assets/images/chapter-08.webp",
+          "memorySrc": "assets/images/chapter-08.webp",
+          "quote": "Velmora — Yasak Mahzen",
+          "sourceStart": 23013,
+          "sourceEnd": 23035,
+          "unlock": 23035,
+          "characters": []
+        }
+      ]
+    },
+    "balcony": {
+      "name": "Sarayın Eski Balkonu",
+      "src": "assets/images/chapter-01.webp",
+      "areas": [
+        {
+          "id": "chapter-14",
+          "name": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA",
+          "label": "SON KEZ AYNI AYIN ALTINDA",
+          "quote": "Ve Kaelor onu durdurmadı.",
+          "sourceChapter": 14,
+          "src": "assets/images/chapter-14.webp",
+          "memorySrc": "assets/images/chapter-14.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 44680,
+          "sourceEnd": 44705,
+          "unlock": 44705,
+          "chapter": {
+            "id": "chapter-14",
+            "number": 14,
+            "sourceChapter": 14,
+            "title": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA",
+            "offset": 42540
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    },
+    "pinewoods": {
+      "name": "Ay Işığındaki Orman",
+      "src": "assets/images/chapter-03.webp",
+      "areas": [
+        {
+          "id": "chapter-02",
+          "name": "BÖLÜM 2 — KIRILAN AY BAĞI",
+          "label": "KIRILAN AY BAĞI",
+          "quote": "Ay Tanrıçası Nymera.",
+          "sourceChapter": 2,
+          "src": "assets/images/chapter-02.webp",
+          "memorySrc": "assets/images/chapter-02.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 8566,
+          "sourceEnd": 8586,
+          "unlock": 9351,
+          "chapter": {
+            "id": "chapter-02",
+            "number": 2,
+            "sourceChapter": 2,
+            "title": "BÖLÜM 2 — KIRILAN AY BAĞI",
+            "offset": 4845
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-03",
+          "name": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN",
+          "label": "ALFA RUHLARINDAN ÜSTÜN OLAN",
+          "quote": "Nymera devasa gümüş kurda baktı.",
+          "sourceChapter": 3,
+          "src": "assets/images/chapter-03.webp",
+          "memorySrc": "assets/images/chapter-03.webp",
+          "x": 53,
+          "y": 37,
+          "sourceStart": 10859,
+          "sourceEnd": 10891,
+          "unlock": 10891,
+          "chapter": {
+            "id": "chapter-03",
+            "number": 3,
+            "sourceChapter": 3,
+            "title": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN",
+            "offset": 9195
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    },
+    "greyhollow": {
+      "name": "Greyhollow Vadisi",
+      "src": "assets/images/chapter-04.webp",
+      "areas": [
+        {
+          "id": "chapter-04",
+          "name": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+          "label": "ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+          "quote": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
+          "sourceChapter": 4,
+          "src": "assets/images/chapter-04.webp",
+          "memorySrc": "assets/images/chapter-04.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 12505,
+          "sourceEnd": 12579,
+          "unlock": 12579,
+          "chapter": {
+            "id": "chapter-04",
+            "number": 4,
+            "sourceChapter": 4,
+            "title": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+            "offset": 12244
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-06",
+          "name": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT",
+          "label": "GECE YARISINDAKİ GÜMÜŞ KURT",
+          "quote": "Ay ışığı gümüş renkte parlamaya başladı.",
+          "sourceChapter": 6,
+          "src": "assets/images/chapter-06.webp",
+          "memorySrc": "assets/images/chapter-06.webp",
+          "x": 53,
+          "y": 37,
+          "sourceStart": 18697,
+          "sourceEnd": 18737,
+          "unlock": 18737,
+          "chapter": {
+            "id": "chapter-06",
+            "number": 6,
+            "sourceChapter": 6,
+            "title": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT",
+            "offset": 16758
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-07",
+          "name": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA",
+          "label": "ESKİ SEVGİLİNİN KARŞISINDA",
+          "quote": "İçinden Selvara Ardent indi.",
+          "sourceChapter": 7,
+          "src": "assets/images/chapter-07.webp",
+          "memorySrc": "assets/images/chapter-07.webp",
+          "x": 73,
+          "y": 37,
+          "sourceStart": 20398,
+          "sourceEnd": 20426,
+          "unlock": 20426,
+          "chapter": {
+            "id": "chapter-07",
+            "number": 7,
+            "sourceChapter": 7,
+            "title": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA",
+            "offset": 20219
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "navigate-refuge",
+          "node": "refuge",
+          "kind": "city",
+          "name": "Eski Taş Sığınak",
+          "label": "Eski Taş Sığınak",
+          "x": 64,
+          "y": 54,
+          "src": "assets/images/chapter-09.webp",
+          "memorySrc": "assets/images/chapter-09.webp",
+          "quote": "Greyhollow halkı eski taş sığınağa çekildi.",
+          "sourceStart": 25615,
+          "sourceEnd": 25658,
+          "unlock": 25658,
+          "characters": []
+        },
+        {
+          "id": "navigate-infirmary",
+          "node": "infirmary",
+          "kind": "city",
+          "name": "Greyhollow Şifahanesi",
+          "label": "Greyhollow Şifahanesi",
+          "x": 64,
+          "y": 54,
+          "src": "assets/images/epilogue.webp",
+          "memorySrc": "assets/images/epilogue.webp",
+          "quote": "Eski şifahane yeniden büyütülmüştü.",
+          "sourceStart": 44890,
+          "sourceEnd": 44925,
+          "unlock": 44925,
+          "characters": []
+        }
+      ]
+    },
+    "vault": {
+      "name": "Yasak Mahzen",
+      "src": "assets/images/chapter-08.webp",
+      "areas": [
+        {
+          "id": "chapter-08",
+          "name": "BÖLÜM 8 — YEDİNCİ MÜHÜR",
+          "label": "YEDİNCİ MÜHÜR",
+          "quote": "Lord Morvain, siyah aynanın önünde duruyordu.",
+          "sourceChapter": 8,
+          "src": "assets/images/chapter-08.webp",
+          "memorySrc": "assets/images/chapter-08.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 23037,
+          "sourceEnd": 23082,
+          "unlock": 23082,
+          "chapter": {
+            "id": "chapter-08",
+            "number": 8,
+            "sourceChapter": 8,
+            "title": "BÖLÜM 8 — YEDİNCİ MÜHÜR",
+            "offset": 22989
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "chapter-11",
+          "name": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI",
+          "label": "KURT RUHLARININ ZİNDANI",
+          "quote": "Vargan'ın boynundaki siyah halka çatladı.",
+          "sourceChapter": 11,
+          "src": "assets/images/chapter-11.webp",
+          "memorySrc": "assets/images/chapter-11.webp",
+          "x": 53,
+          "y": 37,
+          "sourceStart": 34579,
+          "sourceEnd": 34620,
+          "unlock": 34620,
+          "chapter": {
+            "id": "chapter-11",
+            "number": 11,
+            "sourceChapter": 11,
+            "title": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI",
+            "offset": 31569
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    },
+    "refuge": {
+      "name": "Eski Taş Sığınak",
+      "src": "assets/images/chapter-09.webp",
+      "areas": [
+        {
+          "id": "chapter-09",
+          "name": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI",
+          "label": "SESSİZ ORMANIN SAVAŞI",
+          "quote": "İlk kurtadam durdu.",
+          "sourceChapter": 9,
+          "src": "assets/images/chapter-09.webp",
+          "memorySrc": "assets/images/chapter-09.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 27028,
+          "sourceEnd": 27047,
+          "unlock": 27047,
+          "chapter": {
+            "id": "chapter-09",
+            "number": 9,
+            "sourceChapter": 9,
+            "title": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI",
+            "offset": 25583
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    },
+    "infirmary": {
+      "name": "Greyhollow Şifahanesi",
+      "src": "assets/images/epilogue.webp",
+      "areas": [
+        {
+          "id": "epilogue",
+          "name": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+          "label": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+          "quote": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
+          "sourceChapter": 15,
+          "src": "assets/images/epilogue.webp",
+          "memorySrc": "assets/images/epilogue.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 46112,
+          "sourceEnd": 46156,
+          "unlock": 46156,
+          "chapter": {
+            "id": "epilogue",
+            "number": 0,
+            "sourceChapter": 15,
+            "title": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+            "offset": 44784
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    }
+  }
+}

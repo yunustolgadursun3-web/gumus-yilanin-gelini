@@ -1,0 +1,420 @@
+{
+  "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+  "title": "AYIN UNUTTUĞU KRAL",
+  "subtitle": "I. Kitap · Kırık Yeminin Mirası",
+  "author": "Yunus Bey",
+  "chapters": [
+    {
+      "id": "prologue",
+      "number": 0,
+      "art": "prologue",
+      "phrase": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
+      "place": "velmora",
+      "mood": "gizem",
+      "volume": 1
+    },
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "art": "chapter-01",
+      "phrase": "Kaelor elini Selvara'nın göğsüne koydu.",
+      "place": "palace",
+      "mood": "duygusal",
+      "volume": 1
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "art": "chapter-02",
+      "phrase": "Ay Tanrıçası Nymera.",
+      "place": "pinewoods",
+      "mood": "gergin",
+      "volume": 1
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "art": "chapter-03",
+      "phrase": "Nymera devasa gümüş kurda baktı.",
+      "place": "pinewoods",
+      "mood": "gizem",
+      "volume": 1
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "art": "chapter-04",
+      "phrase": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
+      "place": "greyhollow",
+      "mood": "sakin",
+      "volume": 1
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "art": "chapter-05",
+      "phrase": "Başında siyah-kızıl bir taç bulunuyordu.",
+      "place": "palace",
+      "mood": "gergin",
+      "volume": 1
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "art": "chapter-06",
+      "phrase": "Ay ışığı gümüş renkte parlamaya başladı.",
+      "place": "greyhollow",
+      "mood": "gergin",
+      "volume": 1
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "art": "chapter-07",
+      "phrase": "İçinden Selvara Ardent indi.",
+      "place": "greyhollow",
+      "mood": "duygusal",
+      "volume": 1
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "art": "chapter-08",
+      "phrase": "Lord Morvain, siyah aynanın önünde duruyordu.",
+      "place": "vault",
+      "mood": "karanlik",
+      "volume": 1
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "art": "chapter-09",
+      "phrase": "İlk kurtadam durdu.",
+      "place": "refuge",
+      "mood": "aksiyon",
+      "volume": 1
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "art": "chapter-10",
+      "phrase": "Devasa bir göz açılmıştı.",
+      "place": "palace",
+      "mood": "gergin",
+      "volume": 1
+    },
+    {
+      "id": "chapter-11",
+      "number": 11,
+      "art": "chapter-11",
+      "phrase": "Vargan'ın boynundaki siyah halka çatladı.",
+      "place": "vault",
+      "mood": "karanlik",
+      "volume": 1
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "art": "chapter-12",
+      "phrase": "Şimdi yedi sürünün tamamını kurtarmıştı.",
+      "place": "palace",
+      "mood": "aksiyon",
+      "volume": 1
+    },
+    {
+      "id": "chapter-13",
+      "number": 13,
+      "art": "chapter-13",
+      "phrase": "Yedi kurt ruhu ulumaya başladı.",
+      "place": "palace",
+      "mood": "umut",
+      "volume": 1
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "art": "chapter-14",
+      "phrase": "Ve Kaelor onu durdurmadı.",
+      "place": "balcony",
+      "mood": "duygusal",
+      "volume": 1
+    },
+    {
+      "id": "epilogue",
+      "number": 0,
+      "art": "epilogue",
+      "phrase": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
+      "place": "infirmary",
+      "mood": "umut",
+      "volume": 1
+    }
+  ],
+  "facts": [
+    {
+      "id": "velmora",
+      "kind": "places",
+      "name": "Velmora",
+      "chapter": 0,
+      "phrase": "Velmora\tKızıl kurtlar",
+      "art": "prologue",
+      "x": 26,
+      "y": 48,
+      "mapKind": "region"
+    },
+    {
+      "id": "palace",
+      "kind": "places",
+      "name": "Kızılçam Sarayı",
+      "chapter": 1,
+      "phrase": "Kızılçam Sarayı'nın büyük salonunda",
+      "art": "chapter-05",
+      "x": 33,
+      "y": 45,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "balcony",
+      "kind": "places",
+      "name": "Sarayın Eski Balkonu",
+      "chapter": 1,
+      "phrase": "sarayın eski balkonuna çağırdı",
+      "art": "chapter-01",
+      "x": 40,
+      "y": 41,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "pinewoods",
+      "kind": "places",
+      "name": "Ay Işığındaki Orman",
+      "chapter": 3,
+      "phrase": "Bir anda orman kayboldu.",
+      "art": "chapter-03",
+      "x": 43,
+      "y": 37,
+      "mapKind": "nature"
+    },
+    {
+      "id": "greyhollow",
+      "kind": "places",
+      "name": "Greyhollow Vadisi",
+      "chapter": 4,
+      "phrase": "Greyhollow Vadisi — Altı yıl sonra",
+      "art": "chapter-04",
+      "x": 53,
+      "y": 52,
+      "mapKind": "settlement"
+    },
+    {
+      "id": "vault",
+      "kind": "places",
+      "name": "Yasak Mahzen",
+      "chapter": 8,
+      "phrase": "Velmora — Yasak Mahzen",
+      "art": "chapter-08",
+      "x": 28,
+      "y": 58,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "refuge",
+      "kind": "places",
+      "name": "Eski Taş Sığınak",
+      "chapter": 9,
+      "phrase": "Greyhollow halkı eski taş sığınağa çekildi.",
+      "art": "chapter-09",
+      "x": 64,
+      "y": 54,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "infirmary",
+      "kind": "places",
+      "name": "Greyhollow Şifahanesi",
+      "chapter": -2,
+      "phrase": "Eski şifahane yeniden büyütülmüştü.",
+      "art": "epilogue",
+      "x": 54,
+      "y": 61,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "kaelor",
+      "kind": "characters",
+      "name": "Kaelor Vhalen",
+      "chapter": 1,
+      "phrase": "Kaelor Vhalen.",
+      "art": "kaelor"
+    },
+    {
+      "id": "selvara",
+      "kind": "characters",
+      "name": "Selvara Ardent",
+      "chapter": 1,
+      "phrase": "Selvara Ardent.",
+      "art": "selvara"
+    },
+    {
+      "id": "nymera",
+      "kind": "characters",
+      "name": "Nymera",
+      "chapter": 2,
+      "phrase": "Ay Tanrıçası Nymera.",
+      "art": "nymera"
+    },
+    {
+      "id": "aethros",
+      "kind": "characters",
+      "name": "Aethros",
+      "chapter": 3,
+      "phrase": "— Aethros. İlk Uluma",
+      "art": "aethros"
+    },
+    {
+      "id": "ilyne",
+      "kind": "characters",
+      "name": "Ilyne",
+      "chapter": 4,
+      "phrase": "Adı Ilyne'di.",
+      "art": "ilyne"
+    },
+    {
+      "id": "morvain",
+      "kind": "characters",
+      "name": "Lord Morvain",
+      "chapter": 2,
+      "phrase": "Lord Morvain bulunuyordu.",
+      "art": "morvain"
+    },
+    {
+      "id": "vargan",
+      "kind": "characters",
+      "name": "Vargan",
+      "chapter": 1,
+      "phrase": "Alfa kurdunun adı Vargan'dı."
+    },
+    {
+      "id": "fen",
+      "kind": "characters",
+      "name": "Fen",
+      "chapter": 4,
+      "phrase": "İçeri on iki yaşındaki Fen koştu."
+    },
+    {
+      "id": "rhaedon",
+      "kind": "characters",
+      "name": "Rhaedon Voss",
+      "chapter": 6,
+      "phrase": "Velmora'nın kızıl zırhlı komutanı Rhaedon Voss"
+    },
+    {
+      "id": "veyloth",
+      "kind": "characters",
+      "name": "Veyloth",
+      "chapter": 11,
+      "phrase": "Efendim Veyloth"
+    },
+    {
+      "id": "first-howl",
+      "kind": "symbols",
+      "name": "İlk Uluma",
+      "chapter": 0,
+      "phrase": "İlk Uluma."
+    },
+    {
+      "id": "black-mirror",
+      "kind": "objects",
+      "name": "Siyah Ayna",
+      "chapter": 8,
+      "phrase": "Lord Morvain, siyah aynanın önünde duruyordu."
+    },
+    {
+      "id": "broken-bond",
+      "kind": "events",
+      "name": "Ay Bağının Kırılması",
+      "chapter": 2,
+      "phrase": "Ama senden bunu beklemiyordum."
+    },
+    {
+      "id": "first-chain",
+      "kind": "events",
+      "name": "İlk Zincirin Kırılması",
+      "chapter": 11,
+      "phrase": "Ve ilk zincir kırıldı."
+    }
+  ],
+  "art": {
+    "prologue": {
+      "alt": "PROLOG — AYIN YEDİ YEMİNİ · Özgün sahne illüstrasyonu."
+    },
+    "chapter-01": {
+      "alt": "BÖLÜM 1 — SANA KURDUMU VERİYORUM · Özgün sahne illüstrasyonu."
+    },
+    "chapter-02": {
+      "alt": "BÖLÜM 2 — KIRILAN AY BAĞI · Özgün sahne illüstrasyonu."
+    },
+    "chapter-03": {
+      "alt": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN · Özgün sahne illüstrasyonu."
+    },
+    "chapter-04": {
+      "alt": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI · Özgün sahne illüstrasyonu."
+    },
+    "chapter-05": {
+      "alt": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ · Özgün sahne illüstrasyonu."
+    },
+    "chapter-06": {
+      "alt": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT · Özgün sahne illüstrasyonu."
+    },
+    "chapter-07": {
+      "alt": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA · Özgün sahne illüstrasyonu."
+    },
+    "chapter-08": {
+      "alt": "BÖLÜM 8 — YEDİNCİ MÜHÜR · Özgün sahne illüstrasyonu."
+    },
+    "chapter-09": {
+      "alt": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI · Özgün sahne illüstrasyonu."
+    },
+    "chapter-10": {
+      "alt": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI · Özgün sahne illüstrasyonu."
+    },
+    "chapter-11": {
+      "alt": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI · Özgün sahne illüstrasyonu."
+    },
+    "chapter-12": {
+      "alt": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT · Özgün sahne illüstrasyonu."
+    },
+    "chapter-13": {
+      "alt": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK · Özgün sahne illüstrasyonu."
+    },
+    "chapter-14": {
+      "alt": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA · Özgün sahne illüstrasyonu."
+    },
+    "epilogue": {
+      "alt": "EPİLOG — AYIN HATIRLADIĞI ADAM · Özgün sahne illüstrasyonu."
+    },
+    "kaelor": {
+      "alt": "Kaelor Vhalen · Karakter portresi."
+    },
+    "selvara": {
+      "alt": "Selvara Ardent · Karakter portresi."
+    },
+    "nymera": {
+      "alt": "Nymera · Karakter portresi."
+    },
+    "aethros": {
+      "alt": "Aethros · Karakter portresi."
+    },
+    "ilyne": {
+      "alt": "Ilyne · Karakter portresi."
+    },
+    "morvain": {
+      "alt": "Lord Morvain · Karakter portresi."
+    },
+    "cover": {
+      "alt": "Kaelor ve gümüş kurt Aethros, Greyhollow köprüsünde dolunayın altında."
+    },
+    "atlas": {
+      "alt": "Yedi Sürü ve Greyhollow Vadisi’nin temsili keşif haritası."
+    }
+  }
+}

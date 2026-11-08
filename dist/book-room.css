@@ -1,0 +1,58 @@
+#app {
+  --room-tilt: 0deg;
+  --room-shadow-x: 0px;
+  --room-glow: transparent;
+  --room-shadow: #140c1b75;
+  --room-light-x: 28%;
+}
+#app .reading-room {
+  position: absolute; inset: 0; z-index: -1; overflow: hidden;
+  pointer-events: none; border-radius: inherit;
+}
+#app .book-stage { isolation: isolate; }
+#app .reading-room > div { position: absolute; pointer-events: none; }
+#app .reading-room-scene { inset: 0; }
+#app .reading-room-table {
+  display: none;
+  inset: 38% 1% -10%;
+  transform-origin: center bottom;
+  transform: perspective(930px) rotateX(calc(19deg + var(--room-tilt)));
+  border-radius: 2.2rem 2.2rem 0 0;
+  border: 1px solid #fae7cf33;
+  box-shadow: 0 -1.1rem 4.5rem #0e081775, inset 0 1px #ffffff33;
+}
+#app[data-reading-desk]:not([data-reading-desk="off"]) .reading-room-table { display: block; }
+#app[data-reading-desk="wood"] .reading-room-table { background: repeating-linear-gradient(8deg, #f8cf9024 0 1px,#452a1a55 1px 3px, transparent 4px 11px), linear-gradient(122deg,#452b1e,#866044 54%,#39251f); }
+#app[data-reading-desk="academy"] .reading-room-table { background: repeating-linear-gradient(0deg,transparent 0 47px,#120c0eab 48px 50px), repeating-linear-gradient(2deg,#72513d66 0 1px,transparent 1px 5px),#332622; }
+#app[data-reading-desk="marble"] .reading-room-table { background: repeating-linear-gradient(121deg,transparent 0 33px,#b79b9177 35px,#e4d7d299 39px,transparent 45px 114px), linear-gradient(102deg,#ddd6ca,#a5a5a3); }
+#app[data-reading-desk="modern"] .reading-room-table { background: linear-gradient(130deg,#52535b,#272930 72%); border-radius: .35rem; }
+#app[data-reading-desk="library"] .reading-room-table { background: linear-gradient(90deg,#24182075 0 5%,transparent 5% 94%,#24182090 94%), repeating-linear-gradient(10deg,#8a4d2e24 0 3px,transparent 4px 13px),#79523d; }
+#app[data-reading-room="rain"] .reading-room-scene { background: repeating-linear-gradient(102deg, transparent 0 20px,#cad8ed24 20px 21px,transparent 22px 39px), repeating-linear-gradient(90deg, #253346 0 1.5%, transparent 1.6% 33%), linear-gradient(160deg,#55667b,#172438 70%); }
+#app[data-reading-room="library"] .reading-room-scene { background: repeating-linear-gradient(0deg,#4a2f23 0 5px,transparent 6px 19%), repeating-linear-gradient(90deg,#724741 0 8px,#443839 8px 18px,#635341 18px 29px,#31383d 30px 40px); opacity: .77; }
+#app[data-reading-room="sakura"] .reading-room-scene { background: radial-gradient(ellipse at 11% 17%,#d59baab0,transparent 37%), radial-gradient(ellipse at 88% 31%,#b67e9e99,transparent 40%), radial-gradient(ellipse at 35% 85%,#c7a5b3bb,transparent 42%),linear-gradient(125deg,#564154,#242335); }
+#app[data-reading-room="night"] .reading-room-scene { background: radial-gradient(ellipse at 14% 4%,#5b6f9a88,transparent 36%), repeating-linear-gradient(90deg,transparent 0 17%,#0f132d 17.2% 18%,transparent 18.3% 33%),#20283c; }
+#app[data-reading-room="lounge"] .reading-room-scene { background: radial-gradient(ellipse at 80% 22%,#b08c6b99,transparent 49%), repeating-linear-gradient(90deg,#634c467a 0 2px,transparent 2px 8px),#4d3e40; }
+#app[data-reading-room="minimal"] .reading-room-scene { background: #101016; }
+#app .reading-room-light { inset: 0; background: radial-gradient(ellipse at var(--room-light-x) 0%, var(--room-glow), transparent 69%); }
+#app[data-reading-light="day"] { --room-glow:#fff2ca56; --room-shadow:#34251766; --room-light-x: 24%; }
+#app[data-reading-light="dusk"] { --room-glow:#e89e8c51; --room-shadow:#2c13296b; --room-light-x: 68%; }
+#app[data-reading-light="candle"] { --room-glow:#ffbd6570; --room-shadow:#1f100c9c; --room-light-x: 13%; }
+#app[data-reading-light="moon"] { --room-glow:#b9d1ff51; --room-shadow:#050d266e; --room-light-x: 76%; }
+#app[data-reading-light="library"] { --room-glow:#c6a6813b; --room-shadow:#2419149a; --room-light-x: 33%; }
+#app[data-reading-light="oled"] { --room-glow:transparent; --room-shadow:#000; }
+#app[data-reading-light="oled"] .reading-room { background:#050509; }
+#app[data-reading-light="oled"] :is(.reading-room-scene,.reading-room-table) { opacity:.33; }
+#app[data-reading-light]:not([data-reading-light="story"]) #cover-view .cover-art {
+  box-shadow: var(--room-shadow-x) 1.1rem 2.6rem var(--room-shadow), 0 0 1.8rem var(--room-glow);
+}
+#app[data-reading-light]:not([data-reading-light="story"]) .reader-view .book-shell {
+  filter: drop-shadow(var(--room-shadow-x) .55rem .8rem var(--room-shadow));
+}
+#app[data-reader-layout="spread"][data-reading-desk]:not([data-reading-desk="off"]):not([data-focus="true"]) .physical-binding {
+  transform: perspective(2400px) rotateX(calc(var(--room-tilt) * .42));
+}
+#app[data-focus="true"] .reading-room { display: none; }
+@media (max-width: 819px) {
+  #app .reading-room-table { inset: 52% 0 -35%; transform: none; border-radius: .8rem; opacity: .55; }
+  #app .reading-room-scene { opacity: .56; }
+}

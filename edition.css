@@ -1,0 +1,147 @@
+/* Greyhollow collection. Shared reader geometry stays in the reader styles. */
+#app { --edition-ink:#172b28; --edition-gold:#b4c9bd; --edition-copper:#93605b; --edition-paper:#eeece0; }
+#app #cover-view::before { background:radial-gradient(ellipse at 75% 12%,#c19b6733,transparent 62%); }
+#app #cover-view::after { background:transparent; }
+#app #cover-view .cover-explore,#app #cover-view .cover-inspect,#app #cover-view .cover-map,#app #cover-view .cover-audio-button {
+  color:#e3e8db!important; background:#162b27!important; border-color:#aa8a596b!important;
+}
+#app #cover-view .session-clock { background:#142a3a; color:#d6c7ad; }
+#app #cover-view {
+  background:radial-gradient(ellipse at 14% 35%,#b782412b,transparent 45%),
+    linear-gradient(110deg,#071412e8 0%,#102925b8 48%,#081714ed 100%);
+  color:#eee5d5;
+}
+#app #cover-view .cover-environment { opacity:.48; }
+#app #cover-view .cover-environment img { object-position:48% 50%; }
+#app #cover-view .cover-vignette {
+  background:linear-gradient(90deg,#07101933,transparent 42%,#08121cd4),
+    radial-gradient(ellipse at 42% 48%,transparent 24%,#040912a6);
+}
+#app #cover-view .cover-content { position:relative; }
+#app #cover-view #cover-title {
+  max-width:22ch; font-size:clamp(2rem,3.35vw,3.6rem); line-height:1.1;
+  color:#eff1e5; letter-spacing:.025em; text-shadow:0 2px 1px #010609,0 8px 36px #05070dc7;
+}
+#app #cover-view .cover-kicker { color:#bfcbc0; letter-spacing:.12em; line-height:1.55; }
+#app #cover-view .cover-summary { color:#d7cbbc; }
+#app #cover-view .cover-art {
+  border-color:#a7beb1; background:#0d1c19;
+  box-shadow:0 30px 48px #0009,5px 3px 0 #bc945739,0 0 0 1px #caa87265;
+}
+#app #cover-view .cover-art::before {
+  background:repeating-linear-gradient(0deg,transparent 0 32px,#c29a6270 33px 35px,transparent 36px 58px),
+    linear-gradient(90deg,#07121d,#244257 48%,#07111b);
+}
+#app #cover-view .cover-print-title { color:#ecd8a7; line-height:1.17; text-shadow:0 2px 8px #000; }
+#app #cover-view .cover-brand,#app #cover-view .cover-edition { color:#c2ae8e; }
+#app #cover-view .cover-file-card { border-color:#b3905e61; background:#0e1c29cc; }
+#app #cover-view .cover-file-tab { color:#d5b37c; }
+#app #cover-view .cover-actions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.65rem; align-items:stretch; }
+#app #cover-view .cover-actions .start-button { grid-column:1/-1; }
+#app #cover-view .start-button {
+  background:linear-gradient(135deg,#d3ded1,#9ebcaf); border-color:#e0e8de; color:#142623;
+  box-shadow:0 7px 22px #0005,inset 0 1px #fff5;
+}
+#app #cover-view .chapters-button,#app #cover-view .continue-button,#app #cover-view .cover-library-button { color:#e7d4b2; border-color:#9c794e8c; background:#162b27d9; }
+#app .chapter-kicker { letter-spacing:.14em; }
+#app .chapter-rule { color:var(--edition-copper); }
+#app .book-page .art-illustration { border-color:#8b6c4b70; box-shadow:0 5px 17px #19140d2b; }
+@media (max-width:819px) {
+  #app #cover-view { padding-top:max(4.6rem,calc(env(safe-area-inset-top) + 4rem)); padding-bottom:max(1.25rem,env(safe-area-inset-bottom)); }
+  #app #cover-view .cover-environment img { object-position:54% 44%; }
+  #app #cover-view .cover-art { height:clamp(180px,24dvh,230px); margin:.5rem auto 0; }
+  #app #cover-view #cover-title { max-width:18ch; margin-inline:auto; font-size:clamp(1.75rem,7vw,2.5rem); }
+  #app #cover-view .cover-content { width:100%; padding-inline:clamp(.8rem,4vw,1.6rem); }
+  #app #cover-view .cover-kicker { font-size:.7rem; }
+  #app #cover-view .cover-summary { max-width:34ch; margin-block:.55rem; font-size:.9rem; }
+  #app #cover-view .cover-context { margin-block:.6rem; }
+  #app #cover-view .cover-actions { display:grid; grid-template-columns:1fr 1fr; gap:.5rem; }
+  #app #cover-view .cover-actions .start-button { grid-column:1/-1; }
+  #app #cover-view .cover-actions button { min-width:0; min-height:46px; padding:.7rem .65rem; }
+  #app #cover-view .cover-actions .chapters-button { justify-content:center; font-size:.8rem; }
+  #app #cover-view .cover-vignette { background:linear-gradient(0deg,#07111cee,transparent 90%); }
+}
+@media (prefers-reduced-motion:reduce) { #app #cover-view .cover-environment img,#app #cover-view .cover-art { animation:none; } }
+#app .cover-navigation-hint { max-width:48ch; margin:.75rem 0 0; color:#cbbda5; font:.78rem/1.55 system-ui,sans-serif; }
+@media (min-width:820px) { #app #cover-view { align-content:start; } }
+#app .world-head-actions { display:flex; flex-wrap:wrap; gap:.4rem; align-items:center; justify-content:flex-end; }
+#app .world-head-actions button { min-width:44px; min-height:44px; }
+#app .world-head-actions .world-home { margin:0; padding:.5rem .65rem; }
+#app .letter-navigation { display:grid; grid-template-columns:1fr 1fr; gap:.45rem; padding-top:.8rem; margin-top:.8rem; border-top:1px solid #8b6c4b50; }
+#app .letter-navigation p { grid-column:1/-1; margin:0 0 .3rem; font:.77rem/1.5 system-ui,sans-serif; }
+#app .letter-navigation button { min-height:44px; padding:.45rem; border:1px solid #8b6c4b80; border-radius:.35rem; color:inherit; background:#a0794521; font:600 .75rem/1.3 system-ui,sans-serif; cursor:pointer; }
+@media (max-width:600px) { #app .cover-navigation-hint { margin-inline:auto; } #app .world-head-actions { gap:.25rem; } }
+
+/* Atlas 5: compact controls and focused inspection. */
+#app #world-dialog .atlas-heading { padding:.5rem .7rem; margin:0 0 .5rem; }
+#app #world-dialog .atlas-heading h3 { margin:.2rem 0; font-size:1.05rem; }
+#app #world-dialog .atlas-place-picker { display:flex; align-items:center; gap:.6rem; margin-top:.4rem; }
+#app #world-dialog .atlas-place-picker select { flex:1; min-width:0; min-height:44px; }
+#app #world-dialog .atlas-tools { display:flex; flex-wrap:wrap; align-items:center; gap:.35rem; margin-top:.4rem; padding:.4rem; background:linear-gradient(115deg,#1b3931,#182724); border:1px solid #b3906259; border-radius:.4rem; }
+#app #world-dialog .atlas-tools .atlas-zoom-group { display:flex; gap:.25rem; flex:none; }
+#app #world-dialog .atlas-tools button { margin:0; min-width:44px; min-height:44px; padding:.4rem .6rem; font-size:.76rem; }
+#app #world-dialog .atlas-tools output { margin-left:auto; padding:0 .25rem; color:#f1d7a4; font:.75rem system-ui,sans-serif; }
+#app #world-dialog .atlas-tools [data-zoom="reset"] svg { display:none; }
+#app #world-dialog .atlas-control-panel { margin:.5rem 0; border:1px solid #ac895960; border-radius:.4rem; background:#a3814910; }
+#app #world-dialog .atlas-control-panel>summary { min-height:44px; padding:.7rem; box-sizing:border-box; cursor:pointer; color:var(--ink); font:600 .76rem/1.4 system-ui,sans-serif; }
+#app #world-dialog .atlas-control-panel>*:not(summary) { margin:.5rem; max-width:calc(100% - 1rem); }
+#app #world-dialog .atlas-control-panel input[type="range"] { width:calc(100% - 1rem); min-height:44px; }
+#app #world-dialog .atlas-control-panel .atlas-atmosphere { display:flex; align-items:center; gap:.6rem; }
+#app #world-dialog .atlas-atmosphere select { min-height:44px; min-width:0; flex:1; }
+#app #world-dialog .atlas-illustrated { border:3px double #a8bfb0; box-shadow:0 6px 18px #21101a24,inset 0 0 0 1px #e5cf9a60; }
+#app #world-dialog .atlas-pin[data-highlight="true"] .atlas-marker { color:#fff3cf; border-color:#ffe0a0; box-shadow:0 0 0 3px #d6ae6659,0 3px 9px #0006; }
+#app #world-dialog .world-tabs .world-button { min-height:44px; border-radius:.35rem; }
+#app #world-dialog.atlas-focus-mode { width:100vw; max-width:none; height:100dvh; max-height:none; margin:0; border-radius:0; box-sizing:border-box; padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+#app #world-dialog.atlas-focus-mode :is(.world-tabs,.world-category-jump,.world-nav-note,.atlas-heading,.atlas-detail-slot,.atlas-control-panel,.atlas-legend,.atlas-dossier-jump,.atlas-notes,.manuscript-corner) { display:none!important; }
+#app #world-dialog.atlas-focus-mode .world-content { min-height:0; padding:.45rem; overflow:hidden; }
+#app #world-dialog.atlas-focus-mode :is(.atlas-workspace,.atlas-canvas,.atlas-sheet) { display:flex; flex-direction:column; width:100%; max-width:none; height:100%; min-height:0; margin:0; gap:0; }
+#app #world-dialog.atlas-focus-mode .world-map { flex:1; min-height:0; width:100%; height:auto; aspect-ratio:auto!important; }
+#app #world-dialog.atlas-focus-mode .world-map-plane { inset:auto 0; top:50%; height:auto; aspect-ratio:3/2; translate:0 -50%; }
+#app #world-dialog.atlas-focus-mode .atlas-tools { flex:none; }
+#app #world-dialog .atlas-sheet[data-lens="true"] .world-map { cursor:grab; }
+@media (max-width:600px) {
+  #app #world-dialog { width:100vw; max-width:none; height:100dvh; max-height:none; margin:0; border-radius:0; padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); box-sizing:border-box; }
+  #app #world-dialog .world-head { min-height:52px; padding:.25rem .5rem; }
+  #app #world-dialog .world-brand small { display:none; }
+  #app #world-dialog .world-brand strong { font-size:.8rem; margin:0; }
+  #app #world-dialog .world-head-actions button { padding:.35rem .5rem; }
+  #app #world-dialog .world-category-jump { padding:.2rem .5rem; }
+  #app #world-dialog .world-category-jump>span { display:none; }
+  #app #world-dialog .world-nav-note { display:none; }
+  #app #world-dialog .world-content { padding:.5rem; scrollbar-gutter:auto; }
+  #app #world-dialog .atlas-heading { padding:.4rem .55rem; }
+  #app #world-dialog .atlas-heading>small,#app #world-dialog .atlas-heading>.hub-hint { display:none; }
+  #app #world-dialog .atlas-heading h3 { font-size:.9rem; }
+  #app #world-dialog .atlas-place-picker { margin-top:.3rem; }
+  #app #world-dialog .atlas-place-picker>span { display:none; }
+  #app #world-dialog .atlas-place-picker select,#app #world-dialog .atlas-atmosphere select { font-size:16px; }
+  #app #world-dialog .atlas-workspace { gap:.6rem; }
+  #app #world-dialog .atlas-control-panel>summary { font-size:.72rem; }
+}
+
+/* Lightweight compositing keeps the same paper, artwork and page-turn design. */
+#app .physical-turn * { animation:none!important; transition:none!important; }
+#app .world-content :is(.world-card,.world-chapter-card) { content-visibility:auto; contain-intrinsic-size:auto 420px; }
+#app[data-performance-lite="true"] :is(.cover-environment img,.reading-room-light,.royal-map-weather) { animation-iteration-count:1!important; }
+#app[data-performance-lite="true"] :is(.settings-panel,.music-panel,.world-dialog,.floating-audio-button) { backdrop-filter:none!important; -webkit-backdrop-filter:none!important; }
+#app[data-performance-lite="true"] .reading-room-light { filter:blur(12px); }
+#app[data-performance-lite="true"] .book-shell { box-shadow:0 10px 24px #0005; }
+
+/* Silver moonlight and worn red oath thread frame the book's printed art. */
+#app #cover-view .cover-environment { opacity:.62; }
+#app #cover-view .cover-vignette { background:linear-gradient(90deg,#071713ee 0%,#091b1588 48%,#07171343 68%,#0717139e 100%),radial-gradient(ellipse at 65% 34%,#b3ded027,transparent 50%); }
+#app #cover-view .cover-art::before { background:repeating-linear-gradient(0deg,transparent 0 31px,#b2c8b16e 32px 34px,transparent 35px 57px),linear-gradient(90deg,#101a17,#365247 42%,#141e1b); }
+#app #cover-view .cover-art { box-shadow:0 26px 38px #020805a0, 5px 2px 0 #79918364,0 0 0 1px #becdb580; }
+#app #cover-view .cover-print-title { color:#eff3e7; }
+#app #cover-view .cover-file-card { border-color:#8ca49975; background:#142a25de; }
+#app #cover-view .cover-file-tab,#app #cover-view .cover-kicker { color:#c5d5c8; }
+#app #cover-view .cover-actions { grid-template-columns:repeat(2,minmax(0,1fr)); }
+#app #cover-view .cover-actions .start-button { grid-column:1; }
+#app .chapter-opening .chapter-rule { color:#906460; }
+#app .chapter-opening .chapter-rule::after { content:'☾'; margin-left:.4em; color:inherit; }
+#app #world-dialog :is(.world-head,.world-tabs,.world-brand,.atlas-heading,.world-nav-note) { background:linear-gradient(120deg,#203a32,#132721); color:#e2e9dd; border-color:#7a9788; }
+#app #world-dialog .atlas-marker { background:linear-gradient(145deg,#47675a,#213e34); color:#eaf4e6; border-color:#b5cabc; }
+@media (max-width:819px) {
+  #app #cover-view .cover-vignette { background:linear-gradient(0deg,#071713f0 5%,#122f2460 80%); }
+  #app #cover-view .cover-content { padding-inline:.65rem; }
+}

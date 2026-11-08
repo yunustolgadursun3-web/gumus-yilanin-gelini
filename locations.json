@@ -1,0 +1,498 @@
+{
+  "velmora": {
+    "name": "Velmora",
+    "src": "assets/images/prologue.webp",
+    "areas": [
+      {
+        "id": "prologue",
+        "name": "PROLOG — AYIN YEDİ YEMİNİ",
+        "label": "PROLOG — AYIN YEDİ YEMİNİ",
+        "quote": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
+        "sourceChapter": 0,
+        "src": "assets/images/prologue.webp",
+        "memorySrc": "assets/images/prologue.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 1437,
+        "sourceEnd": 1511,
+        "unlock": 1511,
+        "chapter": {
+          "id": "prologue",
+          "number": 0,
+          "sourceChapter": 0,
+          "title": "PROLOG — AYIN YEDİ YEMİNİ",
+          "offset": 652
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "navigate-palace",
+        "node": "palace",
+        "kind": "city",
+        "name": "Kızılçam Sarayı",
+        "label": "Kızılçam Sarayı",
+        "x": 64,
+        "y": 54,
+        "src": "assets/images/chapter-05.webp",
+        "memorySrc": "assets/images/chapter-05.webp",
+        "quote": "Kızılçam Sarayı'nın büyük salonunda yüzlerce kurtadam toplanmıştı.",
+        "sourceStart": 1722,
+        "sourceEnd": 1788,
+        "unlock": 1788,
+        "characters": []
+      }
+    ]
+  },
+  "palace": {
+    "name": "Kızılçam Sarayı",
+    "src": "assets/images/chapter-05.webp",
+    "areas": [
+      {
+        "id": "chapter-01",
+        "name": "BÖLÜM 1 — SANA KURDUMU VERİYORUM",
+        "label": "SANA KURDUMU VERİYORUM",
+        "quote": "Kaelor elini Selvara'nın göğsüne koydu.",
+        "sourceChapter": 1,
+        "src": "assets/images/chapter-01.webp",
+        "memorySrc": "assets/images/chapter-01.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 4160,
+        "sourceEnd": 4199,
+        "unlock": 4199,
+        "chapter": {
+          "id": "chapter-01",
+          "number": 1,
+          "sourceChapter": 1,
+          "title": "BÖLÜM 1 — SANA KURDUMU VERİYORUM",
+          "offset": 1657
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-05",
+        "name": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+        "label": "YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+        "quote": "Başında siyah-kızıl bir taç bulunuyordu.",
+        "sourceChapter": 5,
+        "src": "assets/images/chapter-05.webp",
+        "memorySrc": "assets/images/chapter-05.webp",
+        "x": 53,
+        "y": 37,
+        "sourceStart": 14475,
+        "sourceEnd": 14515,
+        "unlock": 14515,
+        "chapter": {
+          "id": "chapter-05",
+          "number": 5,
+          "sourceChapter": 5,
+          "title": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+          "offset": 14371
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-10",
+        "name": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI",
+        "label": "YEDİ ALFA'NIN SON TOPLANTISI",
+        "quote": "Devasa bir göz açılmıştı.",
+        "sourceChapter": 10,
+        "src": "assets/images/chapter-10.webp",
+        "memorySrc": "assets/images/chapter-10.webp",
+        "x": 73,
+        "y": 37,
+        "sourceStart": 31542,
+        "sourceEnd": 31567,
+        "unlock": 31567,
+        "chapter": {
+          "id": "chapter-10",
+          "number": 10,
+          "sourceChapter": 10,
+          "title": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI",
+          "offset": 28428
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-12",
+        "name": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT",
+        "label": "KARA AYIN KARŞISINDAKİ SON KURT",
+        "quote": "Şimdi yedi sürünün tamamını kurtarmıştı.",
+        "sourceChapter": 12,
+        "src": "assets/images/chapter-12.webp",
+        "memorySrc": "assets/images/chapter-12.webp",
+        "x": 33,
+        "y": 51,
+        "sourceStart": 39056,
+        "sourceEnd": 39096,
+        "unlock": 39096,
+        "chapter": {
+          "id": "chapter-12",
+          "number": 12,
+          "sourceChapter": 12,
+          "title": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT",
+          "offset": 34681
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-13",
+        "name": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+        "label": "YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+        "quote": "Yedi kurt ruhu ulumaya başladı.",
+        "sourceChapter": 13,
+        "src": "assets/images/chapter-13.webp",
+        "memorySrc": "assets/images/chapter-13.webp",
+        "x": 53,
+        "y": 51,
+        "sourceStart": 42383,
+        "sourceEnd": 42414,
+        "unlock": 42414,
+        "chapter": {
+          "id": "chapter-13",
+          "number": 13,
+          "sourceChapter": 13,
+          "title": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+          "offset": 39098
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "navigate-balcony",
+        "node": "balcony",
+        "kind": "city",
+        "name": "Sarayın Eski Balkonu",
+        "label": "Sarayın Eski Balkonu",
+        "x": 64,
+        "y": 54,
+        "src": "assets/images/chapter-01.webp",
+        "memorySrc": "assets/images/chapter-01.webp",
+        "quote": "Törenden önce Selvara, Kaelor'u sarayın eski balkonuna çağırdı.",
+        "sourceStart": 2727,
+        "sourceEnd": 2790,
+        "unlock": 2790,
+        "characters": []
+      },
+      {
+        "id": "navigate-vault",
+        "node": "vault",
+        "kind": "city",
+        "name": "Yasak Mahzen",
+        "label": "Yasak Mahzen",
+        "x": 64,
+        "y": 54,
+        "src": "assets/images/chapter-08.webp",
+        "memorySrc": "assets/images/chapter-08.webp",
+        "quote": "Velmora — Yasak Mahzen",
+        "sourceStart": 23013,
+        "sourceEnd": 23035,
+        "unlock": 23035,
+        "characters": []
+      }
+    ]
+  },
+  "balcony": {
+    "name": "Sarayın Eski Balkonu",
+    "src": "assets/images/chapter-01.webp",
+    "areas": [
+      {
+        "id": "chapter-14",
+        "name": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA",
+        "label": "SON KEZ AYNI AYIN ALTINDA",
+        "quote": "Ve Kaelor onu durdurmadı.",
+        "sourceChapter": 14,
+        "src": "assets/images/chapter-14.webp",
+        "memorySrc": "assets/images/chapter-14.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 44680,
+        "sourceEnd": 44705,
+        "unlock": 44705,
+        "chapter": {
+          "id": "chapter-14",
+          "number": 14,
+          "sourceChapter": 14,
+          "title": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA",
+          "offset": 42540
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  },
+  "pinewoods": {
+    "name": "Ay Işığındaki Orman",
+    "src": "assets/images/chapter-03.webp",
+    "areas": [
+      {
+        "id": "chapter-02",
+        "name": "BÖLÜM 2 — KIRILAN AY BAĞI",
+        "label": "KIRILAN AY BAĞI",
+        "quote": "Ay Tanrıçası Nymera.",
+        "sourceChapter": 2,
+        "src": "assets/images/chapter-02.webp",
+        "memorySrc": "assets/images/chapter-02.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 8566,
+        "sourceEnd": 8586,
+        "unlock": 9351,
+        "chapter": {
+          "id": "chapter-02",
+          "number": 2,
+          "sourceChapter": 2,
+          "title": "BÖLÜM 2 — KIRILAN AY BAĞI",
+          "offset": 4845
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-03",
+        "name": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN",
+        "label": "ALFA RUHLARINDAN ÜSTÜN OLAN",
+        "quote": "Nymera devasa gümüş kurda baktı.",
+        "sourceChapter": 3,
+        "src": "assets/images/chapter-03.webp",
+        "memorySrc": "assets/images/chapter-03.webp",
+        "x": 53,
+        "y": 37,
+        "sourceStart": 10859,
+        "sourceEnd": 10891,
+        "unlock": 10891,
+        "chapter": {
+          "id": "chapter-03",
+          "number": 3,
+          "sourceChapter": 3,
+          "title": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN",
+          "offset": 9195
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  },
+  "greyhollow": {
+    "name": "Greyhollow Vadisi",
+    "src": "assets/images/chapter-04.webp",
+    "areas": [
+      {
+        "id": "chapter-04",
+        "name": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+        "label": "ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+        "quote": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
+        "sourceChapter": 4,
+        "src": "assets/images/chapter-04.webp",
+        "memorySrc": "assets/images/chapter-04.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 12505,
+        "sourceEnd": 12579,
+        "unlock": 12579,
+        "chapter": {
+          "id": "chapter-04",
+          "number": 4,
+          "sourceChapter": 4,
+          "title": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+          "offset": 12244
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-06",
+        "name": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT",
+        "label": "GECE YARISINDAKİ GÜMÜŞ KURT",
+        "quote": "Ay ışığı gümüş renkte parlamaya başladı.",
+        "sourceChapter": 6,
+        "src": "assets/images/chapter-06.webp",
+        "memorySrc": "assets/images/chapter-06.webp",
+        "x": 53,
+        "y": 37,
+        "sourceStart": 18697,
+        "sourceEnd": 18737,
+        "unlock": 18737,
+        "chapter": {
+          "id": "chapter-06",
+          "number": 6,
+          "sourceChapter": 6,
+          "title": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT",
+          "offset": 16758
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-07",
+        "name": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA",
+        "label": "ESKİ SEVGİLİNİN KARŞISINDA",
+        "quote": "İçinden Selvara Ardent indi.",
+        "sourceChapter": 7,
+        "src": "assets/images/chapter-07.webp",
+        "memorySrc": "assets/images/chapter-07.webp",
+        "x": 73,
+        "y": 37,
+        "sourceStart": 20398,
+        "sourceEnd": 20426,
+        "unlock": 20426,
+        "chapter": {
+          "id": "chapter-07",
+          "number": 7,
+          "sourceChapter": 7,
+          "title": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA",
+          "offset": 20219
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "navigate-refuge",
+        "node": "refuge",
+        "kind": "city",
+        "name": "Eski Taş Sığınak",
+        "label": "Eski Taş Sığınak",
+        "x": 64,
+        "y": 54,
+        "src": "assets/images/chapter-09.webp",
+        "memorySrc": "assets/images/chapter-09.webp",
+        "quote": "Greyhollow halkı eski taş sığınağa çekildi.",
+        "sourceStart": 25615,
+        "sourceEnd": 25658,
+        "unlock": 25658,
+        "characters": []
+      },
+      {
+        "id": "navigate-infirmary",
+        "node": "infirmary",
+        "kind": "city",
+        "name": "Greyhollow Şifahanesi",
+        "label": "Greyhollow Şifahanesi",
+        "x": 64,
+        "y": 54,
+        "src": "assets/images/epilogue.webp",
+        "memorySrc": "assets/images/epilogue.webp",
+        "quote": "Eski şifahane yeniden büyütülmüştü.",
+        "sourceStart": 44890,
+        "sourceEnd": 44925,
+        "unlock": 44925,
+        "characters": []
+      }
+    ]
+  },
+  "vault": {
+    "name": "Yasak Mahzen",
+    "src": "assets/images/chapter-08.webp",
+    "areas": [
+      {
+        "id": "chapter-08",
+        "name": "BÖLÜM 8 — YEDİNCİ MÜHÜR",
+        "label": "YEDİNCİ MÜHÜR",
+        "quote": "Lord Morvain, siyah aynanın önünde duruyordu.",
+        "sourceChapter": 8,
+        "src": "assets/images/chapter-08.webp",
+        "memorySrc": "assets/images/chapter-08.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 23037,
+        "sourceEnd": 23082,
+        "unlock": 23082,
+        "chapter": {
+          "id": "chapter-08",
+          "number": 8,
+          "sourceChapter": 8,
+          "title": "BÖLÜM 8 — YEDİNCİ MÜHÜR",
+          "offset": 22989
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "chapter-11",
+        "name": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI",
+        "label": "KURT RUHLARININ ZİNDANI",
+        "quote": "Vargan'ın boynundaki siyah halka çatladı.",
+        "sourceChapter": 11,
+        "src": "assets/images/chapter-11.webp",
+        "memorySrc": "assets/images/chapter-11.webp",
+        "x": 53,
+        "y": 37,
+        "sourceStart": 34579,
+        "sourceEnd": 34620,
+        "unlock": 34620,
+        "chapter": {
+          "id": "chapter-11",
+          "number": 11,
+          "sourceChapter": 11,
+          "title": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI",
+          "offset": 31569
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  },
+  "refuge": {
+    "name": "Eski Taş Sığınak",
+    "src": "assets/images/chapter-09.webp",
+    "areas": [
+      {
+        "id": "chapter-09",
+        "name": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI",
+        "label": "SESSİZ ORMANIN SAVAŞI",
+        "quote": "İlk kurtadam durdu.",
+        "sourceChapter": 9,
+        "src": "assets/images/chapter-09.webp",
+        "memorySrc": "assets/images/chapter-09.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 27028,
+        "sourceEnd": 27047,
+        "unlock": 27047,
+        "chapter": {
+          "id": "chapter-09",
+          "number": 9,
+          "sourceChapter": 9,
+          "title": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI",
+          "offset": 25583
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  },
+  "infirmary": {
+    "name": "Greyhollow Şifahanesi",
+    "src": "assets/images/epilogue.webp",
+    "areas": [
+      {
+        "id": "epilogue",
+        "name": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+        "label": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+        "quote": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
+        "sourceChapter": 15,
+        "src": "assets/images/epilogue.webp",
+        "memorySrc": "assets/images/epilogue.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 46112,
+        "sourceEnd": 46156,
+        "unlock": 46156,
+        "chapter": {
+          "id": "epilogue",
+          "number": 0,
+          "sourceChapter": 15,
+          "title": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+          "offset": 44784
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  }
+}

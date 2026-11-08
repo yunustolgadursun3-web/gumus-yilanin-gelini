@@ -1,0 +1,170 @@
+[
+  {
+    "key": "cover",
+    "prompt": "Use case: illustration-story. Original adult dark romantic werewolf fantasy for AYIN UNUTTUĞU KRAL. Fine cinematic oil painting on textured canvas, lifelike anatomies, ink black pine forests, moonglow silver, muted pine teal, glints of dying ember red. No text, lettering, logos, modern objects or graphic violence. Consistent protagonist Kaelor Vhalen: black tousled hair, gray eyes, strong but quiet, plain charcoal/brown healer coat as older adult. Selvara Ardent: dark hair, red eyes, silver engraved black-red armor. Aethros: very large anatomically real silvery wolf with pale luminous eyes. VERTICAL 2:3 book cover painting, no title letters. A mid-distance black-haired Kaelor in weathered cloak on a Greyhollow stone bridge; an immense silver wolf spirit Aethros beside him among dark pines, looming moon and ethereal woman Nymera in faint moon mist. A torn ember-red oath thread across the foreground. Central silhouette and readable highlights. Upper 20 percent quiet midnight sky for HTML typography.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-4ecbabff-468a-4ab9-91ec-4000288fccc3.png",
+    "method": "Built-in Imagegen",
+    "src": "assets/images/cover.webp"
+  },
+  {
+    "key": "atlas",
+    "prompt": "Use case: illustration-story. Original adult dark romantic werewolf fantasy for AYIN UNUTTUĞU KRAL. Fine cinematic oil painting on textured canvas, lifelike anatomies, ink black pine forests, moonglow silver, muted pine teal, glints of dying ember red. No text, lettering, logos, modern objects or graphic violence. Consistent protagonist Kaelor Vhalen: black tousled hair, gray eyes, strong but quiet, plain charcoal/brown healer coat as older adult. Selvara Ardent: dark hair, red eyes, silver engraved black-red armor. Aethros: very large anatomically real silvery wolf with pale luminous eyes. LANDSCAPE 3:2 top-down painted narrative atlas on dark silver-green vellum. Seven distinct visual territories around neutral Greyhollow valley and stone bridge: north ice fortress Frosthollow, northwest raven-black Ravencrest ridges, west ember red Velmora pine palace, southwest Silverpine luminous pines, south leafy Thornmere forest, southeast foggy violet Duskfall, east Stormveil storm ridges. Mountain ring, river, narrow trails. No text, labels, markers, numbers, border or compass. Clearly illustrative schematic.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-257102ce-9be1-4d11-abdb-b39a45167684.png",
+    "method": "Built-in Imagegen",
+    "src": "assets/images/atlas.webp"
+  },
+  {
+    "key": "prologue",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Under an ancient full moon Nymera, mysterious pale moon goddess in silver linen, stands above seven distinct spectral wolves red, white, black, silver, storm-blue, leafy green and dusky violet. Ancient standing stones, ancestral oath at a forest clearing.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-dae94ec1-8345-4ac8-8c12-4392e8b05292.png",
+    "src": "assets/images/prologue.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-01",
+    "prompt": "undefined Landscape 3:2 premium novel plate. At Velmora's old moonlit palace balcony young 24-year-old Kaelor places his hand above Selvara's heart to give up his wolf. Red translucent wolf Vargan passes between them as smoke and embers. Red-eyed long black-haired woman in silver embroidered armor, moon and red pines.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-c4fc1253-e65a-4d27-926e-e8cea382bc84.png",
+    "src": "assets/images/chapter-01.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-02",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Kaelor alone in cold midnight pines after the broken bond, fallen bloodless and exhausted near old stones. Nymera appears in pale lunar mist, luminous woman with moonlight hair. Solemn mercy, black forest against silver light.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-c90741dc-e55c-4698-84bd-97aabb7a3a2f.png",
+    "src": "assets/images/chapter-02.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-03",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Under an endless starry sky filled with faint wolf spirits, kneeling black-haired Kaelor meets enormous beautiful silver wolf Aethros, his eyes two small moons. Nymera witnesses from a distance. Clear silhouette and supernatural calm.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-2cb25236-f88f-43bb-83ba-07d321110323.png",
+    "src": "assets/images/chapter-03.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-04",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Greyhollow's healer cottage, mountains and old stone bridges beyond window in silver fog. Adult black-haired gray-eyed Kaelor in plain charcoal healer coat helping a villager; Ilyne at his side gathers bandages and herbs, an anxious boy arrives. Warm lamp against slate-blue dusk.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-94fd7866-a20e-4841-9065-7e3eb3af9f46.png",
+    "src": "assets/images/chapter-04.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-05",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Selvara, thirty, shoulder-length dark hair and red eyes, wears black-crimson crown and luminous wrist mark of Vargan in Kızılçam Sarayı. Lord Morvain brings a small dispatch in a tense audience. Embers in braziers, tall red pines through stone windows, royal but foreboding.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-729948a0-38a2-471d-8ce5-bea70017071a.png",
+    "src": "assets/images/chapter-05.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-06",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Night at occupied Greyhollow. Silvery wolf Aethros emerges between black pines, facing crimson-armored mounted commander Rhaedon Voss and his soldiers, black circular mark on his breastplate. Moonlight falls like a blade, the village behind. Tense and no combat gore.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-15543df6-1bbb-4922-b283-4fb7a0d07a69.png",
+    "src": "assets/images/chapter-06.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-07",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Greyhollow village square after rain, Selvara Ardent with dark shoulder-length hair, red eyes and black-red crown stands across from Kaelor in simple worn healer coat, neither reaching for the other. Black and crimson carriage, wet stones and pine roofs. Emotional, physical distance.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-c1979d91-c466-4af2-a9c5-1def4a85e077.png",
+    "src": "assets/images/chapter-07.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-08",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Forbidden stone cellar under Velmora. Lord Morvain kneels in front of an obsidian mirror filled with dark vapor, seven seal emblems carved in floor with one unresolved. Weak candlelight and subtle violet. An eerie ancient pact, not a modern room.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-fceb2720-183e-4739-9315-ce284ede28ac.png",
+    "src": "assets/images/chapter-08.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-09",
+    "prompt": "undefined Landscape 3:2 premium novel plate. At the Greyhollow forest edge Kaelor in charcoal healer coat raises a hand, silver light frees enchanted wolves with black bands and brings them to a halt. Behind him old stone refuge shelter, dark pines and Ilyne guiding villagers. Battle tension without visible wounds.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-d49dd9f1-478a-4815-a2a8-35b81a404c96.png",
+    "src": "assets/images/chapter-09.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-10",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Representatives of the seven packs gathered in Velmora's vast throne hall. Selvara descends throne steps as Kaelor arrives in plain coat. In an obsidian mirror behind Morvain a huge supernatural eye begins to open. Distinct red, snowy white, black, silver, storm-blue, green and purple banners.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-28356000-86da-47ba-b705-cb5cdc60c566.png",
+    "src": "assets/images/chapter-10.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-11",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Selvara faces a huge red spectral wolf Vargan held by a black ring inside the prison of wolf spirits, letting him choose; the first dark chain cracks in golden-red and silver fragments. Kaelor and Aethros beyond glassy prison bars, quiet moment of release.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-47936b34-86f3-432a-9113-0dfe2fef9c5b.png",
+    "src": "assets/images/chapter-11.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-12",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Silver wolf Aethros faces colossal dark lupine Veyloth under a black eclipse above shattered Velmora stones. Kaelor kneels exhausted with Ilyne beside him; Selvara and freed wolf spirits join the struggle. Powerful silver light breaking darkness, no gore, no comic-book composition.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-38f5ed4b-23c2-45f6-a29e-5868c1131fb2.png",
+    "src": "assets/images/chapter-12.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-13",
+    "prompt": "undefined Landscape 3:2 premium novel plate. In Velmora's great hall the seven wolf spirits freely howl beneath a brilliant full moon visible through an open oculus. Kaelor in plain dark healer coat is recognized by gathered representatives. Selvara's hand shows only her small own wolf mark. Mutual respect and warm silver light.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-90da4894-60fb-4862-8cd2-2389cefbd71c.png",
+    "src": "assets/images/chapter-13.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "chapter-14",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Kaelor and Selvara part quietly on Velmora's familiar ancient stone balcony, a great cool full moon, pine forests below, their faces calm and wistful. Selvara walks away toward warm palace light; Kaelor looks toward his future. Stillness, no kiss or embrace.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-808b8524-8c76-4cbd-99ba-226bd9825fbd.png",
+    "src": "assets/images/chapter-14.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "epilogue",
+    "prompt": "undefined Landscape 3:2 premium novel plate. Greyhollow a year later under silver full moon, expanded stone infirmary and old bridge. Kaelor in humble coat, Ilyne and thirteen-year-old Fen in warm village lights. Nymera's silhouette above slate mountains, peaceful homecoming and faint wolf shadow.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-ab691312-81ec-405e-bec1-8217f0c2b801.png",
+    "src": "assets/images/epilogue.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "kaelor",
+    "prompt": "undefined VERTICAL 2:3 character portrait, Kaelor Vhalen, early-thirties black tousled hair and gray eyes, solemn, worn dark healer coat, faint silver light on hands, Greyhollow bridge background.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-955d924d-4ecd-49c4-a687-a281c8d79dbd.png",
+    "src": "assets/images/kaelor.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "selvara",
+    "prompt": "undefined VERTICAL 2:3 character portrait, Selvara Ardent at thirty, dark shoulder-length hair, red eyes, silver engraved black-crimson armor, black-crimson crown, a lit mark on wrist, Velmora red pines in background.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-2222df60-4713-4588-a414-dbf6ceddd348.png",
+    "src": "assets/images/selvara.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "ilyne",
+    "prompt": "undefined VERTICAL 2:3 character portrait, Ilyne, practical adult village healer in woven slate-green cloak, calm determined face, herbalist cottage light and stone shelves, simple clothing and no crown.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-60cef5a1-7e21-4561-a6ad-d59bfd4744ce.png",
+    "src": "assets/images/ilyne.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "nymera",
+    "prompt": "undefined VERTICAL 2:3 character portrait of moon goddess Nymera, moonlight-white hair and luminous silver robes, composed timeless face, mist and ancient pine silhouettes, beautiful restrained apparition.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-63f6767d-fe1f-493d-ab02-9ca4ab47c62f.png",
+    "src": "assets/images/nymera.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "aethros",
+    "prompt": "undefined VERTICAL 2:3 portrait of immense anatomically real silver wolf Aethros, noble calm and eyes like two small luminous moons, layered silvery fur, charcoal forest background.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-0ce544f6-248f-4bfd-b433-8ce268ea8f12.png",
+    "src": "assets/images/aethros.webp",
+    "method": "Built-in Imagegen"
+  },
+  {
+    "key": "morvain",
+    "prompt": "undefined VERTICAL 2:3 portrait of Lord Morvain, grave powerful court figure in soot-black medieval cloak, subtle cold expression, obsidian mirror and red candle in background.",
+    "nativeSource": "C:\\Users\\cultist\\.codex\\generated_images\\01a16385-aa67-7283-ab2c-6385c67f8cef\\exec-38548d34-07fc-4f8a-9dc7-87af68fe9cfe.png",
+    "src": "assets/images/morvain.webp",
+    "method": "Built-in Imagegen"
+  }
+]

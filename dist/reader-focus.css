@@ -1,0 +1,45 @@
+#app[data-paragraph-focus="true"] :is(.book-spread, .book-stage .edge-nav, .gesture-hint) {
+  display: none;
+}
+#app .paragraph-focus-sheet:not([hidden]) {
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: .7rem;
+  width: min(100%, 47rem);
+  margin-inline: auto;
+  padding: clamp(.9rem, 4vw, 3rem);
+  border: 1px solid var(--paper-edge);
+  border-radius: .6rem;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 .8rem 2rem #100b1240;
+  touch-action: pan-y;
+}
+#app .paragraph-focus-sheet h2 { margin: 0; font: 600 .84rem/1.4 Cinzel, Georgia, serif; letter-spacing: .08em; }
+#app .paragraph-focus-copy {
+  align-self: center;
+  min-height: 0;
+  max-height: 100%;
+  margin: 0;
+  overflow: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: calc(1.2rem * var(--font-scale))/max(1.75, var(--line-height)) var(--reader-font);
+}
+#app .paragraph-focus-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+#app .paragraph-focus-actions button {
+  min-height: 44px;
+  flex: 1 1 auto;
+  padding: .45rem .6rem;
+  border: 1px solid var(--paper-edge);
+  border-radius: .32rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+#app .paragraph-focus-actions button:disabled { opacity: .46; cursor: default; }
+#app .paragraph-focus-sheet :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

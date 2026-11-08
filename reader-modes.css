@@ -1,0 +1,80 @@
+#app:is([data-reading-mode="single"], [data-reading-mode="focus"]) .reader-view .book-shell,
+#app[data-reader-layout="flow"] .reader-view .book-shell {
+  width: min(100%, 46rem);
+}
+
+#app[data-reader-layout="single"] #book-spread::before,
+#app[data-reader-layout="flow"] #book-spread::before {
+  display: none;
+}
+
+#app #book-spread > .book-page--single { width: 100%; }
+
+#app[data-reading-mode="classic"] .reader-view .book-shell { filter: none; }
+#app[data-reading-mode="classic"] #book-spread { box-shadow: 0 10px 32px #0004; }
+#app[data-reading-mode="classic"] #book-spread::before { width: .8rem; opacity: .55; }
+#app[data-reading-mode="classic"] #book-spread > .book-page::after { display: none; }
+
+#app[data-reading-mode="cinematic"] .reader-view .book-shell {
+  width: min(100%, 92rem);
+  height: 100%;
+}
+
+#app[data-reading-mode="cinematic"] .reader-view {
+  background: radial-gradient(ellipse at 50% 25%, var(--atmosphere), transparent 65%), #100d12;
+}
+
+#app[data-reading-mode="focus"] .reader-view .book-shell {
+  --paper-texture: 0;
+  height: 100%;
+  filter: none;
+}
+
+#app[data-reading-mode="focus"] .reader-view { grid-template-rows: auto minmax(0, 1fr); }
+#app[data-reading-mode="focus"] .reader-footer { display: none; }
+
+#app[data-reading-mode="focus"] .page-text {
+  font-size: calc(clamp(1.08rem, 1.28vw, 1.22rem) * var(--font-scale));
+  line-height: max(1.82, var(--line-height));
+}
+
+#app[data-reading-mode="focus"] .book-stage::before,
+#app[data-reading-mode="focus"] .book-shell::before,
+#app[data-reading-mode="focus"] .reader-header > .session-clock,
+#app[data-reading-mode="focus"] .book-page::after,
+#app[data-reading-mode="focus"] .book-page :is(.sky-engraving, .mini-vignette, .chapter-seal) {
+  display: none;
+}
+
+#app[data-reader-layout="flow"] .book-stage { touch-action: pan-y; }
+#app[data-reader-layout="flow"] .reader-view .book-shell { height: 100%; filter: none; }
+
+#app .book-spread.is-reading-flow {
+  display: block;
+  overflow: hidden auto;
+  overscroll-behavior-y: contain;
+  touch-action: pan-y;
+  scrollbar-color: var(--paper-edge) var(--paper);
+  scrollbar-width: thin;
+  background: color-mix(in srgb, var(--paper) 86%, var(--app-bg-deep));
+}
+
+#app .is-reading-flow > .book-page {
+  height: auto;
+  min-height: 0;
+  margin-block-end: .45rem;
+}
+
+#app .is-reading-flow > .book-page:last-child { margin-block-end: 0; }
+#app .is-reading-flow > .book-page .page-content { height: auto; }
+#app .is-reading-flow .page-text { user-select: text; }
+#app .is-reading-flow :is(.letter-page, .end-page, .continuation-page, .frontmatter-page) { height: 100%; }
+#app .is-reading-flow :is(.letter-page, .end-page, .continuation-page, .frontmatter-page) > .page-content { height: 100%; }
+#app .is-reading-flow .art-illustration:has(> img),
+#app .is-reading-flow .art-illustration > img { aspect-ratio: auto; }
+#app .is-reading-flow .art-illustration.scene-video-figure { height: auto; aspect-ratio: 16 / 9; }
+
+#app :is(.book-stage, .is-reading-flow):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -3px;
+}

@@ -1,0 +1,685 @@
+{
+  "title": "AYIN UNUTTUĞU KRAL",
+  "subtitle": "I. Kitap · Kırık Yeminin Mirası",
+  "storageId": "ayin-unuttugu-kral-kirik-yemin-1",
+  "author": "Yunus Bey",
+  "genre": [
+    "Fantastik",
+    "Kurtadamlar",
+    "Alfa Ruhları",
+    "Aşk ve İhanet",
+    "Gizem"
+  ],
+  "kicker": "YEDİ SÜRÜNÜN AY ARŞİVİ",
+  "coverBrand": "AY ARŞİVİ",
+  "edition": "I. KİTAP",
+  "coverLocation": "Velmora · Greyhollow · Yedi Sürü",
+  "coverMark": "☾",
+  "cover": {
+    "src": "assets/images/cover.webp",
+    "alt": "Kaelor ve gümüş kurt Aethros, Greyhollow köprüsünde dolunayın altında.",
+    "width": 800,
+    "height": 1200
+  },
+  "reader": {
+    "appendEndPage": true,
+    "appendLetter": false,
+    "frontmatter": false,
+    "chapterEndings": true
+  },
+  "end": {
+    "title": "KIRIK YEMİNİN MİRASI",
+    "mood": "umut"
+  },
+  "sceneSounds": false,
+  "keywords": [
+    "Kaelor Vhalen",
+    "Selvara Ardent",
+    "Nymera",
+    "Aethros",
+    "İlk Uluma",
+    "Kara Ay"
+  ],
+  "chapters": [
+    {
+      "id": "prologue",
+      "number": 0,
+      "sourceChapter": 0,
+      "title": "PROLOG — AYIN YEDİ YEMİNİ",
+      "volume": 1,
+      "offset": 652,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "velmora",
+      "anchor": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
+      "artAfter": true,
+      "previewQuote": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
+      "previewUnlock": 1511,
+      "images": [
+        {
+          "id": "prologue",
+          "src": "assets/images/prologue.webp",
+          "alt": "PROLOG — AYIN YEDİ YEMİNİ · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "full",
+          "unlock": 1511
+        }
+      ],
+      "galleryImage": {
+        "id": "prologue",
+        "src": "assets/images/prologue.webp",
+        "alt": "PROLOG — AYIN YEDİ YEMİNİ · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "full",
+        "unlock": 1511
+      }
+    },
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "sourceChapter": 1,
+      "title": "BÖLÜM 1 — SANA KURDUMU VERİYORUM",
+      "volume": 1,
+      "offset": 1657,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "palace",
+      "anchor": "Kaelor elini Selvara'nın göğsüne koydu.",
+      "artAfter": true,
+      "previewQuote": "Kaelor elini Selvara'nın göğsüne koydu.",
+      "previewUnlock": 4199,
+      "images": [
+        {
+          "id": "chapter-01",
+          "src": "assets/images/chapter-01.webp",
+          "alt": "BÖLÜM 1 — SANA KURDUMU VERİYORUM · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "full",
+          "unlock": 4199
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-01",
+        "src": "assets/images/chapter-01.webp",
+        "alt": "BÖLÜM 1 — SANA KURDUMU VERİYORUM · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "full",
+        "unlock": 4199
+      }
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "sourceChapter": 2,
+      "title": "BÖLÜM 2 — KIRILAN AY BAĞI",
+      "volume": 1,
+      "offset": 4845,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "pinewoods",
+      "anchor": "Ay Tanrıçası Nymera.",
+      "artAfter": true,
+      "previewQuote": "Ay Tanrıçası Nymera.",
+      "previewUnlock": 8586,
+      "images": [
+        {
+          "id": "chapter-02",
+          "src": "assets/images/chapter-02.webp",
+          "alt": "BÖLÜM 2 — KIRILAN AY BAĞI · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 8586
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-02",
+        "src": "assets/images/chapter-02.webp",
+        "alt": "BÖLÜM 2 — KIRILAN AY BAĞI · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 8586
+      }
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "sourceChapter": 3,
+      "title": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN",
+      "volume": 1,
+      "offset": 9195,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "pinewoods",
+      "anchor": "Nymera devasa gümüş kurda baktı.",
+      "artAfter": true,
+      "previewQuote": "Nymera devasa gümüş kurda baktı.",
+      "previewUnlock": 10891,
+      "images": [
+        {
+          "id": "chapter-03",
+          "src": "assets/images/chapter-03.webp",
+          "alt": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "full",
+          "unlock": 10891
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-03",
+        "src": "assets/images/chapter-03.webp",
+        "alt": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "full",
+        "unlock": 10891
+      }
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "sourceChapter": 4,
+      "title": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+      "volume": 1,
+      "offset": 12244,
+      "mood": "sakin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "greyhollow",
+      "anchor": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
+      "artAfter": true,
+      "previewQuote": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
+      "previewUnlock": 12579,
+      "images": [
+        {
+          "id": "chapter-04",
+          "src": "assets/images/chapter-04.webp",
+          "alt": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 12579
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-04",
+        "src": "assets/images/chapter-04.webp",
+        "alt": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 12579
+      }
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "sourceChapter": 5,
+      "title": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+      "volume": 1,
+      "offset": 14371,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "palace",
+      "anchor": "Başında siyah-kızıl bir taç bulunuyordu.",
+      "artAfter": true,
+      "previewQuote": "Başında siyah-kızıl bir taç bulunuyordu.",
+      "previewUnlock": 14515,
+      "images": [
+        {
+          "id": "chapter-05",
+          "src": "assets/images/chapter-05.webp",
+          "alt": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 14515
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-05",
+        "src": "assets/images/chapter-05.webp",
+        "alt": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 14515
+      }
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "sourceChapter": 6,
+      "title": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT",
+      "volume": 1,
+      "offset": 16758,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "greyhollow",
+      "anchor": "Ay ışığı gümüş renkte parlamaya başladı.",
+      "artAfter": true,
+      "previewQuote": "Ay ışığı gümüş renkte parlamaya başladı.",
+      "previewUnlock": 18737,
+      "images": [
+        {
+          "id": "chapter-06",
+          "src": "assets/images/chapter-06.webp",
+          "alt": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "full",
+          "unlock": 18737
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-06",
+        "src": "assets/images/chapter-06.webp",
+        "alt": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "full",
+        "unlock": 18737
+      }
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "sourceChapter": 7,
+      "title": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA",
+      "volume": 1,
+      "offset": 20219,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "greyhollow",
+      "anchor": "İçinden Selvara Ardent indi.",
+      "artAfter": true,
+      "previewQuote": "İçinden Selvara Ardent indi.",
+      "previewUnlock": 20426,
+      "images": [
+        {
+          "id": "chapter-07",
+          "src": "assets/images/chapter-07.webp",
+          "alt": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 20426
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-07",
+        "src": "assets/images/chapter-07.webp",
+        "alt": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 20426
+      }
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "sourceChapter": 8,
+      "title": "BÖLÜM 8 — YEDİNCİ MÜHÜR",
+      "volume": 1,
+      "offset": 22989,
+      "mood": "karanlik",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "vault",
+      "anchor": "Lord Morvain, siyah aynanın önünde duruyordu.",
+      "artAfter": true,
+      "previewQuote": "Lord Morvain, siyah aynanın önünde duruyordu.",
+      "previewUnlock": 23082,
+      "images": [
+        {
+          "id": "chapter-08",
+          "src": "assets/images/chapter-08.webp",
+          "alt": "BÖLÜM 8 — YEDİNCİ MÜHÜR · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 23082
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-08",
+        "src": "assets/images/chapter-08.webp",
+        "alt": "BÖLÜM 8 — YEDİNCİ MÜHÜR · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 23082
+      }
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "sourceChapter": 9,
+      "title": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI",
+      "volume": 1,
+      "offset": 25583,
+      "mood": "aksiyon",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "refuge",
+      "anchor": "İlk kurtadam durdu.",
+      "artAfter": true,
+      "previewQuote": "İlk kurtadam durdu.",
+      "previewUnlock": 27047,
+      "images": [
+        {
+          "id": "chapter-09",
+          "src": "assets/images/chapter-09.webp",
+          "alt": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "full",
+          "unlock": 27047
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-09",
+        "src": "assets/images/chapter-09.webp",
+        "alt": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "full",
+        "unlock": 27047
+      }
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "sourceChapter": 10,
+      "title": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI",
+      "volume": 1,
+      "offset": 28428,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "palace",
+      "anchor": "Devasa bir göz açılmıştı.",
+      "artAfter": true,
+      "previewQuote": "Devasa bir göz açılmıştı.",
+      "previewUnlock": 31567,
+      "images": [
+        {
+          "id": "chapter-10",
+          "src": "assets/images/chapter-10.webp",
+          "alt": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 31567
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-10",
+        "src": "assets/images/chapter-10.webp",
+        "alt": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 31567
+      }
+    },
+    {
+      "id": "chapter-11",
+      "number": 11,
+      "sourceChapter": 11,
+      "title": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI",
+      "volume": 1,
+      "offset": 31569,
+      "mood": "karanlik",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "vault",
+      "anchor": "Vargan'ın boynundaki siyah halka çatladı.",
+      "artAfter": true,
+      "previewQuote": "Vargan'ın boynundaki siyah halka çatladı.",
+      "previewUnlock": 34620,
+      "images": [
+        {
+          "id": "chapter-11",
+          "src": "assets/images/chapter-11.webp",
+          "alt": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 34620
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-11",
+        "src": "assets/images/chapter-11.webp",
+        "alt": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 34620
+      }
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "sourceChapter": 12,
+      "title": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT",
+      "volume": 1,
+      "offset": 34681,
+      "mood": "aksiyon",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "palace",
+      "anchor": "Şimdi yedi sürünün tamamını kurtarmıştı.",
+      "artAfter": true,
+      "previewQuote": "Şimdi yedi sürünün tamamını kurtarmıştı.",
+      "previewUnlock": 39096,
+      "images": [
+        {
+          "id": "chapter-12",
+          "src": "assets/images/chapter-12.webp",
+          "alt": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "full",
+          "unlock": 39096
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-12",
+        "src": "assets/images/chapter-12.webp",
+        "alt": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "full",
+        "unlock": 39096
+      }
+    },
+    {
+      "id": "chapter-13",
+      "number": 13,
+      "sourceChapter": 13,
+      "title": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+      "volume": 1,
+      "offset": 39098,
+      "mood": "umut",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "palace",
+      "anchor": "Yedi kurt ruhu ulumaya başladı.",
+      "artAfter": true,
+      "previewQuote": "Yedi kurt ruhu ulumaya başladı.",
+      "previewUnlock": 42414,
+      "images": [
+        {
+          "id": "chapter-13",
+          "src": "assets/images/chapter-13.webp",
+          "alt": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 42414
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-13",
+        "src": "assets/images/chapter-13.webp",
+        "alt": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 42414
+      }
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "sourceChapter": 14,
+      "title": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA",
+      "volume": 1,
+      "offset": 42540,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "balcony",
+      "anchor": "Ve Kaelor onu durdurmadı.",
+      "artAfter": true,
+      "previewQuote": "Ve Kaelor onu durdurmadı.",
+      "previewUnlock": 44705,
+      "images": [
+        {
+          "id": "chapter-14",
+          "src": "assets/images/chapter-14.webp",
+          "alt": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "inline",
+          "unlock": 44705
+        }
+      ],
+      "galleryImage": {
+        "id": "chapter-14",
+        "src": "assets/images/chapter-14.webp",
+        "alt": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "inline",
+        "unlock": 44705
+      }
+    },
+    {
+      "id": "epilogue",
+      "number": 0,
+      "sourceChapter": 15,
+      "title": "EPİLOG — AYIN HATIRLADIĞI ADAM",
+      "volume": 1,
+      "offset": 44784,
+      "mood": "umut",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "map",
+        "rings"
+      ],
+      "place": "infirmary",
+      "anchor": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
+      "artAfter": true,
+      "previewQuote": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
+      "previewUnlock": 46156,
+      "images": [
+        {
+          "id": "epilogue",
+          "src": "assets/images/epilogue.webp",
+          "alt": "EPİLOG — AYIN HATIRLADIĞI ADAM · Özgün sahne illüstrasyonu.",
+          "width": 1200,
+          "height": 800,
+          "placement": "full",
+          "unlock": 46156
+        }
+      ],
+      "galleryImage": {
+        "id": "epilogue",
+        "src": "assets/images/epilogue.webp",
+        "alt": "EPİLOG — AYIN HATIRLADIĞI ADAM · Özgün sahne illüstrasyonu.",
+        "width": 1200,
+        "height": 800,
+        "placement": "full",
+        "unlock": 46156
+      }
+    }
+  ]
+}
