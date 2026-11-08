@@ -1,0 +1,39 @@
+#app .annotation-setting { display:grid; gap:.5rem; margin-block-end:.55rem; }
+#app .annotation-toolbar:not([hidden]) {
+  position:absolute; z-index:16; inset:auto max(.5rem,env(safe-area-inset-right)) max(4rem,env(safe-area-inset-bottom)) max(.5rem,env(safe-area-inset-left));
+  margin-inline:auto; max-width:34rem; padding:.6rem; border:1px solid var(--paper-edge); border-radius:.5rem;
+  color:var(--ink); background:var(--paper); box-shadow:0 .5rem 1.5rem #100a1755;
+  display:flex; flex-wrap:wrap; gap:.4rem; justify-content:center;
+}
+#app .annotation-toolbar p { width:100%; margin:0; text-align:center; font-size:.84rem; }
+#app .annotation-toolbar .notebook-action { color:var(--ink); background:color-mix(in srgb,var(--paper) 93%,var(--accent)); }
+#app .annotation-toolbar button:disabled { opacity:.55; cursor:default; }
+#app #book-stage[data-select-text="true"] { touch-action:pan-y; }
+#app #book-stage[data-select-text="true"] .page-text { user-select:text; -webkit-user-select:text; cursor:text; }
+#app .annotation-editor { width:min(35rem,calc(100% - 1rem)); max-height:93dvh; padding:1rem; color:#38291f; background:#f6ead6; border:1px solid #ad8c70; border-radius:.65rem; }
+#app .annotation-editor::backdrop { background:#140c19ad; }
+#app .annotation-editor form { display:grid; gap:.65rem; }
+#app .annotation-editor h2 { margin:0; font:600 1.3rem/1.3 Cinzel,Georgia,serif; }
+#app .annotation-quote { margin:.2rem 0; padding:.5rem .75rem; border-inline-start:3px solid #9b7464; white-space:pre-wrap; overflow-wrap:anywhere; font-style:italic; }
+#app :is(.annotation-editor,.book-notebook) :is(textarea,input,select) { max-width:100%; min-height:44px; border:1px solid #aa8974; border-radius:.35rem; padding:.4rem .55rem; background:#fff9ed; color:#38291f; font:inherit; }
+#app .annotation-actions { display:flex; flex-wrap:wrap; gap:.4rem; }
+#app .annotation-message { color:#803b3e; margin:.2rem 0; font-size:.82rem; }
+#app .annotation-message:empty { display:none; }
+#app .annotation-card { margin:.55rem 0; padding:.6rem .7rem; border:1px solid #a77b5d66; border-radius:.42rem; background:#fffaf26b; overflow-wrap:anywhere; }
+#app .annotation-card small { font-weight:600; }
+#app .annotation-card p { white-space:pre-wrap; margin:.4rem 0; }
+#app :is(.annotation-search,.annotation-search-gate) { display:flex; width:100%; gap:.4rem; align-items:center; }
+#app .annotation-search-gate { min-height:44px; }
+#app .annotation-search-gate input { min-height:0; }
+#app .annotation-overlay { position:absolute; z-index:2; pointer-events:none; background:var(--annotation-color); }
+#app .annotation-page-mark { position:absolute; z-index:4; min-width:44px; min-height:44px; border:0; cursor:pointer; color:var(--ink); background:var(--annotation-color); }
+#app .annotation-page-mark[data-kind="corner"] { inset:0 0 auto auto; clip-path:polygon(0 0,100% 0,100% 100%); text-align:right; padding:0 .3rem 1rem 0; }
+#app .annotation-page-mark[data-kind="tag"] { inset:auto 1rem .25rem auto; padding:.25rem .5rem; border-radius:.3rem; font-size:.74rem; }
+#app [data-color="amber"] { --annotation-color:#e2a43663; }
+#app [data-color="rose"] { --annotation-color:#de798975; }
+#app [data-color="jade"] { --annotation-color:#66bda765; }
+#app [data-color="sky"] { --annotation-color:#7da9db78; }
+::highlight(book-amber) { background:#e2a43663; }
+::highlight(book-rose) { background:#de798975; }
+::highlight(book-jade) { background:#66bda765; }
+::highlight(book-sky) { background:#7da9db78; }

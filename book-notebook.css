@@ -1,0 +1,59 @@
+#app .book-notebook {
+  box-sizing: border-box;
+  width: min(46rem, calc(100% - 1.5rem));
+  max-height: min(84dvh, 48rem);
+  padding: 0;
+  overflow: hidden;
+  color: #32261f;
+  background: linear-gradient(90deg, #e2cfb5, #f8edda 14%, #faf0e1 92%, #e9d7c0);
+  border: 1px solid #a38768;
+  border-radius: .7rem 1rem 1rem .7rem;
+  box-shadow: 0 1.6rem 5rem #130c15a6, inset .45rem 0 #9b735b1f;
+  font: 1rem/1.55 Lora, Georgia, serif;
+}
+#app .book-notebook[open] { display: flex; flex-direction: column; }
+#app .book-notebook::backdrop { background: #140c19ad; }
+#app .notebook-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem clamp(.8rem, 4vw, 2.2rem) .65rem;
+  border-bottom: 1px solid #9b785858;
+}
+#app .notebook-header small { color: #684a38; letter-spacing: .06em; font-size: .68rem; }
+#app .notebook-header h2 { margin: .2rem 0 0; font: 600 clamp(1.28rem, 4vw, 2rem)/1.2 Cinzel, Georgia, serif; }
+#app :is(.notebook-action, .notebook-close, .notebook-tab, .notebook-row) {
+  min-height: 44px;
+  color: #3f2b21;
+  background: #fffaf240;
+  border: 1px solid #97705065;
+  border-radius: .35rem;
+  cursor: pointer;
+  font: inherit;
+}
+#app .notebook-close { flex: 0 0 44px; font-size: 1.5rem; }
+#app .notebook-action { padding: .4rem .75rem; }
+#app .notebook-tabs { display: flex; flex-wrap: wrap; gap: .4rem; padding: .6rem clamp(.8rem, 4vw, 2.2rem); }
+#app .notebook-tab { padding: .25rem .65rem; font-size: .85rem; }
+#app .notebook-tab[aria-selected="true"] { color: #fff5e4; background: #604135; border-color: #604135; }
+#app .notebook-pane { min-height: 0; overflow: auto; overscroll-behavior: contain; padding: .35rem clamp(.8rem, 4vw, 2.2rem) 1rem; }
+#app .notebook-row {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  width: 100%;
+  margin: .35rem 0;
+  padding: .5rem .7rem;
+  text-align: start;
+}
+#app .notebook-row:hover, #app .notebook-action:hover { background: #fffaf2; }
+#app .notebook-row-copy { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+#app .notebook-row-copy span { display: block; margin-top: .18rem; color: #684a38; font-size: .82rem; }
+#app .notebook-row img { width: clamp(52px, 12vw, 108px); aspect-ratio: 3 / 2; object-fit: cover; border-radius: .24rem; }
+#app .notebook-arrow { flex: 0 0 auto; color: #74513a; }
+#app :is(.notebook-empty, .notebook-chapter, .notebook-status) { margin: .5rem 0; color: #614737; }
+#app .notebook-status:not(:empty) { padding: 0 1rem .45rem; font-size: .83rem; }
+#app .notebook-status:empty { display: none; }
+#app .notebook-progress { width: 100%; accent-color: #81583c; }
+#app .book-notebook :focus-visible { outline: 2px solid #66341b; outline-offset: 2px; }
