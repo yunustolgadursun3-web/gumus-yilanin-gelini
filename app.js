@@ -2762,7 +2762,11 @@ document.addEventListener('visibilitychange', () => {
   }
   window.BookReader = Object.freeze({
     settings: () => ({...state.settings}), defaults: () => ({...DEFAULT_SETTINGS}), location: readerLocation,
-    chapters: () => state.chapters.map((chapter) => ({ ...chapter })),
+    chapters: () => state.chapters.map(chapter => ({
+      ...chapter,
+      page: state.pages.findIndex(page => page.type === 'text' &&
+        page.sourceStart <= chapter.offset && chapter.offset < page.sourceEnd) + 1,
+    })),
     illustrations: () => state.pages.filter(page => page.scene?.kind === 'image').map(page => ({
       src: page.scene.src, chapterId: page.scene.chapter?.id, offset: page.sourceStart, leaf: leafIdentity(page),
     })),
