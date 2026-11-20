@@ -149,5 +149,10 @@
     "freedom": "Preserve Bella freeing Mira and the captive women. Enclosed black marble ritual hall, red torches. Remove the silver-haired man and stray lower-left hand.",
     "moonGate": "Remove the erroneously added silver-haired man behind Bella. Preserve Bella, the white spirit, portal and mountain.",
     "seal": "Remove the erroneously added silver-haired man behind Bella. Preserve Bella, the two snakes, golden light and portal."
+  },
+  "readingTimer": {
+    "tool": "built-in image_gen",
+    "file": "assets/images/reading-rabbit.webp",
+    "prompt": "Use case: illustration-story. Asset type: a small horizontal reading-timer background for an elegant fantasy storybook website. Create one 3:1 landscape painting, 1536 by 512. A single small fluffy ivory-white rabbit with natural anatomy and upright soft ears, sitting in moss and tiny fern leaves on the RIGHTMOST third. Rabbit's entire head and ears fit comfortably with margins. Rich emerald and forest green background, soft warm woodland light, subtle tiny gold specks and fine painterly oil texture. Left two thirds are very dark smooth deep green negative space, subdued enough for bright readable timer digits and a small label added in HTML. Rabbit visible at miniature sizes. Refined, warm, endearing, matching an illustrated romantic forest novel. No writing, letters, numbers, clock face, borders, badges or watermarks. No additional animals."
   }
 }

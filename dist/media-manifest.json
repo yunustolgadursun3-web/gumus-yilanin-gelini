@@ -387,6 +387,13 @@
       "sha256": "1a83f925016a22fdabf05ba340c5bdc5aa9b7d0890c3cc5c84f1908dca04bdca"
     },
     {
+      "id": "reading-rabbit.webp",
+      "src": "assets/images/reading-rabbit.webp",
+      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "type": "image",
+      "sha256": "3133751baacfb6cda44a196676a818bef62f0362537714791d5eb81986594ff2"
+    },
+    {
       "id": "rescue-480.webp",
       "src": "assets/images/rescue-480.webp",
       "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
