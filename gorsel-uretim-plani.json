@@ -150,6 +150,11 @@
     "moonGate": "Remove the erroneously added silver-haired man behind Bella. Preserve Bella, the white spirit, portal and mountain.",
     "seal": "Remove the erroneously added silver-haired man behind Bella. Preserve Bella, the two snakes, golden light and portal."
   },
+  "thankYouLetter": {
+    "tool": "built-in image_gen",
+    "file": "assets/images/sakura-letter.webp",
+    "prompt": "Use case: illustration-story. Create a polished hand-painted watercolor storybook illustration for the background of a romantic thank-you letter in a digital fantasy book. Portrait 3:4 composition. Dreamy Japanese sakura garden at soft spring sunset: graceful cherry blossom tree trunks at the far left and right, dense blush-pink blossom canopies framing the top corners, drifting petals, sage green grasses, tiny pale flowers and a softly winding garden path. Two adorable small ivory rabbits sit together in the lower right foreground, clearly recognizable, one with upright ears and one with a slightly tilted ear. Elegant warm cream paper texture, dusty rose, subtle lavender and muted botanical green, delicate fine brushwork, magical warm light, high quality editorial illustration. Reserve the central 65 percent of the image as a very pale nearly blank cream mist area with low contrast, suitable for overlaying HTML letter text; details stay around edges and bottom. No people, no text, no letters, no symbols, no typography, no watermark. This is a complete painted backdrop, not a UI mockup."
+  },
   "readingTimer": {
     "tool": "built-in image_gen",
     "file": "assets/images/reading-rabbit.webp",

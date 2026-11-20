@@ -1,0 +1,175 @@
+/* A personal keepsake beside the printed ending. */
+#app .ending-pair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(.9rem, 3vw, 2rem);
+  width: 100%;
+}
+#app .ending-pair .end-mark {
+  flex: 0 0 auto;
+  width: clamp(5.2rem, 11vw, 8rem);
+  font-size: clamp(1.5rem, 3.5vw, 2.4rem);
+}
+#app .ending-letter-button {
+  display: grid;
+  justify-items: center;
+  gap: .4rem;
+  flex: 0 1 11rem;
+  min-width: 0;
+  padding: .75rem .35rem;
+  border: 0;
+  border-radius: .7rem;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+#app .ending-envelope {
+  position: relative;
+  display: block;
+  width: min(100%, 10rem);
+  aspect-ratio: 1.5;
+  border: 1px solid #b8858b;
+  border-radius: .35rem;
+  background: linear-gradient(#fff6eec2, #f3cbd8c2), url('./assets/images/sakura-letter.webp') center / cover;
+  box-shadow: 0 8px 16px #73354a20, inset 0 0 0 4px #fff6ed80;
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+#app .ending-envelope::before,
+#app .ending-envelope-fold {
+  position: absolute;
+  inset: 0;
+  display: block;
+  border-radius: inherit;
+}
+#app .ending-envelope::before {
+  content: '';
+  background: linear-gradient(28deg, #e9bac8, #fff3ee);
+  clip-path: polygon(0 100%, 50% 38%, 100% 100%);
+}
+#app .ending-envelope-fold {
+  background: linear-gradient(160deg, #fffaf4, #efcfda);
+  clip-path: polygon(0 0, 100% 0, 50% 60%);
+  filter: drop-shadow(0 2px 1px #985f6d50);
+}
+#app .ending-envelope-seal {
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 1px solid #c68c9e;
+  border-radius: 50%;
+  background: #ffedf1;
+  color: #cf829c;
+  box-shadow: 0 2px 5px #94536730;
+  transform: translate(-50%, -50%);
+}
+#app .ending-envelope-seal svg { width: 1.55rem; height: 1.55rem; }
+#app .ending-letter-label { margin-top: .2rem; font: italic 500 .95rem/1.4 Lora, Georgia, serif; }
+#app .ending-letter-hint { opacity: .7; font: .68rem/1.5 system-ui, sans-serif; }
+#app .ending-letter-button:hover .ending-envelope { transform: translateY(-4px) rotate(-2deg); box-shadow: 0 12px 22px #73354a35; }
+#app .ending-letter-button:focus-visible { outline: 2px solid #b76e87; outline-offset: 4px; }
+
+#app .thank-you-letter {
+  position: fixed;
+  width: min(35rem, calc(100vw - 1.25rem));
+  height: min(47rem, calc(100dvh - 1.5rem));
+  max-width: none;
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  border: 1px solid #c898a6;
+  border-radius: 1rem;
+  background: #f8eee7 url('./assets/images/sakura-letter.webp') center / cover no-repeat;
+  color: #573f49;
+  box-shadow: 0 24px 100px #24162380, inset 0 0 0 5px #fff7ef80;
+  overscroll-behavior: contain;
+}
+#app .thank-you-letter::backdrop { background: #201923b8; backdrop-filter: blur(5px); }
+#app .thank-you-scene {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.15rem;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding: 4rem clamp(1.2rem, 5vw, 3.5rem) 6.5rem;
+}
+#app .thank-you-paper {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.35rem clamp(1.2rem, 4vw, 2.3rem) 1.3rem;
+  border: 1px solid #bb839852;
+  border-radius: 12rem 12rem .5rem .5rem / 3rem 3rem .5rem .5rem;
+  background: linear-gradient(145deg, #fffaf4eb, #fff7efe3);
+  box-shadow: 0 10px 34px #904c6820, inset 0 0 0 5px #fffdf730;
+  text-align: center;
+}
+#app .thank-you-blossom { display: inline-block; width: 1.6rem; height: 1.6rem; color: #d38aa4; }
+#app .thank-you-blossom svg { display: block; width: 100%; height: 100%; }
+#app .thank-you-eyebrow { margin: .4rem 0 .55rem; color: #996779; font: 600 .62rem/1.5 system-ui, sans-serif; letter-spacing: .18em; }
+#app #thank-you-title { margin: 0; color: #734555; font: 500 clamp(1.8rem, 5.8vw, 2rem)/1.22 Lora, Georgia, serif; letter-spacing: -.04em; }
+#app #thank-you-title em { font-weight: 400; }
+#app .thank-you-rule { display: block; margin: .55rem 0; color: #b4798c; font: 1.2rem/1 Georgia, serif; }
+#app .thank-you-message { font: 400 clamp(.88rem, 2.7vw, .98rem)/1.8 Lora, Georgia, serif; }
+#app .thank-you-message p { margin: 0 0 .8rem; }
+#app .thank-you-message p:last-child { margin-bottom: 0; }
+#app .thank-you-signature { margin: .8rem 0 0; color: #9b6078; font: italic 500 1.05rem/1.4 Lora, Georgia, serif; }
+#app .thank-you-signature span { padding-left: .25rem; font-style: normal; }
+#app .thank-you-close,
+#app .thank-you-return { border: 1px solid #bd8da08a; background: #fff7edeb; color: #744957; cursor: pointer; }
+#app .thank-you-close { position: absolute; z-index: 3; top: .75rem; right: .75rem; display: grid; place-items: center; width: 2.75rem; height: 2.75rem; padding: 0; border-radius: 50%; font: 1.65rem/1 system-ui, sans-serif; }
+#app .thank-you-return { z-index: 1; min-height: 2.75rem; padding: .65rem 1.1rem; border-radius: 2rem; font: 500 .75rem/1.3 system-ui, sans-serif; box-shadow: 0 3px 10px #9b687516; }
+#app .thank-you-close:focus-visible,
+#app .thank-you-return:focus-visible { outline: 2px solid #9f526f; outline-offset: 3px; }
+#app .thank-you-petals { position: absolute; z-index: -1; inset: 0; overflow: hidden; pointer-events: none; }
+#app .thank-you-petals i { position: absolute; top: -1rem; left: 8%; width: .65rem; height: .95rem; border-radius: 80% 0 80% 20%; background: #eeb3c5b8; }
+#app .thank-you-petals i:nth-child(2) { left: 91%; animation-delay: .2s; }
+#app .thank-you-petals i:nth-child(3) { left: 3%; animation-delay: .5s; }
+#app .thank-you-petals i:nth-child(4) { left: 85%; animation-delay: .8s; }
+#app .thank-you-petals i:nth-child(5) { left: 16%; animation-delay: .9s; }
+#app .thank-you-letter[open] .thank-you-paper { animation: thank-you-arrive 450ms ease both; }
+#app .thank-you-letter[open] .thank-you-petals i { animation-name: thank-you-petal; animation-duration: 3s; animation-timing-function: ease-out; animation-fill-mode: both; }
+@keyframes thank-you-arrive { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes thank-you-petal { from { transform: translate(0, 0) rotate(0); opacity: 0; } 15% { opacity: .9; } to { transform: translate(15px, 38rem) rotate(200deg); opacity: 0; } }
+#app .thank-you-letter[data-motion="off"] *,
+#app[data-reduce-motion="true"] .ending-envelope { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) { #app .thank-you-letter *, #app .ending-envelope { animation: none !important; transition: none !important; } }
+@media (max-width: 600px) {
+  #app .thank-you-letter { background-image: none; }
+  #app .thank-you-scene::before,
+  #app .thank-you-scene::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+  }
+  #app .thank-you-scene::before {
+    inset: auto 0 0;
+    height: calc((100vw - 1.25rem - 2px) * 1.333333);
+    max-height: 100%;
+    background: url('./assets/images/sakura-letter.webp') center bottom / 100% auto no-repeat;
+    mask-image: linear-gradient(transparent, #000 18%);
+  }
+  #app .thank-you-scene::after {
+    inset: 0 0 auto;
+    height: 13rem;
+    background: url('./assets/images/sakura-letter.webp') center top / 100% auto no-repeat;
+    mask-image: linear-gradient(#000 55%, transparent);
+  }
+}
+@media (max-width: 400px) {
+  #app .thank-you-scene { padding: 3.7rem 1.1rem 5rem; gap: .8rem; }
+  #app .thank-you-paper { padding: 1.35rem 1.15rem; }
+  #app .thank-you-eyebrow { font-size: .58rem; }
+}

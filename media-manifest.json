@@ -422,6 +422,13 @@
       "sha256": "7e92ff3c438c420ff231bc4cf9685e2f600aa2e377c10438d593efecfd9ceed3"
     },
     {
+      "id": "sakura-letter.webp",
+      "src": "assets/images/sakura-letter.webp",
+      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "type": "image",
+      "sha256": "46f749f48cf060c29fe9167f3833345a64b0afeb60c1f50a5c6dc935d8a8d590"
+    },
+    {
       "id": "seal-480.webp",
       "src": "assets/images/seal-480.webp",
       "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",

@@ -22,6 +22,7 @@ files.push('book-room.js', 'book-room.css', 'book-layer-scenes.js', 'book-illust
 files.push('reader-notes.js', 'reader-notes.css');
 files.push('book-library.js', 'book-library.css', 'book-library-data.js', 'book-offline.js', 'book-audiobook.js');
 files.push('edition.css', 'edition.js', 'reading-route.js');
+files.push('closing-letter.css', 'closing-letter.js');
 for (const file of files) fs.copyFileSync(path.join(root,file),path.join(output,file));
 fs.cpSync(path.join(root,'assets'),path.join(output,'assets'),{recursive:true,filter:file=>!file.endsWith('.json')||file.endsWith('muzik.json')});
 const config = JSON.parse(fs.readFileSync(path.join(root,'book.config.json'),'utf8'));
@@ -39,7 +40,7 @@ function assets(directory) {
 }
 const onDemand = new Set(['book-mesh.js','popup-fold-rig.js','book-popup.js','atlas-living.js','location-explorer.js']);
 const core = ['./', ...files.filter(file=>/\.(css|js|webmanifest)$/i.test(file) && file!=='sw.js' && !onDemand.has(file)).map(file=>'./'+file), './offline-manifest.json'];
-for (const file of ['assets/images/cover-480.webp','assets/images/hero-480.webp','assets/images/reading-rabbit.webp','assets/images/book-sigil.svg','assets/images/favicon.svg','assets/fonts/lora.woff2','assets/fonts/lora-italic.woff2','assets/fonts/cinzel.woff2']) {
+for (const file of ['assets/images/cover-480.webp','assets/images/hero-480.webp','assets/images/reading-rabbit.webp','assets/images/sakura-letter.webp','assets/images/book-sigil.svg','assets/images/favicon.svg','assets/fonts/lora.woff2','assets/fonts/lora-italic.woff2','assets/fonts/cinzel.woff2']) {
   if (fs.existsSync(path.join(output,file))) core.push('./'+file);
 }
 fs.writeFileSync(path.join(output,'book-worker-data.js'),'self.BOOK_WORKER_DATA = '+JSON.stringify({id,revision,core,allowOffline})+';\n');
