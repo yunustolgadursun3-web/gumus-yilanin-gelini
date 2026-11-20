@@ -1,6 +1,6 @@
 {
-  "source": "metin",
+  "source": "metin/gumus-yilanin-gelini.txt",
   "plan": "plan.json",
-  "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+  "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
   "publicOffline": true
 }

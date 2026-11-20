@@ -66,32 +66,37 @@ const fact = id => {
 for (const item of facts) {
   if (item.kind === 'connections') item.unlock = Math.max(item.unlock, fact(item.from).unlock, fact(item.to).unlock);
 }
-const scenes = chapters.map(chapter => {
-  const anchor = point(chapter.phrase, chapter);
-  const src = art(chapter.art);
-  return { id: chapter.id, chapter: chapter.sourceChapter, anchor: anchor.quote, memoryQuote: anchor.quote,
-    src, alt: bible.art[chapter.art].alt, ...imageSize(src), places: [chapter.place],
+const scenes = bible.scenes.map(input => {
+  const chapter = sourceChapter(input.chapter);
+  const anchor = point(input.phrase, chapter);
+  const src = art(input.id);
+  return { id: input.id, chapter: chapter.sourceChapter, anchor: anchor.quote, memoryQuote: anchor.quote,
+    src, alt: input.alt, ...imageSize(src), places: [input.place],
     offset: anchor.sourceStart, memoryOffset: anchor.sourceStart, memoryUnlock: anchor.unlock };
 });
 const plan = {
   title: bible.title, subtitle: bible.subtitle, storageId: bible.storyId, author: bible.author,
-  genre: ['Fantastik', 'Kurtadamlar', 'Alfa Ruhları', 'Aşk ve İhanet', 'Gizem'],
-  kicker: 'YEDİ SÜRÜNÜN AY ARŞİVİ', coverBrand: 'AY ARŞİVİ', edition: 'I. KİTAP',
-  coverLocation: 'Velmora · Greyhollow · Yedi Sürü', coverMark: '☾',
+  genre: ['Fantastik', 'Romantik', 'Gümüş Yılanlar'],
+  kicker: 'GÜMÜŞ TAHTIN LANETİ', coverBrand: 'GÜMÜŞ YILAN ARŞİVİ', edition: 'TAM ROMAN',
+  coverLocation: 'Sisli Orman · Gümüş Saray · Ay Kapısı', coverMark: '☾',
   cover: { src: art('cover'), alt: bible.art.cover.alt, ...imageSize(art('cover')) },
   reader: { appendEndPage: true, appendLetter: false, frontmatter: false, chapterEndings: true },
-  end: { title: 'KIRIK YEMİNİN MİRASI', mood: 'umut' },
+  end: { title: 'GÜMÜŞ TAHTIN LANETİ', mood: 'umut' },
   sceneSounds: false,
-  keywords: ['Kaelor Vhalen', 'Selvara Ardent', 'Nymera', 'Aethros', 'İlk Uluma', 'Kara Ay'],
+  keywords: ['Bella', 'Silvan', 'Margaret', 'Tommy', 'Kael', 'Elsa', 'Ay Kapısı'],
   chapters: chapters.map((chapter, index) => {
-    const scene = scenes[index];
-    const image = { id: chapter.id, src: scene.src, alt: scene.alt, width: scene.width, height: scene.height,
-      placement: index % 3 === 0 || ['chapter-01', 'chapter-12', 'epilogue'].includes(chapter.id) ? 'full' : 'inline',
-      unlock: scene.memoryUnlock };
+    const chapterScenes = scenes.filter(scene => scene.chapter === index);
+    const images = chapterScenes.map((scene, sceneIndex) => ({
+      id: scene.id, src: scene.src, alt: scene.alt, width: scene.width, height: scene.height,
+      anchor: scene.anchor, artAfter: true,
+      placement: sceneIndex > 0 || index % 3 === 0 ? 'full' : 'inline',
+      unlock: scene.memoryUnlock,
+    }));
+    const first = chapterScenes[0];
     return { id: chapter.id, number: chapter.number, sourceChapter: index, title: chapter.title,
       volume: chapter.volume, offset: chapter.offset, mood: chapter.mood, effect: 'cizgi', seal: 'oath',
-      vignettes: ['map', 'rings'], place: chapter.place, anchor: scene.anchor, artAfter: true,
-      previewQuote: scene.anchor, previewUnlock: scene.memoryUnlock, images: [image], galleryImage: image };
+      vignettes: ['moon', 'rings'], place: chapter.place, anchor: first.anchor, artAfter: true,
+      previewQuote: first.anchor, previewUnlock: first.memoryUnlock, images, galleryImage: images[0] };
   }),
 };
 const hierarchy = {};
@@ -117,9 +122,13 @@ for (const place of facts.filter(item => item.kind === 'places')) {
   })) };
 }
 for (const person of facts.filter(item => item.kind === 'characters' && item.art)) {
-  visuals[person.id] = { src: art(person.art), type: 'portrait', unlock: person.unlock };
+  const scene = scenes.find(item => item.src === art(person.art));
+  visuals[person.id] = {
+    src: art(person.art), type: 'illustration',
+    unlock: Math.max(person.unlock, scene?.memoryUnlock || person.unlock),
+  };
 }
-for (const [parent, child] of [['velmora','palace'],['palace','balcony'],['palace','vault'],['greyhollow','refuge'],['greyhollow','infirmary']]) {
+for (const [parent, child] of [['kale','sunak'],['saray','bahce'],['dag','kapi']]) {
   hierarchy[child].parent = parent;
   hierarchy[child].unlock = Math.max(hierarchy[child].unlock, hierarchy[parent].unlock);
   hierarchy[parent].children.push({ node: child, x: 64, y: 54, quote: fact(child).quote,
@@ -130,8 +139,8 @@ for (const [parent, child] of [['velmora','palace'],['palace','balcony'],['palac
     quote: fact(child).quote, sourceStart: fact(child).sourceStart, sourceEnd: fact(child).sourceEnd,
     unlock: hierarchy[child].unlock, characters: [] });
 }
-const routes = [['palace','balcony',1], ['greyhollow','refuge',9], ['greyhollow','palace',10]].map(([from, to, number]) => {
-  const chapter = sourceChapter(number), scene = scenes[chapter.sourceChapter];
+const routes = [['ev','orman',1],['meydan','kale',5],['kale','saray',7],['saray','dag',12]].map(([from, to, number]) => {
+  const chapter = sourceChapter(number), scene = scenes.find(item => item.chapter === chapter.sourceChapter);
   return { id: from + '-to-' + to, from, to, label: fact(from).name + ' · ' + fact(to).name,
     ...point(scene.anchor, chapter), sourceChapter: chapter.sourceChapter,
     unlock: Math.max(scene.memoryUnlock, fact(from).unlock, fact(to).unlock) };
@@ -144,7 +153,7 @@ const atlas = { src: art('atlas'), ...imageSize(art('atlas')), schematic: true,
     sourceEnd: f.sourceEnd, sourceChapter: f.sourceChapter, unlock: f.unlock
   }))
 };
-const theme = { title: bible.title, style: 'Ay gümüşü, çam karası ve sönmekte olan kızıl köz.',
+const theme = { title: bible.title, style: 'Orman yeşili, ay gümüşü ve sıcak altın.',
   colors: { ink: '#122130', gold: '#be9560', copper: '#a66c49', paper: '#f2e9d8' },
   chapters: chapters.map(({ number, title, offset, id, volume, sourceChapter }) =>
     ({ number, title, offset, id, volume, sourceChapter })),
@@ -173,7 +182,7 @@ function scan(directory) {
 scan('assets');
 write('media-manifest.json', { storyId: bible.storyId, assets, chapters: plan.chapters.map(chapter => ({
   id: chapter.id, number: chapter.number, title: chapter.title, gallery: chapter.galleryImage.src,
-  opening: null, inserts: [chapter.galleryImage.src], discoveries: facts.filter(f => f.sourceChapter === chapter.sourceChapter).map(f => f.id)
+  opening: null, inserts: chapter.images.map(image => image.src), discoveries: facts.filter(f => f.sourceChapter === chapter.sourceChapter).map(f => f.id)
 })), music: read('assets/music/muzik.json').tracks, sounds: assets.filter(a => a.src.startsWith('assets/sounds/')), atlas, visuals, locations });
 for (const key of Object.keys(bible.art)) if (strict) imageSize(art(key).replace('.webp', '-480.webp'));
 console.log(JSON.stringify({ storyId: bible.storyId, chapters: chapters.length, facts: facts.length, illustrations: Object.keys(bible.art).length,

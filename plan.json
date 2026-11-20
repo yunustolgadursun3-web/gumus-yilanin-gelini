@@ -1,25 +1,23 @@
 {
-  "title": "AYIN UNUTTUĞU KRAL",
-  "subtitle": "I. Kitap · Kırık Yeminin Mirası",
-  "storageId": "ayin-unuttugu-kral-kirik-yemin-1",
-  "author": "Yunus Bey",
+  "title": "GÜMÜŞ YILANIN GELİNİ",
+  "subtitle": "Gümüş Tahtın Laneti",
+  "storageId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+  "author": "",
   "genre": [
     "Fantastik",
-    "Kurtadamlar",
-    "Alfa Ruhları",
-    "Aşk ve İhanet",
-    "Gizem"
+    "Romantik",
+    "Gümüş Yılanlar"
   ],
-  "kicker": "YEDİ SÜRÜNÜN AY ARŞİVİ",
-  "coverBrand": "AY ARŞİVİ",
-  "edition": "I. KİTAP",
-  "coverLocation": "Velmora · Greyhollow · Yedi Sürü",
+  "kicker": "GÜMÜŞ TAHTIN LANETİ",
+  "coverBrand": "GÜMÜŞ YILAN ARŞİVİ",
+  "edition": "TAM ROMAN",
+  "coverLocation": "Sisli Orman · Gümüş Saray · Ay Kapısı",
   "coverMark": "☾",
   "cover": {
     "src": "assets/images/cover.webp",
-    "alt": "Kaelor ve gümüş kurt Aethros, Greyhollow köprüsünde dolunayın altında.",
-    "width": 800,
-    "height": 1200
+    "alt": "Bella ve Silvan, ay ışığındaki ormanda.",
+    "width": 1024,
+    "height": 1536
   },
   "reader": {
     "appendEndPage": true,
@@ -28,657 +26,634 @@
     "chapterEndings": true
   },
   "end": {
-    "title": "KIRIK YEMİNİN MİRASI",
+    "title": "GÜMÜŞ TAHTIN LANETİ",
     "mood": "umut"
   },
   "sceneSounds": false,
   "keywords": [
-    "Kaelor Vhalen",
-    "Selvara Ardent",
-    "Nymera",
-    "Aethros",
-    "İlk Uluma",
-    "Kara Ay"
+    "Bella",
+    "Silvan",
+    "Margaret",
+    "Tommy",
+    "Kael",
+    "Elsa",
+    "Ay Kapısı"
   ],
   "chapters": [
     {
-      "id": "prologue",
-      "number": 0,
+      "id": "chapter-01",
+      "number": 1,
       "sourceChapter": 0,
-      "title": "PROLOG — AYIN YEDİ YEMİNİ",
+      "title": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
       "volume": 1,
-      "offset": 652,
+      "offset": 68,
       "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "velmora",
-      "anchor": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
+      "place": "ev",
+      "anchor": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
       "artAfter": true,
-      "previewQuote": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
-      "previewUnlock": 1511,
+      "previewQuote": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+      "previewUnlock": 1913,
       "images": [
         {
-          "id": "prologue",
-          "src": "assets/images/prologue.webp",
-          "alt": "PROLOG — AYIN YEDİ YEMİNİ · Özgün sahne illüstrasyonu.",
+          "id": "warning",
+          "src": "assets/images/warning.webp",
+          "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
           "width": 1200,
           "height": 800,
+          "anchor": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+          "artAfter": true,
           "placement": "full",
-          "unlock": 1511
+          "unlock": 1913
+        },
+        {
+          "id": "rescue",
+          "src": "assets/images/rescue.webp",
+          "alt": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir.",
+          "width": 1200,
+          "height": 800,
+          "anchor": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 6462
         }
       ],
       "galleryImage": {
-        "id": "prologue",
-        "src": "assets/images/prologue.webp",
-        "alt": "PROLOG — AYIN YEDİ YEMİNİ · Özgün sahne illüstrasyonu.",
+        "id": "warning",
+        "src": "assets/images/warning.webp",
+        "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
         "width": 1200,
         "height": 800,
+        "anchor": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+        "artAfter": true,
         "placement": "full",
-        "unlock": 1511
-      }
-    },
-    {
-      "id": "chapter-01",
-      "number": 1,
-      "sourceChapter": 1,
-      "title": "BÖLÜM 1 — SANA KURDUMU VERİYORUM",
-      "volume": 1,
-      "offset": 1657,
-      "mood": "duygusal",
-      "effect": "cizgi",
-      "seal": "oath",
-      "vignettes": [
-        "map",
-        "rings"
-      ],
-      "place": "palace",
-      "anchor": "Kaelor elini Selvara'nın göğsüne koydu.",
-      "artAfter": true,
-      "previewQuote": "Kaelor elini Selvara'nın göğsüne koydu.",
-      "previewUnlock": 4199,
-      "images": [
-        {
-          "id": "chapter-01",
-          "src": "assets/images/chapter-01.webp",
-          "alt": "BÖLÜM 1 — SANA KURDUMU VERİYORUM · Özgün sahne illüstrasyonu.",
-          "width": 1200,
-          "height": 800,
-          "placement": "full",
-          "unlock": 4199
-        }
-      ],
-      "galleryImage": {
-        "id": "chapter-01",
-        "src": "assets/images/chapter-01.webp",
-        "alt": "BÖLÜM 1 — SANA KURDUMU VERİYORUM · Özgün sahne illüstrasyonu.",
-        "width": 1200,
-        "height": 800,
-        "placement": "full",
-        "unlock": 4199
+        "unlock": 1913
       }
     },
     {
       "id": "chapter-02",
       "number": 2,
-      "sourceChapter": 2,
-      "title": "BÖLÜM 2 — KIRILAN AY BAĞI",
+      "sourceChapter": 1,
+      "title": "BÖLÜM 2 — GÜMÜŞ KRALIN İŞARETİ",
       "volume": 1,
-      "offset": 4845,
-      "mood": "gergin",
+      "offset": 7179,
+      "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "pinewoods",
-      "anchor": "Ay Tanrıçası Nymera.",
+      "place": "orman",
+      "anchor": "Gümüş renkli küçük bir yılan şekli belirdi.",
       "artAfter": true,
-      "previewQuote": "Ay Tanrıçası Nymera.",
-      "previewUnlock": 8586,
+      "previewQuote": "Gümüş renkli küçük bir yılan şekli belirdi.",
+      "previewUnlock": 11016,
       "images": [
         {
-          "id": "chapter-02",
-          "src": "assets/images/chapter-02.webp",
-          "alt": "BÖLÜM 2 — KIRILAN AY BAĞI · Özgün sahne illüstrasyonu.",
+          "id": "mark",
+          "src": "assets/images/mark.webp",
+          "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
           "width": 1200,
           "height": 800,
+          "anchor": "Gümüş renkli küçük bir yılan şekli belirdi.",
+          "artAfter": true,
           "placement": "inline",
-          "unlock": 8586
+          "unlock": 11016
         }
       ],
       "galleryImage": {
-        "id": "chapter-02",
-        "src": "assets/images/chapter-02.webp",
-        "alt": "BÖLÜM 2 — KIRILAN AY BAĞI · Özgün sahne illüstrasyonu.",
+        "id": "mark",
+        "src": "assets/images/mark.webp",
+        "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
         "width": 1200,
         "height": 800,
+        "anchor": "Gümüş renkli küçük bir yılan şekli belirdi.",
+        "artAfter": true,
         "placement": "inline",
-        "unlock": 8586
+        "unlock": 11016
       }
     },
     {
       "id": "chapter-03",
       "number": 3,
-      "sourceChapter": 3,
-      "title": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN",
+      "sourceChapter": 2,
+      "title": "BÖLÜM 3 — DÜĞÜNDEN ÖNCEKİ KORKU",
       "volume": 1,
-      "offset": 9195,
+      "offset": 12870,
       "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "pinewoods",
-      "anchor": "Nymera devasa gümüş kurda baktı.",
+      "place": "kopru",
+      "anchor": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
       "artAfter": true,
-      "previewQuote": "Nymera devasa gümüş kurda baktı.",
-      "previewUnlock": 10891,
+      "previewQuote": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+      "previewUnlock": 16281,
       "images": [
         {
-          "id": "chapter-03",
-          "src": "assets/images/chapter-03.webp",
-          "alt": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN · Özgün sahne illüstrasyonu.",
+          "id": "bridge",
+          "src": "assets/images/bridge.webp",
+          "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
           "width": 1200,
           "height": 800,
-          "placement": "full",
-          "unlock": 10891
+          "anchor": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 16281
         }
       ],
       "galleryImage": {
-        "id": "chapter-03",
-        "src": "assets/images/chapter-03.webp",
-        "alt": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN · Özgün sahne illüstrasyonu.",
+        "id": "bridge",
+        "src": "assets/images/bridge.webp",
+        "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
         "width": 1200,
         "height": 800,
-        "placement": "full",
-        "unlock": 10891
+        "anchor": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 16281
       }
     },
     {
       "id": "chapter-04",
       "number": 4,
-      "sourceChapter": 4,
-      "title": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI",
+      "sourceChapter": 3,
+      "title": "BÖLÜM 4 — GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
       "volume": 1,
-      "offset": 12244,
-      "mood": "sakin",
+      "offset": 17222,
+      "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "greyhollow",
-      "anchor": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
+      "place": "meydan",
+      "anchor": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
       "artAfter": true,
-      "previewQuote": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
-      "previewUnlock": 12579,
+      "previewQuote": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+      "previewUnlock": 20398,
       "images": [
         {
-          "id": "chapter-04",
-          "src": "assets/images/chapter-04.webp",
-          "alt": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI · Özgün sahne illüstrasyonu.",
+          "id": "interrupted-wedding",
+          "src": "assets/images/interrupted-wedding.webp",
+          "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
           "width": 1200,
           "height": 800,
-          "placement": "inline",
-          "unlock": 12579
+          "anchor": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 20398
         }
       ],
       "galleryImage": {
-        "id": "chapter-04",
-        "src": "assets/images/chapter-04.webp",
-        "alt": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI · Özgün sahne illüstrasyonu.",
+        "id": "interrupted-wedding",
+        "src": "assets/images/interrupted-wedding.webp",
+        "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
         "width": 1200,
         "height": 800,
-        "placement": "inline",
-        "unlock": 12579
+        "anchor": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 20398
       }
     },
     {
       "id": "chapter-05",
       "number": 5,
-      "sourceChapter": 5,
-      "title": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ",
+      "sourceChapter": 4,
+      "title": "BÖLÜM 5 — ÇOCUKLUK AŞKININ İHANETİ",
       "volume": 1,
-      "offset": 14371,
+      "offset": 23407,
       "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "palace",
-      "anchor": "Başında siyah-kızıl bir taç bulunuyordu.",
+      "place": "kale",
+      "anchor": "Kırmızı sıvı taşların arasına yayıldı.",
       "artAfter": true,
-      "previewQuote": "Başında siyah-kızıl bir taç bulunuyordu.",
-      "previewUnlock": 14515,
+      "previewQuote": "Kırmızı sıvı taşların arasına yayıldı.",
+      "previewUnlock": 29117,
       "images": [
         {
-          "id": "chapter-05",
-          "src": "assets/images/chapter-05.webp",
-          "alt": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ · Özgün sahne illüstrasyonu.",
+          "id": "betrayal",
+          "src": "assets/images/betrayal.webp",
+          "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
           "width": 1200,
           "height": 800,
+          "anchor": "Kırmızı sıvı taşların arasına yayıldı.",
+          "artAfter": true,
           "placement": "inline",
-          "unlock": 14515
+          "unlock": 29117
         }
       ],
       "galleryImage": {
-        "id": "chapter-05",
-        "src": "assets/images/chapter-05.webp",
-        "alt": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ · Özgün sahne illüstrasyonu.",
+        "id": "betrayal",
+        "src": "assets/images/betrayal.webp",
+        "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
         "width": 1200,
         "height": 800,
+        "anchor": "Kırmızı sıvı taşların arasına yayıldı.",
+        "artAfter": true,
         "placement": "inline",
-        "unlock": 14515
+        "unlock": 29117
       }
     },
     {
       "id": "chapter-06",
       "number": 6,
-      "sourceChapter": 6,
-      "title": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT",
+      "sourceChapter": 5,
+      "title": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
       "volume": 1,
-      "offset": 16758,
+      "offset": 29517,
       "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "greyhollow",
-      "anchor": "Ay ışığı gümüş renkte parlamaya başladı.",
+      "place": "sunak",
+      "anchor": "İki devasa yılan birbirine saldırdı.",
       "artAfter": true,
-      "previewQuote": "Ay ışığı gümüş renkte parlamaya başladı.",
-      "previewUnlock": 18737,
+      "previewQuote": "İki devasa yılan birbirine saldırdı.",
+      "previewUnlock": 36829,
       "images": [
         {
-          "id": "chapter-06",
-          "src": "assets/images/chapter-06.webp",
-          "alt": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT · Özgün sahne illüstrasyonu.",
+          "id": "serpent-battle",
+          "src": "assets/images/serpent-battle.webp",
+          "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
           "width": 1200,
           "height": 800,
+          "anchor": "İki devasa yılan birbirine saldırdı.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 36829
+        },
+        {
+          "id": "freedom",
+          "src": "assets/images/freedom.webp",
+          "alt": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır.",
+          "width": 1200,
+          "height": 800,
+          "anchor": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu.",
+          "artAfter": true,
           "placement": "full",
-          "unlock": 18737
+          "unlock": 38006
         }
       ],
       "galleryImage": {
-        "id": "chapter-06",
-        "src": "assets/images/chapter-06.webp",
-        "alt": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT · Özgün sahne illüstrasyonu.",
+        "id": "serpent-battle",
+        "src": "assets/images/serpent-battle.webp",
+        "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
         "width": 1200,
         "height": 800,
-        "placement": "full",
-        "unlock": 18737
+        "anchor": "İki devasa yılan birbirine saldırdı.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 36829
       }
     },
     {
       "id": "chapter-07",
       "number": 7,
-      "sourceChapter": 7,
-      "title": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA",
+      "sourceChapter": 6,
+      "title": "BÖLÜM 7 — YILAN SARAYINDA İLK GECE",
       "volume": 1,
-      "offset": 20219,
+      "offset": 39318,
       "mood": "duygusal",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "greyhollow",
-      "anchor": "İçinden Selvara Ardent indi.",
+      "place": "saray",
+      "anchor": "Silvan yatağın yanındaki sandalyeye oturdu.",
       "artAfter": true,
-      "previewQuote": "İçinden Selvara Ardent indi.",
-      "previewUnlock": 20426,
+      "previewQuote": "Silvan yatağın yanındaki sandalyeye oturdu.",
+      "previewUnlock": 40808,
       "images": [
         {
-          "id": "chapter-07",
-          "src": "assets/images/chapter-07.webp",
-          "alt": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA · Özgün sahne illüstrasyonu.",
+          "id": "first-night",
+          "src": "assets/images/first-night.webp",
+          "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
           "width": 1200,
           "height": 800,
-          "placement": "inline",
-          "unlock": 20426
+          "anchor": "Silvan yatağın yanındaki sandalyeye oturdu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 40808
         }
       ],
       "galleryImage": {
-        "id": "chapter-07",
-        "src": "assets/images/chapter-07.webp",
-        "alt": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA · Özgün sahne illüstrasyonu.",
+        "id": "first-night",
+        "src": "assets/images/first-night.webp",
+        "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
         "width": 1200,
         "height": 800,
-        "placement": "inline",
-        "unlock": 20426
+        "anchor": "Silvan yatağın yanındaki sandalyeye oturdu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 40808
       }
     },
     {
       "id": "chapter-08",
       "number": 8,
-      "sourceChapter": 8,
-      "title": "BÖLÜM 8 — YEDİNCİ MÜHÜR",
+      "sourceChapter": 7,
+      "title": "BÖLÜM 8 — GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
       "volume": 1,
-      "offset": 22989,
-      "mood": "karanlik",
+      "offset": 43761,
+      "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "vault",
-      "anchor": "Lord Morvain, siyah aynanın önünde duruyordu.",
+      "place": "bahce",
+      "anchor": "Elsa'nın yüzündeki gülümseme dondu.",
       "artAfter": true,
-      "previewQuote": "Lord Morvain, siyah aynanın önünde duruyordu.",
-      "previewUnlock": 23082,
+      "previewQuote": "Elsa'nın yüzündeki gülümseme dondu.",
+      "previewUnlock": 45597,
       "images": [
         {
-          "id": "chapter-08",
-          "src": "assets/images/chapter-08.webp",
-          "alt": "BÖLÜM 8 — YEDİNCİ MÜHÜR · Özgün sahne illüstrasyonu.",
+          "id": "garden",
+          "src": "assets/images/garden.webp",
+          "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
           "width": 1200,
           "height": 800,
+          "anchor": "Elsa'nın yüzündeki gülümseme dondu.",
+          "artAfter": true,
           "placement": "inline",
-          "unlock": 23082
+          "unlock": 45597
         }
       ],
       "galleryImage": {
-        "id": "chapter-08",
-        "src": "assets/images/chapter-08.webp",
-        "alt": "BÖLÜM 8 — YEDİNCİ MÜHÜR · Özgün sahne illüstrasyonu.",
+        "id": "garden",
+        "src": "assets/images/garden.webp",
+        "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
         "width": 1200,
         "height": 800,
+        "anchor": "Elsa'nın yüzündeki gülümseme dondu.",
+        "artAfter": true,
         "placement": "inline",
-        "unlock": 23082
+        "unlock": 45597
       }
     },
     {
       "id": "chapter-09",
       "number": 9,
-      "sourceChapter": 9,
-      "title": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI",
+      "sourceChapter": 8,
+      "title": "BÖLÜM 9 — BELLA'NIN KANINDAKİ SIR",
       "volume": 1,
-      "offset": 25583,
-      "mood": "aksiyon",
+      "offset": 50350,
+      "mood": "duygusal",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "refuge",
-      "anchor": "İlk kurtadam durdu.",
+      "place": "saray",
+      "anchor": "Bella kolyeyi göğsüne bastırdı.",
       "artAfter": true,
-      "previewQuote": "İlk kurtadam durdu.",
-      "previewUnlock": 27047,
+      "previewQuote": "Bella kolyeyi göğsüne bastırdı.",
+      "previewUnlock": 54252,
       "images": [
         {
-          "id": "chapter-09",
-          "src": "assets/images/chapter-09.webp",
-          "alt": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI · Özgün sahne illüstrasyonu.",
+          "id": "necklace",
+          "src": "assets/images/necklace.webp",
+          "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
           "width": 1200,
           "height": 800,
-          "placement": "full",
-          "unlock": 27047
+          "anchor": "Bella kolyeyi göğsüne bastırdı.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 54252
         }
       ],
       "galleryImage": {
-        "id": "chapter-09",
-        "src": "assets/images/chapter-09.webp",
-        "alt": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI · Özgün sahne illüstrasyonu.",
+        "id": "necklace",
+        "src": "assets/images/necklace.webp",
+        "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
         "width": 1200,
         "height": 800,
-        "placement": "full",
-        "unlock": 27047
+        "anchor": "Bella kolyeyi göğsüne bastırdı.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 54252
       }
     },
     {
       "id": "chapter-10",
       "number": 10,
-      "sourceChapter": 10,
-      "title": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI",
+      "sourceChapter": 9,
+      "title": "BÖLÜM 10 — ELSA'NIN TEHLİKELİ PLANI",
       "volume": 1,
-      "offset": 28428,
+      "offset": 55926,
       "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "palace",
-      "anchor": "Devasa bir göz açılmıştı.",
+      "place": "saray",
+      "anchor": "Adam alnını onun alnına yasladı.",
       "artAfter": true,
-      "previewQuote": "Devasa bir göz açılmıştı.",
-      "previewUnlock": 31567,
+      "previewQuote": "Adam alnını onun alnına yasladı.",
+      "previewUnlock": 58859,
       "images": [
         {
-          "id": "chapter-10",
-          "src": "assets/images/chapter-10.webp",
-          "alt": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI · Özgün sahne illüstrasyonu.",
+          "id": "poison",
+          "src": "assets/images/poison.webp",
+          "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
           "width": 1200,
           "height": 800,
-          "placement": "inline",
-          "unlock": 31567
+          "anchor": "Adam alnını onun alnına yasladı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 58859
         }
       ],
       "galleryImage": {
-        "id": "chapter-10",
-        "src": "assets/images/chapter-10.webp",
-        "alt": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI · Özgün sahne illüstrasyonu.",
+        "id": "poison",
+        "src": "assets/images/poison.webp",
+        "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
         "width": 1200,
         "height": 800,
-        "placement": "inline",
-        "unlock": 31567
+        "anchor": "Adam alnını onun alnına yasladı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 58859
       }
     },
     {
       "id": "chapter-11",
       "number": 11,
-      "sourceChapter": 11,
-      "title": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI",
+      "sourceChapter": 10,
+      "title": "BÖLÜM 11 — GERÇEK AÇIĞA ÇIKIYOR",
       "volume": 1,
-      "offset": 31569,
-      "mood": "karanlik",
+      "offset": 61294,
+      "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "vault",
-      "anchor": "Vargan'ın boynundaki siyah halka çatladı.",
+      "place": "saray",
+      "anchor": "Margaret torununu sıkıca kucakladı.",
       "artAfter": true,
-      "previewQuote": "Vargan'ın boynundaki siyah halka çatladı.",
-      "previewUnlock": 34620,
+      "previewQuote": "Margaret torununu sıkıca kucakladı.",
+      "previewUnlock": 63446,
       "images": [
         {
-          "id": "chapter-11",
-          "src": "assets/images/chapter-11.webp",
-          "alt": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI · Özgün sahne illüstrasyonu.",
+          "id": "reunion",
+          "src": "assets/images/reunion.webp",
+          "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
           "width": 1200,
           "height": 800,
+          "anchor": "Margaret torununu sıkıca kucakladı.",
+          "artAfter": true,
           "placement": "inline",
-          "unlock": 34620
+          "unlock": 63446
         }
       ],
       "galleryImage": {
-        "id": "chapter-11",
-        "src": "assets/images/chapter-11.webp",
-        "alt": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI · Özgün sahne illüstrasyonu.",
+        "id": "reunion",
+        "src": "assets/images/reunion.webp",
+        "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
         "width": 1200,
         "height": 800,
+        "anchor": "Margaret torununu sıkıca kucakladı.",
+        "artAfter": true,
         "placement": "inline",
-        "unlock": 34620
+        "unlock": 63446
       }
     },
     {
       "id": "chapter-12",
       "number": 12,
-      "sourceChapter": 12,
-      "title": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT",
+      "sourceChapter": 11,
+      "title": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
       "volume": 1,
-      "offset": 34681,
-      "mood": "aksiyon",
+      "offset": 65469,
+      "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "palace",
-      "anchor": "Şimdi yedi sürünün tamamını kurtarmıştı.",
+      "place": "kapi",
+      "anchor": "Genç kadın elini kapıya koydu.",
       "artAfter": true,
-      "previewQuote": "Şimdi yedi sürünün tamamını kurtarmıştı.",
-      "previewUnlock": 39096,
+      "previewQuote": "Genç kadın elini kapıya koydu.",
+      "previewUnlock": 68045,
       "images": [
         {
-          "id": "chapter-12",
-          "src": "assets/images/chapter-12.webp",
-          "alt": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT · Özgün sahne illüstrasyonu.",
+          "id": "moon-gate",
+          "src": "assets/images/moon-gate.webp",
+          "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
           "width": 1200,
           "height": 800,
+          "anchor": "Genç kadın elini kapıya koydu.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 68045
+        },
+        {
+          "id": "seal",
+          "src": "assets/images/seal.webp",
+          "alt": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar.",
+          "width": 1200,
+          "height": 800,
+          "anchor": "Altın ışık bütün dağa yayıldı.",
+          "artAfter": true,
           "placement": "full",
-          "unlock": 39096
+          "unlock": 69963
         }
       ],
       "galleryImage": {
-        "id": "chapter-12",
-        "src": "assets/images/chapter-12.webp",
-        "alt": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT · Özgün sahne illüstrasyonu.",
+        "id": "moon-gate",
+        "src": "assets/images/moon-gate.webp",
+        "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
         "width": 1200,
         "height": 800,
-        "placement": "full",
-        "unlock": 39096
+        "anchor": "Genç kadın elini kapıya koydu.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 68045
       }
     },
     {
       "id": "chapter-13",
       "number": 13,
-      "sourceChapter": 13,
-      "title": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK",
+      "sourceChapter": 12,
+      "title": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
       "volume": 1,
-      "offset": 39098,
-      "mood": "umut",
-      "effect": "cizgi",
-      "seal": "oath",
-      "vignettes": [
-        "map",
-        "rings"
-      ],
-      "place": "palace",
-      "anchor": "Yedi kurt ruhu ulumaya başladı.",
-      "artAfter": true,
-      "previewQuote": "Yedi kurt ruhu ulumaya başladı.",
-      "previewUnlock": 42414,
-      "images": [
-        {
-          "id": "chapter-13",
-          "src": "assets/images/chapter-13.webp",
-          "alt": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK · Özgün sahne illüstrasyonu.",
-          "width": 1200,
-          "height": 800,
-          "placement": "inline",
-          "unlock": 42414
-        }
-      ],
-      "galleryImage": {
-        "id": "chapter-13",
-        "src": "assets/images/chapter-13.webp",
-        "alt": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK · Özgün sahne illüstrasyonu.",
-        "width": 1200,
-        "height": 800,
-        "placement": "inline",
-        "unlock": 42414
-      }
-    },
-    {
-      "id": "chapter-14",
-      "number": 14,
-      "sourceChapter": 14,
-      "title": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA",
-      "volume": 1,
-      "offset": 42540,
+      "offset": 72546,
       "mood": "duygusal",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
-        "map",
+        "moon",
         "rings"
       ],
-      "place": "balcony",
-      "anchor": "Ve Kaelor onu durdurmadı.",
+      "place": "saray",
+      "anchor": "Başrahip altın asasını kaldırdı.",
       "artAfter": true,
-      "previewQuote": "Ve Kaelor onu durdurmadı.",
-      "previewUnlock": 44705,
+      "previewQuote": "Başrahip altın asasını kaldırdı.",
+      "previewUnlock": 77654,
       "images": [
         {
-          "id": "chapter-14",
-          "src": "assets/images/chapter-14.webp",
-          "alt": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA · Özgün sahne illüstrasyonu.",
+          "id": "wedding",
+          "src": "assets/images/wedding.webp",
+          "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
           "width": 1200,
           "height": 800,
-          "placement": "inline",
-          "unlock": 44705
-        }
-      ],
-      "galleryImage": {
-        "id": "chapter-14",
-        "src": "assets/images/chapter-14.webp",
-        "alt": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA · Özgün sahne illüstrasyonu.",
-        "width": 1200,
-        "height": 800,
-        "placement": "inline",
-        "unlock": 44705
-      }
-    },
-    {
-      "id": "epilogue",
-      "number": 0,
-      "sourceChapter": 15,
-      "title": "EPİLOG — AYIN HATIRLADIĞI ADAM",
-      "volume": 1,
-      "offset": 44784,
-      "mood": "umut",
-      "effect": "cizgi",
-      "seal": "oath",
-      "vignettes": [
-        "map",
-        "rings"
-      ],
-      "place": "infirmary",
-      "anchor": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
-      "artAfter": true,
-      "previewQuote": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
-      "previewUnlock": 46156,
-      "images": [
-        {
-          "id": "epilogue",
-          "src": "assets/images/epilogue.webp",
-          "alt": "EPİLOG — AYIN HATIRLADIĞI ADAM · Özgün sahne illüstrasyonu.",
-          "width": 1200,
-          "height": 800,
+          "anchor": "Başrahip altın asasını kaldırdı.",
+          "artAfter": true,
           "placement": "full",
-          "unlock": 46156
+          "unlock": 77654
+        },
+        {
+          "id": "family",
+          "src": "assets/images/family.webp",
+          "alt": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler.",
+          "width": 1200,
+          "height": 800,
+          "anchor": "Küçük kız korkmadan ona sarıldı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 79299
         }
       ],
       "galleryImage": {
-        "id": "epilogue",
-        "src": "assets/images/epilogue.webp",
-        "alt": "EPİLOG — AYIN HATIRLADIĞI ADAM · Özgün sahne illüstrasyonu.",
+        "id": "wedding",
+        "src": "assets/images/wedding.webp",
+        "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
         "width": 1200,
         "height": 800,
+        "anchor": "Başrahip altın asasını kaldırdı.",
+        "artAfter": true,
         "placement": "full",
-        "unlock": 46156
+        "unlock": 77654
       }
     }
   ]

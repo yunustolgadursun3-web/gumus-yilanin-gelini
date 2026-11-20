@@ -1,420 +1,657 @@
 {
-  "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
-  "title": "AYIN UNUTTUĞU KRAL",
-  "subtitle": "I. Kitap · Kırık Yeminin Mirası",
-  "author": "Yunus Bey",
+  "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+  "title": "GÜMÜŞ YILANIN GELİNİ",
+  "subtitle": "Gümüş Tahtın Laneti",
+  "author": "",
   "chapters": [
-    {
-      "id": "prologue",
-      "number": 0,
-      "art": "prologue",
-      "phrase": "Ve yalnızca Ay Tanrıçası Nymera tarafından seçilen birine emanet edilirdi.",
-      "place": "velmora",
-      "mood": "gizem",
-      "volume": 1
-    },
     {
       "id": "chapter-01",
       "number": 1,
-      "art": "chapter-01",
-      "phrase": "Kaelor elini Selvara'nın göğsüne koydu.",
-      "place": "palace",
-      "mood": "duygusal",
+      "art": "warning",
+      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+      "place": "ev",
+      "mood": "gizem",
       "volume": 1
     },
     {
       "id": "chapter-02",
       "number": 2,
-      "art": "chapter-02",
-      "phrase": "Ay Tanrıçası Nymera.",
-      "place": "pinewoods",
-      "mood": "gergin",
+      "art": "mark",
+      "phrase": "Gümüş renkli küçük bir yılan şekli belirdi.",
+      "place": "orman",
+      "mood": "gizem",
       "volume": 1
     },
     {
       "id": "chapter-03",
       "number": 3,
-      "art": "chapter-03",
-      "phrase": "Nymera devasa gümüş kurda baktı.",
-      "place": "pinewoods",
+      "art": "bridge",
+      "phrase": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+      "place": "kopru",
       "mood": "gizem",
       "volume": 1
     },
     {
       "id": "chapter-04",
       "number": 4,
-      "art": "chapter-04",
-      "phrase": "Geceleri gümüş sis çöker, eski taş köprülerin altında ay ışığı parıldardı.",
-      "place": "greyhollow",
-      "mood": "sakin",
+      "art": "interrupted-wedding",
+      "phrase": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+      "place": "meydan",
+      "mood": "gizem",
       "volume": 1
     },
     {
       "id": "chapter-05",
       "number": 5,
-      "art": "chapter-05",
-      "phrase": "Başında siyah-kızıl bir taç bulunuyordu.",
-      "place": "palace",
+      "art": "betrayal",
+      "phrase": "Kırmızı sıvı taşların arasına yayıldı.",
+      "place": "kale",
       "mood": "gergin",
       "volume": 1
     },
     {
       "id": "chapter-06",
       "number": 6,
-      "art": "chapter-06",
-      "phrase": "Ay ışığı gümüş renkte parlamaya başladı.",
-      "place": "greyhollow",
+      "art": "serpent-battle",
+      "phrase": "İki devasa yılan birbirine saldırdı.",
+      "place": "sunak",
       "mood": "gergin",
       "volume": 1
     },
     {
       "id": "chapter-07",
       "number": 7,
-      "art": "chapter-07",
-      "phrase": "İçinden Selvara Ardent indi.",
-      "place": "greyhollow",
+      "art": "first-night",
+      "phrase": "Silvan yatağın yanındaki sandalyeye oturdu.",
+      "place": "saray",
       "mood": "duygusal",
       "volume": 1
     },
     {
       "id": "chapter-08",
       "number": 8,
-      "art": "chapter-08",
-      "phrase": "Lord Morvain, siyah aynanın önünde duruyordu.",
-      "place": "vault",
-      "mood": "karanlik",
+      "art": "garden",
+      "phrase": "Elsa'nın yüzündeki gülümseme dondu.",
+      "place": "bahce",
+      "mood": "gizem",
       "volume": 1
     },
     {
       "id": "chapter-09",
       "number": 9,
-      "art": "chapter-09",
-      "phrase": "İlk kurtadam durdu.",
-      "place": "refuge",
-      "mood": "aksiyon",
+      "art": "necklace",
+      "phrase": "Bella kolyeyi göğsüne bastırdı.",
+      "place": "saray",
+      "mood": "duygusal",
       "volume": 1
     },
     {
       "id": "chapter-10",
       "number": 10,
-      "art": "chapter-10",
-      "phrase": "Devasa bir göz açılmıştı.",
-      "place": "palace",
+      "art": "poison",
+      "phrase": "Adam alnını onun alnına yasladı.",
+      "place": "saray",
       "mood": "gergin",
       "volume": 1
     },
     {
       "id": "chapter-11",
       "number": 11,
-      "art": "chapter-11",
-      "phrase": "Vargan'ın boynundaki siyah halka çatladı.",
-      "place": "vault",
-      "mood": "karanlik",
+      "art": "reunion",
+      "phrase": "Margaret torununu sıkıca kucakladı.",
+      "place": "saray",
+      "mood": "gizem",
       "volume": 1
     },
     {
       "id": "chapter-12",
       "number": 12,
-      "art": "chapter-12",
-      "phrase": "Şimdi yedi sürünün tamamını kurtarmıştı.",
-      "place": "palace",
-      "mood": "aksiyon",
+      "art": "moon-gate",
+      "phrase": "Genç kadın elini kapıya koydu.",
+      "place": "kapi",
+      "mood": "gergin",
       "volume": 1
     },
     {
       "id": "chapter-13",
       "number": 13,
-      "art": "chapter-13",
-      "phrase": "Yedi kurt ruhu ulumaya başladı.",
-      "place": "palace",
-      "mood": "umut",
-      "volume": 1
-    },
-    {
-      "id": "chapter-14",
-      "number": 14,
-      "art": "chapter-14",
-      "phrase": "Ve Kaelor onu durdurmadı.",
-      "place": "balcony",
+      "art": "wedding",
+      "phrase": "Başrahip altın asasını kaldırdı.",
+      "place": "saray",
       "mood": "duygusal",
       "volume": 1
+    }
+  ],
+  "scenes": [
+    {
+      "chapter": 1,
+      "id": "warning",
+      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+      "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
+      "place": "ev"
     },
     {
-      "id": "epilogue",
-      "number": 0,
-      "art": "epilogue",
-      "phrase": "Nymera'nın gümüş silueti gökyüzünde belirdi.",
-      "place": "infirmary",
-      "mood": "umut",
-      "volume": 1
+      "chapter": 1,
+      "id": "rescue",
+      "phrase": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi.",
+      "alt": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir.",
+      "place": "orman"
+    },
+    {
+      "chapter": 2,
+      "id": "mark",
+      "phrase": "Gümüş renkli küçük bir yılan şekli belirdi.",
+      "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
+      "place": "orman"
+    },
+    {
+      "chapter": 3,
+      "id": "bridge",
+      "phrase": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+      "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
+      "place": "kopru"
+    },
+    {
+      "chapter": 4,
+      "id": "interrupted-wedding",
+      "phrase": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+      "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
+      "place": "meydan"
+    },
+    {
+      "chapter": 5,
+      "id": "betrayal",
+      "phrase": "Kırmızı sıvı taşların arasına yayıldı.",
+      "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
+      "place": "kale"
+    },
+    {
+      "chapter": 6,
+      "id": "serpent-battle",
+      "phrase": "İki devasa yılan birbirine saldırdı.",
+      "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
+      "place": "sunak"
+    },
+    {
+      "chapter": 6,
+      "id": "freedom",
+      "phrase": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu.",
+      "alt": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır.",
+      "place": "sunak"
+    },
+    {
+      "chapter": 7,
+      "id": "first-night",
+      "phrase": "Silvan yatağın yanındaki sandalyeye oturdu.",
+      "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
+      "place": "saray"
+    },
+    {
+      "chapter": 8,
+      "id": "garden",
+      "phrase": "Elsa'nın yüzündeki gülümseme dondu.",
+      "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
+      "place": "bahce"
+    },
+    {
+      "chapter": 9,
+      "id": "necklace",
+      "phrase": "Bella kolyeyi göğsüne bastırdı.",
+      "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
+      "place": "saray"
+    },
+    {
+      "chapter": 10,
+      "id": "poison",
+      "phrase": "Adam alnını onun alnına yasladı.",
+      "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
+      "place": "saray"
+    },
+    {
+      "chapter": 11,
+      "id": "reunion",
+      "phrase": "Margaret torununu sıkıca kucakladı.",
+      "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
+      "place": "saray"
+    },
+    {
+      "chapter": 12,
+      "id": "moon-gate",
+      "phrase": "Genç kadın elini kapıya koydu.",
+      "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
+      "place": "kapi"
+    },
+    {
+      "chapter": 12,
+      "id": "seal",
+      "phrase": "Altın ışık bütün dağa yayıldı.",
+      "alt": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar.",
+      "place": "kapi"
+    },
+    {
+      "chapter": 13,
+      "id": "wedding",
+      "phrase": "Başrahip altın asasını kaldırdı.",
+      "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
+      "place": "saray"
+    },
+    {
+      "chapter": 13,
+      "id": "family",
+      "phrase": "Küçük kız korkmadan ona sarıldı.",
+      "alt": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler.",
+      "place": "bahce"
     }
   ],
   "facts": [
     {
-      "id": "velmora",
-      "kind": "places",
-      "name": "Velmora",
-      "chapter": 0,
-      "phrase": "Velmora\tKızıl kurtlar",
-      "art": "prologue",
-      "x": 26,
-      "y": 48,
-      "mapKind": "region"
-    },
-    {
-      "id": "palace",
-      "kind": "places",
-      "name": "Kızılçam Sarayı",
+      "id": "bella",
+      "name": "Bella Bellamy",
+      "kind": "characters",
       "chapter": 1,
-      "phrase": "Kızılçam Sarayı'nın büyük salonunda",
-      "art": "chapter-05",
-      "x": 33,
-      "y": 45,
-      "mapKind": "landmark"
+      "phrase": "Uzun kızıl saçları omuzlarına dökülmüştü.",
+      "art": "warning"
     },
     {
-      "id": "balcony",
-      "kind": "places",
-      "name": "Sarayın Eski Balkonu",
+      "id": "silvan",
+      "name": "Silvan",
+      "kind": "characters",
       "chapter": 1,
-      "phrase": "sarayın eski balkonuna çağırdı",
-      "art": "chapter-01",
-      "x": 40,
-      "y": 41,
-      "mapKind": "landmark"
+      "phrase": "\"Ben Silvan.\"",
+      "art": "rescue"
     },
     {
-      "id": "pinewoods",
-      "kind": "places",
-      "name": "Ay Işığındaki Orman",
+      "id": "margaret",
+      "name": "Margaret",
+      "kind": "characters",
+      "chapter": 1,
+      "phrase": "Büyükannesi Margaret, mutfaktaki masada oturuyordu.",
+      "art": "warning"
+    },
+    {
+      "id": "tommy",
+      "name": "Tommy",
+      "kind": "characters",
       "chapter": 3,
-      "phrase": "Bir anda orman kayboldu.",
-      "art": "chapter-03",
-      "x": 43,
-      "y": 37,
-      "mapKind": "nature"
+      "phrase": "Ertesi sabah Tommy geldi.",
+      "art": "bridge"
     },
     {
-      "id": "greyhollow",
+      "id": "kael",
+      "name": "Prens Kael",
+      "kind": "characters",
+      "chapter": 5,
+      "phrase": "İçeriden uzun siyah saçlı, kırmızı gözlü bir adam çıktı.",
+      "art": "betrayal"
+    },
+    {
+      "id": "mira",
+      "name": "Mira",
+      "kind": "characters",
+      "chapter": 6,
+      "phrase": "Yanındaki genç kızın adı Mira'ydı.",
+      "art": "freedom"
+    },
+    {
+      "id": "nira",
+      "name": "Nira",
+      "kind": "characters",
+      "chapter": 7,
+      "phrase": "\"Ben Nira. Majesteleri size bakmamı istedi.\"",
+      "art": "first-night"
+    },
+    {
+      "id": "elsa",
+      "name": "Elsa",
+      "kind": "characters",
+      "chapter": 8,
+      "phrase": "Uzun, koyu yeşil saçlı bir kadın bahçeye girmişti.",
+      "art": "garden"
+    },
+    {
+      "id": "queen",
+      "name": "Kraliçe Ana",
+      "kind": "characters",
+      "chapter": 8,
+      "phrase": "İçeri uzun boylu, gümüş saçlı yaşlı bir kadın girdi.",
+      "art": "poison"
+    },
+    {
+      "id": "eliana",
+      "name": "Eliana Bellamy",
+      "kind": "characters",
+      "chapter": 9,
+      "phrase": "\"Annenin adı Eliana Bellamy'ydi.\"",
+      "art": "moon-gate"
+    },
+    {
+      "id": "selina",
+      "name": "Selina",
+      "kind": "characters",
+      "chapter": 13,
+      "phrase": "Küçük Selina ellerini çırptı.",
+      "art": "family"
+    },
+    {
+      "id": "ev",
+      "name": "Margaret'in Evi",
       "kind": "places",
-      "name": "Greyhollow Vadisi",
-      "chapter": 4,
-      "phrase": "Greyhollow Vadisi — Altı yıl sonra",
-      "art": "chapter-04",
-      "x": 53,
-      "y": 52,
+      "chapter": 1,
+      "phrase": "Odası küçüktü.",
+      "art": "warning",
+      "x": 16,
+      "y": 26,
       "mapKind": "settlement"
     },
     {
-      "id": "vault",
+      "id": "orman",
+      "name": "Sisli Orman",
       "kind": "places",
-      "name": "Yasak Mahzen",
-      "chapter": 8,
-      "phrase": "Velmora — Yasak Mahzen",
-      "art": "chapter-08",
+      "chapter": 1,
+      "phrase": "Dışarıdaki orman sabah sisiyle kaplanmıştı.",
+      "art": "rescue",
       "x": 28,
-      "y": 58,
-      "mapKind": "landmark"
+      "y": 51,
+      "mapKind": "nature"
     },
     {
-      "id": "refuge",
+      "id": "kopru",
+      "name": "Eski Taş Köprü",
       "kind": "places",
-      "name": "Eski Taş Sığınak",
-      "chapter": 9,
-      "phrase": "Greyhollow halkı eski taş sığınağa çekildi.",
-      "art": "chapter-09",
-      "x": 64,
-      "y": 54,
-      "mapKind": "landmark"
-    },
-    {
-      "id": "infirmary",
-      "kind": "places",
-      "name": "Greyhollow Şifahanesi",
-      "chapter": -2,
-      "phrase": "Eski şifahane yeniden büyütülmüştü.",
-      "art": "epilogue",
-      "x": 54,
-      "y": 61,
-      "mapKind": "landmark"
-    },
-    {
-      "id": "kaelor",
-      "kind": "characters",
-      "name": "Kaelor Vhalen",
-      "chapter": 1,
-      "phrase": "Kaelor Vhalen.",
-      "art": "kaelor"
-    },
-    {
-      "id": "selvara",
-      "kind": "characters",
-      "name": "Selvara Ardent",
-      "chapter": 1,
-      "phrase": "Selvara Ardent.",
-      "art": "selvara"
-    },
-    {
-      "id": "nymera",
-      "kind": "characters",
-      "name": "Nymera",
-      "chapter": 2,
-      "phrase": "Ay Tanrıçası Nymera.",
-      "art": "nymera"
-    },
-    {
-      "id": "aethros",
-      "kind": "characters",
-      "name": "Aethros",
       "chapter": 3,
-      "phrase": "— Aethros. İlk Uluma",
-      "art": "aethros"
+      "phrase": "Aynı gece Tommy, köyden uzaklaşarak eski bir taş köprüye gitti.",
+      "art": "bridge",
+      "x": 28,
+      "y": 76,
+      "mapKind": "landmark"
     },
     {
-      "id": "ilyne",
-      "kind": "characters",
-      "name": "Ilyne",
+      "id": "meydan",
+      "name": "Köy Meydanı",
+      "kind": "places",
       "chapter": 4,
-      "phrase": "Adı Ilyne'di.",
-      "art": "ilyne"
+      "phrase": "Düğün sabahı köy meydanı beyaz çiçeklerle süslenmişti.",
+      "art": "interrupted-wedding",
+      "x": 26,
+      "y": 14,
+      "mapKind": "settlement"
     },
     {
-      "id": "morvain",
-      "kind": "characters",
-      "name": "Lord Morvain",
-      "chapter": 2,
-      "phrase": "Lord Morvain bulunuyordu.",
-      "art": "morvain"
+      "id": "kale",
+      "name": "Kara Yılan Kalesi",
+      "kind": "places",
+      "chapter": 5,
+      "phrase": "Birkaç dakika sonra siyah taşlardan yapılmış eski bir kalenin önünde durdular.",
+      "art": "betrayal",
+      "x": 63,
+      "y": 22,
+      "mapKind": "landmark"
     },
     {
-      "id": "vargan",
-      "kind": "characters",
-      "name": "Vargan",
-      "chapter": 1,
-      "phrase": "Alfa kurdunun adı Vargan'dı."
-    },
-    {
-      "id": "fen",
-      "kind": "characters",
-      "name": "Fen",
-      "chapter": 4,
-      "phrase": "İçeri on iki yaşındaki Fen koştu."
-    },
-    {
-      "id": "rhaedon",
-      "kind": "characters",
-      "name": "Rhaedon Voss",
+      "id": "sunak",
+      "name": "On İki Sütunlu Sunak",
+      "kind": "places",
       "chapter": 6,
-      "phrase": "Velmora'nın kızıl zırhlı komutanı Rhaedon Voss"
+      "phrase": "Sunağın çevresinde on iki taş sütun bulunuyordu.",
+      "art": "serpent-battle",
+      "x": 64,
+      "y": 31,
+      "mapKind": "landmark"
     },
     {
-      "id": "veyloth",
-      "kind": "characters",
-      "name": "Veyloth",
-      "chapter": 11,
-      "phrase": "Efendim Veyloth"
+      "id": "saray",
+      "name": "Gümüş Saray",
+      "kind": "places",
+      "chapter": 7,
+      "phrase": "Odanın duvarları gümüş işlemelerle süslenmişti.",
+      "art": "first-night",
+      "x": 87,
+      "y": 53,
+      "mapKind": "landmark"
     },
     {
-      "id": "first-howl",
-      "kind": "symbols",
-      "name": "İlk Uluma",
-      "chapter": 0,
-      "phrase": "İlk Uluma."
-    },
-    {
-      "id": "black-mirror",
-      "kind": "objects",
-      "name": "Siyah Ayna",
+      "id": "bahce",
+      "name": "Gümüş Saray Bahçesi",
+      "kind": "places",
       "chapter": 8,
-      "phrase": "Lord Morvain, siyah aynanın önünde duruyordu."
+      "phrase": "Beyaz güller, gümüş yapraklı ağaçlar ve küçük şelaleler...",
+      "art": "garden",
+      "x": 76,
+      "y": 76,
+      "mapKind": "nature"
     },
     {
-      "id": "broken-bond",
+      "id": "dag",
+      "name": "Ay Dağı",
+      "kind": "places",
+      "chapter": 12,
+      "phrase": "Uzaklardaki Ay Dağı'nın tepesinde devasa bir ışık yükseldi.",
+      "art": "moon-gate",
+      "x": 86,
+      "y": 25,
+      "mapKind": "nature"
+    },
+    {
+      "id": "kapi",
+      "name": "Ay Kapısı",
+      "kind": "places",
+      "chapter": 12,
+      "phrase": "Dağın zirvesinde devasa bir taş kapı vardı.",
+      "art": "moon-gate",
+      "x": 91,
+      "y": 8,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "event-warning",
+      "name": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
       "kind": "events",
-      "name": "Ay Bağının Kırılması",
+      "chapter": 1,
+      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı."
+    },
+    {
+      "id": "event-rescue",
+      "name": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir.",
+      "kind": "events",
+      "chapter": 1,
+      "phrase": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi."
+    },
+    {
+      "id": "event-mark",
+      "name": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
+      "kind": "events",
       "chapter": 2,
-      "phrase": "Ama senden bunu beklemiyordum."
+      "phrase": "Gümüş renkli küçük bir yılan şekli belirdi."
     },
     {
-      "id": "first-chain",
+      "id": "event-bridge",
+      "name": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
       "kind": "events",
-      "name": "İlk Zincirin Kırılması",
+      "chapter": 3,
+      "phrase": "Köprünün altında siyah pelerinli bir adam bekliyordu."
+    },
+    {
+      "id": "event-interrupted-wedding",
+      "name": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
+      "kind": "events",
+      "chapter": 4,
+      "phrase": "Silvan'ın kuyruğu yerde büyük bir daire çizdi."
+    },
+    {
+      "id": "event-betrayal",
+      "name": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
+      "kind": "events",
+      "chapter": 5,
+      "phrase": "Kırmızı sıvı taşların arasına yayıldı."
+    },
+    {
+      "id": "event-serpent-battle",
+      "name": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
+      "kind": "events",
+      "chapter": 6,
+      "phrase": "İki devasa yılan birbirine saldırdı."
+    },
+    {
+      "id": "event-freedom",
+      "name": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır.",
+      "kind": "events",
+      "chapter": 6,
+      "phrase": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu."
+    },
+    {
+      "id": "event-first-night",
+      "name": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
+      "kind": "events",
+      "chapter": 7,
+      "phrase": "Silvan yatağın yanındaki sandalyeye oturdu."
+    },
+    {
+      "id": "event-garden",
+      "name": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
+      "kind": "events",
+      "chapter": 8,
+      "phrase": "Elsa'nın yüzündeki gülümseme dondu."
+    },
+    {
+      "id": "event-necklace",
+      "name": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
+      "kind": "events",
+      "chapter": 9,
+      "phrase": "Bella kolyeyi göğsüne bastırdı."
+    },
+    {
+      "id": "event-poison",
+      "name": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
+      "kind": "events",
+      "chapter": 10,
+      "phrase": "Adam alnını onun alnına yasladı."
+    },
+    {
+      "id": "event-reunion",
+      "name": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
+      "kind": "events",
       "chapter": 11,
-      "phrase": "Ve ilk zincir kırıldı."
+      "phrase": "Margaret torununu sıkıca kucakladı."
+    },
+    {
+      "id": "event-moon-gate",
+      "name": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
+      "kind": "events",
+      "chapter": 12,
+      "phrase": "Genç kadın elini kapıya koydu."
+    },
+    {
+      "id": "event-seal",
+      "name": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar.",
+      "kind": "events",
+      "chapter": 12,
+      "phrase": "Altın ışık bütün dağa yayıldı."
+    },
+    {
+      "id": "event-wedding",
+      "name": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
+      "kind": "events",
+      "chapter": 13,
+      "phrase": "Başrahip altın asasını kaldırdı."
+    },
+    {
+      "id": "event-family",
+      "name": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler.",
+      "kind": "events",
+      "chapter": 13,
+      "phrase": "Küçük kız korkmadan ona sarıldı."
+    },
+    {
+      "id": "bileklik",
+      "name": "Mavi Taşlı Bileklik",
+      "kind": "objects",
+      "chapter": 1,
+      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+      "art": "warning"
+    },
+    {
+      "id": "ay-kolyesi",
+      "name": "Eliana'nın Ay Kolyesi",
+      "kind": "objects",
+      "chapter": 9,
+      "phrase": "Kolyenin üzerinde küçük bir ay sembolü bulunuyordu.",
+      "art": "necklace"
+    },
+    {
+      "id": "yuzuk",
+      "name": "Yılan ve Ay Yüzüğü",
+      "kind": "objects",
+      "chapter": 13,
+      "phrase": "Yüzüğün üzerinde küçük bir yılan ve ay sembolü işlenmişti.",
+      "art": "wedding"
+    },
+    {
+      "id": "bella-silvan",
+      "name": "Bella ve Silvan'ın Seçimi",
+      "kind": "connections",
+      "from": "bella",
+      "to": "silvan",
+      "chapter": 13,
+      "phrase": "\"Seni seviyorum, Bella.\""
     }
   ],
   "art": {
-    "prologue": {
-      "alt": "PROLOG — AYIN YEDİ YEMİNİ · Özgün sahne illüstrasyonu."
-    },
-    "chapter-01": {
-      "alt": "BÖLÜM 1 — SANA KURDUMU VERİYORUM · Özgün sahne illüstrasyonu."
-    },
-    "chapter-02": {
-      "alt": "BÖLÜM 2 — KIRILAN AY BAĞI · Özgün sahne illüstrasyonu."
-    },
-    "chapter-03": {
-      "alt": "BÖLÜM 3 — ALFA RUHLARINDAN ÜSTÜN OLAN · Özgün sahne illüstrasyonu."
-    },
-    "chapter-04": {
-      "alt": "BÖLÜM 4 — ALTI YIL SONRA: KURDU OLMAYAN ŞİFACI · Özgün sahne illüstrasyonu."
-    },
-    "chapter-05": {
-      "alt": "BÖLÜM 5 — YEDİ SÜRÜNÜN YENİ KRALİÇESİ · Özgün sahne illüstrasyonu."
-    },
-    "chapter-06": {
-      "alt": "BÖLÜM 6 — GECE YARISINDAKİ GÜMÜŞ KURT · Özgün sahne illüstrasyonu."
-    },
-    "chapter-07": {
-      "alt": "BÖLÜM 7 — ESKİ SEVGİLİNİN KARŞISINDA · Özgün sahne illüstrasyonu."
-    },
-    "chapter-08": {
-      "alt": "BÖLÜM 8 — YEDİNCİ MÜHÜR · Özgün sahne illüstrasyonu."
-    },
-    "chapter-09": {
-      "alt": "BÖLÜM 9 — SESSİZ ORMANIN SAVAŞI · Özgün sahne illüstrasyonu."
-    },
-    "chapter-10": {
-      "alt": "BÖLÜM 10 — YEDİ ALFA'NIN SON TOPLANTISI · Özgün sahne illüstrasyonu."
-    },
-    "chapter-11": {
-      "alt": "BÖLÜM 11 — KURT RUHLARININ ZİNDANI · Özgün sahne illüstrasyonu."
-    },
-    "chapter-12": {
-      "alt": "BÖLÜM 12 — KARA AYIN KARŞISINDAKİ SON KURT · Özgün sahne illüstrasyonu."
-    },
-    "chapter-13": {
-      "alt": "BÖLÜM 13 — YEDİ SÜRÜNÜN ÖNÜNDEKİ GERÇEK · Özgün sahne illüstrasyonu."
-    },
-    "chapter-14": {
-      "alt": "BÖLÜM 14 — SON KEZ AYNI AYIN ALTINDA · Özgün sahne illüstrasyonu."
-    },
-    "epilogue": {
-      "alt": "EPİLOG — AYIN HATIRLADIĞI ADAM · Özgün sahne illüstrasyonu."
-    },
-    "kaelor": {
-      "alt": "Kaelor Vhalen · Karakter portresi."
-    },
-    "selvara": {
-      "alt": "Selvara Ardent · Karakter portresi."
-    },
-    "nymera": {
-      "alt": "Nymera · Karakter portresi."
-    },
-    "aethros": {
-      "alt": "Aethros · Karakter portresi."
-    },
-    "ilyne": {
-      "alt": "Ilyne · Karakter portresi."
-    },
-    "morvain": {
-      "alt": "Lord Morvain · Karakter portresi."
-    },
     "cover": {
-      "alt": "Kaelor ve gümüş kurt Aethros, Greyhollow köprüsünde dolunayın altında."
+      "alt": "Bella ve Silvan, ay ışığındaki ormanda."
     },
     "atlas": {
-      "alt": "Yedi Sürü ve Greyhollow Vadisi’nin temsili keşif haritası."
+      "alt": "Orman, Kara Yılan Kalesi, Gümüş Saray ve Ay Dağı'nın temsili keşif haritası."
+    },
+    "warning": {
+      "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır."
+    },
+    "rescue": {
+      "alt": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir."
+    },
+    "mark": {
+      "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur."
+    },
+    "bridge": {
+      "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur."
+    },
+    "interrupted-wedding": {
+      "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür."
+    },
+    "betrayal": {
+      "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür."
+    },
+    "serpent-battle": {
+      "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır."
+    },
+    "freedom": {
+      "alt": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır."
+    },
+    "first-night": {
+      "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur."
+    },
+    "garden": {
+      "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar."
+    },
+    "necklace": {
+      "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır."
+    },
+    "poison": {
+      "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder."
+    },
+    "reunion": {
+      "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır."
+    },
+    "moon-gate": {
+      "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür."
+    },
+    "seal": {
+      "alt": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar."
+    },
+    "wedding": {
+      "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir."
+    },
+    "family": {
+      "alt": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler."
     }
   }
 }

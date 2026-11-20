@@ -62,18 +62,27 @@
       chapter,
     };
   };
-  const scenePlan = (bookPlan.chapters || []).map((chapter) => {
+  const scenePlan = (bookPlan.chapters || []).flatMap((chapter) => {
     const media = mediaForChapter(chapter);
-    if (!media.length) return null;
+    if (!media.length) return [];
+    const anchored = media.filter(asset => asset.anchor);
+    if (anchored.length === media.length) {
+      return media.map(asset => ({
+        anchor: asset.anchor,
+        afterAnchor: asset.artAfter ?? chapter.artAfter === true,
+        ...sceneForMedia(asset, chapter),
+        chapter,
+        afterScenes: [],
+      }));
+    }
     const [first = {}, ...after] = media;
-    const firstScene = sceneForMedia(first, chapter);
-    return {
+    return [{
       anchor: chapter.anchor || chapter.title,
       afterAnchor: chapter.artAfter === true,
-      ...firstScene,
+      ...sceneForMedia(first, chapter),
       chapter,
-      afterScenes: after.map((asset) => sceneForMedia(asset, chapter)),
-    };
+      afterScenes: after.map(asset => sceneForMedia(asset, chapter)),
+    }];
   }).filter(Boolean).concat((bookPlan.chapters||[]).filter(chapter=>chapter.openingImage).map(chapter=>({anchor:chapter.title,...sceneForMedia(chapter.openingImage,chapter),chapter})));
 
   const presentationFor = (chapterTitle) => {
@@ -835,6 +844,7 @@
     const image = document.createElement('img');
     const source = scene.src.startsWith('./') ? scene.src : `./${scene.src}`;
     image.alt = scene.alt;
+    image.draggable = false;
     image.style.objectPosition = scene.position || 'center';
     image.className = 'illustration-image';
     const prominent = className === 'art-illustration' && !continuousMode();
@@ -1095,7 +1105,7 @@
         }
       }
       let start = 0;
-      for (const match of source.matchAll(/^—[^\r\n]*|“[^”\r\n]+”/gmu)) {
+      for (const match of source.matchAll(/^—[^\r\n]*|“[^”\r\n]+”|"[^"\r\n]+"/gmu)) {
         appendKeywords(target, source.slice(start, match.index));
         const quotation = document.createElement('span');
         quotation.className = match[0].startsWith('—') ? 'reader-dialogue' : 'reader-quotation';
@@ -1230,7 +1240,7 @@
       label.textContent = 'Yazar';
       const author = document.createElement('p');
       author.className = 'frontmatter-author';
-      author.textContent = bookPlan.author || 'Yunus Bey';
+      author.textContent = bookPlan.author || '';
       const rule = document.createElement('span');
       rule.className = 'frontmatter-rule';
       rule.setAttribute('aria-hidden', 'true');
@@ -1238,7 +1248,7 @@
       edition.className = 'frontmatter-edition';
       edition.textContent = 'Dijital okuma edisyonu';
       content.append(ornament, label, author, rule, edition);
-      article.setAttribute('aria-label', 'Yazar sayfası: Yunus Bey');
+      article.setAttribute('aria-label', 'Kitap bilgileri');
     } else if (page.type === 'art') {
       content.append(makeSceneMedia(page.scene, 'art-illustration', preview));
       const caption = document.createElement('p');

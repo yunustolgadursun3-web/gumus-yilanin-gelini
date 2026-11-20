@@ -1,0 +1,153 @@
+{
+  "tool": "built-in image_gen",
+  "style": "Use case: illustration-story. Premium naturalistic illustrated fantasy romance in softly glazed oil and gouache on textured paper. Deep forest greens, luminous silver, restrained warm gold. Anatomically correct human faces and hands. Bella is an adult woman age 22 with long wavy copper-red hair, emerald green eyes, oval lightly freckled face, silver bracelet with blue stone. Silvan adult tall human-looking man, long straight silver hair, silver eyes, angular clean-shaven face, straight dark eyebrows, black silver-embroidered clothes. Human ears. No text, labels, panels or watermark. Landscape 3:2 scene. ",
+  "reference": "cover.webp",
+  "coverPrompt": "Use case: illustration-story. Premium naturalistic illustrated fantasy romance in detailed softly glazed oil and gouache on textured paper. Rich forest-green shadows, moon-silver and small warm gold glints. Human faces and hands anatomically correct, refined brushwork, dramatic but credible light. No text, no typography, no watermark. Character identity: Bella is an adult 22-year-old woman, long wavy copper-red hair, emerald green eyes, oval lightly freckled face, small silver bracelet with a blue gemstone. Silvan is a tall adult man with long straight silver hair, silver eyes, angular clean-shaven face, straight dark eyebrows, black high-collar clothing embroidered in silver. Their ears are human. Create portrait book cover art. Bella and Silvan standing facing one another in a misty forest in moonlight, an elegant graceful giant silver serpent curling subtly through the surrounding trees. Both character faces clear, affectionate hesitant gaze. Bella wears a simple forest-green dress. Leaves and intricate silver scale texture frame the edges. Rich painterly atmosphere. Leave dark lower third for title added by website. Single coherent image.",
+  "atlasPrompt": "Use case: illustration-story. Landscape 3:2 illustrated story atlas, softly glazed oil and ink on textured dark green parchment. Detailed aerial fantasy topographic map. Upper left forest village with a rustic herb cottage. Dense woodland and small clearing middle left. Old stone bridge lower left. Black stone fortress upper middle right. Silver palace and garden pool lower right. Moon mountain upper far right topped by a stone portal. Natural winding paths and river, legible distinct landmarks, deep greens, silver and muted gold. No labels, letters, cartouche, map pins, text, compass or watermark. Entire canvas is landscape cartography.",
+  "scenes": [
+    {
+      "id": "warning",
+      "chapter": 1,
+      "sourceAnchor": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+      "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
+      "prompt": "Bella in a simple green dress sits at a rustic wooden kitchen table opposite her elderly grandmother Margaret, grey hair in a loose bun and weathered kind face. Margaret gently grips Bella's wrist and points to the small blue stone silver bracelet. An old book embossed with two intertwined snakes lies shut among dried herbs. Rain at the cottage window. Domestic tension.",
+      "file": "assets/images/warning.webp"
+    },
+    {
+      "id": "rescue",
+      "chapter": 1,
+      "sourceAnchor": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi.",
+      "alt": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir.",
+      "prompt": "Mist-filled woodland clearing. Bella kneels beside injured human-form Silvan reclining at a tree, her open palms glowing softly gold over his clothed chest. Faint dark veins recede at a small chest wound, minimal blood. Silver hair spread on moss. Blue stone bracelet glows. Intimate compassionate moment, forest-green dress.",
+      "file": "assets/images/rescue.webp"
+    },
+    {
+      "id": "mark",
+      "chapter": 2,
+      "sourceAnchor": "Gümüş renkli küçük bir yılan şekli belirdi.",
+      "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
+      "prompt": "Night woodland camp with small fire. Silvan gently lays a tiny silver scale into Bella's hand and she touches it to her wrist, where a fine silver snake mark appears beside the cracked blue stone bracelet. Bella in green dress, Silvan black silver-embroidered tunic. Curiosity, not force, intimate close two-person composition, warm fire against silver moonlight.",
+      "file": "assets/images/mark.webp"
+    },
+    {
+      "id": "bridge",
+      "chapter": 3,
+      "sourceAnchor": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+      "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
+      "prompt": "Night beneath old low stone bridge. Tommy a young adult human with short chestnut brown hair, brown eyes, ordinary brown village coat, speaks furtively to a black-cloaked emissary whose face is partly shaded. Tommy touches a coin purse on his belt. River and village lights distant. Nobody else. Uneasy cinematic intrigue.",
+      "file": "assets/images/bridge.webp"
+    },
+    {
+      "id": "interrupted-wedding",
+      "chapter": 4,
+      "sourceAnchor": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+      "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
+      "prompt": "Village wedding square strewn with white flowers, white floral arch. Bella in a white lace wedding dress recoils in fear, Tommy young brown-haired man in brown ceremonial coat steps back. Silvan's human upper body in black silver-embroidered coat continues below waist into a huge winding silver snake tail, coiled in a circle at his feet. No human legs on Silvan. Distant villagers scatter. Silver serpent form natural anatomically legible, upright human torso and snake lower body.",
+      "file": "assets/images/interrupted-wedding.webp"
+    },
+    {
+      "id": "betrayal",
+      "chapter": 5,
+      "sourceAnchor": "Kırmızı sıvı taşların arasına yayıldı.",
+      "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
+      "prompt": "At black stone fortress gate. Kael adult man with long straight black hair, red eyes, narrow severe face and black coat with gold embroidery smiles coldly while a shattered vial spills dark red potion across stones. Tommy with short brown hair and brown coat kneels reaching toward spilled potion in foreground. Bella in simple muted green dress turns in tears as two black-armoured guards guide her through gate. No graphic injury. Narrative betrayal.",
+      "file": "assets/images/betrayal.webp"
+    },
+    {
+      "id": "serpent-battle",
+      "chapter": 6,
+      "sourceAnchor": "İki devasa yılan birbirine saldırdı.",
+      "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
+      "prompt": "Cavernous black marble hall, twelve stone columns and ritual altar, red magical fire. TWO enormous anatomically serpentine snakes in battle: one luminous silver with silver eyes, one black with red eyes, coiled across cracked columns. NO dragon limbs, no horns, no wings. Small Bella with copper-red hair chained near distant altar for scale. Dynamic readable composition, debris, no gore.",
+      "file": "assets/images/serpent-battle.webp"
+    },
+    {
+      "id": "freedom",
+      "chapter": 6,
+      "sourceAnchor": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu.",
+      "alt": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır.",
+      "prompt": "Black marble ritual altar. Bella, red hair, simple green dress, touches the chain of Mira a frightened young adult captive in plain grey. Warm gold light from Bella's wrists cracks their iron shackles. A few women captives wait behind them. Broken columns and soft silver glow hint at rescue, focus courage and solidarity. No injuries, no snakes in foreground.",
+      "file": "assets/images/freedom.webp"
+    },
+    {
+      "id": "first-night",
+      "chapter": 7,
+      "sourceAnchor": "Silvan yatağın yanındaki sandalyeye oturdu.",
+      "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
+      "prompt": "Quiet silver-embroidered palace bedroom, moonlight through tall window over gardens. Bella fully dressed in modest loose white nightgown sits upright against pillows, speaking earnestly. Silvan in simple black shirt sits respectfully in a chair beside the bed, his long silver hair loose. Two adult characters, gentle candid conversation. Warm lamp and cool silver moon.",
+      "file": "assets/images/first-night.webp"
+    },
+    {
+      "id": "garden",
+      "chapter": 8,
+      "sourceAnchor": "Elsa'nın yüzündeki gülümseme dondu.",
+      "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
+      "prompt": "Silver palace garden with white roses, silver-leaf trees and a pool containing tiny silver snakes. Bella in simple light blue day dress stands near Silvan in black. Elsa adult woman with long dark emerald-green hair, severe refined face, costly deep emerald dress and large green stone necklace approaches Silvan, whose arm draws back. Tension between THREE adults, formal body language.",
+      "file": "assets/images/garden.webp"
+    },
+    {
+      "id": "necklace",
+      "chapter": 9,
+      "sourceAnchor": "Bella kolyeyi göğsüne bastırdı.",
+      "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
+      "prompt": "Palace bedroom doorway at night. Bella in modest pale blue dress holds a small antique silver moon-pendant necklace close to her chest, eyes wet with feeling. Silvan holds an open small jewellery box and watches her with sympathy. Warm lamp, silver moon window, intimate adults, no kiss. Pendant clearly moon-shaped, keep blue stone bracelet too.",
+      "file": "assets/images/necklace.webp"
+    },
+    {
+      "id": "poison",
+      "chapter": 10,
+      "sourceAnchor": "Adam alnını onun alnına yasladı.",
+      "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
+      "prompt": "Lavish silver palace banquet hall after a glass tumbles, spilled fruit juice and glass on floor. Bella in pale silver evening gown kneels distressed, faint silver light rising from her hands and a red glow at wrist. Silvan kneels beside her, takes both her hands and gently rests forehead to forehead to calm the magic. Elsa dark-green hair emerald gown and Queen Mother elderly silver-haired in white-gold watch from distant table. Compassionate magical crisis, no gore.",
+      "file": "assets/images/poison.webp"
+    },
+    {
+      "id": "reunion",
+      "chapter": 11,
+      "sourceAnchor": "Margaret torununu sıkıca kucakladı.",
+      "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
+      "prompt": "Quiet palace sitting room at night. Bella long copper-red hair pale blue dress and elderly Margaret grey bun worn earth-brown shawl embrace tightly with tearful relief. Antique moon pendant at Bella's chest. Window moonlight and single warm candle, intimate two-person hug, natural hands, no extra people.",
+      "file": "assets/images/reunion.webp"
+    },
+    {
+      "id": "moon-gate",
+      "chapter": 12,
+      "sourceAnchor": "Genç kadın elini kapıya koydu.",
+      "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
+      "prompt": "On high rocky moon mountain beneath black storm clouds. Huge standing stone portal carved with intertwined serpents. Bella in pale blue travel dress and cloak reaches one palm to glowing doorway. Inside stands a gentle adult woman spirit Eliana in a flowing white dress, softly indistinct silver-white glow, not a solid person. Emotional reunion across boundary, golden wrist mark. Wide sense of scale, no visible text.",
+      "file": "assets/images/moon-gate.webp"
+    },
+    {
+      "id": "seal",
+      "chapter": 12,
+      "sourceAnchor": "Altın ışık bütün dağa yayıldı.",
+      "alt": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar.",
+      "prompt": "Rocky mountain top stone serpent portal cracking with black magic. Bella red hair, pale blue travel dress and cloak stands small but resolute with outstretched hands, enormous warm golden light radiating from her bracelet seal to break dark magical chains binding a huge SILVER SNAKE. A huge black snake recoils further away. All snakes smooth limbless, no dragons, no human forms. Triumphant golden light through clouds, no gore.",
+      "file": "assets/images/seal.webp"
+    },
+    {
+      "id": "wedding",
+      "chapter": 13,
+      "sourceAnchor": "Başrahip altın asasını kaldırdı.",
+      "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
+      "prompt": "Joyful royal wedding in silver palace hall decorated with silver-white flowers. Bella in modest long elegant white wedding gown, copper-red hair down her back, delicate silver crown and small silver moon pendant, stands hand in hand with Silvan in black and silver royal clothing. Priest holds golden staff before them. Silver-haired Queen Mother white-gold dress, Margaret grey bun brown shawl, Nira young woman long black hair at distant sides. Focus bride and groom faces, clear adult tenderness, no text.",
+      "file": "assets/images/wedding.webp"
+    },
+    {
+      "id": "family",
+      "chapter": 13,
+      "sourceAnchor": "Küçük kız korkmadan ona sarıldı.",
+      "alt": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler.",
+      "prompt": "Sunlit silver palace garden years later. A joyful little girl Selina with copper-red hair and silver eyes lovingly hugs the lowered head of a huge gentle silver snake, her father Silvan in fully serpentine form, NO human torso. Bella stands close smiling in a soft blue dress wearing silver moon necklace and wedding ring. Lush white roses, warm safe family intimacy, small snake-free lawn. Exactly mother, child, giant silver serpent.",
+      "file": "assets/images/family.webp"
+    }
+  ],
+  "corrections": {
+    "bridge": "Tommy and the cloaked messenger alone beneath the stone bridge. Two male characters only.",
+    "serpentBattle": "Silvan and Kael fully transformed into enormous limbless silver and black snakes. Bella alone chained at the distant altar.",
+    "betrayal": "Remove the erroneously added silver-haired man. Preserve Kael, Tommy, Bella, guards and spilled potion.",
+    "freedom": "Preserve Bella freeing Mira and the captive women. Enclosed black marble ritual hall, red torches. Remove the silver-haired man and stray lower-left hand.",
+    "moonGate": "Remove the erroneously added silver-haired man behind Bella. Preserve Bella, the white spirit, portal and mountain.",
+    "seal": "Remove the erroneously added silver-haired man behind Bella. Preserve Bella, the two snakes, golden light and portal."
+  }
+}

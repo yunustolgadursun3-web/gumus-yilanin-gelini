@@ -1,5 +1,5 @@
-/* Greyhollow collection. Shared reader geometry stays in the reader styles. */
-#app { --edition-ink:#172b28; --edition-gold:#b4c9bd; --edition-copper:#93605b; --edition-paper:#eeece0; }
+/* Gümüş Yılanın Gelini. Reader geometry stays in the shared styles. */
+#app { --edition-ink:#172b28; --edition-gold:#c3d7d0; --edition-copper:#a27c45; --edition-paper:#eeece0; }
 #app #cover-view::before { background:radial-gradient(ellipse at 75% 12%,#c19b6733,transparent 62%); }
 #app #cover-view::after { background:transparent; }
 #app #cover-view .cover-explore,#app #cover-view .cover-inspect,#app #cover-view .cover-map,#app #cover-view .cover-audio-button {
