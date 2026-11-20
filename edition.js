@@ -39,5 +39,5 @@
   document.addEventListener('book:location', navigation);
   window.addEventListener('load', navigation, { once: true });
   navigation();
-  document.getElementById('cover-edition-info').textContent = '14 bölüm · prolog ve epilog';
+  document.getElementById('cover-edition-info').textContent = '13 bölüm · tam roman';
 })();

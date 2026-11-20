@@ -1,5 +1,5 @@
 {
-  "storyId": "ayin-unuttugu-kral-kirik-yemin-1",
+  "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
   "tracks": [
     {
       "id": "ay-sisi",
@@ -9,6 +9,73 @@
       "format": "mp3",
       "sira": 1,
       "artist": "Özgün ambient beste"
+    },
+    {
+      "id": "muzik-1",
+      "ad": "Müzik 1",
+      "dosya": "muzik.mp3",
+      "duration": 270,
+      "format": "mp3",
+      "sira": 2
+    },
+    {
+      "id": "muzik-2",
+      "ad": "Müzik 2",
+      "dosya": "muzik2.mp3",
+      "duration": 270,
+      "format": "mp3",
+      "sira": 3
+    },
+    {
+      "id": "muzik-3",
+      "ad": "Tenebrous Brothers Carnival — Act One",
+      "dosya": "muzik3.mp3",
+      "duration": 237.42695,
+      "format": "mp3",
+      "sira": 4,
+      "artist": "Kevin MacLeod"
+    },
+    {
+      "id": "muzik-4",
+      "ad": "Müzik 4",
+      "dosya": "muzik4.mp3",
+      "duration": 208.274281,
+      "format": "mp3",
+      "sira": 5
+    },
+    {
+      "id": "muzik-5",
+      "ad": "Müzik 5",
+      "dosya": "muzik5.mp3",
+      "duration": 111.046531,
+      "format": "mp3",
+      "sira": 6
+    },
+    {
+      "id": "muzik-6",
+      "ad": "Müzik 6",
+      "dosya": "muzik6.mp3",
+      "duration": 195.984,
+      "format": "mp3",
+      "sira": 7
+    },
+    {
+      "id": "muzik-7",
+      "ad": "Army Dreamers",
+      "dosya": "muzik7.mp3",
+      "duration": 196.162177,
+      "format": "mp3",
+      "sira": 8,
+      "artist": "Kate Bush"
+    },
+    {
+      "id": "muzik-8",
+      "ad": "Golden Brown — Slowed Down Version",
+      "dosya": "muzik8.mp3",
+      "duration": 248.510113,
+      "format": "mp3",
+      "sira": 9,
+      "artist": "The Stranglers"
     }
   ]
 }
