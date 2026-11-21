@@ -173,3 +173,72 @@
   #app .thank-you-paper { padding: 1.35rem 1.15rem; }
   #app .thank-you-eyebrow { font-size: .58rem; }
 }
+
+#app .thank-you-scene {
+  --rabbit-story-bottom: clamp(2.2rem, 6vh, 4rem);
+  padding-block-end: max(6rem, calc(var(--rabbit-story-bottom) + 3.8rem));
+}
+#app .rabbit-story-trigger {
+  position: absolute;
+  inset-inline-start: 7%;
+  inset-block-end: var(--rabbit-story-bottom);
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  min-height: 2.75rem;
+  max-width: 51%;
+  padding: .55rem .85rem;
+  border: 1px solid #ae7188;
+  border-radius: 2rem;
+  background: #fff4f3;
+  color: #704456;
+  box-shadow: 0 3px 14px #693f4628;
+  font: 600 .72rem/1.4 system-ui, sans-serif;
+  cursor: pointer;
+}
+#app .rabbit-story-trigger span {
+  color: #9d4d6c;
+  font: 1.2rem/1 Georgia, serif;
+}
+#app .rabbit-story-trigger:hover { background: #ffe5ed; }
+#app .rabbit-story-trigger:focus-visible { outline: 2px solid #9f526f; outline-offset: 3px; }
+#app .rabbit-story {
+  position: fixed;
+  width: min(30rem, calc(100vw - 1.25rem));
+  max-width: none;
+  max-height: calc(100dvh - 1.5rem);
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+  border: 1px solid #c898a6;
+  border-radius: 1rem;
+  background: #fff7f1;
+  color: #573f49;
+  box-shadow: 0 18px 65px #351b2b6b;
+  overscroll-behavior: contain;
+}
+#app .rabbit-story::backdrop { background: #3d233a9c; backdrop-filter: blur(4px); }
+#app .rabbit-story-art {
+  display: block;
+  width: 100%;
+  height: clamp(9rem, 26dvh, 15rem);
+  object-fit: cover;
+  object-position: center 58%;
+}
+#app .rabbit-story-paper {
+  padding: 1.2rem clamp(1.15rem, 5vw, 2rem) 1.5rem;
+  border-top: 1px solid #e8bdcb;
+  background: radial-gradient(ellipse at top, #ffe9ee, transparent 76%);
+  text-align: center;
+}
+#app #rabbit-story-title {
+  margin: .1rem 0 .85rem;
+  color: #81465f;
+  font: 500 clamp(1.45rem, 5.5vw, 1.95rem)/1.2 Lora, Georgia, serif;
+}
+#app .rabbit-story-paper p {
+  margin: 0 0 .8rem;
+  font: 400 .88rem/1.65 Lora, Georgia, serif;
+}
+#app .rabbit-story-paper .thank-you-return { margin-top: .25rem; }

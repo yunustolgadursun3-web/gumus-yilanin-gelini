@@ -241,10 +241,34 @@
         "rings"
       ],
       "place": "merkez-sehir",
+      "anchor": "Yüzüğündeki siyah mühür hafifçe parlamaya başladı.",
       "artAfter": true,
-      "previewQuote": "Fredo geceyi şehrin kenarındaki küçük bir handa geçirdi.",
-      "previewUnlock": 12002,
-      "images": []
+      "previewQuote": "Yüzüğündeki siyah mühür hafifçe parlamaya başladı.",
+      "previewUnlock": 12739,
+      "images": [
+        {
+          "id": "dahi-bolum-05",
+          "src": "assets/images/dahi-bolum-05.webp",
+          "alt": "Fredo handa ruh taşını incelerken yüzüğündeki mühür ışıldar.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Yüzüğündeki siyah mühür hafifçe parlamaya başladı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 12739
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-05",
+        "src": "assets/images/dahi-bolum-05.webp",
+        "alt": "Fredo handa ruh taşını incelerken yüzüğündeki mühür ışıldar.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Yüzüğündeki siyah mühür hafifçe parlamaya başladı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 12739
+      }
     },
     {
       "id": "chapter-06",
@@ -261,10 +285,34 @@
         "rings"
       ],
       "place": "merkez-sehir",
+      "anchor": "Üzerine koyu mavi bir ceket, siyah pantolon ve sade işlemeli bir gömlek seçildi. Ardından saçları düzeltildi.",
       "artAfter": true,
-      "previewQuote": "Bella, Fredo'nun çocukluk yıllarındaki en yakın arkadaşlarından biriydi.",
-      "previewUnlock": 14375,
-      "images": []
+      "previewQuote": "Üzerine koyu mavi bir ceket, siyah pantolon ve sade işlemeli bir gömlek seçildi. Ardından saçları düzeltildi.",
+      "previewUnlock": 15541,
+      "images": [
+        {
+          "id": "dahi-bolum-06",
+          "src": "assets/images/dahi-bolum-06.webp",
+          "alt": "Bella, terzi dükkânında Fredo’nun yeni mavi ceketini denemesini izler.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Üzerine koyu mavi bir ceket, siyah pantolon ve sade işlemeli bir gömlek seçildi. Ardından saçları düzeltildi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 15541
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-06",
+        "src": "assets/images/dahi-bolum-06.webp",
+        "alt": "Bella, terzi dükkânında Fredo’nun yeni mavi ceketini denemesini izler.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Üzerine koyu mavi bir ceket, siyah pantolon ve sade işlemeli bir gömlek seçildi. Ardından saçları düzeltildi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 15541
+      }
     },
     {
       "id": "chapter-07",
@@ -325,10 +373,34 @@
         "rings"
       ],
       "place": "ragewind",
+      "anchor": "Florent, Aisha'nın yanında Fredo'yu gördüğünde yüzündeki gülümseme kayboldu.",
       "artAfter": true,
-      "previewQuote": "Aisha, Fredo'nun diğer genç erkeklerden farklı olduğunu kısa sürede fark etti.",
-      "previewUnlock": 19562,
-      "images": []
+      "previewQuote": "Florent, Aisha'nın yanında Fredo'yu gördüğünde yüzündeki gülümseme kayboldu.",
+      "previewUnlock": 21212,
+      "images": [
+        {
+          "id": "dahi-bolum-08",
+          "src": "assets/images/dahi-bolum-08.webp",
+          "alt": "Ragewind Arenası’nda Florent, Aisha’yı Fredo’nun yanında görür.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Florent, Aisha'nın yanında Fredo'yu gördüğünde yüzündeki gülümseme kayboldu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 21212
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-08",
+        "src": "assets/images/dahi-bolum-08.webp",
+        "alt": "Ragewind Arenası’nda Florent, Aisha’yı Fredo’nun yanında görür.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Florent, Aisha'nın yanında Fredo'yu gördüğünde yüzündeki gülümseme kayboldu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 21212
+      }
     },
     {
       "id": "chapter-09",
@@ -345,10 +417,34 @@
         "rings"
       ],
       "place": "ragewind",
+      "anchor": "Koridora ulaştığında genç kadının siyah pelerinli bir adam tarafından köşeye sıkıştırıldığını gördü.",
       "artAfter": true,
-      "previewQuote": "Arenadaki gösteriler devam ederken Bella, içecek almak için salondan ayrıldı.",
-      "previewUnlock": 22254,
-      "images": []
+      "previewQuote": "Koridora ulaştığında genç kadının siyah pelerinli bir adam tarafından köşeye sıkıştırıldığını gördü.",
+      "previewUnlock": 22645,
+      "images": [
+        {
+          "id": "dahi-bolum-09",
+          "src": "assets/images/dahi-bolum-09.webp",
+          "alt": "Fredo, arenanın koridorunda Bella’yla Kara Güve’nin adamının arasına girer.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Koridora ulaştığında genç kadının siyah pelerinli bir adam tarafından köşeye sıkıştırıldığını gördü.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 22645
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-09",
+        "src": "assets/images/dahi-bolum-09.webp",
+        "alt": "Fredo, arenanın koridorunda Bella’yla Kara Güve’nin adamının arasına girer.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Koridora ulaştığında genç kadının siyah pelerinli bir adam tarafından köşeye sıkıştırıldığını gördü.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 22645
+      }
     },
     {
       "id": "chapter-10",
@@ -365,10 +461,34 @@
         "rings"
       ],
       "place": "ragewind",
+      "anchor": "Orc'un kılıcındaki alevler aniden söndü.",
       "artAfter": true,
-      "previewQuote": "Orc, arenanın ana salonuna girdiğinde çevresindeki konuşmalar kesildi.",
-      "previewUnlock": 24403,
-      "images": []
+      "previewQuote": "Orc'un kılıcındaki alevler aniden söndü.",
+      "previewUnlock": 26320,
+      "images": [
+        {
+          "id": "dahi-bolum-10",
+          "src": "assets/images/dahi-bolum-10.webp",
+          "alt": "Fredo’nun karşısında Orc’un kılıcındaki büyülü alevler söner.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Orc'un kılıcındaki alevler aniden söndü.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 26320
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-10",
+        "src": "assets/images/dahi-bolum-10.webp",
+        "alt": "Fredo’nun karşısında Orc’un kılıcındaki büyülü alevler söner.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Orc'un kılıcındaki alevler aniden söndü.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 26320
+      }
     },
     {
       "id": "chapter-11",
@@ -385,10 +505,34 @@
         "rings"
       ],
       "place": "ragewind",
+      "anchor": "Uzun siyah bir pelerin giyen, gümüş saçlı bir savaşçı ağır adımlarla salona girdi.",
       "artAfter": true,
-      "previewQuote": "Orc'un duvara çarpmasıyla Ragewind Arenası'nda büyük bir kargaşa başladı.",
-      "previewUnlock": 26927,
-      "images": []
+      "previewQuote": "Uzun siyah bir pelerin giyen, gümüş saçlı bir savaşçı ağır adımlarla salona girdi.",
+      "previewUnlock": 27572,
+      "images": [
+        {
+          "id": "dahi-bolum-11",
+          "src": "assets/images/dahi-bolum-11.webp",
+          "alt": "Gümüş saçlı Aragorn, hasar gören arenaya gelir.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Uzun siyah bir pelerin giyen, gümüş saçlı bir savaşçı ağır adımlarla salona girdi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 27572
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-11",
+        "src": "assets/images/dahi-bolum-11.webp",
+        "alt": "Gümüş saçlı Aragorn, hasar gören arenaya gelir.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Uzun siyah bir pelerin giyen, gümüş saçlı bir savaşçı ağır adımlarla salona girdi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 27572
+      }
     },
     {
       "id": "chapter-12",
@@ -449,10 +593,34 @@
         "rings"
       ],
       "place": "ragewind",
+      "anchor": "Bütün arena birkaç saniye içinde eski hâline geldi.",
       "artAfter": true,
-      "previewQuote": "Cüce Kral'ın Fredo'ya gösterdiği saygı, arenadaki herkesi şaşkına çevirmişti.",
-      "previewUnlock": 31327,
-      "images": []
+      "previewQuote": "Bütün arena birkaç saniye içinde eski hâline geldi.",
+      "previewUnlock": 32537,
+      "images": [
+        {
+          "id": "dahi-bolum-13",
+          "src": "assets/images/dahi-bolum-13.webp",
+          "alt": "Fredo, Cüce Kral’ın önünde arenanın yıkılan taşlarını büyüyle onarır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Bütün arena birkaç saniye içinde eski hâline geldi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 32537
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-13",
+        "src": "assets/images/dahi-bolum-13.webp",
+        "alt": "Fredo, Cüce Kral’ın önünde arenanın yıkılan taşlarını büyüyle onarır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Bütün arena birkaç saniye içinde eski hâline geldi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 32537
+      }
     },
     {
       "id": "chapter-14",
@@ -468,11 +636,35 @@
         "moon",
         "rings"
       ],
-      "place": "merkez-sehir",
+      "place": "tuneller",
+      "anchor": "Odanın merkezinde siyah bir sunak, duvarlarında ise insan biçiminde hazırlanmış kuklalar vardı.",
       "artAfter": true,
-      "previewQuote": "Ragewind Arenası'nda yaşanan olaylar kısa sürede Merkez Şehir'in tamamına yayıldı.",
-      "previewUnlock": 33535,
-      "images": []
+      "previewQuote": "Odanın merkezinde siyah bir sunak, duvarlarında ise insan biçiminde hazırlanmış kuklalar vardı.",
+      "previewUnlock": 34042,
+      "images": [
+        {
+          "id": "dahi-bolum-14",
+          "src": "assets/images/dahi-bolum-14.webp",
+          "alt": "Kukla Ustası’nın yer altındaki odasını siyah sunak ve tahta kuklalar doldurur.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Odanın merkezinde siyah bir sunak, duvarlarında ise insan biçiminde hazırlanmış kuklalar vardı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 34042
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-14",
+        "src": "assets/images/dahi-bolum-14.webp",
+        "alt": "Kukla Ustası’nın yer altındaki odasını siyah sunak ve tahta kuklalar doldurur.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Odanın merkezinde siyah bir sunak, duvarlarında ise insan biçiminde hazırlanmış kuklalar vardı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 34042
+      }
     },
     {
       "id": "chapter-15",
@@ -488,11 +680,35 @@
         "moon",
         "rings"
       ],
-      "place": "akademi",
+      "place": "merkez-sehir",
+      "anchor": "Taşın içindeki mavi ışık bu kez siyah bir çizgiyle bölünmüştü.",
       "artAfter": true,
-      "previewQuote": "Fredo ertesi sabah handa uyandığında yüzüğünün üzerinde soluk bir çatlak fark etti.",
-      "previewUnlock": 35839,
-      "images": []
+      "previewQuote": "Taşın içindeki mavi ışık bu kez siyah bir çizgiyle bölünmüştü.",
+      "previewUnlock": 36124,
+      "images": [
+        {
+          "id": "dahi-bolum-15",
+          "src": "assets/images/dahi-bolum-15.webp",
+          "alt": "Fredo’nun çatlayan yüzüğüyle ruh taşındaki karanlık çizgi hanın sabah ışığında görünür.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Taşın içindeki mavi ışık bu kez siyah bir çizgiyle bölünmüştü.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 36124
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-15",
+        "src": "assets/images/dahi-bolum-15.webp",
+        "alt": "Fredo’nun çatlayan yüzüğüyle ruh taşındaki karanlık çizgi hanın sabah ışığında görünür.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Taşın içindeki mavi ışık bu kez siyah bir çizgiyle bölünmüştü.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 36124
+      }
     },
     {
       "id": "chapter-16",
@@ -552,11 +768,35 @@
         "moon",
         "rings"
       ],
-      "place": "gecit",
+      "place": "merkez-sehir",
+      "anchor": "Sembol, yüzüğünün iç kısmına işlenmiş işaretle aynıydı.",
       "artAfter": true,
-      "previewQuote": "Fredo saldırıdan sonra parçalanan kuklaları inceledi.",
-      "previewUnlock": 40682,
-      "images": []
+      "previewQuote": "Sembol, yüzüğünün iç kısmına işlenmiş işaretle aynıydı.",
+      "previewUnlock": 41943,
+      "images": [
+        {
+          "id": "dahi-bolum-17",
+          "src": "assets/images/dahi-bolum-17.webp",
+          "alt": "Fredo, eski kitaplarda yüzüğündeki gümüş taç işaretine rastlar.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Sembol, yüzüğünün iç kısmına işlenmiş işaretle aynıydı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 41943
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-17",
+        "src": "assets/images/dahi-bolum-17.webp",
+        "alt": "Fredo, eski kitaplarda yüzüğündeki gümüş taç işaretine rastlar.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Sembol, yüzüğünün iç kısmına işlenmiş işaretle aynıydı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 41943
+      }
     },
     {
       "id": "chapter-18",
@@ -573,10 +813,34 @@
         "rings"
       ],
       "place": "ragewind",
+      "anchor": "Sayfalarda aynı gümüş taç sembolü vardı.",
       "artAfter": true,
-      "previewQuote": "Ertesi gün Fredo, Ragewind Arenası'na yeniden gitti.",
-      "previewUnlock": 42661,
-      "images": []
+      "previewQuote": "Sayfalarda aynı gümüş taç sembolü vardı.",
+      "previewUnlock": 43491,
+      "images": [
+        {
+          "id": "dahi-bolum-18",
+          "src": "assets/images/dahi-bolum-18.webp",
+          "alt": "Aragorn ve Fredo, gümüş taç işareti bulunan eski sayfaları inceler.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Sayfalarda aynı gümüş taç sembolü vardı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 43491
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-18",
+        "src": "assets/images/dahi-bolum-18.webp",
+        "alt": "Aragorn ve Fredo, gümüş taç işareti bulunan eski sayfaları inceler.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Sayfalarda aynı gümüş taç sembolü vardı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 43491
+      }
     },
     {
       "id": "chapter-19",
@@ -593,10 +857,34 @@
         "rings"
       ],
       "place": "akademi",
+      "anchor": "Aisha elini kaldırarak koruyucu bir büyü oluşturdu.",
       "artAfter": true,
-      "previewQuote": "Merkez Şehir'in üzerinde akşam karanlığı çökerken Aisha, Kutsal Akademi'den ayrıldı.",
-      "previewUnlock": 44718,
-      "images": []
+      "previewQuote": "Aisha elini kaldırarak koruyucu bir büyü oluşturdu.",
+      "previewUnlock": 45366,
+      "images": [
+        {
+          "id": "dahi-bolum-19",
+          "src": "assets/images/dahi-bolum-19.webp",
+          "alt": "Aisha, akademinin yakınında karşısına çıkan gölgelere karşı koruyucu büyüsünü kaldırır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Aisha elini kaldırarak koruyucu bir büyü oluşturdu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 45366
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-19",
+        "src": "assets/images/dahi-bolum-19.webp",
+        "alt": "Aisha, akademinin yakınında karşısına çıkan gölgelere karşı koruyucu büyüsünü kaldırır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Aisha elini kaldırarak koruyucu bir büyü oluşturdu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 45366
+      }
     },
     {
       "id": "chapter-20",
@@ -613,10 +901,34 @@
         "rings"
       ],
       "place": "merkez-sehir",
+      "anchor": "İkisi Merkez Şehir'in ışıklarla dolu caddelerinde yürürken Aisha sessizliği bozdu.",
       "artAfter": true,
-      "previewQuote": "Fredo suikastçıları şehir muhafızlarına teslim etti.",
-      "previewUnlock": 46750,
-      "images": []
+      "previewQuote": "İkisi Merkez Şehir'in ışıklarla dolu caddelerinde yürürken Aisha sessizliği bozdu.",
+      "previewUnlock": 47132,
+      "images": [
+        {
+          "id": "dahi-bolum-20",
+          "src": "assets/images/dahi-bolum-20.webp",
+          "alt": "Fredo ile Aisha, Merkez Şehir’in fenerlerle aydınlanan caddelerinde konuşur.",
+          "width": 508,
+          "height": 508,
+          "anchor": "İkisi Merkez Şehir'in ışıklarla dolu caddelerinde yürürken Aisha sessizliği bozdu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 47132
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-20",
+        "src": "assets/images/dahi-bolum-20.webp",
+        "alt": "Fredo ile Aisha, Merkez Şehir’in fenerlerle aydınlanan caddelerinde konuşur.",
+        "width": 508,
+        "height": 508,
+        "anchor": "İkisi Merkez Şehir'in ışıklarla dolu caddelerinde yürürken Aisha sessizliği bozdu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 47132
+      }
     },
     {
       "id": "chapter-21",
@@ -677,10 +989,34 @@
         "rings"
       ],
       "place": "akademi",
+      "anchor": "Aisha uyandığında odada yalnızca Fredo vardı.",
       "artAfter": true,
-      "previewQuote": "Aisha'nın iyileşmesi herkesi rahatlatsa da Fredo, tehlikenin tamamen geçmediğini biliyordu.",
-      "previewUnlock": 51082,
-      "images": []
+      "previewQuote": "Aisha uyandığında odada yalnızca Fredo vardı.",
+      "previewUnlock": 51548,
+      "images": [
+        {
+          "id": "dahi-bolum-22",
+          "src": "assets/images/dahi-bolum-22.webp",
+          "alt": "Aisha uyandığında Fredo’yu yatağının yanında bulur.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Aisha uyandığında odada yalnızca Fredo vardı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 51548
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-22",
+        "src": "assets/images/dahi-bolum-22.webp",
+        "alt": "Aisha uyandığında Fredo’yu yatağının yanında bulur.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Aisha uyandığında odada yalnızca Fredo vardı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 51548
+      }
     },
     {
       "id": "chapter-23",
@@ -697,10 +1033,34 @@
         "rings"
       ],
       "place": "merkez-sehir",
+      "anchor": "\"Karşılığında ne istiyorsunuz?\"",
       "artAfter": true,
-      "previewQuote": "Florent, babasının ticaret imparatorluğunun varisi olarak yetiştirilmişti.",
-      "previewUnlock": 53005,
-      "images": []
+      "previewQuote": "\"Karşılığında ne istiyorsunuz?\"",
+      "previewUnlock": 54416,
+      "images": [
+        {
+          "id": "dahi-bolum-23",
+          "src": "assets/images/dahi-bolum-23.webp",
+          "alt": "Florent, Kukla Ustası’yla gizli bir görüşme yapar.",
+          "width": 508,
+          "height": 508,
+          "anchor": "\"Karşılığında ne istiyorsunuz?\"",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 54416
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-23",
+        "src": "assets/images/dahi-bolum-23.webp",
+        "alt": "Florent, Kukla Ustası’yla gizli bir görüşme yapar.",
+        "width": 508,
+        "height": 508,
+        "anchor": "\"Karşılığında ne istiyorsunuz?\"",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 54416
+      }
     },
     {
       "id": "chapter-24",
@@ -717,10 +1077,34 @@
         "rings"
       ],
       "place": "merkez-sehir",
+      "anchor": "Aisha geçide çekilmek üzereyken Fredo onun bileğini tuttu.",
       "artAfter": true,
-      "previewQuote": "Aisha iyileştikten birkaç gün sonra Fredo'yla yeniden görüşmek istedi.",
-      "previewUnlock": 55076,
-      "images": []
+      "previewQuote": "Aisha geçide çekilmek üzereyken Fredo onun bileğini tuttu.",
+      "previewUnlock": 56703,
+      "images": [
+        {
+          "id": "dahi-bolum-24",
+          "src": "assets/images/dahi-bolum-24.webp",
+          "alt": "Sisli nehir kıyısında Fredo, Aisha’yı büyülü geçitten uzaklaştırmaya çalışır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Aisha geçide çekilmek üzereyken Fredo onun bileğini tuttu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 56703
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-24",
+        "src": "assets/images/dahi-bolum-24.webp",
+        "alt": "Sisli nehir kıyısında Fredo, Aisha’yı büyülü geçitten uzaklaştırmaya çalışır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Aisha geçide çekilmek üzereyken Fredo onun bileğini tuttu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 56703
+      }
     },
     {
       "id": "chapter-25",
@@ -737,10 +1121,34 @@
         "rings"
       ],
       "place": "merkez-sehir",
+      "anchor": "Bir süre sonra adamın gözleri normale döndü.",
       "artAfter": true,
-      "previewQuote": "Fredo yakaladığı saldırganı eski bir depoya götürdü.",
-      "previewUnlock": 57033,
-      "images": []
+      "previewQuote": "Bir süre sonra adamın gözleri normale döndü.",
+      "previewUnlock": 57679,
+      "images": [
+        {
+          "id": "dahi-bolum-25",
+          "src": "assets/images/dahi-bolum-25.webp",
+          "alt": "Fredo eski depoda, sorguladığı adamın zihnini örten büyüyü kaldırır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Bir süre sonra adamın gözleri normale döndü.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 57679
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-25",
+        "src": "assets/images/dahi-bolum-25.webp",
+        "alt": "Fredo eski depoda, sorguladığı adamın zihnini örten büyüyü kaldırır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Bir süre sonra adamın gözleri normale döndü.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 57679
+      }
     },
     {
       "id": "chapter-26",
@@ -801,10 +1209,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Aisha da toplantıya katıldı.",
       "artAfter": true,
-      "previewQuote": "Kukla Ustası'nın saklandığı yerin bulunmasıyla Merkez Şehir'deki bazı karanlık bağlantılar açığa çıktı.",
-      "previewUnlock": 61349,
-      "images": []
+      "previewQuote": "Aisha da toplantıya katıldı.",
+      "previewUnlock": 62131,
+      "images": [
+        {
+          "id": "dahi-bolum-27",
+          "src": "assets/images/dahi-bolum-27.webp",
+          "alt": "Fredo ve Aisha, kaçırılma girişimine ilişkin belgeleri inceler.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Aisha da toplantıya katıldı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 62131
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-27",
+        "src": "assets/images/dahi-bolum-27.webp",
+        "alt": "Fredo ve Aisha, kaçırılma girişimine ilişkin belgeleri inceler.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Aisha da toplantıya katıldı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 62131
+      }
     },
     {
       "id": "chapter-28",
@@ -821,10 +1253,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Marion belgeyi açtı.",
       "artAfter": true,
-      "previewQuote": "Aisha'nın Florent'i suçlaması, Alwyn Hanedanı içinde büyük bir tartışmaya neden oldu.",
-      "previewUnlock": 63229,
-      "images": []
+      "previewQuote": "Marion belgeyi açtı.",
+      "previewUnlock": 64754,
+      "images": [
+        {
+          "id": "dahi-bolum-28",
+          "src": "assets/images/dahi-bolum-28.webp",
+          "alt": "Kraliçe Marion, hanedanın toplandığı salonda eski evlilik anlaşmasını açar.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Marion belgeyi açtı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 64754
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-28",
+        "src": "assets/images/dahi-bolum-28.webp",
+        "alt": "Kraliçe Marion, hanedanın toplandığı salonda eski evlilik anlaşmasını açar.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Marion belgeyi açtı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 64754
+      }
     },
     {
       "id": "chapter-29",
@@ -841,10 +1297,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Belgedeki gümüş taç işareti aynı anda ışık saçtı.",
       "artAfter": true,
-      "previewQuote": "Marion, Fredo'nun gerçekten eski evlilik anlaşmasındaki kişi olduğuna inanmak istemiyordu.",
-      "previewUnlock": 65344,
-      "images": []
+      "previewQuote": "Belgedeki gümüş taç işareti aynı anda ışık saçtı.",
+      "previewUnlock": 66438,
+      "images": [
+        {
+          "id": "dahi-bolum-29",
+          "src": "assets/images/dahi-bolum-29.webp",
+          "alt": "Belgede üç yıldızla çevrili gümüş taç ışıldarken Fredo’nun yüzüğü karşılık verir.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Belgedeki gümüş taç işareti aynı anda ışık saçtı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 66438
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-29",
+        "src": "assets/images/dahi-bolum-29.webp",
+        "alt": "Belgede üç yıldızla çevrili gümüş taç ışıldarken Fredo’nun yüzüğü karşılık verir.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Belgedeki gümüş taç işareti aynı anda ışık saçtı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 66438
+      }
     },
     {
       "id": "chapter-30",
@@ -861,10 +1341,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Aisha'nın karşısına geçerek kutuyu açtı.",
       "artAfter": true,
-      "previewQuote": "Florent, Aisha'nın kendisini herkesin önünde suçlamasını unutamamıştı.",
-      "previewUnlock": 67053,
-      "images": []
+      "previewQuote": "Aisha'nın karşısına geçerek kutuyu açtı.",
+      "previewUnlock": 67663,
+      "images": [
+        {
+          "id": "dahi-bolum-30",
+          "src": "assets/images/dahi-bolum-30.webp",
+          "alt": "Florent, saraydaki kabulde Aisha’ya kolye kutusunu uzatır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Aisha'nın karşısına geçerek kutuyu açtı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 67663
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-30",
+        "src": "assets/images/dahi-bolum-30.webp",
+        "alt": "Florent, saraydaki kabulde Aisha’ya kolye kutusunu uzatır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Aisha'nın karşısına geçerek kutuyu açtı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 67663
+      }
     },
     {
       "id": "chapter-31",
@@ -925,10 +1429,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Saray bahçesinde Aisha ile Fredo'nun konuştuğunu gördü.",
       "artAfter": true,
-      "previewQuote": "Aisha'nın ziyafette yaptığı açıklama, Alwyn Hanedanı'nın içinde derin ayrılıklara neden oldu.",
-      "previewUnlock": 70973,
-      "images": []
+      "previewQuote": "Saray bahçesinde Aisha ile Fredo'nun konuştuğunu gördü.",
+      "previewUnlock": 72346,
+      "images": [
+        {
+          "id": "dahi-bolum-32",
+          "src": "assets/images/dahi-bolum-32.webp",
+          "alt": "Darren, sarayın penceresinden bahçede konuşan Fredo ve Aisha’yı izler.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Saray bahçesinde Aisha ile Fredo'nun konuştuğunu gördü.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 72346
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-32",
+        "src": "assets/images/dahi-bolum-32.webp",
+        "alt": "Darren, sarayın penceresinden bahçede konuşan Fredo ve Aisha’yı izler.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Saray bahçesinde Aisha ile Fredo'nun konuştuğunu gördü.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 72346
+      }
     },
     {
       "id": "chapter-33",
@@ -945,10 +1473,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Ron'un bedenindeki karanlık enerjiyi inceledi.",
       "artAfter": true,
-      "previewQuote": "Yaşlı lider günlerdir yatağından kalkamıyor, sarayın en güçlü şifacıları bile onu iyileştiremiyordu.",
-      "previewUnlock": 72929,
-      "images": []
+      "previewQuote": "Ron'un bedenindeki karanlık enerjiyi inceledi.",
+      "previewUnlock": 73660,
+      "images": [
+        {
+          "id": "dahi-bolum-33",
+          "src": "assets/images/dahi-bolum-33.webp",
+          "alt": "Fredo, Aisha ve şifacıların yanında Ron’un hastalığını inceler.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Ron'un bedenindeki karanlık enerjiyi inceledi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 73660
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-33",
+        "src": "assets/images/dahi-bolum-33.webp",
+        "alt": "Fredo, Aisha ve şifacıların yanında Ron’un hastalığını inceler.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Ron'un bedenindeki karanlık enerjiyi inceledi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 73660
+      }
     },
     {
       "id": "chapter-34",
@@ -1009,10 +1561,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Ardından herkesin önünde başını eğdi.",
       "artAfter": true,
-      "previewQuote": "Ron'un gözlerini açması sarayda büyük sevinç yarattı.",
-      "previewUnlock": 76384,
-      "images": []
+      "previewQuote": "Ardından herkesin önünde başını eğdi.",
+      "previewUnlock": 77056,
+      "images": [
+        {
+          "id": "dahi-bolum-35",
+          "src": "assets/images/dahi-bolum-35.webp",
+          "alt": "Ron uyandıktan sonra başrahip, Fredo’nun önünde saygıyla eğilir.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Ardından herkesin önünde başını eğdi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 77056
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-35",
+        "src": "assets/images/dahi-bolum-35.webp",
+        "alt": "Ron uyandıktan sonra başrahip, Fredo’nun önünde saygıyla eğilir.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Ardından herkesin önünde başını eğdi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 77056
+      }
     },
     {
       "id": "chapter-36",
@@ -1029,10 +1605,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "\"Sen o ailenin son varisisin.\"",
       "artAfter": true,
-      "previewQuote": "Yaşlı adamın gözlerinde hem sevinç hem de yıllardır taşıdığı bir pişmanlık vardı.",
-      "previewUnlock": 78436,
-      "images": []
+      "previewQuote": "\"Sen o ailenin son varisisin.\"",
+      "previewUnlock": 79361,
+      "images": [
+        {
+          "id": "dahi-bolum-36",
+          "src": "assets/images/dahi-bolum-36.webp",
+          "alt": "Ron, Fredo’ya Frosthold’un geçmişini ve ailesinin kimliğini anlatır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "\"Sen o ailenin son varisisin.\"",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 79361
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-36",
+        "src": "assets/images/dahi-bolum-36.webp",
+        "alt": "Ron, Fredo’ya Frosthold’un geçmişini ve ailesinin kimliğini anlatır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "\"Sen o ailenin son varisisin.\"",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 79361
+      }
     },
     {
       "id": "chapter-37",
@@ -1049,10 +1649,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Bir gece Darren gizli çalışma odasında Florent'le buluştu.",
       "artAfter": true,
-      "previewQuote": "Ron'un iyileşmesiyle Alwyn Sarayı'ndaki güç dengeleri değişmeye başladı.",
-      "previewUnlock": 80391,
-      "images": []
+      "previewQuote": "Bir gece Darren gizli çalışma odasında Florent'le buluştu.",
+      "previewUnlock": 80761,
+      "images": [
+        {
+          "id": "dahi-bolum-37",
+          "src": "assets/images/dahi-bolum-37.webp",
+          "alt": "Darren ve Florent, sarayın gizli çalışma odasında buluşur.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Bir gece Darren gizli çalışma odasında Florent'le buluştu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 80761
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-37",
+        "src": "assets/images/dahi-bolum-37.webp",
+        "alt": "Darren ve Florent, sarayın gizli çalışma odasında buluşur.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Bir gece Darren gizli çalışma odasında Florent'le buluştu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 80761
+      }
     },
     {
       "id": "chapter-38",
@@ -1069,10 +1693,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "\"Hayır. Seni tanımadan yargıladım. Ailemin gücünü her şeyden üstün gördüm.\"",
       "artAfter": true,
-      "previewQuote": "Marion, Fredo hakkında duyduklarıyla giderek daha fazla yüzleşmek zorunda kalıyordu.",
-      "previewUnlock": 82603,
-      "images": []
+      "previewQuote": "\"Hayır. Seni tanımadan yargıladım. Ailemin gücünü her şeyden üstün gördüm.\"",
+      "previewUnlock": 83396,
+      "images": [
+        {
+          "id": "dahi-bolum-38",
+          "src": "assets/images/dahi-bolum-38.webp",
+          "alt": "Kraliçe Marion, saray bahçesinde Fredo’dan özür diler.",
+          "width": 508,
+          "height": 508,
+          "anchor": "\"Hayır. Seni tanımadan yargıladım. Ailemin gücünü her şeyden üstün gördüm.\"",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 83396
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-38",
+        "src": "assets/images/dahi-bolum-38.webp",
+        "alt": "Kraliçe Marion, saray bahçesinde Fredo’dan özür diler.",
+        "width": 508,
+        "height": 508,
+        "anchor": "\"Hayır. Seni tanımadan yargıladım. Ailemin gücünü her şeyden üstün gördüm.\"",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 83396
+      }
     },
     {
       "id": "chapter-39",
@@ -1088,11 +1736,35 @@
         "moon",
         "rings"
       ],
-      "place": "alwyn",
+      "place": "arsiv",
+      "anchor": "Tacın içindeki enerji yüzüğündeki mühürle birleşti.",
       "artAfter": true,
-      "previewQuote": "Bir akşam yaşlı lider onu sarayın eski arşivine götürdü.",
-      "previewUnlock": 84538,
-      "images": []
+      "previewQuote": "Tacın içindeki enerji yüzüğündeki mühürle birleşti.",
+      "previewUnlock": 85991,
+      "images": [
+        {
+          "id": "dahi-bolum-39",
+          "src": "assets/images/dahi-bolum-39.webp",
+          "alt": "Saray arşivindeki sandıktan çıkan taç, Fredo’nun yüzüğündeki mühürle birleşen bir ışık salar.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Tacın içindeki enerji yüzüğündeki mühürle birleşti.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 85991
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-39",
+        "src": "assets/images/dahi-bolum-39.webp",
+        "alt": "Saray arşivindeki sandıktan çıkan taç, Fredo’nun yüzüğündeki mühürle birleşen bir ışık salar.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Tacın içindeki enerji yüzüğündeki mühürle birleşti.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 85991
+      }
     },
     {
       "id": "chapter-40",
@@ -1109,10 +1781,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Aisha onun elini tuttu.",
       "artAfter": true,
-      "previewQuote": "Ron, Fredo ile Aisha'yı özel olarak yanına çağırdı.",
-      "previewUnlock": 86437,
-      "images": []
+      "previewQuote": "Aisha onun elini tuttu.",
+      "previewUnlock": 87381,
+      "images": [
+        {
+          "id": "dahi-bolum-40",
+          "src": "assets/images/dahi-bolum-40.webp",
+          "alt": "Aisha, yaklaşan tehlikeye rağmen Fredo’nun elini tutar.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Aisha onun elini tuttu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 87381
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-40",
+        "src": "assets/images/dahi-bolum-40.webp",
+        "alt": "Aisha, yaklaşan tehlikeye rağmen Fredo’nun elini tutar.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Aisha onun elini tuttu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 87381
+      }
     },
     {
       "id": "chapter-41",
@@ -1129,10 +1825,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Bella hemen büyüye katıldı.",
       "artAfter": true,
-      "previewQuote": "Ron'un durumu yeniden ağırlaştığında sarayın şifacıları paniğe kapıldı.",
-      "previewUnlock": 88217,
-      "images": []
+      "previewQuote": "Bella hemen büyüye katıldı.",
+      "previewUnlock": 88891,
+      "images": [
+        {
+          "id": "dahi-bolum-41",
+          "src": "assets/images/dahi-bolum-41.webp",
+          "alt": "Bella ve Fredo, Ron’u korumak için şifa büyüsünü birlikte sürdürür.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Bella hemen büyüye katıldı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 88891
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-41",
+        "src": "assets/images/dahi-bolum-41.webp",
+        "alt": "Bella ve Fredo, Ron’u korumak için şifa büyüsünü birlikte sürdürür.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Bella hemen büyüye katıldı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 88891
+      }
     },
     {
       "id": "chapter-42",
@@ -1193,10 +1913,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Kristalin içinden siyah bir enerji yükseldi.",
       "artAfter": true,
-      "previewQuote": "Darren, arşivdeki belgelerin incelendiğini öğrenince paniğe kapıldı.",
-      "previewUnlock": 91980,
-      "images": []
+      "previewQuote": "Kristalin içinden siyah bir enerji yükseldi.",
+      "previewUnlock": 92679,
+      "images": [
+        {
+          "id": "dahi-bolum-43",
+          "src": "assets/images/dahi-bolum-43.webp",
+          "alt": "Darren, sarayın gizli odasında siyah kristalin karanlık enerjisini açığa çıkarır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Kristalin içinden siyah bir enerji yükseldi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 92679
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-43",
+        "src": "assets/images/dahi-bolum-43.webp",
+        "alt": "Darren, sarayın gizli odasında siyah kristalin karanlık enerjisini açığa çıkarır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Kristalin içinden siyah bir enerji yükseldi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 92679
+      }
     },
     {
       "id": "chapter-44",
@@ -1213,10 +1957,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Altından başka bir mühür ortaya çıktı.",
       "artAfter": true,
-      "previewQuote": "Fredo, Alwyn Sarayı'nın büyük salonunda muhafızların karşısına çıkarıldı.",
-      "previewUnlock": 94101,
-      "images": []
+      "previewQuote": "Altından başka bir mühür ortaya çıktı.",
+      "previewUnlock": 95126,
+      "images": [
+        {
+          "id": "dahi-bolum-44",
+          "src": "assets/images/dahi-bolum-44.webp",
+          "alt": "Fredo, herkesin önünde kristalin altındaki gizli mührü ortaya çıkarır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Altından başka bir mühür ortaya çıktı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 95126
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-44",
+        "src": "assets/images/dahi-bolum-44.webp",
+        "alt": "Fredo, herkesin önünde kristalin altındaki gizli mührü ortaya çıkarır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Altından başka bir mühür ortaya çıktı.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 95126
+      }
     },
     {
       "id": "chapter-45",
@@ -1233,10 +2001,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "\"Krallığımın savunma bilgilerini sen mi verdin?\"",
       "artAfter": true,
-      "previewQuote": "Darren'ın bedeninden yükselen karanlık enerji bütün salonu kapladı.",
-      "previewUnlock": 96017,
-      "images": []
+      "previewQuote": "\"Krallığımın savunma bilgilerini sen mi verdin?\"",
+      "previewUnlock": 96675,
+      "images": [
+        {
+          "id": "dahi-bolum-45",
+          "src": "assets/images/dahi-bolum-45.webp",
+          "alt": "Darren karanlık enerjinin sardığı salonda Frosthold’a ihanetini itiraf eder.",
+          "width": 508,
+          "height": 508,
+          "anchor": "\"Krallığımın savunma bilgilerini sen mi verdin?\"",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 96675
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-45",
+        "src": "assets/images/dahi-bolum-45.webp",
+        "alt": "Darren karanlık enerjinin sardığı salonda Frosthold’a ihanetini itiraf eder.",
+        "width": 508,
+        "height": 508,
+        "anchor": "\"Krallığımın savunma bilgilerini sen mi verdin?\"",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 96675
+      }
     },
     {
       "id": "chapter-46",
@@ -1253,10 +2045,34 @@
         "rings"
       ],
       "place": "alwyn",
+      "anchor": "Aisha elini onun eline koydu.",
       "artAfter": true,
-      "previewQuote": "Darren'ın oluşturduğu karanlık büyü çemberi sarayın üzerinde büyümeye devam etti.",
-      "previewUnlock": 97973,
-      "images": []
+      "previewQuote": "Aisha elini onun eline koydu.",
+      "previewUnlock": 98931,
+      "images": [
+        {
+          "id": "dahi-bolum-46",
+          "src": "assets/images/dahi-bolum-46.webp",
+          "alt": "Karanlık çember büyürken Aisha, Fredo’nun yanında kalmayı seçer.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Aisha elini onun eline koydu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 98931
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-46",
+        "src": "assets/images/dahi-bolum-46.webp",
+        "alt": "Karanlık çember büyürken Aisha, Fredo’nun yanında kalmayı seçer.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Aisha elini onun eline koydu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 98931
+      }
     },
     {
       "id": "chapter-47",
@@ -1361,10 +2177,34 @@
         "rings"
       ],
       "place": "frosthold",
+      "anchor": "Lich konuşmaya devam etti.",
       "artAfter": true,
-      "previewQuote": "Lich'in gözlerindeki kırmızı alevler güçlendi.",
-      "previewUnlock": 104354,
-      "images": []
+      "previewQuote": "Lich konuşmaya devam etti.",
+      "previewUnlock": 105365,
+      "images": [
+        {
+          "id": "dahi-bolum-49",
+          "src": "assets/images/dahi-bolum-49.webp",
+          "alt": "Frosthold’un karlı harabelerinde Lich, Fredo’ya geçmişindeki sırrı anlatır.",
+          "width": 508,
+          "height": 508,
+          "anchor": "Lich konuşmaya devam etti.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 105365
+        }
+      ],
+      "galleryImage": {
+        "id": "dahi-bolum-49",
+        "src": "assets/images/dahi-bolum-49.webp",
+        "alt": "Frosthold’un karlı harabelerinde Lich, Fredo’ya geçmişindeki sırrı anlatır.",
+        "width": 508,
+        "height": 508,
+        "anchor": "Lich konuşmaya devam etti.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 105365
+      }
     },
     {
       "id": "chapter-50",

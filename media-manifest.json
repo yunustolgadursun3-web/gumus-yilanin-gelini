@@ -86,6 +86,496 @@
       "sha256": "b4b9d2ebdd58ace273fcb497e059ddc4f6e6ee14d46ebfd8329d0a59cbe81bc1"
     },
     {
+      "id": "dahi-bolum-05-480.webp",
+      "src": "assets/images/dahi-bolum-05-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "2144d42cbdf7e6117a5ab2b232ee10910aa9437831d8ef9e0182d5dfe685a3cb"
+    },
+    {
+      "id": "dahi-bolum-05.webp",
+      "src": "assets/images/dahi-bolum-05.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "944d69a92e862fc9220056cc8965246ba4af1f2124917767765a0f5d799070e7"
+    },
+    {
+      "id": "dahi-bolum-06-480.webp",
+      "src": "assets/images/dahi-bolum-06-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "88dbbef7be73d48061f0ae28907f7a8ba706d2aff6f0de13988f28fff69f0004"
+    },
+    {
+      "id": "dahi-bolum-06.webp",
+      "src": "assets/images/dahi-bolum-06.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "5c163c1bd3dfe213b63bdac00f0ca4c374c0354febe060ae03890fcac586e379"
+    },
+    {
+      "id": "dahi-bolum-08-480.webp",
+      "src": "assets/images/dahi-bolum-08-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f916fb36e0b123e621fc6f001bdcd48418e760c5c808917f4f66d7d9c0c9b9cc"
+    },
+    {
+      "id": "dahi-bolum-08.webp",
+      "src": "assets/images/dahi-bolum-08.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "208575f6bc96e484caba176e633e9b6a26ee026d46aff1d651e0a3649e8ff9b0"
+    },
+    {
+      "id": "dahi-bolum-09-480.webp",
+      "src": "assets/images/dahi-bolum-09-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "c428d242c58ca6f354d307de00e221bf2912d0a122a79b07647f5d4e3b224bee"
+    },
+    {
+      "id": "dahi-bolum-09.webp",
+      "src": "assets/images/dahi-bolum-09.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "080b1b356d2b610c879a231fd0ee3a599b216f171eaeb5321de31b29d0bc32f2"
+    },
+    {
+      "id": "dahi-bolum-10-480.webp",
+      "src": "assets/images/dahi-bolum-10-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f9e62012f628f672c426d8417c2a83e93a56ab011ad72d1806433dfde5a82ae0"
+    },
+    {
+      "id": "dahi-bolum-10.webp",
+      "src": "assets/images/dahi-bolum-10.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "ecbc1326ff5caee54dfb1b3e91cbf0b8e41f399b0baf0438591ca5545f8d1952"
+    },
+    {
+      "id": "dahi-bolum-11-480.webp",
+      "src": "assets/images/dahi-bolum-11-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "34064dda805f7bce13f0b7e6f63555736bc96dc00f6d92ef7304c3eab9ffc931"
+    },
+    {
+      "id": "dahi-bolum-11.webp",
+      "src": "assets/images/dahi-bolum-11.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "ef468f2d1073fd2d005f6165b09c3819b05f3abd9990b14987ffe0aac19f2e33"
+    },
+    {
+      "id": "dahi-bolum-13-480.webp",
+      "src": "assets/images/dahi-bolum-13-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "a5038922a60cba10f50f8c4cb7e7a8293c0f404c0eb5efdf7815ce39f165574f"
+    },
+    {
+      "id": "dahi-bolum-13.webp",
+      "src": "assets/images/dahi-bolum-13.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "ddd0f58fa3676b8365ae68ee4c76afb3dd0f0773d0899de3cf6431132b3de8d9"
+    },
+    {
+      "id": "dahi-bolum-14-480.webp",
+      "src": "assets/images/dahi-bolum-14-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "573ebb26109a7438790e7abcc95bb8e627823979d7bdbaa2b3136b4b9d24fb13"
+    },
+    {
+      "id": "dahi-bolum-14.webp",
+      "src": "assets/images/dahi-bolum-14.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "a830a5c7fddedb7b18235271dbe6749d1ce62b94262a15537358ecd02fd8f650"
+    },
+    {
+      "id": "dahi-bolum-15-480.webp",
+      "src": "assets/images/dahi-bolum-15-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "3725e8206934b68b52b7acb34d8877c5db4cc9020cfa8a379319d600606677f6"
+    },
+    {
+      "id": "dahi-bolum-15.webp",
+      "src": "assets/images/dahi-bolum-15.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "2902b12d21902200a52f5b136df32fe26e088555fa64650d69b60ffd8bfc8a8e"
+    },
+    {
+      "id": "dahi-bolum-17-480.webp",
+      "src": "assets/images/dahi-bolum-17-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "38d7e0b45cc913bad72dab16f8b14fdb9124d799d6a57c86482d6027247a781a"
+    },
+    {
+      "id": "dahi-bolum-17.webp",
+      "src": "assets/images/dahi-bolum-17.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "c9ea0ab972e6e287d7e07b4892bf37b08f3931e3c3483f2e9cc7f65196c9cf45"
+    },
+    {
+      "id": "dahi-bolum-18-480.webp",
+      "src": "assets/images/dahi-bolum-18-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "6febdf5e59c86444d57972c9369610979ce04704aaede74bdcb1ab6b6d44b2ba"
+    },
+    {
+      "id": "dahi-bolum-18.webp",
+      "src": "assets/images/dahi-bolum-18.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "3265c3257e59b4a2ae0672aa2db30b778e9f496570a520ada4a6f74aab11ff24"
+    },
+    {
+      "id": "dahi-bolum-19-480.webp",
+      "src": "assets/images/dahi-bolum-19-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "16a3cea5056d1e0ed5ee6cd23506db43ff541e99fed50372f4312121ca258deb"
+    },
+    {
+      "id": "dahi-bolum-19.webp",
+      "src": "assets/images/dahi-bolum-19.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "5334b355d1523be49f730dd5141574ea39790b72ef6b067664fe643b9734bd83"
+    },
+    {
+      "id": "dahi-bolum-20-480.webp",
+      "src": "assets/images/dahi-bolum-20-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "9116ed2797630e2af6dde72042080eb344364b4b3a49690fa34438447c82a2dd"
+    },
+    {
+      "id": "dahi-bolum-20.webp",
+      "src": "assets/images/dahi-bolum-20.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "996a0f2c519107d5630f09111b938c2b8ecd594e04e6c79e2c3914641e3d7680"
+    },
+    {
+      "id": "dahi-bolum-22-480.webp",
+      "src": "assets/images/dahi-bolum-22-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "1b5fd6afa9fd0179083bed76a0308581562f69e66f25c3a2bf24fd07bb26b6f7"
+    },
+    {
+      "id": "dahi-bolum-22.webp",
+      "src": "assets/images/dahi-bolum-22.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "d0b42690772746ace5fdc2ca1b0e5344c7af1ed758e61b91b001c158126d91ca"
+    },
+    {
+      "id": "dahi-bolum-23-480.webp",
+      "src": "assets/images/dahi-bolum-23-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "e0541b227cb269eec1b016c845247418b137a01d63ddd7b9a44be38458ed1a38"
+    },
+    {
+      "id": "dahi-bolum-23.webp",
+      "src": "assets/images/dahi-bolum-23.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "2553a3ddeef8b799ae2cfdecc03cef13c901f620cfd7d3176c417887eb61647c"
+    },
+    {
+      "id": "dahi-bolum-24-480.webp",
+      "src": "assets/images/dahi-bolum-24-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "8ac6407269205a1cb98db51f70b0279f1f6109b5404c98097dcc20eaad71edf9"
+    },
+    {
+      "id": "dahi-bolum-24.webp",
+      "src": "assets/images/dahi-bolum-24.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "a8e6efe2563adc1a49f229762b76cecefee0fa839cfc4caecd5bf506f33889c4"
+    },
+    {
+      "id": "dahi-bolum-25-480.webp",
+      "src": "assets/images/dahi-bolum-25-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "960a002dc0fa478c494a0cd553e447d7d541e2706d3f0a74120ff4c98607f77a"
+    },
+    {
+      "id": "dahi-bolum-25.webp",
+      "src": "assets/images/dahi-bolum-25.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "37570d93aa1bdcaa8fa457d1db92b220aa655ee1d2ccce568e4f611b4044f8dc"
+    },
+    {
+      "id": "dahi-bolum-27-480.webp",
+      "src": "assets/images/dahi-bolum-27-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "721e160a8f568b75982b3fdfa6fb792c11bf2da7b8065561e909f5b249a16409"
+    },
+    {
+      "id": "dahi-bolum-27.webp",
+      "src": "assets/images/dahi-bolum-27.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "289dd7bbd313bce69308be1ac85b2286570b5aed4c68439b4a7334b8f556da16"
+    },
+    {
+      "id": "dahi-bolum-28-480.webp",
+      "src": "assets/images/dahi-bolum-28-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "a9c0ac0a9d3a979d94a1b53e7b56933f30fe9e39a36b2c1a66ffd80d703351fc"
+    },
+    {
+      "id": "dahi-bolum-28.webp",
+      "src": "assets/images/dahi-bolum-28.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "5a868dfe4a67f183f9b2139ac8a4242651a49870da5265610e09a702af1fda7f"
+    },
+    {
+      "id": "dahi-bolum-29-480.webp",
+      "src": "assets/images/dahi-bolum-29-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "2699138b07cc8d31297afe4ddd7c54603f237406a7317ea8c6030493741393d4"
+    },
+    {
+      "id": "dahi-bolum-29.webp",
+      "src": "assets/images/dahi-bolum-29.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "169c1dee5c546c92387a4b849130e97ebf6c4396a5f3ee34fe17d5154abae953"
+    },
+    {
+      "id": "dahi-bolum-30-480.webp",
+      "src": "assets/images/dahi-bolum-30-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "0ba9a6e59fec9d3fee32d878a19947b82691226f87a1b7690294ead4487e7b64"
+    },
+    {
+      "id": "dahi-bolum-30.webp",
+      "src": "assets/images/dahi-bolum-30.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "83c0457e9a71af16500a673760ac6004d328c3b79ec8cd871f0a8d9fad4c6e85"
+    },
+    {
+      "id": "dahi-bolum-32-480.webp",
+      "src": "assets/images/dahi-bolum-32-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "8b0d4b13ee4a2bb4a129d6a47ef41db67fe684157ff6744439bcc22c65518fb6"
+    },
+    {
+      "id": "dahi-bolum-32.webp",
+      "src": "assets/images/dahi-bolum-32.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "8b401f8280c2e2c8963e9d11b9fdfb386bb6db82ec055379f74af1983dd0f993"
+    },
+    {
+      "id": "dahi-bolum-33-480.webp",
+      "src": "assets/images/dahi-bolum-33-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "8a7ae7fe72c3824132c174a0239ba079ad93bb5c59309e37df1a272c193acbd3"
+    },
+    {
+      "id": "dahi-bolum-33.webp",
+      "src": "assets/images/dahi-bolum-33.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "780d17fa5ab9d023875cdfdff76165e9e35b08e50a13f8f4b8750f108d6beb98"
+    },
+    {
+      "id": "dahi-bolum-35-480.webp",
+      "src": "assets/images/dahi-bolum-35-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "3f8cc7623cced064499ed22650bedf826ad93a46e8fa10c6f3c27d1fe533186c"
+    },
+    {
+      "id": "dahi-bolum-35.webp",
+      "src": "assets/images/dahi-bolum-35.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "be3e5808144b651d9f24e77126e9e6ccac40da5903a5b111e373f05d2d0b7c95"
+    },
+    {
+      "id": "dahi-bolum-36-480.webp",
+      "src": "assets/images/dahi-bolum-36-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "d18244b49efe29d6fb05b975a087451f8da8a6f4eb4533e2e3f99209119c5623"
+    },
+    {
+      "id": "dahi-bolum-36.webp",
+      "src": "assets/images/dahi-bolum-36.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "a1c07b28943307eb174243bff147bb4ed621c421f4575f6953d329ee1ced5c6e"
+    },
+    {
+      "id": "dahi-bolum-37-480.webp",
+      "src": "assets/images/dahi-bolum-37-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "3748e3f1b9bbb98eedad511eda0ff10bf561321375233af3f43ece88ddfd6421"
+    },
+    {
+      "id": "dahi-bolum-37.webp",
+      "src": "assets/images/dahi-bolum-37.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "4e8d81840e3ee9ae4b8dee53d4452374c3881aa8260bd43d3870a14b70687c9e"
+    },
+    {
+      "id": "dahi-bolum-38-480.webp",
+      "src": "assets/images/dahi-bolum-38-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "c5e2d3cd0bbedf39e5da57dd71b4d615ee418b440014526c060c2118ab4603bf"
+    },
+    {
+      "id": "dahi-bolum-38.webp",
+      "src": "assets/images/dahi-bolum-38.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "05d9d0df36c2539fe520c4b5cd15e7c12b0887ccfde34b61fae98eda38ebddb7"
+    },
+    {
+      "id": "dahi-bolum-39-480.webp",
+      "src": "assets/images/dahi-bolum-39-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "9b08923a2123eefc8fa21b53678e617fb85dde0e1684946dfd53cf59a9447a7d"
+    },
+    {
+      "id": "dahi-bolum-39.webp",
+      "src": "assets/images/dahi-bolum-39.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f43195662b1efdc629d746c3d6d245d38d2d81f310465c7ab410a71310ceffcf"
+    },
+    {
+      "id": "dahi-bolum-40-480.webp",
+      "src": "assets/images/dahi-bolum-40-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "11f6e4ac81d503ce758d0b2d46a7f345a3c9e3e8cfe52dfedc85f498580c5c42"
+    },
+    {
+      "id": "dahi-bolum-40.webp",
+      "src": "assets/images/dahi-bolum-40.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "571568875f538ed52121ea1f176c4e53cb91fa67fd9b430e42da0d013a3859df"
+    },
+    {
+      "id": "dahi-bolum-41-480.webp",
+      "src": "assets/images/dahi-bolum-41-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "716e7f559d44ba9df16f16799d73cfe488edfc41f1c80881f1afc7af728518ee"
+    },
+    {
+      "id": "dahi-bolum-41.webp",
+      "src": "assets/images/dahi-bolum-41.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "03a3404c92a03880001feba842a55a7992ede5bba2ee796c4bf5fa44562a89d4"
+    },
+    {
+      "id": "dahi-bolum-43-480.webp",
+      "src": "assets/images/dahi-bolum-43-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f6c3a5c6a5380e0ac4cc347d9033571f3bf8c42b061842669320f6dc23f250ed"
+    },
+    {
+      "id": "dahi-bolum-43.webp",
+      "src": "assets/images/dahi-bolum-43.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "1989e10789fc1515f4776f94e8ff32f6c05f4f742deff8fd50fbc18f84e1b822"
+    },
+    {
+      "id": "dahi-bolum-44-480.webp",
+      "src": "assets/images/dahi-bolum-44-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "4efb55cee0e2d504f781fe81c9c78d65506ee0990ae5a91aeffcde81996a0219"
+    },
+    {
+      "id": "dahi-bolum-44.webp",
+      "src": "assets/images/dahi-bolum-44.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "1d16c35dbea35491696bcf2e4183b7a15e1d4777fbbb1e02c0a027fab3eef577"
+    },
+    {
+      "id": "dahi-bolum-45-480.webp",
+      "src": "assets/images/dahi-bolum-45-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f06c1d221d1212969bef39cb6c2e9fe63c0b38b3a4ee8519641eba88076cf82a"
+    },
+    {
+      "id": "dahi-bolum-45.webp",
+      "src": "assets/images/dahi-bolum-45.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "5c99622de8fa4954c6bca6c9ea4097d407e76b2bdf4375f86a1601898c60d9ef"
+    },
+    {
+      "id": "dahi-bolum-46-480.webp",
+      "src": "assets/images/dahi-bolum-46-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "1987c0da82de57fa78b833bf602bbfd34c5f4ff931db9903583f1fc436f3e49f"
+    },
+    {
+      "id": "dahi-bolum-46.webp",
+      "src": "assets/images/dahi-bolum-46.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "9497712ab41d8f36f577e41632a1dacae969fe108e683d2f3626396d7da5b635"
+    },
+    {
+      "id": "dahi-bolum-49-480.webp",
+      "src": "assets/images/dahi-bolum-49-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "2eaa390c4bc3d9c2357cbb039434e211c783edba95fc52fd0bf27c357889b4a4"
+    },
+    {
+      "id": "dahi-bolum-49.webp",
+      "src": "assets/images/dahi-bolum-49.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "0bae415b6a850026ce9e5aa2823d0cc00e65b3585a61f2085cc060e1dbb2a2c3"
+    },
+    {
       "id": "academy-curse.webp",
       "src": "assets/images/detail/academy-curse.webp",
       "storyId": "dahi-bilginin-geri-donusu",
@@ -112,6 +602,251 @@
       "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
       "sha256": "9f9772051eeae88d31bd2c7b25755c9bc00f99b681b392bc86f20bd3fd570ef8"
+    },
+    {
+      "id": "dahi-bolum-05.webp",
+      "src": "assets/images/detail/dahi-bolum-05.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "2ef8cd299312435985a317ece0ed75a4174693f28865848bad0987f9029a5be6"
+    },
+    {
+      "id": "dahi-bolum-06.webp",
+      "src": "assets/images/detail/dahi-bolum-06.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "40a4b31facf84ed554c0e704d7c3787c7059e093cb0fd6267a720b6b855954ec"
+    },
+    {
+      "id": "dahi-bolum-08.webp",
+      "src": "assets/images/detail/dahi-bolum-08.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "ea0a7b7a80983131313a03a18b605e33acc4cd912feff989ce172f2d70c1b6ed"
+    },
+    {
+      "id": "dahi-bolum-09.webp",
+      "src": "assets/images/detail/dahi-bolum-09.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "d31436b6e3bbe809e36d5cd1e2f0c5ab0090d01a533349c1274f8da351cd098d"
+    },
+    {
+      "id": "dahi-bolum-10.webp",
+      "src": "assets/images/detail/dahi-bolum-10.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "0e5a85439f2da623f4f395f165ce0532e612393fcce48f7693812e7f9b25da50"
+    },
+    {
+      "id": "dahi-bolum-11.webp",
+      "src": "assets/images/detail/dahi-bolum-11.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f13bb5b5369b9b6da42b703df090bcaa8e95bb3f94acc9dd0b9423054c45990f"
+    },
+    {
+      "id": "dahi-bolum-13.webp",
+      "src": "assets/images/detail/dahi-bolum-13.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "e4fd26726ed8364f87449081a4134a3f2661915a7462dd0d2b2a4cf3d49a91e0"
+    },
+    {
+      "id": "dahi-bolum-14.webp",
+      "src": "assets/images/detail/dahi-bolum-14.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "85db7d9ad1990c620f4734c4e0aa11a9010914230e6b3bf494fa047eedf02103"
+    },
+    {
+      "id": "dahi-bolum-15.webp",
+      "src": "assets/images/detail/dahi-bolum-15.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "dbe8f471388aa418e3b7c88f6849c1ac3a7bb8505eec2c78564837a2040ce834"
+    },
+    {
+      "id": "dahi-bolum-17.webp",
+      "src": "assets/images/detail/dahi-bolum-17.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "0a5743f4a91158feb79a384d570b4f5b9bba11f0ea3d8f9ed87e63221d837e9e"
+    },
+    {
+      "id": "dahi-bolum-18.webp",
+      "src": "assets/images/detail/dahi-bolum-18.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "143907686481f57d559f9d23264f56ad1c286f64b827c32438de189f532eef45"
+    },
+    {
+      "id": "dahi-bolum-19.webp",
+      "src": "assets/images/detail/dahi-bolum-19.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "8a0d5315a1272bf7b388dfd1771fbb02de46273e951fa5c3fcfdc2d03564b4d9"
+    },
+    {
+      "id": "dahi-bolum-20.webp",
+      "src": "assets/images/detail/dahi-bolum-20.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "0199c7b1e3715816980b1a7b7fe8e0b8233c3e14d52b9f7125e063f0fc87ef88"
+    },
+    {
+      "id": "dahi-bolum-22.webp",
+      "src": "assets/images/detail/dahi-bolum-22.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "54451d65ebf953231ce50133f41f19be5dd289ce29398141ddf79688a1735854"
+    },
+    {
+      "id": "dahi-bolum-23.webp",
+      "src": "assets/images/detail/dahi-bolum-23.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "fd350fa609e8e689f908090f1cf67182439f435422f342ed9457b64d93274bc7"
+    },
+    {
+      "id": "dahi-bolum-24.webp",
+      "src": "assets/images/detail/dahi-bolum-24.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f1c3632623729c405156d39a6405113be6e1b8b2bb17f380bb9e89ecfb86d922"
+    },
+    {
+      "id": "dahi-bolum-25.webp",
+      "src": "assets/images/detail/dahi-bolum-25.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "344e0c243b6e0e5b1d5e3f14cf2306f5a0a4fc8818f978d06d6eb1034c06942c"
+    },
+    {
+      "id": "dahi-bolum-27.webp",
+      "src": "assets/images/detail/dahi-bolum-27.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "66888bcdb850022d41cdac689180a3eb839c6ca1a78ac58c44d689c9655f73f5"
+    },
+    {
+      "id": "dahi-bolum-28.webp",
+      "src": "assets/images/detail/dahi-bolum-28.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "5de604dec1b326e920faedf047cf6b9067a24d2669611a0019f085d81b5063ae"
+    },
+    {
+      "id": "dahi-bolum-29.webp",
+      "src": "assets/images/detail/dahi-bolum-29.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "610c3b9bece3809c824913d1cf90a9bc05ab86455e6b2eb0a265597a941ea1d0"
+    },
+    {
+      "id": "dahi-bolum-30.webp",
+      "src": "assets/images/detail/dahi-bolum-30.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "3f827ce44e43ab406ac09239bcfc3b38d8c959d04e24b4c3f37a9fa659959a0f"
+    },
+    {
+      "id": "dahi-bolum-32.webp",
+      "src": "assets/images/detail/dahi-bolum-32.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "61ded3e8ec3a9d5bcab878767851f896eb269ccd1b814ead0ba0fd55b516151a"
+    },
+    {
+      "id": "dahi-bolum-33.webp",
+      "src": "assets/images/detail/dahi-bolum-33.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "84b4fa75eebbfdb0b23017258689e63155f70145e8b560047a940cb8e57357d5"
+    },
+    {
+      "id": "dahi-bolum-35.webp",
+      "src": "assets/images/detail/dahi-bolum-35.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "f80ec1a610e85de5bd1a679a2aff59e96fb6adc40fe76ec254898efb3b72e8c9"
+    },
+    {
+      "id": "dahi-bolum-36.webp",
+      "src": "assets/images/detail/dahi-bolum-36.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "b8d0943f9f13d2ecafd967d02144cc9a781efb5e305956b92b40e1c9e200b48a"
+    },
+    {
+      "id": "dahi-bolum-37.webp",
+      "src": "assets/images/detail/dahi-bolum-37.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "a9f1ec1034a159497bb41feee0a9f305625577880439f5b69abb9dd120de6bbb"
+    },
+    {
+      "id": "dahi-bolum-38.webp",
+      "src": "assets/images/detail/dahi-bolum-38.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "05870dd7df5b0fb95a7322aec0443bed73574a54d6f174e0f23298779e09300c"
+    },
+    {
+      "id": "dahi-bolum-39.webp",
+      "src": "assets/images/detail/dahi-bolum-39.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "9a59c5bd8fe864d1695e1c92240ffa058f08b19b32dc5f62f384b21760dd4117"
+    },
+    {
+      "id": "dahi-bolum-40.webp",
+      "src": "assets/images/detail/dahi-bolum-40.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "e6578cf0a31b3856ceb985c6e1ea6221096c2d2f19754e14d3ed9f1cc041d164"
+    },
+    {
+      "id": "dahi-bolum-41.webp",
+      "src": "assets/images/detail/dahi-bolum-41.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "e35a2ce33d540e1a00d82ad403af41c2e44e59aa5add4367abc7829d5904df8e"
+    },
+    {
+      "id": "dahi-bolum-43.webp",
+      "src": "assets/images/detail/dahi-bolum-43.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "7a534cc52bda28d3a40fb232e0b32c3d25883134c4c1a8fc365ea6ef73b84a7a"
+    },
+    {
+      "id": "dahi-bolum-44.webp",
+      "src": "assets/images/detail/dahi-bolum-44.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "9f1d40de3d3b9d1bc48c2b140bee2a2b02a6ff07d55f0be16b8c92499bfc1185"
+    },
+    {
+      "id": "dahi-bolum-45.webp",
+      "src": "assets/images/detail/dahi-bolum-45.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "05fc00008c48f0e7745cd3af988197dada8a0997afa636cf7c2a116a01bfbc87"
+    },
+    {
+      "id": "dahi-bolum-46.webp",
+      "src": "assets/images/detail/dahi-bolum-46.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "d67f0ebce64589e5c90280c47ae260fdbe04023bd43dee0567f3f422ef5958aa"
+    },
+    {
+      "id": "dahi-bolum-49.webp",
+      "src": "assets/images/detail/dahi-bolum-49.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "48017307f7f7f30b4b62ab88b43b8788f696f9464b1dd979a882ecdfbf6e871e"
     },
     {
       "id": "divine-awakening.webp",
@@ -408,6 +1143,13 @@
       "sha256": "46f749f48cf060c29fe9167f3833345a64b0afeb60c1f50a5c6dc935d8a8d590"
     },
     {
+      "id": "sakura-rabbit-story.webp",
+      "src": "assets/images/sakura-rabbit-story.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "29a488598744e112facfb748c4b419a3a941b1f57e7de2eec19b536277629ad7"
+    },
+    {
       "id": "three-arrows-480.webp",
       "src": "assets/images/three-arrows-480.webp",
       "storyId": "dahi-bilginin-geri-donusu",
@@ -587,24 +1329,30 @@
       "id": "chapter-05",
       "number": 5,
       "title": "BÖLÜM 5 — ESKİ MÜHRÜN UYANIŞI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-05.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-05.webp"
+      ],
       "discoveries": [
-        "marion"
+        "marion",
+        "event-dahi-bolum-05"
       ]
     },
     {
       "id": "chapter-06",
       "number": 6,
       "title": "BÖLÜM 6 — ÇOCUKLUK ARKADAŞI BELLA",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-06.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-06.webp"
+      ],
       "discoveries": [
         "bella",
         "akademi",
-        "fredo-bella"
+        "fredo-bella",
+        "event-dahi-bolum-06"
       ]
     },
     {
@@ -628,40 +1376,54 @@
       "id": "chapter-08",
       "number": 8,
       "title": "BÖLÜM 8 — PRENSES VE GİZLİ NİŞANLI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-08.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-08.webp"
+      ],
       "discoveries": [
-        "florent"
+        "florent",
+        "event-dahi-bolum-08"
       ]
     },
     {
       "id": "chapter-09",
       "number": 9,
       "title": "BÖLÜM 9 — KARA GÜVE'NİN GÖLGESİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-09.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-09.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-09"
+      ]
     },
     {
       "id": "chapter-10",
       "number": 10,
       "title": "BÖLÜM 10 — DİZ ÇÖKMEYEN ADAM",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-10.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-10.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-10"
+      ]
     },
     {
       "id": "chapter-11",
       "number": 11,
       "title": "BÖLÜM 11 — YIKILAN ARENANIN HÜKMÜ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-11.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-11.webp"
+      ],
       "discoveries": [
-        "aragorn"
+        "aragorn",
+        "event-dahi-bolum-11"
       ]
     },
     {
@@ -681,29 +1443,40 @@
       "id": "chapter-13",
       "number": 13,
       "title": "BÖLÜM 13 — KRALIN SAYGI DUYDUĞU GENÇ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-13.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-13.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-13"
+      ]
     },
     {
       "id": "chapter-14",
       "number": 14,
       "title": "BÖLÜM 14 — KUKLA USTASI'NIN PLANI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-14.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-14.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-14"
+      ]
     },
     {
       "id": "chapter-15",
       "number": 15,
       "title": "BÖLÜM 15 — GÖRÜNMEYEN DÜŞMANLAR",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-15.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-15.webp"
+      ],
       "discoveries": [
-        "yuzuk"
+        "yuzuk",
+        "event-dahi-bolum-15"
       ]
     },
     {
@@ -724,39 +1497,54 @@
       "id": "chapter-17",
       "number": 17,
       "title": "BÖLÜM 17 — UNUTULMUŞ BİR HANEDANIN İZİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-17.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-17.webp"
+      ],
       "discoveries": [
-        "frosthold-isareti"
+        "frosthold-isareti",
+        "event-dahi-bolum-17"
       ]
     },
     {
       "id": "chapter-18",
       "number": 18,
       "title": "BÖLÜM 18 — GÜCÜN BEDELİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-18.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-18.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-18"
+      ]
     },
     {
       "id": "chapter-19",
       "number": 19,
       "title": "BÖLÜM 19 — PRENSESİN PEŞİNDEKİ SUİKASTÇILAR",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-19.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-19.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-19"
+      ]
     },
     {
       "id": "chapter-20",
       "number": 20,
       "title": "BÖLÜM 20 — SAKLANAN GERÇEKLER",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-20.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-20.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-20"
+      ]
     },
     {
       "id": "chapter-21",
@@ -775,37 +1563,53 @@
       "id": "chapter-22",
       "number": 22,
       "title": "BÖLÜM 22 — YAŞAMLA ÖLÜM ARASINDA",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-22.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-22.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-22"
+      ]
     },
     {
       "id": "chapter-23",
       "number": 23,
       "title": "BÖLÜM 23 — TİCARET KRALI'NIN OĞLU",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-23.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-23.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-23"
+      ]
     },
     {
       "id": "chapter-24",
       "number": 24,
       "title": "BÖLÜM 24 — GECE YOLCULUĞU",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-24.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-24.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-24"
+      ]
     },
     {
       "id": "chapter-25",
       "number": 25,
       "title": "BÖLÜM 25 — LANETİN SAHİBİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-25.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-25.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-25"
+      ]
     },
     {
       "id": "chapter-26",
@@ -825,37 +1629,53 @@
       "id": "chapter-27",
       "number": 27,
       "title": "BÖLÜM 27 — KAÇIRILMA EMRİNİN ORTAYA ÇIKIŞI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-27.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-27.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-27"
+      ]
     },
     {
       "id": "chapter-28",
       "number": 28,
       "title": "BÖLÜM 28 — ALWYN HANEDANI'NIN KARARI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-28.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-28.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-28"
+      ]
     },
     {
       "id": "chapter-29",
       "number": 29,
       "title": "BÖLÜM 29 — KRALİÇENİN ŞÜPHESİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-29.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-29.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-29"
+      ]
     },
     {
       "id": "chapter-30",
       "number": 30,
       "title": "BÖLÜM 30 — FL ORENT'İN SON HEDİYESİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-30.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-30.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-30"
+      ]
     },
     {
       "id": "chapter-31",
@@ -875,22 +1695,28 @@
       "id": "chapter-32",
       "number": 32,
       "title": "BÖLÜM 32 — SARAYDAKİ ÇATLAKLAR",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-32.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-32.webp"
+      ],
       "discoveries": [
-        "darren"
+        "darren",
+        "event-dahi-bolum-32"
       ]
     },
     {
       "id": "chapter-33",
       "number": 33,
       "title": "BÖLÜM 33 — YAŞLI LİDERİN HASTALIĞI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-33.webp",
       "opening": null,
-      "inserts": [],
+      "inserts": [
+        "assets/images/dahi-bolum-33.webp"
+      ],
       "discoveries": [
-        "ron"
+        "ron",
+        "event-dahi-bolum-33"
       ]
     },
     {
@@ -910,64 +1736,92 @@
       "id": "chapter-35",
       "number": 35,
       "title": "BÖLÜM 35 — BİLGİNİN ÖNÜNDE EĞİLENLER",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-35.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-35.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-35"
+      ]
     },
     {
       "id": "chapter-36",
       "number": 36,
       "title": "BÖLÜM 36 — GEÇMİŞİN KAPILARI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-36.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-36.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-36"
+      ]
     },
     {
       "id": "chapter-37",
       "number": 37,
       "title": "BÖLÜM 37 — SARAYIN İÇİNDEKİ DÜŞMAN",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-37.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-37.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-37"
+      ]
     },
     {
       "id": "chapter-38",
       "number": 38,
       "title": "BÖLÜM 38 — KRALİÇENİN PİŞMANLIĞI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-38.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-38.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-38"
+      ]
     },
     {
       "id": "chapter-39",
       "number": 39,
       "title": "BÖLÜM 39 — ESKİ DOSTUN YEMİNİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-39.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-39.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-39"
+      ]
     },
     {
       "id": "chapter-40",
       "number": 40,
       "title": "BÖLÜM 40 — DÜĞÜNDEN ÖNCEKİ FIRTINA",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-40.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-40.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-40"
+      ]
     },
     {
       "id": "chapter-41",
       "number": 41,
       "title": "BÖLÜM 41 — TAMAMLANMAYAN TEDAVİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-41.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-41.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-41"
+      ]
     },
     {
       "id": "chapter-42",
@@ -987,37 +1841,53 @@
       "id": "chapter-43",
       "number": 43,
       "title": "BÖLÜM 43 — İHANETİN BEDELİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-43.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-43.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-43"
+      ]
     },
     {
       "id": "chapter-44",
       "number": 44,
       "title": "BÖLÜM 44 — SUÇLANAN MİRASÇI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-44.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-44.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-44"
+      ]
     },
     {
       "id": "chapter-45",
       "number": 45,
       "title": "BÖLÜM 45 — AMCANIN İTİRAFI",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-45.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-45.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-45"
+      ]
     },
     {
       "id": "chapter-46",
       "number": 46,
       "title": "BÖLÜM 46 — PRENSESİN SADAKATİ",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-46.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-46.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-46"
+      ]
     },
     {
       "id": "chapter-47",
@@ -1049,10 +1919,14 @@
       "id": "chapter-49",
       "number": 49,
       "title": "BÖLÜM 49 — YİRMİ YILLIK SIR",
-      "gallery": null,
+      "gallery": "assets/images/dahi-bolum-49.webp",
       "opening": null,
-      "inserts": [],
-      "discoveries": []
+      "inserts": [
+        "assets/images/dahi-bolum-49.webp"
+      ],
+      "discoveries": [
+        "event-dahi-bolum-49"
+      ]
     },
     {
       "id": "chapter-50",
@@ -1588,7 +2462,7 @@
           "sourceChapter": 0,
           "src": "assets/images/frosthold-fall.webp",
           "memorySrc": "assets/images/frosthold-fall.webp",
-          "x": 33,
+          "x": 28,
           "y": 37,
           "sourceStart": 1773,
           "sourceEnd": 1906,
@@ -1611,7 +2485,7 @@
           "sourceChapter": 47,
           "src": "assets/images/lich-arrival.webp",
           "memorySrc": "assets/images/lich-arrival.webp",
-          "x": 53,
+          "x": 50,
           "y": 37,
           "sourceStart": 103737,
           "sourceEnd": 103829,
@@ -1627,6 +2501,29 @@
           "discoveries": []
         },
         {
+          "id": "dahi-bolum-49",
+          "name": "BÖLÜM 49 — YİRMİ YILLIK SIR",
+          "label": "YİRMİ YILLIK SIR",
+          "quote": "Lich konuşmaya devam etti.",
+          "sourceChapter": 48,
+          "src": "assets/images/dahi-bolum-49.webp",
+          "memorySrc": "assets/images/dahi-bolum-49.webp",
+          "x": 72,
+          "y": 37,
+          "sourceStart": 105339,
+          "sourceEnd": 105365,
+          "unlock": 105365,
+          "chapter": {
+            "id": "chapter-49",
+            "number": 49,
+            "sourceChapter": 48,
+            "title": "BÖLÜM 49 — YİRMİ YILLIK SIR",
+            "offset": 103974
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "divine-awakening",
           "name": "BÖLÜM 50 — İLAHİ BEDENİN UYANIŞI",
           "label": "İLAHİ BEDENİN UYANIŞI",
@@ -1634,8 +2531,8 @@
           "sourceChapter": 49,
           "src": "assets/images/divine-awakening.webp",
           "memorySrc": "assets/images/divine-awakening.webp",
-          "x": 73,
-          "y": 37,
+          "x": 28,
+          "y": 51,
           "sourceStart": 108204,
           "sourceEnd": 108234,
           "unlock": 108234,
@@ -1657,7 +2554,7 @@
           "sourceChapter": 50,
           "src": "assets/images/frosthold-renewed.webp",
           "memorySrc": "assets/images/frosthold-renewed.webp",
-          "x": 33,
+          "x": 50,
           "y": 51,
           "sourceStart": 116693,
           "sourceEnd": 116755,
@@ -1686,7 +2583,7 @@
           "sourceChapter": 1,
           "src": "assets/images/mountain-lesson.webp",
           "memorySrc": "assets/images/mountain-lesson.webp",
-          "x": 33,
+          "x": 28,
           "y": 37,
           "sourceStart": 3842,
           "sourceEnd": 3884,
@@ -1715,7 +2612,7 @@
           "sourceChapter": 2,
           "src": "assets/images/central-city.webp",
           "memorySrc": "assets/images/central-city.webp",
-          "x": 33,
+          "x": 28,
           "y": 37,
           "sourceStart": 6114,
           "sourceEnd": 6202,
@@ -1726,6 +2623,190 @@
             "sourceChapter": 2,
             "title": "BÖLÜM 3 — MERKEZ ŞEHİR'E DÖNÜŞ",
             "offset": 6009
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-05",
+          "name": "BÖLÜM 5 — ESKİ MÜHRÜN UYANIŞI",
+          "label": "ESKİ MÜHRÜN UYANIŞI",
+          "quote": "Yüzüğündeki siyah mühür hafifçe parlamaya başladı.",
+          "sourceChapter": 4,
+          "src": "assets/images/dahi-bolum-05.webp",
+          "memorySrc": "assets/images/dahi-bolum-05.webp",
+          "x": 50,
+          "y": 37,
+          "sourceStart": 12689,
+          "sourceEnd": 12739,
+          "unlock": 12739,
+          "chapter": {
+            "id": "chapter-05",
+            "number": 5,
+            "sourceChapter": 4,
+            "title": "BÖLÜM 5 — ESKİ MÜHRÜN UYANIŞI",
+            "offset": 11908
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-06",
+          "name": "BÖLÜM 6 — ÇOCUKLUK ARKADAŞI BELLA",
+          "label": "ÇOCUKLUK ARKADAŞI BELLA",
+          "quote": "Üzerine koyu mavi bir ceket, siyah pantolon ve sade işlemeli bir gömlek seçildi. Ardından saçları düzeltildi.",
+          "sourceChapter": 5,
+          "src": "assets/images/dahi-bolum-06.webp",
+          "memorySrc": "assets/images/dahi-bolum-06.webp",
+          "x": 72,
+          "y": 37,
+          "sourceStart": 15432,
+          "sourceEnd": 15541,
+          "unlock": 15541,
+          "chapter": {
+            "id": "chapter-06",
+            "number": 6,
+            "sourceChapter": 5,
+            "title": "BÖLÜM 6 — ÇOCUKLUK ARKADAŞI BELLA",
+            "offset": 14261
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-15",
+          "name": "BÖLÜM 15 — GÖRÜNMEYEN DÜŞMANLAR",
+          "label": "GÖRÜNMEYEN DÜŞMANLAR",
+          "quote": "Taşın içindeki mavi ışık bu kez siyah bir çizgiyle bölünmüştü.",
+          "sourceChapter": 14,
+          "src": "assets/images/dahi-bolum-15.webp",
+          "memorySrc": "assets/images/dahi-bolum-15.webp",
+          "x": 28,
+          "y": 51,
+          "sourceStart": 36062,
+          "sourceEnd": 36124,
+          "unlock": 36124,
+          "chapter": {
+            "id": "chapter-15",
+            "number": 15,
+            "sourceChapter": 14,
+            "title": "BÖLÜM 15 — GÖRÜNMEYEN DÜŞMANLAR",
+            "offset": 35716
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-17",
+          "name": "BÖLÜM 17 — UNUTULMUŞ BİR HANEDANIN İZİ",
+          "label": "UNUTULMUŞ BİR HANEDANIN İZİ",
+          "quote": "Sembol, yüzüğünün iç kısmına işlenmiş işaretle aynıydı.",
+          "sourceChapter": 16,
+          "src": "assets/images/dahi-bolum-17.webp",
+          "memorySrc": "assets/images/dahi-bolum-17.webp",
+          "x": 50,
+          "y": 51,
+          "sourceStart": 41888,
+          "sourceEnd": 41943,
+          "unlock": 41943,
+          "chapter": {
+            "id": "chapter-17",
+            "number": 17,
+            "sourceChapter": 16,
+            "title": "BÖLÜM 17 — UNUTULMUŞ BİR HANEDANIN İZİ",
+            "offset": 40582
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-20",
+          "name": "BÖLÜM 20 — SAKLANAN GERÇEKLER",
+          "label": "SAKLANAN GERÇEKLER",
+          "quote": "İkisi Merkez Şehir'in ışıklarla dolu caddelerinde yürürken Aisha sessizliği bozdu.",
+          "sourceChapter": 19,
+          "src": "assets/images/dahi-bolum-20.webp",
+          "memorySrc": "assets/images/dahi-bolum-20.webp",
+          "x": 72,
+          "y": 51,
+          "sourceStart": 47050,
+          "sourceEnd": 47132,
+          "unlock": 47132,
+          "chapter": {
+            "id": "chapter-20",
+            "number": 20,
+            "sourceChapter": 19,
+            "title": "BÖLÜM 20 — SAKLANAN GERÇEKLER",
+            "offset": 46660
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-23",
+          "name": "BÖLÜM 23 — TİCARET KRALI'NIN OĞLU",
+          "label": "TİCARET KRALI'NIN OĞLU",
+          "quote": "\"Karşılığında ne istiyorsunuz?\"",
+          "sourceChapter": 22,
+          "src": "assets/images/dahi-bolum-23.webp",
+          "memorySrc": "assets/images/dahi-bolum-23.webp",
+          "x": 28,
+          "y": 65,
+          "sourceStart": 54385,
+          "sourceEnd": 54416,
+          "unlock": 54416,
+          "chapter": {
+            "id": "chapter-23",
+            "number": 23,
+            "sourceChapter": 22,
+            "title": "BÖLÜM 23 — TİCARET KRALI'NIN OĞLU",
+            "offset": 52889
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-24",
+          "name": "BÖLÜM 24 — GECE YOLCULUĞU",
+          "label": "GECE YOLCULUĞU",
+          "quote": "Aisha geçide çekilmek üzereyken Fredo onun bileğini tuttu.",
+          "sourceChapter": 23,
+          "src": "assets/images/dahi-bolum-24.webp",
+          "memorySrc": "assets/images/dahi-bolum-24.webp",
+          "x": 50,
+          "y": 65,
+          "sourceStart": 56645,
+          "sourceEnd": 56703,
+          "unlock": 56703,
+          "chapter": {
+            "id": "chapter-24",
+            "number": 24,
+            "sourceChapter": 23,
+            "title": "BÖLÜM 24 — GECE YOLCULUĞU",
+            "offset": 54972
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-25",
+          "name": "BÖLÜM 25 — LANETİN SAHİBİ",
+          "label": "LANETİN SAHİBİ",
+          "quote": "Bir süre sonra adamın gözleri normale döndü.",
+          "sourceChapter": 24,
+          "src": "assets/images/dahi-bolum-25.webp",
+          "memorySrc": "assets/images/dahi-bolum-25.webp",
+          "x": 72,
+          "y": 65,
+          "sourceStart": 57635,
+          "sourceEnd": 57679,
+          "unlock": 57679,
+          "chapter": {
+            "id": "chapter-25",
+            "number": 25,
+            "sourceChapter": 24,
+            "title": "BÖLÜM 25 — LANETİN SAHİBİ",
+            "offset": 56947
           },
           "characters": [],
           "discoveries": []
@@ -1801,6 +2882,98 @@
       "src": "assets/images/aisha-choice.webp",
       "areas": [
         {
+          "id": "dahi-bolum-27",
+          "name": "BÖLÜM 27 — KAÇIRILMA EMRİNİN ORTAYA ÇIKIŞI",
+          "label": "KAÇIRILMA EMRİNİN ORTAYA ÇIKIŞI",
+          "quote": "Aisha da toplantıya katıldı.",
+          "sourceChapter": 26,
+          "src": "assets/images/dahi-bolum-27.webp",
+          "memorySrc": "assets/images/dahi-bolum-27.webp",
+          "x": 14,
+          "y": 23,
+          "sourceStart": 62103,
+          "sourceEnd": 62131,
+          "unlock": 62131,
+          "chapter": {
+            "id": "chapter-27",
+            "number": 27,
+            "sourceChapter": 26,
+            "title": "BÖLÜM 27 — KAÇIRILMA EMRİNİN ORTAYA ÇIKIŞI",
+            "offset": 61195
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-28",
+          "name": "BÖLÜM 28 — ALWYN HANEDANI'NIN KARARI",
+          "label": "ALWYN HANEDANI'NIN KARARI",
+          "quote": "Marion belgeyi açtı.",
+          "sourceChapter": 27,
+          "src": "assets/images/dahi-bolum-28.webp",
+          "memorySrc": "assets/images/dahi-bolum-28.webp",
+          "x": 32,
+          "y": 23,
+          "sourceStart": 64734,
+          "sourceEnd": 64754,
+          "unlock": 64754,
+          "chapter": {
+            "id": "chapter-28",
+            "number": 28,
+            "sourceChapter": 27,
+            "title": "BÖLÜM 28 — ALWYN HANEDANI'NIN KARARI",
+            "offset": 63099
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-29",
+          "name": "BÖLÜM 29 — KRALİÇENİN ŞÜPHESİ",
+          "label": "KRALİÇENİN ŞÜPHESİ",
+          "quote": "Belgedeki gümüş taç işareti aynı anda ışık saçtı.",
+          "sourceChapter": 28,
+          "src": "assets/images/dahi-bolum-29.webp",
+          "memorySrc": "assets/images/dahi-bolum-29.webp",
+          "x": 50,
+          "y": 23,
+          "sourceStart": 66389,
+          "sourceEnd": 66438,
+          "unlock": 66438,
+          "chapter": {
+            "id": "chapter-29",
+            "number": 29,
+            "sourceChapter": 28,
+            "title": "BÖLÜM 29 — KRALİÇENİN ŞÜPHESİ",
+            "offset": 65216
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-30",
+          "name": "BÖLÜM 30 — FL ORENT'İN SON HEDİYESİ",
+          "label": "FL ORENT'İN SON HEDİYESİ",
+          "quote": "Aisha'nın karşısına geçerek kutuyu açtı.",
+          "sourceChapter": 29,
+          "src": "assets/images/dahi-bolum-30.webp",
+          "memorySrc": "assets/images/dahi-bolum-30.webp",
+          "x": 68,
+          "y": 23,
+          "sourceStart": 67623,
+          "sourceEnd": 67663,
+          "unlock": 67663,
+          "chapter": {
+            "id": "chapter-30",
+            "number": 30,
+            "sourceChapter": 29,
+            "title": "BÖLÜM 30 — FL ORENT'İN SON HEDİYESİ",
+            "offset": 66939
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "aisha-choice",
           "name": "BÖLÜM 31 — PRENSESİN SEÇİMİ",
           "label": "PRENSESİN SEÇİMİ",
@@ -1808,8 +2981,8 @@
           "sourceChapter": 30,
           "src": "assets/images/aisha-choice.webp",
           "memorySrc": "assets/images/aisha-choice.webp",
-          "x": 33,
-          "y": 37,
+          "x": 86,
+          "y": 23,
           "sourceStart": 70431,
           "sourceEnd": 70463,
           "unlock": 70463,
@@ -1824,6 +2997,52 @@
           "discoveries": []
         },
         {
+          "id": "dahi-bolum-32",
+          "name": "BÖLÜM 32 — SARAYDAKİ ÇATLAKLAR",
+          "label": "SARAYDAKİ ÇATLAKLAR",
+          "quote": "Saray bahçesinde Aisha ile Fredo'nun konuştuğunu gördü.",
+          "sourceChapter": 31,
+          "src": "assets/images/dahi-bolum-32.webp",
+          "memorySrc": "assets/images/dahi-bolum-32.webp",
+          "x": 14,
+          "y": 41,
+          "sourceStart": 72291,
+          "sourceEnd": 72346,
+          "unlock": 72346,
+          "chapter": {
+            "id": "chapter-32",
+            "number": 32,
+            "sourceChapter": 31,
+            "title": "BÖLÜM 32 — SARAYDAKİ ÇATLAKLAR",
+            "offset": 70841
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-33",
+          "name": "BÖLÜM 33 — YAŞLI LİDERİN HASTALIĞI",
+          "label": "YAŞLI LİDERİN HASTALIĞI",
+          "quote": "Ron'un bedenindeki karanlık enerjiyi inceledi.",
+          "sourceChapter": 32,
+          "src": "assets/images/dahi-bolum-33.webp",
+          "memorySrc": "assets/images/dahi-bolum-33.webp",
+          "x": 32,
+          "y": 41,
+          "sourceStart": 73614,
+          "sourceEnd": 73660,
+          "unlock": 73660,
+          "chapter": {
+            "id": "chapter-33",
+            "number": 33,
+            "sourceChapter": 32,
+            "title": "BÖLÜM 33 — YAŞLI LİDERİN HASTALIĞI",
+            "offset": 72741
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "healing-circle",
           "name": "BÖLÜM 34 — YASAKLI ŞİFA SANATI",
           "label": "YASAKLI ŞİFA SANATI",
@@ -1831,8 +3050,8 @@
           "sourceChapter": 33,
           "src": "assets/images/healing-circle.webp",
           "memorySrc": "assets/images/healing-circle.webp",
-          "x": 53,
-          "y": 37,
+          "x": 50,
+          "y": 41,
           "sourceStart": 74489,
           "sourceEnd": 74552,
           "unlock": 74552,
@@ -1847,6 +3066,236 @@
           "discoveries": []
         },
         {
+          "id": "dahi-bolum-35",
+          "name": "BÖLÜM 35 — BİLGİNİN ÖNÜNDE EĞİLENLER",
+          "label": "BİLGİNİN ÖNÜNDE EĞİLENLER",
+          "quote": "Ardından herkesin önünde başını eğdi.",
+          "sourceChapter": 34,
+          "src": "assets/images/dahi-bolum-35.webp",
+          "memorySrc": "assets/images/dahi-bolum-35.webp",
+          "x": 68,
+          "y": 41,
+          "sourceStart": 77019,
+          "sourceEnd": 77056,
+          "unlock": 77056,
+          "chapter": {
+            "id": "chapter-35",
+            "number": 35,
+            "sourceChapter": 34,
+            "title": "BÖLÜM 35 — BİLGİNİN ÖNÜNDE EĞİLENLER",
+            "offset": 76286
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-36",
+          "name": "BÖLÜM 36 — GEÇMİŞİN KAPILARI",
+          "label": "GEÇMİŞİN KAPILARI",
+          "quote": "\"Sen o ailenin son varisisin.\"",
+          "sourceChapter": 35,
+          "src": "assets/images/dahi-bolum-36.webp",
+          "memorySrc": "assets/images/dahi-bolum-36.webp",
+          "x": 86,
+          "y": 41,
+          "sourceStart": 79331,
+          "sourceEnd": 79361,
+          "unlock": 79361,
+          "chapter": {
+            "id": "chapter-36",
+            "number": 36,
+            "sourceChapter": 35,
+            "title": "BÖLÜM 36 — GEÇMİŞİN KAPILARI",
+            "offset": 78284
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-37",
+          "name": "BÖLÜM 37 — SARAYIN İÇİNDEKİ DÜŞMAN",
+          "label": "SARAYIN İÇİNDEKİ DÜŞMAN",
+          "quote": "Bir gece Darren gizli çalışma odasında Florent'le buluştu.",
+          "sourceChapter": 36,
+          "src": "assets/images/dahi-bolum-37.webp",
+          "memorySrc": "assets/images/dahi-bolum-37.webp",
+          "x": 14,
+          "y": 59,
+          "sourceStart": 80703,
+          "sourceEnd": 80761,
+          "unlock": 80761,
+          "chapter": {
+            "id": "chapter-37",
+            "number": 37,
+            "sourceChapter": 36,
+            "title": "BÖLÜM 37 — SARAYIN İÇİNDEKİ DÜŞMAN",
+            "offset": 80276
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-38",
+          "name": "BÖLÜM 38 — KRALİÇENİN PİŞMANLIĞI",
+          "label": "KRALİÇENİN PİŞMANLIĞI",
+          "quote": "\"Hayır. Seni tanımadan yargıladım. Ailemin gücünü her şeyden üstün gördüm.\"",
+          "sourceChapter": 37,
+          "src": "assets/images/dahi-bolum-38.webp",
+          "memorySrc": "assets/images/dahi-bolum-38.webp",
+          "x": 32,
+          "y": 59,
+          "sourceStart": 83321,
+          "sourceEnd": 83396,
+          "unlock": 83396,
+          "chapter": {
+            "id": "chapter-38",
+            "number": 38,
+            "sourceChapter": 37,
+            "title": "BÖLÜM 38 — KRALİÇENİN PİŞMANLIĞI",
+            "offset": 82478
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-40",
+          "name": "BÖLÜM 40 — DÜĞÜNDEN ÖNCEKİ FIRTINA",
+          "label": "DÜĞÜNDEN ÖNCEKİ FIRTINA",
+          "quote": "Aisha onun elini tuttu.",
+          "sourceChapter": 39,
+          "src": "assets/images/dahi-bolum-40.webp",
+          "memorySrc": "assets/images/dahi-bolum-40.webp",
+          "x": 50,
+          "y": 59,
+          "sourceStart": 87358,
+          "sourceEnd": 87381,
+          "unlock": 87381,
+          "chapter": {
+            "id": "chapter-40",
+            "number": 40,
+            "sourceChapter": 39,
+            "title": "BÖLÜM 40 — DÜĞÜNDEN ÖNCEKİ FIRTINA",
+            "offset": 86343
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-41",
+          "name": "BÖLÜM 41 — TAMAMLANMAYAN TEDAVİ",
+          "label": "TAMAMLANMAYAN TEDAVİ",
+          "quote": "Bella hemen büyüye katıldı.",
+          "sourceChapter": 40,
+          "src": "assets/images/dahi-bolum-41.webp",
+          "memorySrc": "assets/images/dahi-bolum-41.webp",
+          "x": 68,
+          "y": 59,
+          "sourceStart": 88864,
+          "sourceEnd": 88891,
+          "unlock": 88891,
+          "chapter": {
+            "id": "chapter-41",
+            "number": 41,
+            "sourceChapter": 40,
+            "title": "BÖLÜM 41 — TAMAMLANMAYAN TEDAVİ",
+            "offset": 88106
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-43",
+          "name": "BÖLÜM 43 — İHANETİN BEDELİ",
+          "label": "İHANETİN BEDELİ",
+          "quote": "Kristalin içinden siyah bir enerji yükseldi.",
+          "sourceChapter": 42,
+          "src": "assets/images/dahi-bolum-43.webp",
+          "memorySrc": "assets/images/dahi-bolum-43.webp",
+          "x": 86,
+          "y": 59,
+          "sourceStart": 92635,
+          "sourceEnd": 92679,
+          "unlock": 92679,
+          "chapter": {
+            "id": "chapter-43",
+            "number": 43,
+            "sourceChapter": 42,
+            "title": "BÖLÜM 43 — İHANETİN BEDELİ",
+            "offset": 91877
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-44",
+          "name": "BÖLÜM 44 — SUÇLANAN MİRASÇI",
+          "label": "SUÇLANAN MİRASÇI",
+          "quote": "Altından başka bir mühür ortaya çıktı.",
+          "sourceChapter": 43,
+          "src": "assets/images/dahi-bolum-44.webp",
+          "memorySrc": "assets/images/dahi-bolum-44.webp",
+          "x": 14,
+          "y": 77,
+          "sourceStart": 95088,
+          "sourceEnd": 95126,
+          "unlock": 95126,
+          "chapter": {
+            "id": "chapter-44",
+            "number": 44,
+            "sourceChapter": 43,
+            "title": "BÖLÜM 44 — SUÇLANAN MİRASÇI",
+            "offset": 93992
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-45",
+          "name": "BÖLÜM 45 — AMCANIN İTİRAFI",
+          "label": "AMCANIN İTİRAFI",
+          "quote": "\"Krallığımın savunma bilgilerini sen mi verdin?\"",
+          "sourceChapter": 44,
+          "src": "assets/images/dahi-bolum-45.webp",
+          "memorySrc": "assets/images/dahi-bolum-45.webp",
+          "x": 32,
+          "y": 77,
+          "sourceStart": 96627,
+          "sourceEnd": 96675,
+          "unlock": 96675,
+          "chapter": {
+            "id": "chapter-45",
+            "number": 45,
+            "sourceChapter": 44,
+            "title": "BÖLÜM 45 — AMCANIN İTİRAFI",
+            "offset": 95915
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-46",
+          "name": "BÖLÜM 46 — PRENSESİN SADAKATİ",
+          "label": "PRENSESİN SADAKATİ",
+          "quote": "Aisha elini onun eline koydu.",
+          "sourceChapter": 45,
+          "src": "assets/images/dahi-bolum-46.webp",
+          "memorySrc": "assets/images/dahi-bolum-46.webp",
+          "x": 50,
+          "y": 77,
+          "sourceStart": 98902,
+          "sourceEnd": 98931,
+          "unlock": 98931,
+          "chapter": {
+            "id": "chapter-46",
+            "number": 46,
+            "sourceChapter": 45,
+            "title": "BÖLÜM 46 — PRENSESİN SADAKATİ",
+            "offset": 97854
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "celestial-lightning",
           "name": "BÖLÜM 47 — GÖKSEL YILDIRIMIN HÜKMÜ",
           "label": "GÖKSEL YILDIRIMIN HÜKMÜ",
@@ -1854,8 +3303,8 @@
           "sourceChapter": 46,
           "src": "assets/images/celestial-lightning.webp",
           "memorySrc": "assets/images/celestial-lightning.webp",
-          "x": 73,
-          "y": 37,
+          "x": 68,
+          "y": 77,
           "sourceStart": 100138,
           "sourceEnd": 100194,
           "unlock": 100194,
@@ -1899,7 +3348,7 @@
           "sourceChapter": 3,
           "src": "assets/images/dwarf-king.webp",
           "memorySrc": "assets/images/dwarf-king.webp",
-          "x": 33,
+          "x": 28,
           "y": 37,
           "sourceStart": 10318,
           "sourceEnd": 10367,
@@ -1928,7 +3377,7 @@
           "sourceChapter": 6,
           "src": "assets/images/ragewind-meeting.webp",
           "memorySrc": "assets/images/ragewind-meeting.webp",
-          "x": 33,
+          "x": 28,
           "y": 37,
           "sourceStart": 18615,
           "sourceEnd": 18713,
@@ -1944,6 +3393,98 @@
           "discoveries": []
         },
         {
+          "id": "dahi-bolum-08",
+          "name": "BÖLÜM 8 — PRENSES VE GİZLİ NİŞANLI",
+          "label": "PRENSES VE GİZLİ NİŞANLI",
+          "quote": "Florent, Aisha'nın yanında Fredo'yu gördüğünde yüzündeki gülümseme kayboldu.",
+          "sourceChapter": 7,
+          "src": "assets/images/dahi-bolum-08.webp",
+          "memorySrc": "assets/images/dahi-bolum-08.webp",
+          "x": 50,
+          "y": 37,
+          "sourceStart": 21136,
+          "sourceEnd": 21212,
+          "unlock": 21212,
+          "chapter": {
+            "id": "chapter-08",
+            "number": 8,
+            "sourceChapter": 7,
+            "title": "BÖLÜM 8 — PRENSES VE GİZLİ NİŞANLI",
+            "offset": 19441
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-09",
+          "name": "BÖLÜM 9 — KARA GÜVE'NİN GÖLGESİ",
+          "label": "KARA GÜVE'NİN GÖLGESİ",
+          "quote": "Koridora ulaştığında genç kadının siyah pelerinli bir adam tarafından köşeye sıkıştırıldığını gördü.",
+          "sourceChapter": 8,
+          "src": "assets/images/dahi-bolum-09.webp",
+          "memorySrc": "assets/images/dahi-bolum-09.webp",
+          "x": 72,
+          "y": 37,
+          "sourceStart": 22545,
+          "sourceEnd": 22645,
+          "unlock": 22645,
+          "chapter": {
+            "id": "chapter-09",
+            "number": 9,
+            "sourceChapter": 8,
+            "title": "BÖLÜM 9 — KARA GÜVE'NİN GÖLGESİ",
+            "offset": 22137
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-10",
+          "name": "BÖLÜM 10 — DİZ ÇÖKMEYEN ADAM",
+          "label": "DİZ ÇÖKMEYEN ADAM",
+          "quote": "Orc'un kılıcındaki alevler aniden söndü.",
+          "sourceChapter": 9,
+          "src": "assets/images/dahi-bolum-10.webp",
+          "memorySrc": "assets/images/dahi-bolum-10.webp",
+          "x": 28,
+          "y": 51,
+          "sourceStart": 26280,
+          "sourceEnd": 26320,
+          "unlock": 26320,
+          "chapter": {
+            "id": "chapter-10",
+            "number": 10,
+            "sourceChapter": 9,
+            "title": "BÖLÜM 10 — DİZ ÇÖKMEYEN ADAM",
+            "offset": 24296
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-11",
+          "name": "BÖLÜM 11 — YIKILAN ARENANIN HÜKMÜ",
+          "label": "YIKILAN ARENANIN HÜKMÜ",
+          "quote": "Uzun siyah bir pelerin giyen, gümüş saçlı bir savaşçı ağır adımlarla salona girdi.",
+          "sourceChapter": 10,
+          "src": "assets/images/dahi-bolum-11.webp",
+          "memorySrc": "assets/images/dahi-bolum-11.webp",
+          "x": 50,
+          "y": 51,
+          "sourceStart": 27490,
+          "sourceEnd": 27572,
+          "unlock": 27572,
+          "chapter": {
+            "id": "chapter-11",
+            "number": 11,
+            "sourceChapter": 10,
+            "title": "BÖLÜM 11 — YIKILAN ARENANIN HÜKMÜ",
+            "offset": 26812
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "three-arrows",
           "name": "BÖLÜM 12 — ÜÇ HAMLELİK SINAV",
           "label": "ÜÇ HAMLELİK SINAV",
@@ -1951,8 +3492,8 @@
           "sourceChapter": 11,
           "src": "assets/images/three-arrows.webp",
           "memorySrc": "assets/images/three-arrows.webp",
-          "x": 53,
-          "y": 37,
+          "x": 72,
+          "y": 51,
           "sourceStart": 29530,
           "sourceEnd": 29594,
           "unlock": 29594,
@@ -1965,6 +3506,52 @@
           },
           "characters": [],
           "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-13",
+          "name": "BÖLÜM 13 — KRALIN SAYGI DUYDUĞU GENÇ",
+          "label": "KRALIN SAYGI DUYDUĞU GENÇ",
+          "quote": "Bütün arena birkaç saniye içinde eski hâline geldi.",
+          "sourceChapter": 12,
+          "src": "assets/images/dahi-bolum-13.webp",
+          "memorySrc": "assets/images/dahi-bolum-13.webp",
+          "x": 28,
+          "y": 65,
+          "sourceStart": 32486,
+          "sourceEnd": 32537,
+          "unlock": 32537,
+          "chapter": {
+            "id": "chapter-13",
+            "number": 13,
+            "sourceChapter": 12,
+            "title": "BÖLÜM 13 — KRALIN SAYGI DUYDUĞU GENÇ",
+            "offset": 31205
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-18",
+          "name": "BÖLÜM 18 — GÜCÜN BEDELİ",
+          "label": "GÜCÜN BEDELİ",
+          "quote": "Sayfalarda aynı gümüş taç sembolü vardı.",
+          "sourceChapter": 17,
+          "src": "assets/images/dahi-bolum-18.webp",
+          "memorySrc": "assets/images/dahi-bolum-18.webp",
+          "x": 50,
+          "y": 65,
+          "sourceStart": 43451,
+          "sourceEnd": 43491,
+          "unlock": 43491,
+          "chapter": {
+            "id": "chapter-18",
+            "number": 18,
+            "sourceChapter": 17,
+            "title": "BÖLÜM 18 — GÜCÜN BEDELİ",
+            "offset": 42577
+          },
+          "characters": [],
+          "discoveries": []
         }
       ]
     },
@@ -1973,6 +3560,29 @@
       "src": "assets/images/academy-curse.webp",
       "areas": [
         {
+          "id": "dahi-bolum-19",
+          "name": "BÖLÜM 19 — PRENSESİN PEŞİNDEKİ SUİKASTÇILAR",
+          "label": "PRENSESİN PEŞİNDEKİ SUİKASTÇILAR",
+          "quote": "Aisha elini kaldırarak koruyucu bir büyü oluşturdu.",
+          "sourceChapter": 18,
+          "src": "assets/images/dahi-bolum-19.webp",
+          "memorySrc": "assets/images/dahi-bolum-19.webp",
+          "x": 28,
+          "y": 37,
+          "sourceStart": 45315,
+          "sourceEnd": 45366,
+          "unlock": 45366,
+          "chapter": {
+            "id": "chapter-19",
+            "number": 19,
+            "sourceChapter": 18,
+            "title": "BÖLÜM 19 — PRENSESİN PEŞİNDEKİ SUİKASTÇILAR",
+            "offset": 44582
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "academy-curse",
           "name": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
           "label": "KAN VEBASI'NIN DÖNÜŞÜ",
@@ -1980,7 +3590,7 @@
           "sourceChapter": 20,
           "src": "assets/images/academy-curse.webp",
           "memorySrc": "assets/images/academy-curse.webp",
-          "x": 33,
+          "x": 50,
           "y": 37,
           "sourceStart": 50491,
           "sourceEnd": 50541,
@@ -1991,6 +3601,29 @@
             "sourceChapter": 20,
             "title": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
             "offset": 48811
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "dahi-bolum-22",
+          "name": "BÖLÜM 22 — YAŞAMLA ÖLÜM ARASINDA",
+          "label": "YAŞAMLA ÖLÜM ARASINDA",
+          "quote": "Aisha uyandığında odada yalnızca Fredo vardı.",
+          "sourceChapter": 21,
+          "src": "assets/images/dahi-bolum-22.webp",
+          "memorySrc": "assets/images/dahi-bolum-22.webp",
+          "x": 72,
+          "y": 37,
+          "sourceStart": 51503,
+          "sourceEnd": 51548,
+          "unlock": 51548,
+          "chapter": {
+            "id": "chapter-22",
+            "number": 22,
+            "sourceChapter": 21,
+            "title": "BÖLÜM 22 — YAŞAMLA ÖLÜM ARASINDA",
+            "offset": 50950
           },
           "characters": [],
           "discoveries": []
@@ -2009,7 +3642,7 @@
           "sourceChapter": 15,
           "src": "assets/images/wooden-puppets.webp",
           "memorySrc": "assets/images/wooden-puppets.webp",
-          "x": 33,
+          "x": 28,
           "y": 37,
           "sourceStart": 39935,
           "sourceEnd": 40076,
@@ -2031,6 +3664,29 @@
       "src": "assets/images/tunnel-puppets.webp",
       "areas": [
         {
+          "id": "dahi-bolum-14",
+          "name": "BÖLÜM 14 — KUKLA USTASI'NIN PLANI",
+          "label": "KUKLA USTASI'NIN PLANI",
+          "quote": "Odanın merkezinde siyah bir sunak, duvarlarında ise insan biçiminde hazırlanmış kuklalar vardı.",
+          "sourceChapter": 13,
+          "src": "assets/images/dahi-bolum-14.webp",
+          "memorySrc": "assets/images/dahi-bolum-14.webp",
+          "x": 28,
+          "y": 37,
+          "sourceStart": 33947,
+          "sourceEnd": 34042,
+          "unlock": 59058,
+          "chapter": {
+            "id": "chapter-14",
+            "number": 14,
+            "sourceChapter": 13,
+            "title": "BÖLÜM 14 — KUKLA USTASI'NIN PLANI",
+            "offset": 33411
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "tunnel-puppets",
           "name": "BÖLÜM 26 — KUKLA USTASI'NIN SON HAMLESİ",
           "label": "KUKLA USTASI'NIN SON HAMLESİ",
@@ -2038,7 +3694,7 @@
           "sourceChapter": 25,
           "src": "assets/images/tunnel-puppets.webp",
           "memorySrc": "assets/images/tunnel-puppets.webp",
-          "x": 33,
+          "x": 50,
           "y": 37,
           "sourceStart": 59967,
           "sourceEnd": 59998,
@@ -2060,6 +3716,29 @@
       "src": "assets/images/forgotten-archive.webp",
       "areas": [
         {
+          "id": "dahi-bolum-39",
+          "name": "BÖLÜM 39 — ESKİ DOSTUN YEMİNİ",
+          "label": "ESKİ DOSTUN YEMİNİ",
+          "quote": "Tacın içindeki enerji yüzüğündeki mühürle birleşti.",
+          "sourceChapter": 38,
+          "src": "assets/images/dahi-bolum-39.webp",
+          "memorySrc": "assets/images/dahi-bolum-39.webp",
+          "x": 28,
+          "y": 37,
+          "sourceStart": 85940,
+          "sourceEnd": 85991,
+          "unlock": 90087,
+          "chapter": {
+            "id": "chapter-39",
+            "number": 39,
+            "sourceChapter": 38,
+            "title": "BÖLÜM 39 — ESKİ DOSTUN YEMİNİ",
+            "offset": 84316
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
           "id": "forgotten-archive",
           "name": "BÖLÜM 42 — FROSTHOLD'UN KAYIP MİRASI",
           "label": "FROSTHOLD'UN KAYIP MİRASI",
@@ -2067,7 +3746,7 @@
           "sourceChapter": 41,
           "src": "assets/images/forgotten-archive.webp",
           "memorySrc": "assets/images/forgotten-archive.webp",
-          "x": 33,
+          "x": 50,
           "y": 37,
           "sourceStart": 90958,
           "sourceEnd": 90977,

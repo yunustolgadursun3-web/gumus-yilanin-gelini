@@ -352,3 +352,17 @@
   #app .reading-route-runner,
   #app .reading-route-fill { transition: none; }
 }
+
+#app .art-illustration[data-chapter-art]:has(> img[src*="/dahi-bolum-"]) {
+  align-self: center;
+  width: min(100%, 52dvh);
+  aspect-ratio: 1;
+}
+#app .art-illustration[data-chapter-art] > img[src*="/dahi-bolum-"] {
+  aspect-ratio: 1;
+}
+@media (max-width: 620px) and (max-height: 500px) {
+  #app .art-illustration[data-chapter-art]:has(> img[src*="/dahi-bolum-"]) {
+    width: min(100%, 36dvh);
+  }
+}
