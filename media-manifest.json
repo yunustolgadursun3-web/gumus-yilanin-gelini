@@ -1,556 +1,521 @@
 {
-  "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+  "storyId": "dahi-bilginin-geri-donusu",
   "assets": [
     {
       "id": "cinzel.woff2",
       "src": "assets/fonts/cinzel.woff2",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "font",
       "sha256": "a5779eb98b5046090f99169b529743e356b452909295ad7db4cb70011e0425e0"
     },
     {
       "id": "lora-italic.woff2",
       "src": "assets/fonts/lora-italic.woff2",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "font",
       "sha256": "3bb65e234cd07a69127592cafd08ce4242a1a4ace24dcc4c466881693fc74867"
     },
     {
       "id": "lora.woff2",
       "src": "assets/fonts/lora.woff2",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "font",
       "sha256": "525551030c504c0eb42d71b48ce10027e4431bd405d6cd04c468a535ce8d961b"
     },
     {
-      "id": "atlas-480.webp",
-      "src": "assets/images/atlas-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "academy-curse-480.webp",
+      "src": "assets/images/academy-curse-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "3d1270d35a585284faed6e2005da4ae33c6606d05661fc93e27f1571b90c5322"
+      "sha256": "0ad65364d943c202a064efebb1dde6360207695b39fd8ae4e59602db63efd474"
     },
     {
-      "id": "atlas.webp",
-      "src": "assets/images/atlas.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "academy-curse.webp",
+      "src": "assets/images/academy-curse.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "42583b5a29972b680570bf8754f513ec39ac412debf4fe27b84e6f6c29c3ef5f"
+      "sha256": "5b87170d4bb7c6082c99757ed9f8c30a52ada439c355348e565da35dd25c4bad"
     },
     {
-      "id": "betrayal-480.webp",
-      "src": "assets/images/betrayal-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "aisha-choice-480.webp",
+      "src": "assets/images/aisha-choice-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "552c301ddd19afd0401faf8947d517c9bb3c62b65cb5f15bbb789350366ffeed"
+      "sha256": "5ff56b5b958ea16b3a745ba9e42bb8d1609d936896dc539fdd38a71bb180836d"
     },
     {
-      "id": "betrayal.webp",
-      "src": "assets/images/betrayal.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "aisha-choice.webp",
+      "src": "assets/images/aisha-choice.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "a6d27afcffaaa0c81109e0e0ba5a3b974b55d3f17d380c8dac9415038af51013"
+      "sha256": "ea820e991be4767463bc1975dfb4170d417cb4ec92c9150491aaa212392305ab"
     },
     {
       "id": "book-sigil.svg",
       "src": "assets/images/book-sigil.svg",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "596cc17de71366defdaa23a89cbeca0e0f22824d8121581a10d68d907c2651a0"
+      "sha256": "486d7e112fe2a2d2d7378b7851f601f2b91b80b1901542edbb21f6bb51c1ff6f"
     },
     {
-      "id": "bridge-480.webp",
-      "src": "assets/images/bridge-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "celestial-lightning-480.webp",
+      "src": "assets/images/celestial-lightning-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "e5e765fd367c08038b1f7c002a5fd78c2087d54e58375d66965c5d9bcccf33e7"
+      "sha256": "cbfa6c479f4d039575e8ccdfa87124c77b51ae052282fa421c9ecf66fc029350"
     },
     {
-      "id": "bridge.webp",
-      "src": "assets/images/bridge.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "celestial-lightning.webp",
+      "src": "assets/images/celestial-lightning.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "f6c064c3cbce827df25683754a5353042c68c073d6bb139db4d42727a7f7d4fd"
+      "sha256": "8187d69a13bb44488d63780e1b8f191c9bbacd45140e258263ae4170815b1a66"
     },
     {
-      "id": "cover-480.webp",
-      "src": "assets/images/cover-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "central-city-480.webp",
+      "src": "assets/images/central-city-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "5cefcbd05a14c18a64d8edace551ca9ce8c61fa00def0ac115ac8d59c6a04c43"
+      "sha256": "5d5361834984465b24788f1e18e527ace9010aa60d9e05278ce8e46e6b0bd0f7"
     },
     {
-      "id": "cover.webp",
-      "src": "assets/images/cover.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "central-city.webp",
+      "src": "assets/images/central-city.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "faa976083463e6eaf7b85e32008b9997459dba85ae429dffbaf12d2cddd05228"
+      "sha256": "b4b9d2ebdd58ace273fcb497e059ddc4f6e6ee14d46ebfd8329d0a59cbe81bc1"
     },
     {
-      "id": "atlas.webp",
-      "src": "assets/images/detail/atlas.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "academy-curse.webp",
+      "src": "assets/images/detail/academy-curse.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "971af02bfa614755c1c77bcc674657aaf0823111c68ef5de7ebe7238cea483c5"
+      "sha256": "a4b115f074b2c9debc3ab1ca54dd71157d965986d2ab03eef4e780ab378211a3"
     },
     {
-      "id": "betrayal.webp",
-      "src": "assets/images/detail/betrayal.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "aisha-choice.webp",
+      "src": "assets/images/detail/aisha-choice.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "99def2e0c29cb231c72b55ff44429ab2ccdf080fee95fc694e5e8893802aa651"
+      "sha256": "54860be8f5ab3b4fa7f14213f967e6d0da8e4c235f3dac83b60a492327e5f060"
     },
     {
-      "id": "bridge.webp",
-      "src": "assets/images/detail/bridge.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "celestial-lightning.webp",
+      "src": "assets/images/detail/celestial-lightning.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "81e319fd670cb927f7e438dc3b0c514914f960914ac32098a288d90f8852e2fa"
+      "sha256": "92bc937ff92963bbbf69e1acbef387f43b8e8e7b099459e78d27fc779f8f2f4d"
     },
     {
-      "id": "cover.webp",
-      "src": "assets/images/detail/cover.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "central-city.webp",
+      "src": "assets/images/detail/central-city.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "3a782a0cd90c22abc15f79a63b63b6034b1731d6bb5f0bfb3117bbbf28a9ced5"
+      "sha256": "9f9772051eeae88d31bd2c7b25755c9bc00f99b681b392bc86f20bd3fd570ef8"
     },
     {
-      "id": "family.webp",
-      "src": "assets/images/detail/family.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "divine-awakening.webp",
+      "src": "assets/images/detail/divine-awakening.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "2a1aaa660dd51780dbc5ee3c2c4c852ba23b6cc4f588b999baf789c93fad0fcc"
+      "sha256": "2a816a9d2d903c5534e4af52afe2ee2665e1d8b953ca308eab0bc68337dcd8bb"
     },
     {
-      "id": "first-night.webp",
-      "src": "assets/images/detail/first-night.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "dwarf-king.webp",
+      "src": "assets/images/detail/dwarf-king.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "c16c0b61c5ae4d0065ff21a0a9c6b4715fd0292e5d64c8ec219a1aa8ed518634"
+      "sha256": "c9256f629e8f0b6af2d8885be5984325eb77b79e59f469157c66ceba9529c268"
     },
     {
-      "id": "freedom.webp",
-      "src": "assets/images/detail/freedom.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "forgotten-archive.webp",
+      "src": "assets/images/detail/forgotten-archive.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "4c147b92989d76a3f723a924be759c39fa3d6c4694552f0f9c07ede480274e8b"
+      "sha256": "6ca2bd838c94024b4257af589193e7afc06709ee8cf27f1b10b6467f2d9c0056"
     },
     {
-      "id": "garden.webp",
-      "src": "assets/images/detail/garden.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-atlas.webp",
+      "src": "assets/images/detail/frosthold-atlas.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "ec805f5ff58dbb2c868e43a859ff84475ad0bb3d5f0427d0ddfd6e2e52993ca6"
+      "sha256": "f2c67b73751c55f507373d72872d11df77a812373223c31bf8d5c23ca4b92e88"
     },
     {
-      "id": "interrupted-wedding.webp",
-      "src": "assets/images/detail/interrupted-wedding.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-cover.webp",
+      "src": "assets/images/detail/frosthold-cover.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "35cf28f127c4061553b53598cfbf472ab9665c3baee561da08e5ef45ca5f3da7"
+      "sha256": "b0074fd1d4aa916d26d07996580da2a5dd536ab284c34c3b19cfbc750944a877"
     },
     {
-      "id": "mark.webp",
-      "src": "assets/images/detail/mark.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-fall.webp",
+      "src": "assets/images/detail/frosthold-fall.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "e1be98ea53260887bba46753a071943bf034be885fe68736c4b0d5e647f97cfb"
+      "sha256": "8ef422d773be275d7c0ac130b8cfc468cfa02522371f24145bb25af8b264bc74"
     },
     {
-      "id": "moon-gate.webp",
-      "src": "assets/images/detail/moon-gate.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-renewed.webp",
+      "src": "assets/images/detail/frosthold-renewed.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "c9ccbe3caec70848b20ad29556e226a038d8fcb53ee688b297700a6b70718597"
+      "sha256": "038f9281425522feec8a0686a487b773cdc45131dbcba243fc187a738ad4f2db"
     },
     {
-      "id": "necklace.webp",
-      "src": "assets/images/detail/necklace.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "healing-circle.webp",
+      "src": "assets/images/detail/healing-circle.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "a103586ed98544f26e3f4e84f98ff9f387d0b7f71cedb2cc5d52a04d782c1336"
+      "sha256": "21bb3705e885cce45c8f1eddca0c19ef1d7a4e4245ded9ac2c6eef3772e748e4"
     },
     {
-      "id": "poison.webp",
-      "src": "assets/images/detail/poison.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "lich-arrival.webp",
+      "src": "assets/images/detail/lich-arrival.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "e69aeabee61db87549d172dc8fc8adf984361a50bfab7957f92fe40fdefa4255"
+      "sha256": "b80374d3974c1f21e218afe0c385a9e18b1fcf369f0786b03e55df76817c775c"
     },
     {
-      "id": "rescue.webp",
-      "src": "assets/images/detail/rescue.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "mountain-lesson.webp",
+      "src": "assets/images/detail/mountain-lesson.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "d166939bd1b0279bc2ddddf60644da674732a69a7e0189ff8eaf92444bb242fc"
+      "sha256": "a25ad1587781b1749cff506d5edc3f9a3907973982a7faf5f47d931929ae387a"
     },
     {
-      "id": "reunion.webp",
-      "src": "assets/images/detail/reunion.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "ragewind-meeting.webp",
+      "src": "assets/images/detail/ragewind-meeting.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "128f0165199326603e61454952a1770059c62a0be7747eea93d6704f2a32b903"
+      "sha256": "36d623921212c2ed5b01734c6772e75aa9acff41edd559ccacdb19dc4a931f71"
     },
     {
-      "id": "seal.webp",
-      "src": "assets/images/detail/seal.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "three-arrows.webp",
+      "src": "assets/images/detail/three-arrows.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "b46a13e144664e256e0b15eed0029a4ac00dadc44f0582c3d051162d9d53810a"
+      "sha256": "c21b06bea39b8b05cfc423a01b8b281b5ea4682050e8159d7475f3bf5fdf97c7"
     },
     {
-      "id": "serpent-battle.webp",
-      "src": "assets/images/detail/serpent-battle.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "tunnel-puppets.webp",
+      "src": "assets/images/detail/tunnel-puppets.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "d47ec82dd77761158eec80b4fd021775c119142a2c84bcc49e797cbdbdb10232"
+      "sha256": "a67823381fec672a947f69aec207a09faef2e675b0fe8431c0778b01ee10d7e4"
     },
     {
-      "id": "warning.webp",
-      "src": "assets/images/detail/warning.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "wooden-puppets.webp",
+      "src": "assets/images/detail/wooden-puppets.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "8c7afe506533ba6d2079776fdb4fb60334aa45bcf3beb76357e74bee586ed5c6"
+      "sha256": "59a22985c15f304b0ce2530440268ddad85f17f9395b767b472da5ba8995347e"
     },
     {
-      "id": "wedding.webp",
-      "src": "assets/images/detail/wedding.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "divine-awakening-480.webp",
+      "src": "assets/images/divine-awakening-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "953966d47c5bdecc662fe42da07a1bb98c8dace406fe98aba186ac3ae6359fbc"
+      "sha256": "6f2c184b28b8508e9c8334220d4b177beb7b6c37848a1d730df0f824a9e6f464"
     },
     {
-      "id": "family-480.webp",
-      "src": "assets/images/family-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "divine-awakening.webp",
+      "src": "assets/images/divine-awakening.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "6c69374c79a2b9deb2d999f8d5313c91cf16ec69e2986e41f61d2895215c9e3a"
+      "sha256": "2b0d04def05c0abd08ed2bd070e68a5bf8020f4e92fb4ec5c1c1891a76e33ed6"
     },
     {
-      "id": "family.webp",
-      "src": "assets/images/family.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "dwarf-king-480.webp",
+      "src": "assets/images/dwarf-king-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "6f909d87e64dc055da2f4ab80802cbdfc0bea7f840c822394ce4d0a169d85cbf"
+      "sha256": "6cea8bbffe8a2a948f49748bb9e00f207bb5bac15a35cfbef5449dd1bb882a0c"
+    },
+    {
+      "id": "dwarf-king.webp",
+      "src": "assets/images/dwarf-king.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "99c4450696d3b9d66b6d6bc9fa4c0adf88540f6dfbfaf6c35487a5dbfa94aead"
     },
     {
       "id": "favicon.svg",
       "src": "assets/images/favicon.svg",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "7bf0ccc1a7ccd663b1505dba8ad5c369fc7aee8cd95d03254de3a14ae325377d"
+      "sha256": "486d7e112fe2a2d2d7378b7851f601f2b91b80b1901542edbb21f6bb51c1ff6f"
     },
     {
-      "id": "first-night-480.webp",
-      "src": "assets/images/first-night-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "forgotten-archive-480.webp",
+      "src": "assets/images/forgotten-archive-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "b022affc1ba07d84e29bd9687700cbcf36274fe98a2ff54441f9dfe8f92e0f2f"
+      "sha256": "a020d0924c2672ed82df0e36e79896276f9fd4e2129f4aa4e9c7a150f3c4cb3f"
     },
     {
-      "id": "first-night.webp",
-      "src": "assets/images/first-night.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "forgotten-archive.webp",
+      "src": "assets/images/forgotten-archive.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "4a5293bc8a479daccf40397dd7a4b2446019e7bec54fc04892eee4e616c425f2"
+      "sha256": "4d5079eb89d6ea910717c51c152482f6a830574c16e4877c2c9ae4a22619d8f4"
     },
     {
-      "id": "freedom-480.webp",
-      "src": "assets/images/freedom-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-atlas-480.webp",
+      "src": "assets/images/frosthold-atlas-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "25b722424d43bb6b06d33bb041982fbf61acea2f3f2416e042531c1ee1b3550e"
+      "sha256": "664d0cec049bcf0816751940a00b3a1822ca6c4bb9b9d3dfd8b3a9a42ba0444a"
     },
     {
-      "id": "freedom.webp",
-      "src": "assets/images/freedom.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-atlas.webp",
+      "src": "assets/images/frosthold-atlas.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "b1b63eb38a7ac9c5be17d527aece8ceb5ea305834be1a41317347a99ddd78ff2"
+      "sha256": "58f3e423b55dc7f322eef144c822d30e46c01dd107a3a43dd04e6a3a9cbbf2b3"
     },
     {
-      "id": "garden-480.webp",
-      "src": "assets/images/garden-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-cover-480.webp",
+      "src": "assets/images/frosthold-cover-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "4ed12372eb7da132a3ba0b788242f69e9a8fb5e96855ac73b454ebc69615233c"
+      "sha256": "454ce603459d5002fbcbd20d19721496cf05792e597ad46fb462950ca7ea06cb"
     },
     {
-      "id": "garden.webp",
-      "src": "assets/images/garden.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-cover.webp",
+      "src": "assets/images/frosthold-cover.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "e752130d572cd2d47f5688a51c020856102fa294cbd7549957493ec876572b5f"
+      "sha256": "be1194333f2c53ab2760ae1edeb50856c595086107b9709a9c150324205dfc2d"
     },
     {
-      "id": "hero-480.webp",
-      "src": "assets/images/hero-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-fall-480.webp",
+      "src": "assets/images/frosthold-fall-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "3d1270d35a585284faed6e2005da4ae33c6606d05661fc93e27f1571b90c5322"
+      "sha256": "b49994fbc137e312996b2cd2dbeeb6a34651f34195326e146ba2d7422465160e"
     },
     {
-      "id": "hero.webp",
-      "src": "assets/images/hero.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "frosthold-fall.webp",
+      "src": "assets/images/frosthold-fall.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "42583b5a29972b680570bf8754f513ec39ac412debf4fe27b84e6f6c29c3ef5f"
+      "sha256": "6ba5370be1df1c13b2fc36fa32dc6f6064125dfbf545b5cb541164856c5a0d40"
+    },
+    {
+      "id": "frosthold-renewed-480.webp",
+      "src": "assets/images/frosthold-renewed-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "d4d856923e6142b960e048c51dfeff871fc1e35a199ff804b648744c037078a2"
+    },
+    {
+      "id": "frosthold-renewed.webp",
+      "src": "assets/images/frosthold-renewed.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "8d059cf278dd1332c93723d22f428949ccdd6387ca0b0095b91783b0872728ff"
+    },
+    {
+      "id": "frosthold-share.webp",
+      "src": "assets/images/frosthold-share.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "4690f0da602070421e82ef180e9a7d0430ac4a692362055921c8ad335251302d"
+    },
+    {
+      "id": "healing-circle-480.webp",
+      "src": "assets/images/healing-circle-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "9bf1bcd98bab10245aa2489f4287ed1a990959194fa856225ea1ecc30a5b94b4"
+    },
+    {
+      "id": "healing-circle.webp",
+      "src": "assets/images/healing-circle.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "7c91ca5ed96715245dcfb5365bdcbc6d0017c68b79e0efe3a9a31577ac92c64e"
     },
     {
       "id": "icon-192.png",
       "src": "assets/images/icon-192.png",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "68c7bef7d0528c2763b7d61f787e973f3a8fc1e6db63a6ebb5b58cfb96495c34"
+      "sha256": "95be291319b0e9e28028de6c48dfa99800d67ffd395dd4eab71060ac9dafc922"
     },
     {
       "id": "icon-512.png",
       "src": "assets/images/icon-512.png",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "d6fdccce87c43131e606e464af7c4b4edc3df2471bb35ffadc98a1bb333abce5"
+      "sha256": "b484b83cf71090e3625ef37758c1d0f22ec1138b9f420644ceaac8ad4285d1b9"
     },
     {
-      "id": "interrupted-wedding-480.webp",
-      "src": "assets/images/interrupted-wedding-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "lich-arrival-480.webp",
+      "src": "assets/images/lich-arrival-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "03af365d1722b9f9ecd84f8f0d02f76fc6a32e30d8c3f9c186ebf1750cea2089"
+      "sha256": "a0952f3891cc124232266058a03541eb28f6f62c55a7353bf827e32fd38ad4a9"
     },
     {
-      "id": "interrupted-wedding.webp",
-      "src": "assets/images/interrupted-wedding.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "lich-arrival.webp",
+      "src": "assets/images/lich-arrival.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "7dc10911b77329bc0e304bfb4df4b242d6ea7d934b2c44520911a54a684ffdd9"
+      "sha256": "7838263e7432fc2c63d9c8af257416c7676f96c427423960fa75a061c88bd4fc"
     },
     {
-      "id": "mark-480.webp",
-      "src": "assets/images/mark-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "mountain-lesson-480.webp",
+      "src": "assets/images/mountain-lesson-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "15af25ace9aaf93f51c787df7149bcbfc328ff6d9b47861d0a9271a47e025dcc"
+      "sha256": "1ae701823390d4179eb81b4949db862fe4692e428ed7525bdac43b342bceecac"
     },
     {
-      "id": "mark.webp",
-      "src": "assets/images/mark.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "mountain-lesson.webp",
+      "src": "assets/images/mountain-lesson.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "34144a55751406793e4fe529063697eb603e39de6f7774c7cedf2727ddb0c052"
+      "sha256": "553ed270e447a881d6a683a335b5d7d2bb99b982451693bd12f38014d49b4643"
     },
     {
-      "id": "moon-gate-480.webp",
-      "src": "assets/images/moon-gate-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "ragewind-meeting-480.webp",
+      "src": "assets/images/ragewind-meeting-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "bc4f8927794176c8aecfe91467df5a03d2352abd8a148d7fc06d5a3fdbdb46ab"
+      "sha256": "f6d51e62bf488a9d2ff8b50f1931350750bd93024b89bc1dfee5d364667f4b53"
     },
     {
-      "id": "moon-gate.webp",
-      "src": "assets/images/moon-gate.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "ragewind-meeting.webp",
+      "src": "assets/images/ragewind-meeting.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "1f50ebac66488d6639501c0a7a0e7f4fcc84cdd85507f8830a44688fee6c3e9e"
-    },
-    {
-      "id": "necklace-480.webp",
-      "src": "assets/images/necklace-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "7845e90ea77e8a18a943a3effbca052f98ceb36dc18908d2f454d7686a34ccc1"
-    },
-    {
-      "id": "necklace.webp",
-      "src": "assets/images/necklace.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "a6d80de25f9cb7b9ac1fbfaa53d1fd6b84f9bf226d81da6be307d7db3bcbe805"
-    },
-    {
-      "id": "og-cover.webp",
-      "src": "assets/images/og-cover.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "60a14e212b742260ef5014359912674e3493fe718677414f06dd568e2fa20af9"
-    },
-    {
-      "id": "poison-480.webp",
-      "src": "assets/images/poison-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "d437e0ba0de6f2b03cd47857983e3ea0cb26dff2304912aa3f196bd57bd86690"
-    },
-    {
-      "id": "poison.webp",
-      "src": "assets/images/poison.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "1a83f925016a22fdabf05ba340c5bdc5aa9b7d0890c3cc5c84f1908dca04bdca"
+      "sha256": "210139c57fd313cec92cc64874721d7297412691eae75b0b697356f54da815e8"
     },
     {
       "id": "reading-rabbit.webp",
       "src": "assets/images/reading-rabbit.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
       "sha256": "3133751baacfb6cda44a196676a818bef62f0362537714791d5eb81986594ff2"
     },
     {
-      "id": "rescue-480.webp",
-      "src": "assets/images/rescue-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "a11208b1f490f1003e898667cc6661e39f39c8b45e8fe1673c77f4918b5262d4"
-    },
-    {
-      "id": "rescue.webp",
-      "src": "assets/images/rescue.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "a65d1dcd7af2dff4a1181c1dfea8c26c1f30e453c33d1fcb22ee6968aa9ba221"
-    },
-    {
-      "id": "reunion-480.webp",
-      "src": "assets/images/reunion-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "296a93a06b46b3c8f6b1282817cc038b64cf9a21729f3d53bee41c80db09b8c0"
-    },
-    {
-      "id": "reunion.webp",
-      "src": "assets/images/reunion.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "7e92ff3c438c420ff231bc4cf9685e2f600aa2e377c10438d593efecfd9ceed3"
-    },
-    {
       "id": "sakura-letter.webp",
       "src": "assets/images/sakura-letter.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
       "sha256": "46f749f48cf060c29fe9167f3833345a64b0afeb60c1f50a5c6dc935d8a8d590"
     },
     {
-      "id": "seal-480.webp",
-      "src": "assets/images/seal-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "three-arrows-480.webp",
+      "src": "assets/images/three-arrows-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "0a9f58347f587299b40cf85c457981e43e032f898613ef7f5a8ef533fb336492"
+      "sha256": "6e9d73dacde522f2145dadb3080f1835baf5f38c579cf36412407225c9f74bfc"
     },
     {
-      "id": "seal.webp",
-      "src": "assets/images/seal.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "three-arrows.webp",
+      "src": "assets/images/three-arrows.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "a60d14d03d2b28b8060f02d54f89bf7f7f0c8fa12619021e3266765dae771dde"
+      "sha256": "f04308fc75de493220139ee8f963d8b9ae91a22a37508c7fc2d49ba159733a1b"
     },
     {
-      "id": "serpent-battle-480.webp",
-      "src": "assets/images/serpent-battle-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "tunnel-puppets-480.webp",
+      "src": "assets/images/tunnel-puppets-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "a8a1c7eb79662d9c98943617c0c66693f04460af777da113ecbb9d459222f0ba"
+      "sha256": "5cb855c3bb017031f5850adaede78301fa7ca7ef4df9caf69636bb7b21e95f05"
     },
     {
-      "id": "serpent-battle.webp",
-      "src": "assets/images/serpent-battle.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "tunnel-puppets.webp",
+      "src": "assets/images/tunnel-puppets.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "a94b1232db007a40ea885687a0c02e5c68b537a5b783e943ee11210f0c2cd582"
+      "sha256": "468047ecdf5f082dde7f5fcf4592e82d183fc426d167f00e821222d26184b670"
     },
     {
-      "id": "warning-480.webp",
-      "src": "assets/images/warning-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "wooden-puppets-480.webp",
+      "src": "assets/images/wooden-puppets-480.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "54bc7e63bf36a1d79158dc77c7c2c788f74d767737b4a374adfbbdc331177937"
+      "sha256": "f727e40f796a03d42408d5b4b8c9bfb5961b94c15459c85e59ab74c95836979f"
     },
     {
-      "id": "warning.webp",
-      "src": "assets/images/warning.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "id": "wooden-puppets.webp",
+      "src": "assets/images/wooden-puppets.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "image",
-      "sha256": "8b32cc999040e1016ad4a5d3a20836bad6c642b92abfc8e0aaa005e6c99419c3"
-    },
-    {
-      "id": "wedding-480.webp",
-      "src": "assets/images/wedding-480.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "3474d44cd239ece4780bcbec892a1e7547738c00df8e07f3e807230e445db6e8"
-    },
-    {
-      "id": "wedding.webp",
-      "src": "assets/images/wedding.webp",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-      "type": "image",
-      "sha256": "1370d315c61badcd4e7ef9aaafff4d857ba413be59d79e16dacbd434aa810902"
+      "sha256": "05ba20e3e660102de9ed47c5742eddb22b97a418375d2d2922422fa183c40dbf"
     },
     {
       "id": "ay-sisi.mp3",
       "src": "assets/music/ay-sisi.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "7bfdfb577dd48e51ec96a466978173429ce3efb619454a6d57144760950c8195"
     },
     {
       "id": "muzik.mp3",
       "src": "assets/music/muzik.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "fda8ce10cc32a522d1bd4d434e3525c2009bebfffbbe296cea2c18811c711d90"
     },
     {
       "id": "muzik2.mp3",
       "src": "assets/music/muzik2.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "d73e53d815f9d5535e8550d490240b2d268668b7a2f191f94d8022e00ba839cc"
     },
     {
       "id": "muzik3.mp3",
       "src": "assets/music/muzik3.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "b16a37363b811f21b954e3425a3c11325d5a4d968d4f70353c7057826d65dfe9"
     },
     {
       "id": "muzik4.mp3",
       "src": "assets/music/muzik4.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "f9419df6f0da911d7eb0be0a18d70881e85116085e8be855c1983d3e691964c1"
     },
     {
       "id": "muzik5.mp3",
       "src": "assets/music/muzik5.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "7aa46c9f762a1022bddf9d1a2e0eefb5ff56c41c61950dfdaf9e928e983f4277"
     },
     {
       "id": "muzik6.mp3",
       "src": "assets/music/muzik6.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "41c6aa06659b79329f41e6ab72b33a3edad55df32a8772348c9a74fc24969e30"
     },
     {
       "id": "muzik7.mp3",
       "src": "assets/music/muzik7.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "5488dfb7298337c09ca9aa7b0ec10322a32fad1dba9cda7cd827866a4286ddc8"
     },
     {
       "id": "muzik8.mp3",
       "src": "assets/music/muzik8.mp3",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "7f5d1e92f490d7605b90869188da1bd1f6b83ab3e01a8e90b798d6ff6fbe9b1f"
     },
     {
       "id": "sayfa.wav",
       "src": "assets/sounds/sayfa.wav",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "2adf7c997976d5aeaff4d70cb52cf34cb4db0493822ffa66cdeb31288643f242"
     }
@@ -559,203 +524,560 @@
     {
       "id": "chapter-01",
       "number": 1,
-      "title": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-      "gallery": "assets/images/warning.webp",
+      "title": "BÖLÜM 1 — KÜLLER ALTINDA KALAN KRALLIK",
+      "gallery": "assets/images/frosthold-fall.webp",
       "opening": null,
       "inserts": [
-        "assets/images/warning.webp",
-        "assets/images/rescue.webp"
+        "assets/images/frosthold-fall.webp"
       ],
       "discoveries": [
-        "bella",
-        "silvan",
-        "margaret",
-        "ev",
-        "orman",
-        "event-warning",
-        "event-rescue",
-        "bileklik"
+        "fredo",
+        "lich",
+        "frosthold",
+        "event-frosthold-fall"
       ]
     },
     {
       "id": "chapter-02",
       "number": 2,
-      "title": "BÖLÜM 2 — GÜMÜŞ KRALIN İŞARETİ",
-      "gallery": "assets/images/mark.webp",
+      "title": "BÖLÜM 2 — DAĞLARDA YETİŞEN DAHİ",
+      "gallery": "assets/images/mountain-lesson.webp",
       "opening": null,
       "inserts": [
-        "assets/images/mark.webp"
+        "assets/images/mountain-lesson.webp"
       ],
       "discoveries": [
-        "event-mark"
+        "usta",
+        "dag-kulubesi",
+        "event-mountain-lesson"
       ]
     },
     {
       "id": "chapter-03",
       "number": 3,
-      "title": "BÖLÜM 3 — DÜĞÜNDEN ÖNCEKİ KORKU",
-      "gallery": "assets/images/bridge.webp",
+      "title": "BÖLÜM 3 — MERKEZ ŞEHİR'E DÖNÜŞ",
+      "gallery": "assets/images/central-city.webp",
       "opening": null,
       "inserts": [
-        "assets/images/bridge.webp"
+        "assets/images/central-city.webp"
       ],
       "discoveries": [
-        "tommy",
-        "kopru",
-        "event-bridge"
+        "merkez-sehir",
+        "alwyn",
+        "event-central-city"
       ]
     },
     {
       "id": "chapter-04",
       "number": 4,
-      "title": "BÖLÜM 4 — GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
-      "gallery": "assets/images/interrupted-wedding.webp",
+      "title": "BÖLÜM 4 — LANETLENMİŞ CÜCE KRAL",
+      "gallery": "assets/images/dwarf-king.webp",
       "opening": null,
       "inserts": [
-        "assets/images/interrupted-wedding.webp"
+        "assets/images/dwarf-king.webp"
       ],
       "discoveries": [
-        "meydan",
-        "event-interrupted-wedding"
+        "cuce-kral",
+        "pazar",
+        "ruh-tasi",
+        "event-dwarf-king"
       ]
     },
     {
       "id": "chapter-05",
       "number": 5,
-      "title": "BÖLÜM 5 — ÇOCUKLUK AŞKININ İHANETİ",
-      "gallery": "assets/images/betrayal.webp",
+      "title": "BÖLÜM 5 — ESKİ MÜHRÜN UYANIŞI",
+      "gallery": null,
       "opening": null,
-      "inserts": [
-        "assets/images/betrayal.webp"
-      ],
+      "inserts": [],
       "discoveries": [
-        "kael",
-        "kale",
-        "event-betrayal"
+        "marion"
       ]
     },
     {
       "id": "chapter-06",
       "number": 6,
-      "title": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-      "gallery": "assets/images/serpent-battle.webp",
+      "title": "BÖLÜM 6 — ÇOCUKLUK ARKADAŞI BELLA",
+      "gallery": null,
       "opening": null,
-      "inserts": [
-        "assets/images/serpent-battle.webp",
-        "assets/images/freedom.webp"
-      ],
+      "inserts": [],
       "discoveries": [
-        "mira",
-        "sunak",
-        "event-serpent-battle",
-        "event-freedom"
+        "bella",
+        "akademi",
+        "fredo-bella"
       ]
     },
     {
       "id": "chapter-07",
       "number": 7,
-      "title": "BÖLÜM 7 — YILAN SARAYINDA İLK GECE",
-      "gallery": "assets/images/first-night.webp",
+      "title": "BÖLÜM 7 — RAGEWIND ARENASI",
+      "gallery": "assets/images/ragewind-meeting.webp",
       "opening": null,
       "inserts": [
-        "assets/images/first-night.webp"
+        "assets/images/ragewind-meeting.webp"
       ],
       "discoveries": [
-        "nira",
-        "saray",
-        "event-first-night"
+        "aisha",
+        "will",
+        "ragewind",
+        "event-ragewind-meeting",
+        "fredo-will"
       ]
     },
     {
       "id": "chapter-08",
       "number": 8,
-      "title": "BÖLÜM 8 — GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
-      "gallery": "assets/images/garden.webp",
+      "title": "BÖLÜM 8 — PRENSES VE GİZLİ NİŞANLI",
+      "gallery": null,
       "opening": null,
-      "inserts": [
-        "assets/images/garden.webp"
-      ],
+      "inserts": [],
       "discoveries": [
-        "elsa",
-        "queen",
-        "bahce",
-        "event-garden"
+        "florent"
       ]
     },
     {
       "id": "chapter-09",
       "number": 9,
-      "title": "BÖLÜM 9 — BELLA'NIN KANINDAKİ SIR",
-      "gallery": "assets/images/necklace.webp",
+      "title": "BÖLÜM 9 — KARA GÜVE'NİN GÖLGESİ",
+      "gallery": null,
       "opening": null,
-      "inserts": [
-        "assets/images/necklace.webp"
-      ],
-      "discoveries": [
-        "eliana",
-        "event-necklace",
-        "ay-kolyesi"
-      ]
+      "inserts": [],
+      "discoveries": []
     },
     {
       "id": "chapter-10",
       "number": 10,
-      "title": "BÖLÜM 10 — ELSA'NIN TEHLİKELİ PLANI",
-      "gallery": "assets/images/poison.webp",
+      "title": "BÖLÜM 10 — DİZ ÇÖKMEYEN ADAM",
+      "gallery": null,
       "opening": null,
-      "inserts": [
-        "assets/images/poison.webp"
-      ],
-      "discoveries": [
-        "event-poison"
-      ]
+      "inserts": [],
+      "discoveries": []
     },
     {
       "id": "chapter-11",
       "number": 11,
-      "title": "BÖLÜM 11 — GERÇEK AÇIĞA ÇIKIYOR",
-      "gallery": "assets/images/reunion.webp",
+      "title": "BÖLÜM 11 — YIKILAN ARENANIN HÜKMÜ",
+      "gallery": null,
       "opening": null,
-      "inserts": [
-        "assets/images/reunion.webp"
-      ],
+      "inserts": [],
       "discoveries": [
-        "event-reunion"
+        "aragorn"
       ]
     },
     {
       "id": "chapter-12",
       "number": 12,
-      "title": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-      "gallery": "assets/images/moon-gate.webp",
+      "title": "BÖLÜM 12 — ÜÇ HAMLELİK SINAV",
+      "gallery": "assets/images/three-arrows.webp",
       "opening": null,
       "inserts": [
-        "assets/images/moon-gate.webp",
-        "assets/images/seal.webp"
+        "assets/images/three-arrows.webp"
       ],
       "discoveries": [
-        "dag",
-        "kapi",
-        "event-moon-gate",
-        "event-seal"
+        "event-three-arrows"
       ]
     },
     {
       "id": "chapter-13",
       "number": 13,
-      "title": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-      "gallery": "assets/images/wedding.webp",
+      "title": "BÖLÜM 13 — KRALIN SAYGI DUYDUĞU GENÇ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "title": "BÖLÜM 14 — KUKLA USTASI'NIN PLANI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-15",
+      "number": 15,
+      "title": "BÖLÜM 15 — GÖRÜNMEYEN DÜŞMANLAR",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": [
+        "yuzuk"
+      ]
+    },
+    {
+      "id": "chapter-16",
+      "number": 16,
+      "title": "BÖLÜM 16 — KARANLIĞIN İLK TUZAĞI",
+      "gallery": "assets/images/wooden-puppets.webp",
       "opening": null,
       "inserts": [
-        "assets/images/wedding.webp",
-        "assets/images/family.webp"
+        "assets/images/wooden-puppets.webp"
       ],
       "discoveries": [
-        "selina",
-        "event-wedding",
-        "event-family",
-        "yuzuk",
-        "bella-silvan"
+        "gecit",
+        "event-wooden-puppets"
+      ]
+    },
+    {
+      "id": "chapter-17",
+      "number": 17,
+      "title": "BÖLÜM 17 — UNUTULMUŞ BİR HANEDANIN İZİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": [
+        "frosthold-isareti"
+      ]
+    },
+    {
+      "id": "chapter-18",
+      "number": 18,
+      "title": "BÖLÜM 18 — GÜCÜN BEDELİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-19",
+      "number": 19,
+      "title": "BÖLÜM 19 — PRENSESİN PEŞİNDEKİ SUİKASTÇILAR",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-20",
+      "number": 20,
+      "title": "BÖLÜM 20 — SAKLANAN GERÇEKLER",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-21",
+      "number": 21,
+      "title": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
+      "gallery": "assets/images/academy-curse.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/academy-curse.webp"
+      ],
+      "discoveries": [
+        "event-academy-curse"
+      ]
+    },
+    {
+      "id": "chapter-22",
+      "number": 22,
+      "title": "BÖLÜM 22 — YAŞAMLA ÖLÜM ARASINDA",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-23",
+      "number": 23,
+      "title": "BÖLÜM 23 — TİCARET KRALI'NIN OĞLU",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-24",
+      "number": 24,
+      "title": "BÖLÜM 24 — GECE YOLCULUĞU",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-25",
+      "number": 25,
+      "title": "BÖLÜM 25 — LANETİN SAHİBİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-26",
+      "number": 26,
+      "title": "BÖLÜM 26 — KUKLA USTASI'NIN SON HAMLESİ",
+      "gallery": "assets/images/tunnel-puppets.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/tunnel-puppets.webp"
+      ],
+      "discoveries": [
+        "tuneller",
+        "event-tunnel-puppets"
+      ]
+    },
+    {
+      "id": "chapter-27",
+      "number": 27,
+      "title": "BÖLÜM 27 — KAÇIRILMA EMRİNİN ORTAYA ÇIKIŞI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-28",
+      "number": 28,
+      "title": "BÖLÜM 28 — ALWYN HANEDANI'NIN KARARI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-29",
+      "number": 29,
+      "title": "BÖLÜM 29 — KRALİÇENİN ŞÜPHESİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-30",
+      "number": 30,
+      "title": "BÖLÜM 30 — FL ORENT'İN SON HEDİYESİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-31",
+      "number": 31,
+      "title": "BÖLÜM 31 — PRENSESİN SEÇİMİ",
+      "gallery": "assets/images/aisha-choice.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/aisha-choice.webp"
+      ],
+      "discoveries": [
+        "event-aisha-choice",
+        "fredo-aisha"
+      ]
+    },
+    {
+      "id": "chapter-32",
+      "number": 32,
+      "title": "BÖLÜM 32 — SARAYDAKİ ÇATLAKLAR",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": [
+        "darren"
+      ]
+    },
+    {
+      "id": "chapter-33",
+      "number": 33,
+      "title": "BÖLÜM 33 — YAŞLI LİDERİN HASTALIĞI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": [
+        "ron"
+      ]
+    },
+    {
+      "id": "chapter-34",
+      "number": 34,
+      "title": "BÖLÜM 34 — YASAKLI ŞİFA SANATI",
+      "gallery": "assets/images/healing-circle.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/healing-circle.webp"
+      ],
+      "discoveries": [
+        "event-healing-circle"
+      ]
+    },
+    {
+      "id": "chapter-35",
+      "number": 35,
+      "title": "BÖLÜM 35 — BİLGİNİN ÖNÜNDE EĞİLENLER",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-36",
+      "number": 36,
+      "title": "BÖLÜM 36 — GEÇMİŞİN KAPILARI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-37",
+      "number": 37,
+      "title": "BÖLÜM 37 — SARAYIN İÇİNDEKİ DÜŞMAN",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-38",
+      "number": 38,
+      "title": "BÖLÜM 38 — KRALİÇENİN PİŞMANLIĞI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-39",
+      "number": 39,
+      "title": "BÖLÜM 39 — ESKİ DOSTUN YEMİNİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-40",
+      "number": 40,
+      "title": "BÖLÜM 40 — DÜĞÜNDEN ÖNCEKİ FIRTINA",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-41",
+      "number": 41,
+      "title": "BÖLÜM 41 — TAMAMLANMAYAN TEDAVİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-42",
+      "number": 42,
+      "title": "BÖLÜM 42 — FROSTHOLD'UN KAYIP MİRASI",
+      "gallery": "assets/images/forgotten-archive.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/forgotten-archive.webp"
+      ],
+      "discoveries": [
+        "arsiv",
+        "event-forgotten-archive"
+      ]
+    },
+    {
+      "id": "chapter-43",
+      "number": 43,
+      "title": "BÖLÜM 43 — İHANETİN BEDELİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-44",
+      "number": 44,
+      "title": "BÖLÜM 44 — SUÇLANAN MİRASÇI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-45",
+      "number": 45,
+      "title": "BÖLÜM 45 — AMCANIN İTİRAFI",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-46",
+      "number": 46,
+      "title": "BÖLÜM 46 — PRENSESİN SADAKATİ",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-47",
+      "number": 47,
+      "title": "BÖLÜM 47 — GÖKSEL YILDIRIMIN HÜKMÜ",
+      "gallery": "assets/images/celestial-lightning.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/celestial-lightning.webp"
+      ],
+      "discoveries": [
+        "event-celestial-lightning"
+      ]
+    },
+    {
+      "id": "chapter-48",
+      "number": 48,
+      "title": "BÖLÜM 48 — KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+      "gallery": "assets/images/lich-arrival.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/lich-arrival.webp"
+      ],
+      "discoveries": [
+        "event-lich-arrival"
+      ]
+    },
+    {
+      "id": "chapter-49",
+      "number": 49,
+      "title": "BÖLÜM 49 — YİRMİ YILLIK SIR",
+      "gallery": null,
+      "opening": null,
+      "inserts": [],
+      "discoveries": []
+    },
+    {
+      "id": "chapter-50",
+      "number": 50,
+      "title": "BÖLÜM 50 — İLAHİ BEDENİN UYANIŞI",
+      "gallery": "assets/images/divine-awakening.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/divine-awakening.webp"
+      ],
+      "discoveries": [
+        "event-divine-awakening"
+      ]
+    },
+    {
+      "id": "chapter-51",
+      "number": 51,
+      "title": "BÖLÜM 51 — DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+      "gallery": "assets/images/frosthold-renewed.webp",
+      "opening": null,
+      "inserts": [
+        "assets/images/frosthold-renewed.webp"
+      ],
+      "discoveries": [
+        "event-frosthold-renewed"
       ]
     }
   ],
@@ -841,836 +1163,921 @@
     {
       "id": "sayfa.wav",
       "src": "assets/sounds/sayfa.wav",
-      "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+      "storyId": "dahi-bilginin-geri-donusu",
       "type": "audio",
       "sha256": "2adf7c997976d5aeaff4d70cb52cf34cb4db0493822ffa66cdeb31288643f242"
     }
   ],
   "atlas": {
-    "src": "assets/images/atlas.webp",
-    "width": 1200,
-    "height": 800,
+    "src": "assets/images/frosthold-atlas.webp",
+    "width": 1440,
+    "height": 960,
     "schematic": true,
     "note": "Anlatıdan doğrulanan mekânlar. İşaretlerin konumu temsili bir keşif düzenidir.",
     "hierarchy": {
-      "ev": {
-        "fact": "ev",
-        "kind": "settlement",
-        "title": "Margaret'in Evi",
-        "src": "assets/images/warning.webp",
-        "quote": "Odası küçüktü. Ahşap duvarlarda kurutulmuş çiçekler asılıydı. Pencerenin önündeki masada ise büyükannesinin hazırladığı şifalı bitkiler duruyordu.",
-        "sourceStart": 149,
-        "sourceEnd": 295,
+      "frosthold": {
+        "fact": "frosthold",
+        "kind": "region",
+        "title": "Frosthold",
+        "src": "assets/images/frosthold-fall.webp",
+        "quote": "Yirmi yıl önce, kıtanın kuzeyinde Frosthold adında görkemli bir krallık bulunuyordu. Sonsuz karlarla kaplı dağların arasında yükselen bu krallık, yalnızca askerî gücüyle değil, büyü ve bilgelik alanındaki üstünlüğüyle de tanınıyordu.",
+        "sourceStart": 202,
+        "sourceEnd": 435,
         "sourceChapter": 0,
-        "unlock": 295,
+        "unlock": 435,
         "children": []
       },
-      "orman": {
-        "fact": "orman",
+      "dag-kulubesi": {
+        "fact": "dag-kulubesi",
         "kind": "nature",
-        "title": "Sisli Orman",
-        "src": "assets/images/rescue.webp",
-        "quote": "Dışarıdaki orman sabah sisiyle kaplanmıştı.",
-        "sourceStart": 418,
-        "sourceEnd": 461,
-        "sourceChapter": 0,
-        "unlock": 461,
+        "title": "Dağ Kulübesi",
+        "src": "assets/images/mountain-lesson.webp",
+        "quote": "Kuzey dağlarının en yüksek zirvelerinden birinde, dışarıdan bakıldığında sıradan görünen ahşap bir kulübe bulunuyordu.",
+        "sourceStart": 2849,
+        "sourceEnd": 2967,
+        "sourceChapter": 1,
+        "unlock": 2967,
         "children": []
       },
-      "kopru": {
-        "fact": "kopru",
-        "kind": "landmark",
-        "title": "Eski Taş Köprü",
-        "src": "assets/images/bridge.webp",
-        "quote": "Aynı gece Tommy, köyden uzaklaşarak eski bir taş köprüye gitti.",
-        "sourceStart": 16163,
-        "sourceEnd": 16226,
+      "merkez-sehir": {
+        "fact": "merkez-sehir",
+        "kind": "settlement",
+        "title": "Merkez Şehir",
+        "src": "assets/images/central-city.webp",
+        "quote": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
+        "sourceStart": 6114,
+        "sourceEnd": 6202,
         "sourceChapter": 2,
-        "unlock": 16226,
-        "children": []
-      },
-      "meydan": {
-        "fact": "meydan",
-        "kind": "settlement",
-        "title": "Köy Meydanı",
-        "src": "assets/images/interrupted-wedding.webp",
-        "quote": "Düğün sabahı köy meydanı beyaz çiçeklerle süslenmişti.",
-        "sourceStart": 17265,
-        "sourceEnd": 17319,
-        "sourceChapter": 3,
-        "unlock": 17319,
-        "children": []
-      },
-      "kale": {
-        "fact": "kale",
-        "kind": "landmark",
-        "title": "Kara Yılan Kalesi",
-        "src": "assets/images/betrayal.webp",
-        "quote": "Birkaç dakika sonra siyah taşlardan yapılmış eski bir kalenin önünde durdular.",
-        "sourceStart": 26725,
-        "sourceEnd": 26803,
-        "sourceChapter": 4,
-        "unlock": 26803,
+        "unlock": 6202,
         "children": [
           {
-            "node": "sunak",
-            "x": 64,
+            "node": "pazar",
+            "x": 32,
             "y": 54,
-            "quote": "Sunağın çevresinde on iki taş sütun bulunuyordu.",
+            "quote": "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti.",
+            "sourceChapter": 3,
+            "sourceStart": 9208,
+            "sourceEnd": 9270,
+            "unlock": 9270
+          },
+          {
+            "node": "ragewind",
+            "x": 51,
+            "y": 54,
+            "quote": "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi.",
+            "sourceChapter": 6,
+            "sourceStart": 16785,
+            "sourceEnd": 16852,
+            "unlock": 16852
+          },
+          {
+            "node": "akademi",
+            "x": 70,
+            "y": 54,
+            "quote": "İkisi şehirde dolaşırken Bella, Kutsal Akademi'deki eğitiminden bahsetti.",
             "sourceChapter": 5,
-            "sourceStart": 30061,
-            "sourceEnd": 30109,
-            "unlock": 30109
+            "sourceStart": 15966,
+            "sourceEnd": 16039,
+            "unlock": 16039
+          },
+          {
+            "node": "alwyn",
+            "x": 32,
+            "y": 69,
+            "quote": "Alwyn Hanedanı'nın sarayına vardığında kapıdaki muhafızlar önünü kesti.",
+            "sourceChapter": 2,
+            "sourceStart": 6898,
+            "sourceEnd": 6969,
+            "unlock": 6969
           }
         ]
       },
-      "sunak": {
-        "fact": "sunak",
+      "alwyn": {
+        "fact": "alwyn",
         "kind": "landmark",
-        "title": "On İki Sütunlu Sunak",
-        "src": "assets/images/serpent-battle.webp",
-        "quote": "Sunağın çevresinde on iki taş sütun bulunuyordu.",
-        "sourceStart": 30061,
-        "sourceEnd": 30109,
-        "sourceChapter": 5,
-        "unlock": 30109,
-        "children": [],
-        "parent": "kale"
+        "title": "Alwyn Sarayı",
+        "src": "assets/images/aisha-choice.webp",
+        "quote": "Alwyn Hanedanı'nın sarayına vardığında kapıdaki muhafızlar önünü kesti.",
+        "sourceStart": 6898,
+        "sourceEnd": 6969,
+        "sourceChapter": 2,
+        "unlock": 6969,
+        "children": [
+          {
+            "node": "arsiv",
+            "x": 32,
+            "y": 54,
+            "quote": "Fredo, Ron'un verdiği ipuçlarını araştırmak için eski arşive geri döndü.",
+            "sourceChapter": 41,
+            "sourceStart": 90015,
+            "sourceEnd": 90087,
+            "unlock": 90087
+          }
+        ],
+        "parent": "merkez-sehir"
       },
-      "saray": {
-        "fact": "saray",
+      "pazar": {
+        "fact": "pazar",
+        "kind": "settlement",
+        "title": "Pazar Bölgesi",
+        "src": "assets/images/dwarf-king.webp",
+        "quote": "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti.",
+        "sourceStart": 9208,
+        "sourceEnd": 9270,
+        "sourceChapter": 3,
+        "unlock": 9270,
+        "children": [],
+        "parent": "merkez-sehir"
+      },
+      "ragewind": {
+        "fact": "ragewind",
         "kind": "landmark",
-        "title": "Gümüş Saray",
-        "src": "assets/images/first-night.webp",
-        "quote": "Odanın duvarları gümüş işlemelerle süslenmişti.",
-        "sourceStart": 39459,
-        "sourceEnd": 39506,
+        "title": "Ragewind Arenası",
+        "src": "assets/images/ragewind-meeting.webp",
+        "quote": "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi.",
+        "sourceStart": 16785,
+        "sourceEnd": 16852,
         "sourceChapter": 6,
-        "unlock": 39506,
-        "children": [
-          {
-            "node": "bahce",
-            "x": 64,
-            "y": 54,
-            "quote": "Beyaz güller, gümüş yapraklı ağaçlar ve küçük şelaleler...",
-            "sourceChapter": 7,
-            "sourceStart": 44269,
-            "sourceEnd": 44327,
-            "unlock": 44327
-          }
-        ]
-      },
-      "bahce": {
-        "fact": "bahce",
-        "kind": "nature",
-        "title": "Gümüş Saray Bahçesi",
-        "src": "assets/images/garden.webp",
-        "quote": "Beyaz güller, gümüş yapraklı ağaçlar ve küçük şelaleler...",
-        "sourceStart": 44269,
-        "sourceEnd": 44327,
-        "sourceChapter": 7,
-        "unlock": 44327,
+        "unlock": 16852,
         "children": [],
-        "parent": "saray"
+        "parent": "merkez-sehir"
       },
-      "dag": {
-        "fact": "dag",
-        "kind": "nature",
-        "title": "Ay Dağı",
-        "src": "assets/images/moon-gate.webp",
-        "quote": "Uzaklardaki Ay Dağı'nın tepesinde devasa bir ışık yükseldi.",
-        "sourceStart": 65589,
-        "sourceEnd": 65648,
-        "sourceChapter": 11,
-        "unlock": 65648,
-        "children": [
-          {
-            "node": "kapi",
-            "x": 64,
-            "y": 54,
-            "quote": "Dağın zirvesinde devasa bir taş kapı vardı.",
-            "sourceChapter": 11,
-            "sourceStart": 66439,
-            "sourceEnd": 66482,
-            "unlock": 66482
-          }
-        ]
-      },
-      "kapi": {
-        "fact": "kapi",
+      "akademi": {
+        "fact": "akademi",
         "kind": "landmark",
-        "title": "Ay Kapısı",
-        "src": "assets/images/moon-gate.webp",
-        "quote": "Dağın zirvesinde devasa bir taş kapı vardı.",
-        "sourceStart": 66439,
-        "sourceEnd": 66482,
-        "sourceChapter": 11,
-        "unlock": 66482,
+        "title": "Kutsal Akademi",
+        "src": "assets/images/academy-curse.webp",
+        "quote": "İkisi şehirde dolaşırken Bella, Kutsal Akademi'deki eğitiminden bahsetti.",
+        "sourceStart": 15966,
+        "sourceEnd": 16039,
+        "sourceChapter": 5,
+        "unlock": 16039,
         "children": [],
-        "parent": "dag"
+        "parent": "merkez-sehir"
+      },
+      "gecit": {
+        "fact": "gecit",
+        "kind": "nature",
+        "title": "Büyü Bahçesi",
+        "src": "assets/images/wooden-puppets.webp",
+        "quote": "Ertesi gün Aisha, Fredo'yu akademinin yakınındaki eski bir büyü bahçesine davet etti.",
+        "sourceStart": 39148,
+        "sourceEnd": 39233,
+        "sourceChapter": 15,
+        "unlock": 39233,
+        "children": []
+      },
+      "tuneller": {
+        "fact": "tuneller",
+        "kind": "landmark",
+        "title": "Eski Tüneller",
+        "src": "assets/images/tunnel-puppets.webp",
+        "quote": "İzler onları Merkez Şehir'in altındaki eski tünellere götürdü.",
+        "sourceStart": 58996,
+        "sourceEnd": 59058,
+        "sourceChapter": 25,
+        "unlock": 59058,
+        "children": []
+      },
+      "arsiv": {
+        "fact": "arsiv",
+        "kind": "landmark",
+        "title": "Alwyn Arşivi",
+        "src": "assets/images/forgotten-archive.webp",
+        "quote": "Fredo, Ron'un verdiği ipuçlarını araştırmak için eski arşive geri döndü.",
+        "sourceStart": 90015,
+        "sourceEnd": 90087,
+        "sourceChapter": 41,
+        "unlock": 90087,
+        "children": [],
+        "parent": "alwyn"
       }
     },
     "routes": [
       {
-        "id": "ev-to-orman",
-        "from": "ev",
-        "to": "orman",
-        "label": "Margaret'in Evi · Sisli Orman",
-        "quote": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
-        "sourceStart": 1860,
-        "sourceEnd": 1913,
-        "unlock": 1913,
+        "id": "frosthold-to-dag-kulubesi",
+        "from": "frosthold",
+        "to": "dag-kulubesi",
+        "label": "Frosthold · Dağ Kulübesi",
+        "quote": "Büyükbaba, çocuğu karla kaplı dağların ötesinde yaşayan kadim bir bilgine götürdü.",
+        "sourceStart": 2001,
+        "sourceEnd": 2083,
+        "unlock": 2967,
         "sourceChapter": 0
       },
       {
-        "id": "meydan-to-kale",
-        "from": "meydan",
-        "to": "kale",
-        "label": "Köy Meydanı · Kara Yılan Kalesi",
-        "quote": "Kırmızı sıvı taşların arasına yayıldı.",
-        "sourceStart": 29079,
-        "sourceEnd": 29117,
-        "unlock": 29117,
-        "sourceChapter": 4
+        "id": "dag-kulubesi-to-merkez-sehir",
+        "from": "dag-kulubesi",
+        "to": "merkez-sehir",
+        "label": "Dağ Kulübesi · Merkez Şehir",
+        "quote": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
+        "sourceStart": 6114,
+        "sourceEnd": 6202,
+        "unlock": 6202,
+        "sourceChapter": 2
       },
       {
-        "id": "kale-to-saray",
-        "from": "kale",
-        "to": "saray",
-        "label": "Kara Yılan Kalesi · Gümüş Saray",
-        "quote": "Silvan yatağın yanındaki sandalyeye oturdu.",
-        "sourceStart": 40765,
-        "sourceEnd": 40808,
-        "unlock": 40808,
+        "id": "merkez-sehir-to-pazar",
+        "from": "merkez-sehir",
+        "to": "pazar",
+        "label": "Merkez Şehir · Pazar Bölgesi",
+        "quote": "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti.",
+        "sourceStart": 9208,
+        "sourceEnd": 9270,
+        "unlock": 9270,
+        "sourceChapter": 3
+      },
+      {
+        "id": "merkez-sehir-to-ragewind",
+        "from": "merkez-sehir",
+        "to": "ragewind",
+        "label": "Merkez Şehir · Ragewind Arenası",
+        "quote": "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi.",
+        "sourceStart": 16785,
+        "sourceEnd": 16852,
+        "unlock": 16852,
         "sourceChapter": 6
       },
       {
-        "id": "saray-to-dag",
-        "from": "saray",
-        "to": "dag",
-        "label": "Gümüş Saray · Ay Dağı",
-        "quote": "Genç kadın elini kapıya koydu.",
-        "sourceStart": 68015,
-        "sourceEnd": 68045,
-        "unlock": 68045,
-        "sourceChapter": 11
+        "id": "merkez-sehir-to-akademi",
+        "from": "merkez-sehir",
+        "to": "akademi",
+        "label": "Merkez Şehir · Kutsal Akademi",
+        "quote": "Birlikte Kutsal Akademi'ye gittiler.",
+        "sourceStart": 36697,
+        "sourceEnd": 36733,
+        "unlock": 36733,
+        "sourceChapter": 14
+      },
+      {
+        "id": "merkez-sehir-to-tuneller",
+        "from": "merkez-sehir",
+        "to": "tuneller",
+        "label": "Merkez Şehir · Eski Tüneller",
+        "quote": "İzler onları Merkez Şehir'in altındaki eski tünellere götürdü.",
+        "sourceStart": 58996,
+        "sourceEnd": 59058,
+        "unlock": 59058,
+        "sourceChapter": 25
+      },
+      {
+        "id": "merkez-sehir-to-alwyn",
+        "from": "merkez-sehir",
+        "to": "alwyn",
+        "label": "Merkez Şehir · Alwyn Sarayı",
+        "quote": "Alwyn Sarayı'nda düzenlenen büyük ziyafete Merkez Şehir'in önde gelen aileleri davet edilmişti.",
+        "sourceStart": 68814,
+        "sourceEnd": 68909,
+        "unlock": 68909,
+        "sourceChapter": 30
+      },
+      {
+        "id": "alwyn-to-frosthold",
+        "from": "alwyn",
+        "to": "frosthold",
+        "label": "Alwyn Sarayı · Frosthold",
+        "quote": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+        "sourceStart": 103737,
+        "sourceEnd": 103829,
+        "unlock": 103829,
+        "sourceChapter": 47
       }
     ],
     "temporal": {},
     "riders": [],
-    "regions": []
+    "regions": [
+      {
+        "id": "frosthold",
+        "name": "Frosthold",
+        "motif": "Frosthold",
+        "quote": "Yirmi yıl önce, kıtanın kuzeyinde Frosthold adında görkemli bir krallık bulunuyordu. Sonsuz karlarla kaplı dağların arasında yükselen bu krallık, yalnızca askerî gücüyle değil, büyü ve bilgelik alanındaki üstünlüğüyle de tanınıyordu.",
+        "sourceStart": 202,
+        "sourceEnd": 435,
+        "sourceChapter": 0,
+        "unlock": 435
+      }
+    ]
   },
   "visuals": {
-    "ev": {
-      "src": "assets/images/warning.webp",
+    "frosthold": {
+      "src": "assets/images/frosthold-fall.webp",
       "type": "illustration",
-      "scene": "warning",
-      "unlock": 295
+      "scene": "frosthold-fall",
+      "unlock": 1906
     },
-    "orman": {
-      "src": "assets/images/rescue.webp",
+    "dag-kulubesi": {
+      "src": "assets/images/mountain-lesson.webp",
       "type": "illustration",
-      "scene": "rescue",
-      "unlock": 461
+      "scene": "mountain-lesson",
+      "unlock": 3884
     },
-    "kopru": {
-      "src": "assets/images/bridge.webp",
+    "merkez-sehir": {
+      "src": "assets/images/central-city.webp",
       "type": "illustration",
-      "scene": "bridge",
-      "unlock": 16226
+      "scene": "central-city",
+      "unlock": 6202
     },
-    "meydan": {
-      "src": "assets/images/interrupted-wedding.webp",
+    "alwyn": {
+      "src": "assets/images/aisha-choice.webp",
       "type": "illustration",
-      "scene": "interrupted-wedding",
-      "unlock": 17319
+      "scene": "aisha-choice",
+      "unlock": 70463
     },
-    "kale": {
-      "src": "assets/images/betrayal.webp",
+    "pazar": {
+      "src": "assets/images/dwarf-king.webp",
       "type": "illustration",
-      "scene": "betrayal",
-      "unlock": 26803
+      "scene": "dwarf-king",
+      "unlock": 10367
     },
-    "sunak": {
-      "src": "assets/images/serpent-battle.webp",
+    "ragewind": {
+      "src": "assets/images/ragewind-meeting.webp",
       "type": "illustration",
-      "scene": "serpent-battle",
-      "unlock": 30109
+      "scene": "ragewind-meeting",
+      "unlock": 18713
     },
-    "saray": {
-      "src": "assets/images/first-night.webp",
+    "akademi": {
+      "src": "assets/images/academy-curse.webp",
       "type": "illustration",
-      "scene": "first-night",
-      "unlock": 39506
+      "scene": "academy-curse",
+      "unlock": 50541
     },
-    "bahce": {
-      "src": "assets/images/garden.webp",
+    "gecit": {
+      "src": "assets/images/wooden-puppets.webp",
       "type": "illustration",
-      "scene": "garden",
-      "unlock": 44327
+      "scene": "wooden-puppets",
+      "unlock": 40076
     },
-    "dag": {
-      "src": "assets/images/moon-gate.webp",
+    "tuneller": {
+      "src": "assets/images/tunnel-puppets.webp",
       "type": "illustration",
-      "scene": "moon-gate",
-      "unlock": 65648
+      "scene": "tunnel-puppets",
+      "unlock": 59998
     },
-    "kapi": {
-      "src": "assets/images/moon-gate.webp",
+    "arsiv": {
+      "src": "assets/images/forgotten-archive.webp",
       "type": "illustration",
-      "scene": "moon-gate",
-      "unlock": 66482
+      "scene": "forgotten-archive",
+      "unlock": 90977
+    },
+    "fredo": {
+      "src": "assets/images/mountain-lesson.webp",
+      "type": "illustration",
+      "unlock": 3884
+    },
+    "usta": {
+      "src": "assets/images/mountain-lesson.webp",
+      "type": "illustration",
+      "unlock": 3884
+    },
+    "aisha": {
+      "src": "assets/images/ragewind-meeting.webp",
+      "type": "illustration",
+      "unlock": 18713
+    },
+    "cuce-kral": {
+      "src": "assets/images/dwarf-king.webp",
+      "type": "illustration",
+      "unlock": 10367
     },
     "bella": {
-      "src": "assets/images/warning.webp",
+      "src": "assets/images/tunnel-puppets.webp",
       "type": "illustration",
-      "unlock": 1913
+      "unlock": 59998
     },
-    "silvan": {
-      "src": "assets/images/rescue.webp",
+    "will": {
+      "src": "assets/images/tunnel-puppets.webp",
       "type": "illustration",
-      "unlock": 6922
+      "unlock": 59998
     },
-    "margaret": {
-      "src": "assets/images/warning.webp",
+    "aragorn": {
+      "src": "assets/images/three-arrows.webp",
       "type": "illustration",
-      "unlock": 1913
+      "unlock": 29594
     },
-    "tommy": {
-      "src": "assets/images/bridge.webp",
+    "marion": {
+      "src": "assets/images/aisha-choice.webp",
       "type": "illustration",
-      "unlock": 16281
+      "unlock": 70463
     },
-    "kael": {
-      "src": "assets/images/betrayal.webp",
+    "ron": {
+      "src": "assets/images/healing-circle.webp",
       "type": "illustration",
-      "unlock": 29117
+      "unlock": 74552
     },
-    "mira": {
-      "src": "assets/images/freedom.webp",
+    "darren": {
+      "src": "assets/images/celestial-lightning.webp",
       "type": "illustration",
-      "unlock": 38006
+      "unlock": 100194
     },
-    "nira": {
-      "src": "assets/images/first-night.webp",
+    "lich": {
+      "src": "assets/images/lich-arrival.webp",
       "type": "illustration",
-      "unlock": 40808
-    },
-    "elsa": {
-      "src": "assets/images/garden.webp",
-      "type": "illustration",
-      "unlock": 45597
-    },
-    "queen": {
-      "src": "assets/images/poison.webp",
-      "type": "illustration",
-      "unlock": 58859
-    },
-    "eliana": {
-      "src": "assets/images/moon-gate.webp",
-      "type": "illustration",
-      "unlock": 68045
-    },
-    "selina": {
-      "src": "assets/images/family.webp",
-      "type": "illustration",
-      "unlock": 79299
+      "unlock": 103829
     }
   },
   "locations": {
-    "ev": {
-      "name": "Margaret'in Evi",
-      "src": "assets/images/warning.webp",
+    "frosthold": {
+      "name": "Frosthold",
+      "src": "assets/images/frosthold-fall.webp",
       "areas": [
         {
-          "id": "warning",
-          "name": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-          "label": "BÜYÜKANNENİN SON UYARISI",
-          "quote": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+          "id": "frosthold-fall",
+          "name": "BÖLÜM 1 — KÜLLER ALTINDA KALAN KRALLIK",
+          "label": "KÜLLER ALTINDA KALAN KRALLIK",
+          "quote": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı.",
           "sourceChapter": 0,
-          "src": "assets/images/warning.webp",
-          "memorySrc": "assets/images/warning.webp",
+          "src": "assets/images/frosthold-fall.webp",
+          "memorySrc": "assets/images/frosthold-fall.webp",
           "x": 33,
           "y": 37,
-          "sourceStart": 1860,
-          "sourceEnd": 1913,
-          "unlock": 1913,
+          "sourceStart": 1773,
+          "sourceEnd": 1906,
+          "unlock": 1906,
           "chapter": {
             "id": "chapter-01",
             "number": 1,
             "sourceChapter": 0,
-            "title": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-            "offset": 68
+            "title": "BÖLÜM 1 — KÜLLER ALTINDA KALAN KRALLIK",
+            "offset": 155
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "lich-arrival",
+          "name": "BÖLÜM 48 — KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+          "label": "KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+          "quote": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+          "sourceChapter": 47,
+          "src": "assets/images/lich-arrival.webp",
+          "memorySrc": "assets/images/lich-arrival.webp",
+          "x": 53,
+          "y": 37,
+          "sourceStart": 103737,
+          "sourceEnd": 103829,
+          "unlock": 103829,
+          "chapter": {
+            "id": "chapter-48",
+            "number": 48,
+            "sourceChapter": 47,
+            "title": "BÖLÜM 48 — KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+            "offset": 101901
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "divine-awakening",
+          "name": "BÖLÜM 50 — İLAHİ BEDENİN UYANIŞI",
+          "label": "İLAHİ BEDENİN UYANIŞI",
+          "quote": "Fredo yavaşça havaya yükseldi.",
+          "sourceChapter": 49,
+          "src": "assets/images/divine-awakening.webp",
+          "memorySrc": "assets/images/divine-awakening.webp",
+          "x": 73,
+          "y": 37,
+          "sourceStart": 108204,
+          "sourceEnd": 108234,
+          "unlock": 108234,
+          "chapter": {
+            "id": "chapter-50",
+            "number": 50,
+            "sourceChapter": 49,
+            "title": "BÖLÜM 50 — İLAHİ BEDENİN UYANIŞI",
+            "offset": 106076
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "frosthold-renewed",
+          "name": "BÖLÜM 51 — DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+          "label": "DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+          "quote": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler.",
+          "sourceChapter": 50,
+          "src": "assets/images/frosthold-renewed.webp",
+          "memorySrc": "assets/images/frosthold-renewed.webp",
+          "x": 33,
+          "y": 51,
+          "sourceStart": 116693,
+          "sourceEnd": 116755,
+          "unlock": 116755,
+          "chapter": {
+            "id": "chapter-51",
+            "number": 51,
+            "sourceChapter": 50,
+            "title": "BÖLÜM 51 — DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+            "offset": 108894
           },
           "characters": [],
           "discoveries": []
         }
       ]
     },
-    "orman": {
-      "name": "Sisli Orman",
-      "src": "assets/images/rescue.webp",
+    "dag-kulubesi": {
+      "name": "Dağ Kulübesi",
+      "src": "assets/images/mountain-lesson.webp",
       "areas": [
         {
-          "id": "rescue",
-          "name": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-          "label": "BÜYÜKANNENİN SON UYARISI",
-          "quote": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi.",
-          "sourceChapter": 0,
-          "src": "assets/images/rescue.webp",
-          "memorySrc": "assets/images/rescue.webp",
+          "id": "mountain-lesson",
+          "name": "BÖLÜM 2 — DAĞLARDA YETİŞEN DAHİ",
+          "label": "DAĞLARDA YETİŞEN DAHİ",
+          "quote": "\"Şimdi bunu parçalamadan yerinden kaldır.\"",
+          "sourceChapter": 1,
+          "src": "assets/images/mountain-lesson.webp",
+          "memorySrc": "assets/images/mountain-lesson.webp",
           "x": 33,
           "y": 37,
-          "sourceStart": 6404,
-          "sourceEnd": 6462,
-          "unlock": 6462,
-          "chapter": {
-            "id": "chapter-01",
-            "number": 1,
-            "sourceChapter": 0,
-            "title": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-            "offset": 68
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "mark",
-          "name": "BÖLÜM 2 — GÜMÜŞ KRALIN İŞARETİ",
-          "label": "GÜMÜŞ KRALIN İŞARETİ",
-          "quote": "Gümüş renkli küçük bir yılan şekli belirdi.",
-          "sourceChapter": 1,
-          "src": "assets/images/mark.webp",
-          "memorySrc": "assets/images/mark.webp",
-          "x": 53,
-          "y": 37,
-          "sourceStart": 10973,
-          "sourceEnd": 11016,
-          "unlock": 11016,
+          "sourceStart": 3842,
+          "sourceEnd": 3884,
+          "unlock": 3884,
           "chapter": {
             "id": "chapter-02",
             "number": 2,
             "sourceChapter": 1,
-            "title": "BÖLÜM 2 — GÜMÜŞ KRALIN İŞARETİ",
-            "offset": 7179
+            "title": "BÖLÜM 2 — DAĞLARDA YETİŞEN DAHİ",
+            "offset": 2784
           },
           "characters": [],
           "discoveries": []
         }
       ]
     },
-    "kopru": {
-      "name": "Eski Taş Köprü",
-      "src": "assets/images/bridge.webp",
+    "merkez-sehir": {
+      "name": "Merkez Şehir",
+      "src": "assets/images/central-city.webp",
       "areas": [
         {
-          "id": "bridge",
-          "name": "BÖLÜM 3 — DÜĞÜNDEN ÖNCEKİ KORKU",
-          "label": "DÜĞÜNDEN ÖNCEKİ KORKU",
-          "quote": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+          "id": "central-city",
+          "name": "BÖLÜM 3 — MERKEZ ŞEHİR'E DÖNÜŞ",
+          "label": "MERKEZ ŞEHİR'E DÖNÜŞ",
+          "quote": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
           "sourceChapter": 2,
-          "src": "assets/images/bridge.webp",
-          "memorySrc": "assets/images/bridge.webp",
+          "src": "assets/images/central-city.webp",
+          "memorySrc": "assets/images/central-city.webp",
           "x": 33,
           "y": 37,
-          "sourceStart": 16228,
-          "sourceEnd": 16281,
-          "unlock": 16281,
+          "sourceStart": 6114,
+          "sourceEnd": 6202,
+          "unlock": 6202,
           "chapter": {
             "id": "chapter-03",
             "number": 3,
             "sourceChapter": 2,
-            "title": "BÖLÜM 3 — DÜĞÜNDEN ÖNCEKİ KORKU",
-            "offset": 12870
+            "title": "BÖLÜM 3 — MERKEZ ŞEHİR'E DÖNÜŞ",
+            "offset": 6009
           },
           "characters": [],
           "discoveries": []
+        },
+        {
+          "id": "navigate-pazar",
+          "node": "pazar",
+          "kind": "city",
+          "name": "Pazar Bölgesi",
+          "label": "Pazar Bölgesi",
+          "x": 32,
+          "y": 54,
+          "src": "assets/images/dwarf-king.webp",
+          "memorySrc": "assets/images/dwarf-king.webp",
+          "quote": "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti.",
+          "sourceStart": 9208,
+          "sourceEnd": 9270,
+          "unlock": 9270,
+          "characters": []
+        },
+        {
+          "id": "navigate-ragewind",
+          "node": "ragewind",
+          "kind": "city",
+          "name": "Ragewind Arenası",
+          "label": "Ragewind Arenası",
+          "x": 51,
+          "y": 54,
+          "src": "assets/images/ragewind-meeting.webp",
+          "memorySrc": "assets/images/ragewind-meeting.webp",
+          "quote": "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi.",
+          "sourceStart": 16785,
+          "sourceEnd": 16852,
+          "unlock": 16852,
+          "characters": []
+        },
+        {
+          "id": "navigate-akademi",
+          "node": "akademi",
+          "kind": "city",
+          "name": "Kutsal Akademi",
+          "label": "Kutsal Akademi",
+          "x": 70,
+          "y": 54,
+          "src": "assets/images/academy-curse.webp",
+          "memorySrc": "assets/images/academy-curse.webp",
+          "quote": "İkisi şehirde dolaşırken Bella, Kutsal Akademi'deki eğitiminden bahsetti.",
+          "sourceStart": 15966,
+          "sourceEnd": 16039,
+          "unlock": 16039,
+          "characters": []
+        },
+        {
+          "id": "navigate-alwyn",
+          "node": "alwyn",
+          "kind": "city",
+          "name": "Alwyn Sarayı",
+          "label": "Alwyn Sarayı",
+          "x": 32,
+          "y": 69,
+          "src": "assets/images/aisha-choice.webp",
+          "memorySrc": "assets/images/aisha-choice.webp",
+          "quote": "Alwyn Hanedanı'nın sarayına vardığında kapıdaki muhafızlar önünü kesti.",
+          "sourceStart": 6898,
+          "sourceEnd": 6969,
+          "unlock": 6969,
+          "characters": []
         }
       ]
     },
-    "meydan": {
-      "name": "Köy Meydanı",
-      "src": "assets/images/interrupted-wedding.webp",
+    "alwyn": {
+      "name": "Alwyn Sarayı",
+      "src": "assets/images/aisha-choice.webp",
       "areas": [
         {
-          "id": "interrupted-wedding",
-          "name": "BÖLÜM 4 — GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
-          "label": "GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
-          "quote": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
-          "sourceChapter": 3,
-          "src": "assets/images/interrupted-wedding.webp",
-          "memorySrc": "assets/images/interrupted-wedding.webp",
+          "id": "aisha-choice",
+          "name": "BÖLÜM 31 — PRENSESİN SEÇİMİ",
+          "label": "PRENSESİN SEÇİMİ",
+          "quote": "Marion şaşkınlıkla ayağa kalktı.",
+          "sourceChapter": 30,
+          "src": "assets/images/aisha-choice.webp",
+          "memorySrc": "assets/images/aisha-choice.webp",
           "x": 33,
           "y": 37,
-          "sourceStart": 20352,
-          "sourceEnd": 20398,
-          "unlock": 20398,
+          "sourceStart": 70431,
+          "sourceEnd": 70463,
+          "unlock": 70463,
+          "chapter": {
+            "id": "chapter-31",
+            "number": 31,
+            "sourceChapter": 30,
+            "title": "BÖLÜM 31 — PRENSESİN SEÇİMİ",
+            "offset": 68778
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "healing-circle",
+          "name": "BÖLÜM 34 — YASAKLI ŞİFA SANATI",
+          "label": "YASAKLI ŞİFA SANATI",
+          "quote": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+          "sourceChapter": 33,
+          "src": "assets/images/healing-circle.webp",
+          "memorySrc": "assets/images/healing-circle.webp",
+          "x": 53,
+          "y": 37,
+          "sourceStart": 74489,
+          "sourceEnd": 74552,
+          "unlock": 74552,
+          "chapter": {
+            "id": "chapter-34",
+            "number": 34,
+            "sourceChapter": 33,
+            "title": "BÖLÜM 34 — YASAKLI ŞİFA SANATI",
+            "offset": 74450
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "celestial-lightning",
+          "name": "BÖLÜM 47 — GÖKSEL YILDIRIMIN HÜKMÜ",
+          "label": "GÖKSEL YILDIRIMIN HÜKMÜ",
+          "quote": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti.",
+          "sourceChapter": 46,
+          "src": "assets/images/celestial-lightning.webp",
+          "memorySrc": "assets/images/celestial-lightning.webp",
+          "x": 73,
+          "y": 37,
+          "sourceStart": 100138,
+          "sourceEnd": 100194,
+          "unlock": 100194,
+          "chapter": {
+            "id": "chapter-47",
+            "number": 47,
+            "sourceChapter": 46,
+            "title": "BÖLÜM 47 — GÖKSEL YILDIRIMIN HÜKMÜ",
+            "offset": 99726
+          },
+          "characters": [],
+          "discoveries": []
+        },
+        {
+          "id": "navigate-arsiv",
+          "node": "arsiv",
+          "kind": "city",
+          "name": "Alwyn Arşivi",
+          "label": "Alwyn Arşivi",
+          "x": 32,
+          "y": 54,
+          "src": "assets/images/forgotten-archive.webp",
+          "memorySrc": "assets/images/forgotten-archive.webp",
+          "quote": "Fredo, Ron'un verdiği ipuçlarını araştırmak için eski arşive geri döndü.",
+          "sourceStart": 90015,
+          "sourceEnd": 90087,
+          "unlock": 90087,
+          "characters": []
+        }
+      ]
+    },
+    "pazar": {
+      "name": "Pazar Bölgesi",
+      "src": "assets/images/dwarf-king.webp",
+      "areas": [
+        {
+          "id": "dwarf-king",
+          "name": "BÖLÜM 4 — LANETLENMİŞ CÜCE KRAL",
+          "label": "LANETLENMİŞ CÜCE KRAL",
+          "quote": "Kralın bedeninden siyah duman yükselmeye başladı.",
+          "sourceChapter": 3,
+          "src": "assets/images/dwarf-king.webp",
+          "memorySrc": "assets/images/dwarf-king.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 10318,
+          "sourceEnd": 10367,
+          "unlock": 10367,
           "chapter": {
             "id": "chapter-04",
             "number": 4,
             "sourceChapter": 3,
-            "title": "BÖLÜM 4 — GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
-            "offset": 17222
+            "title": "BÖLÜM 4 — LANETLENMİŞ CÜCE KRAL",
+            "offset": 9168
           },
           "characters": [],
           "discoveries": []
         }
       ]
     },
-    "kale": {
-      "name": "Kara Yılan Kalesi",
-      "src": "assets/images/betrayal.webp",
+    "ragewind": {
+      "name": "Ragewind Arenası",
+      "src": "assets/images/ragewind-meeting.webp",
       "areas": [
         {
-          "id": "betrayal",
-          "name": "BÖLÜM 5 — ÇOCUKLUK AŞKININ İHANETİ",
-          "label": "ÇOCUKLUK AŞKININ İHANETİ",
-          "quote": "Kırmızı sıvı taşların arasına yayıldı.",
-          "sourceChapter": 4,
-          "src": "assets/images/betrayal.webp",
-          "memorySrc": "assets/images/betrayal.webp",
-          "x": 33,
-          "y": 37,
-          "sourceStart": 29079,
-          "sourceEnd": 29117,
-          "unlock": 29117,
-          "chapter": {
-            "id": "chapter-05",
-            "number": 5,
-            "sourceChapter": 4,
-            "title": "BÖLÜM 5 — ÇOCUKLUK AŞKININ İHANETİ",
-            "offset": 23407
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "navigate-sunak",
-          "node": "sunak",
-          "kind": "city",
-          "name": "On İki Sütunlu Sunak",
-          "label": "On İki Sütunlu Sunak",
-          "x": 64,
-          "y": 54,
-          "src": "assets/images/serpent-battle.webp",
-          "memorySrc": "assets/images/serpent-battle.webp",
-          "quote": "Sunağın çevresinde on iki taş sütun bulunuyordu.",
-          "sourceStart": 30061,
-          "sourceEnd": 30109,
-          "unlock": 30109,
-          "characters": []
-        }
-      ]
-    },
-    "sunak": {
-      "name": "On İki Sütunlu Sunak",
-      "src": "assets/images/serpent-battle.webp",
-      "areas": [
-        {
-          "id": "serpent-battle",
-          "name": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-          "label": "KARA YILAN PRENSİ'NİN KURBANI",
-          "quote": "İki devasa yılan birbirine saldırdı.",
-          "sourceChapter": 5,
-          "src": "assets/images/serpent-battle.webp",
-          "memorySrc": "assets/images/serpent-battle.webp",
-          "x": 33,
-          "y": 37,
-          "sourceStart": 36793,
-          "sourceEnd": 36829,
-          "unlock": 36829,
-          "chapter": {
-            "id": "chapter-06",
-            "number": 6,
-            "sourceChapter": 5,
-            "title": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-            "offset": 29517
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "freedom",
-          "name": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-          "label": "KARA YILAN PRENSİ'NİN KURBANI",
-          "quote": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu.",
-          "sourceChapter": 5,
-          "src": "assets/images/freedom.webp",
-          "memorySrc": "assets/images/freedom.webp",
-          "x": 53,
-          "y": 37,
-          "sourceStart": 37935,
-          "sourceEnd": 38006,
-          "unlock": 38006,
-          "chapter": {
-            "id": "chapter-06",
-            "number": 6,
-            "sourceChapter": 5,
-            "title": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-            "offset": 29517
-          },
-          "characters": [],
-          "discoveries": []
-        }
-      ]
-    },
-    "saray": {
-      "name": "Gümüş Saray",
-      "src": "assets/images/first-night.webp",
-      "areas": [
-        {
-          "id": "first-night",
-          "name": "BÖLÜM 7 — YILAN SARAYINDA İLK GECE",
-          "label": "YILAN SARAYINDA İLK GECE",
-          "quote": "Silvan yatağın yanındaki sandalyeye oturdu.",
+          "id": "ragewind-meeting",
+          "name": "BÖLÜM 7 — RAGEWIND ARENASI",
+          "label": "RAGEWIND ARENASI",
+          "quote": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
           "sourceChapter": 6,
-          "src": "assets/images/first-night.webp",
-          "memorySrc": "assets/images/first-night.webp",
+          "src": "assets/images/ragewind-meeting.webp",
+          "memorySrc": "assets/images/ragewind-meeting.webp",
           "x": 33,
           "y": 37,
-          "sourceStart": 40765,
-          "sourceEnd": 40808,
-          "unlock": 40808,
+          "sourceStart": 18615,
+          "sourceEnd": 18713,
+          "unlock": 18713,
           "chapter": {
             "id": "chapter-07",
             "number": 7,
             "sourceChapter": 6,
-            "title": "BÖLÜM 7 — YILAN SARAYINDA İLK GECE",
-            "offset": 39318
+            "title": "BÖLÜM 7 — RAGEWIND ARENASI",
+            "offset": 16750
           },
           "characters": [],
           "discoveries": []
         },
         {
-          "id": "necklace",
-          "name": "BÖLÜM 9 — BELLA'NIN KANINDAKİ SIR",
-          "label": "BELLA'NIN KANINDAKİ SIR",
-          "quote": "Bella kolyeyi göğsüne bastırdı.",
-          "sourceChapter": 8,
-          "src": "assets/images/necklace.webp",
-          "memorySrc": "assets/images/necklace.webp",
-          "x": 53,
-          "y": 37,
-          "sourceStart": 54221,
-          "sourceEnd": 54252,
-          "unlock": 54252,
-          "chapter": {
-            "id": "chapter-09",
-            "number": 9,
-            "sourceChapter": 8,
-            "title": "BÖLÜM 9 — BELLA'NIN KANINDAKİ SIR",
-            "offset": 50350
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "poison",
-          "name": "BÖLÜM 10 — ELSA'NIN TEHLİKELİ PLANI",
-          "label": "ELSA'NIN TEHLİKELİ PLANI",
-          "quote": "Adam alnını onun alnına yasladı.",
-          "sourceChapter": 9,
-          "src": "assets/images/poison.webp",
-          "memorySrc": "assets/images/poison.webp",
-          "x": 73,
-          "y": 37,
-          "sourceStart": 58827,
-          "sourceEnd": 58859,
-          "unlock": 58859,
-          "chapter": {
-            "id": "chapter-10",
-            "number": 10,
-            "sourceChapter": 9,
-            "title": "BÖLÜM 10 — ELSA'NIN TEHLİKELİ PLANI",
-            "offset": 55926
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "reunion",
-          "name": "BÖLÜM 11 — GERÇEK AÇIĞA ÇIKIYOR",
-          "label": "GERÇEK AÇIĞA ÇIKIYOR",
-          "quote": "Margaret torununu sıkıca kucakladı.",
-          "sourceChapter": 10,
-          "src": "assets/images/reunion.webp",
-          "memorySrc": "assets/images/reunion.webp",
-          "x": 33,
-          "y": 51,
-          "sourceStart": 63411,
-          "sourceEnd": 63446,
-          "unlock": 63446,
-          "chapter": {
-            "id": "chapter-11",
-            "number": 11,
-            "sourceChapter": 10,
-            "title": "BÖLÜM 11 — GERÇEK AÇIĞA ÇIKIYOR",
-            "offset": 61294
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "wedding",
-          "name": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-          "label": "GÜMÜŞ YILANIN GELİNİ",
-          "quote": "Başrahip altın asasını kaldırdı.",
-          "sourceChapter": 12,
-          "src": "assets/images/wedding.webp",
-          "memorySrc": "assets/images/wedding.webp",
-          "x": 53,
-          "y": 51,
-          "sourceStart": 77622,
-          "sourceEnd": 77654,
-          "unlock": 77654,
-          "chapter": {
-            "id": "chapter-13",
-            "number": 13,
-            "sourceChapter": 12,
-            "title": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-            "offset": 72546
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "navigate-bahce",
-          "node": "bahce",
-          "kind": "city",
-          "name": "Gümüş Saray Bahçesi",
-          "label": "Gümüş Saray Bahçesi",
-          "x": 64,
-          "y": 54,
-          "src": "assets/images/garden.webp",
-          "memorySrc": "assets/images/garden.webp",
-          "quote": "Beyaz güller, gümüş yapraklı ağaçlar ve küçük şelaleler...",
-          "sourceStart": 44269,
-          "sourceEnd": 44327,
-          "unlock": 44327,
-          "characters": []
-        }
-      ]
-    },
-    "bahce": {
-      "name": "Gümüş Saray Bahçesi",
-      "src": "assets/images/garden.webp",
-      "areas": [
-        {
-          "id": "garden",
-          "name": "BÖLÜM 8 — GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
-          "label": "GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
-          "quote": "Elsa'nın yüzündeki gülümseme dondu.",
-          "sourceChapter": 7,
-          "src": "assets/images/garden.webp",
-          "memorySrc": "assets/images/garden.webp",
-          "x": 33,
-          "y": 37,
-          "sourceStart": 45562,
-          "sourceEnd": 45597,
-          "unlock": 45597,
-          "chapter": {
-            "id": "chapter-08",
-            "number": 8,
-            "sourceChapter": 7,
-            "title": "BÖLÜM 8 — GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
-            "offset": 43761
-          },
-          "characters": [],
-          "discoveries": []
-        },
-        {
-          "id": "family",
-          "name": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-          "label": "GÜMÜŞ YILANIN GELİNİ",
-          "quote": "Küçük kız korkmadan ona sarıldı.",
-          "sourceChapter": 12,
-          "src": "assets/images/family.webp",
-          "memorySrc": "assets/images/family.webp",
-          "x": 53,
-          "y": 37,
-          "sourceStart": 79267,
-          "sourceEnd": 79299,
-          "unlock": 79299,
-          "chapter": {
-            "id": "chapter-13",
-            "number": 13,
-            "sourceChapter": 12,
-            "title": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-            "offset": 72546
-          },
-          "characters": [],
-          "discoveries": []
-        }
-      ]
-    },
-    "dag": {
-      "name": "Ay Dağı",
-      "src": "assets/images/moon-gate.webp",
-      "areas": [
-        {
-          "id": "navigate-kapi",
-          "node": "kapi",
-          "kind": "city",
-          "name": "Ay Kapısı",
-          "label": "Ay Kapısı",
-          "x": 64,
-          "y": 54,
-          "src": "assets/images/moon-gate.webp",
-          "memorySrc": "assets/images/moon-gate.webp",
-          "quote": "Dağın zirvesinde devasa bir taş kapı vardı.",
-          "sourceStart": 66439,
-          "sourceEnd": 66482,
-          "unlock": 66482,
-          "characters": []
-        }
-      ]
-    },
-    "kapi": {
-      "name": "Ay Kapısı",
-      "src": "assets/images/moon-gate.webp",
-      "areas": [
-        {
-          "id": "moon-gate",
-          "name": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-          "label": "AY KAPISI'NDAKİ SON SAVAŞ",
-          "quote": "Genç kadın elini kapıya koydu.",
+          "id": "three-arrows",
+          "name": "BÖLÜM 12 — ÜÇ HAMLELİK SINAV",
+          "label": "ÜÇ HAMLELİK SINAV",
+          "quote": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu.",
           "sourceChapter": 11,
-          "src": "assets/images/moon-gate.webp",
-          "memorySrc": "assets/images/moon-gate.webp",
-          "x": 33,
+          "src": "assets/images/three-arrows.webp",
+          "memorySrc": "assets/images/three-arrows.webp",
+          "x": 53,
           "y": 37,
-          "sourceStart": 68015,
-          "sourceEnd": 68045,
-          "unlock": 68045,
+          "sourceStart": 29530,
+          "sourceEnd": 29594,
+          "unlock": 29594,
           "chapter": {
             "id": "chapter-12",
             "number": 12,
             "sourceChapter": 11,
-            "title": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-            "offset": 65469
+            "title": "BÖLÜM 12 — ÜÇ HAMLELİK SINAV",
+            "offset": 28995
           },
           "characters": [],
           "discoveries": []
-        },
+        }
+      ]
+    },
+    "akademi": {
+      "name": "Kutsal Akademi",
+      "src": "assets/images/academy-curse.webp",
+      "areas": [
         {
-          "id": "seal",
-          "name": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-          "label": "AY KAPISI'NDAKİ SON SAVAŞ",
-          "quote": "Altın ışık bütün dağa yayıldı.",
-          "sourceChapter": 11,
-          "src": "assets/images/seal.webp",
-          "memorySrc": "assets/images/seal.webp",
-          "x": 53,
+          "id": "academy-curse",
+          "name": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
+          "label": "KAN VEBASI'NIN DÖNÜŞÜ",
+          "quote": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti.",
+          "sourceChapter": 20,
+          "src": "assets/images/academy-curse.webp",
+          "memorySrc": "assets/images/academy-curse.webp",
+          "x": 33,
           "y": 37,
-          "sourceStart": 69933,
-          "sourceEnd": 69963,
-          "unlock": 69963,
+          "sourceStart": 50491,
+          "sourceEnd": 50541,
+          "unlock": 50541,
           "chapter": {
-            "id": "chapter-12",
-            "number": 12,
-            "sourceChapter": 11,
-            "title": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-            "offset": 65469
+            "id": "chapter-21",
+            "number": 21,
+            "sourceChapter": 20,
+            "title": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
+            "offset": 48811
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    },
+    "gecit": {
+      "name": "Büyü Bahçesi",
+      "src": "assets/images/wooden-puppets.webp",
+      "areas": [
+        {
+          "id": "wooden-puppets",
+          "name": "BÖLÜM 16 — KARANLIĞIN İLK TUZAĞI",
+          "label": "KARANLIĞIN İLK TUZAĞI",
+          "quote": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu.",
+          "sourceChapter": 15,
+          "src": "assets/images/wooden-puppets.webp",
+          "memorySrc": "assets/images/wooden-puppets.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 39935,
+          "sourceEnd": 40076,
+          "unlock": 40076,
+          "chapter": {
+            "id": "chapter-16",
+            "number": 16,
+            "sourceChapter": 15,
+            "title": "BÖLÜM 16 — KARANLIĞIN İLK TUZAĞI",
+            "offset": 38198
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    },
+    "tuneller": {
+      "name": "Eski Tüneller",
+      "src": "assets/images/tunnel-puppets.webp",
+      "areas": [
+        {
+          "id": "tunnel-puppets",
+          "name": "BÖLÜM 26 — KUKLA USTASI'NIN SON HAMLESİ",
+          "label": "KUKLA USTASI'NIN SON HAMLESİ",
+          "quote": "Duvarlardaki kuklalar canlandı.",
+          "sourceChapter": 25,
+          "src": "assets/images/tunnel-puppets.webp",
+          "memorySrc": "assets/images/tunnel-puppets.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 59967,
+          "sourceEnd": 59998,
+          "unlock": 59998,
+          "chapter": {
+            "id": "chapter-26",
+            "number": 26,
+            "sourceChapter": 25,
+            "title": "BÖLÜM 26 — KUKLA USTASI'NIN SON HAMLESİ",
+            "offset": 58875
+          },
+          "characters": [],
+          "discoveries": []
+        }
+      ]
+    },
+    "arsiv": {
+      "name": "Alwyn Arşivi",
+      "src": "assets/images/forgotten-archive.webp",
+      "areas": [
+        {
+          "id": "forgotten-archive",
+          "name": "BÖLÜM 42 — FROSTHOLD'UN KAYIP MİRASI",
+          "label": "FROSTHOLD'UN KAYIP MİRASI",
+          "quote": "Aisha geri çekildi.",
+          "sourceChapter": 41,
+          "src": "assets/images/forgotten-archive.webp",
+          "memorySrc": "assets/images/forgotten-archive.webp",
+          "x": 33,
+          "y": 37,
+          "sourceStart": 90958,
+          "sourceEnd": 90977,
+          "unlock": 90977,
+          "chapter": {
+            "id": "chapter-42",
+            "number": 42,
+            "sourceChapter": 41,
+            "title": "BÖLÜM 42 — FROSTHOLD'UN KAYIP MİRASI",
+            "offset": 89970
           },
           "characters": [],
           "discoveries": []

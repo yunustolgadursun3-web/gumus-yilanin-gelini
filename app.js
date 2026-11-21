@@ -1032,7 +1032,7 @@
       const opening = document.createElement('header');
       opening.className = 'chapter-opening';
       const leadingBreaks = heading[1];
-      const firstTitle = heading[3] || heading[4];
+      const firstTitle = (heading[3] || heading[4]).replace(/^\*\*(.+)\*\*$/u, '$1');
       const bookFollowup = firstTitle === bookPlan.title
         ? raw.slice(heading[0].length).match(/^(?:\r?\n[ \t]*)+(?:#{1,3})\s+((?:[IVXLCDM]+)\.\s+KİTAP\s+—\s+.+?)(?:\r?\n|$)/iu)
         : null;
@@ -1105,12 +1105,21 @@
         }
       }
       let start = 0;
-      for (const match of source.matchAll(/^—[^\r\n]*|“[^”\r\n]+”|"[^"\r\n]+"/gmu)) {
+      for (const match of source.matchAll(/^(\*\*|\*)([^*\r\n]+)\1(?=\r?$)|^—[^\r\n]*|“[^”\r\n]+”|"[^"\r\n]+"/gmu)) {
         appendKeywords(target, source.slice(start, match.index));
-        const quotation = document.createElement('span');
-        quotation.className = match[0].startsWith('—') ? 'reader-dialogue' : 'reader-quotation';
-        appendKeywords(quotation, match[0]);
-        target.append(quotation);
+        if (match[1]) {
+          const formatted = document.createElement(match[1].length === 2 ? 'strong' : 'em');
+          const marker = document.createElement('span');
+          marker.hidden = true;
+          marker.textContent = match[1];
+          appendKeywords(formatted, match[2]);
+          target.append(marker, formatted, marker.cloneNode(true));
+        } else {
+          const quotation = document.createElement('span');
+          quotation.className = match[0].startsWith('—') ? 'reader-dialogue' : 'reader-quotation';
+          appendKeywords(quotation, match[0]);
+          target.append(quotation);
+        }
         start = match.index + match[0].length;
       }
       appendKeywords(target, source.slice(start));

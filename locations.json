@@ -1,497 +1,506 @@
 {
-  "ev": {
-    "name": "Margaret'in Evi",
-    "src": "assets/images/warning.webp",
+  "frosthold": {
+    "name": "Frosthold",
+    "src": "assets/images/frosthold-fall.webp",
     "areas": [
       {
-        "id": "warning",
-        "name": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-        "label": "BÜYÜKANNENİN SON UYARISI",
-        "quote": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+        "id": "frosthold-fall",
+        "name": "BÖLÜM 1 — KÜLLER ALTINDA KALAN KRALLIK",
+        "label": "KÜLLER ALTINDA KALAN KRALLIK",
+        "quote": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı.",
         "sourceChapter": 0,
-        "src": "assets/images/warning.webp",
-        "memorySrc": "assets/images/warning.webp",
+        "src": "assets/images/frosthold-fall.webp",
+        "memorySrc": "assets/images/frosthold-fall.webp",
         "x": 33,
         "y": 37,
-        "sourceStart": 1860,
-        "sourceEnd": 1913,
-        "unlock": 1913,
+        "sourceStart": 1773,
+        "sourceEnd": 1906,
+        "unlock": 1906,
         "chapter": {
           "id": "chapter-01",
           "number": 1,
           "sourceChapter": 0,
-          "title": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-          "offset": 68
+          "title": "BÖLÜM 1 — KÜLLER ALTINDA KALAN KRALLIK",
+          "offset": 155
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "lich-arrival",
+        "name": "BÖLÜM 48 — KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+        "label": "KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+        "quote": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+        "sourceChapter": 47,
+        "src": "assets/images/lich-arrival.webp",
+        "memorySrc": "assets/images/lich-arrival.webp",
+        "x": 53,
+        "y": 37,
+        "sourceStart": 103737,
+        "sourceEnd": 103829,
+        "unlock": 103829,
+        "chapter": {
+          "id": "chapter-48",
+          "number": 48,
+          "sourceChapter": 47,
+          "title": "BÖLÜM 48 — KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+          "offset": 101901
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "divine-awakening",
+        "name": "BÖLÜM 50 — İLAHİ BEDENİN UYANIŞI",
+        "label": "İLAHİ BEDENİN UYANIŞI",
+        "quote": "Fredo yavaşça havaya yükseldi.",
+        "sourceChapter": 49,
+        "src": "assets/images/divine-awakening.webp",
+        "memorySrc": "assets/images/divine-awakening.webp",
+        "x": 73,
+        "y": 37,
+        "sourceStart": 108204,
+        "sourceEnd": 108234,
+        "unlock": 108234,
+        "chapter": {
+          "id": "chapter-50",
+          "number": 50,
+          "sourceChapter": 49,
+          "title": "BÖLÜM 50 — İLAHİ BEDENİN UYANIŞI",
+          "offset": 106076
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "frosthold-renewed",
+        "name": "BÖLÜM 51 — DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+        "label": "DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+        "quote": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler.",
+        "sourceChapter": 50,
+        "src": "assets/images/frosthold-renewed.webp",
+        "memorySrc": "assets/images/frosthold-renewed.webp",
+        "x": 33,
+        "y": 51,
+        "sourceStart": 116693,
+        "sourceEnd": 116755,
+        "unlock": 116755,
+        "chapter": {
+          "id": "chapter-51",
+          "number": 51,
+          "sourceChapter": 50,
+          "title": "BÖLÜM 51 — DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+          "offset": 108894
         },
         "characters": [],
         "discoveries": []
       }
     ]
   },
-  "orman": {
-    "name": "Sisli Orman",
-    "src": "assets/images/rescue.webp",
+  "dag-kulubesi": {
+    "name": "Dağ Kulübesi",
+    "src": "assets/images/mountain-lesson.webp",
     "areas": [
       {
-        "id": "rescue",
-        "name": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-        "label": "BÜYÜKANNENİN SON UYARISI",
-        "quote": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi.",
-        "sourceChapter": 0,
-        "src": "assets/images/rescue.webp",
-        "memorySrc": "assets/images/rescue.webp",
+        "id": "mountain-lesson",
+        "name": "BÖLÜM 2 — DAĞLARDA YETİŞEN DAHİ",
+        "label": "DAĞLARDA YETİŞEN DAHİ",
+        "quote": "\"Şimdi bunu parçalamadan yerinden kaldır.\"",
+        "sourceChapter": 1,
+        "src": "assets/images/mountain-lesson.webp",
+        "memorySrc": "assets/images/mountain-lesson.webp",
         "x": 33,
         "y": 37,
-        "sourceStart": 6404,
-        "sourceEnd": 6462,
-        "unlock": 6462,
-        "chapter": {
-          "id": "chapter-01",
-          "number": 1,
-          "sourceChapter": 0,
-          "title": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
-          "offset": 68
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "mark",
-        "name": "BÖLÜM 2 — GÜMÜŞ KRALIN İŞARETİ",
-        "label": "GÜMÜŞ KRALIN İŞARETİ",
-        "quote": "Gümüş renkli küçük bir yılan şekli belirdi.",
-        "sourceChapter": 1,
-        "src": "assets/images/mark.webp",
-        "memorySrc": "assets/images/mark.webp",
-        "x": 53,
-        "y": 37,
-        "sourceStart": 10973,
-        "sourceEnd": 11016,
-        "unlock": 11016,
+        "sourceStart": 3842,
+        "sourceEnd": 3884,
+        "unlock": 3884,
         "chapter": {
           "id": "chapter-02",
           "number": 2,
           "sourceChapter": 1,
-          "title": "BÖLÜM 2 — GÜMÜŞ KRALIN İŞARETİ",
-          "offset": 7179
+          "title": "BÖLÜM 2 — DAĞLARDA YETİŞEN DAHİ",
+          "offset": 2784
         },
         "characters": [],
         "discoveries": []
       }
     ]
   },
-  "kopru": {
-    "name": "Eski Taş Köprü",
-    "src": "assets/images/bridge.webp",
+  "merkez-sehir": {
+    "name": "Merkez Şehir",
+    "src": "assets/images/central-city.webp",
     "areas": [
       {
-        "id": "bridge",
-        "name": "BÖLÜM 3 — DÜĞÜNDEN ÖNCEKİ KORKU",
-        "label": "DÜĞÜNDEN ÖNCEKİ KORKU",
-        "quote": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+        "id": "central-city",
+        "name": "BÖLÜM 3 — MERKEZ ŞEHİR'E DÖNÜŞ",
+        "label": "MERKEZ ŞEHİR'E DÖNÜŞ",
+        "quote": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
         "sourceChapter": 2,
-        "src": "assets/images/bridge.webp",
-        "memorySrc": "assets/images/bridge.webp",
+        "src": "assets/images/central-city.webp",
+        "memorySrc": "assets/images/central-city.webp",
         "x": 33,
         "y": 37,
-        "sourceStart": 16228,
-        "sourceEnd": 16281,
-        "unlock": 16281,
+        "sourceStart": 6114,
+        "sourceEnd": 6202,
+        "unlock": 6202,
         "chapter": {
           "id": "chapter-03",
           "number": 3,
           "sourceChapter": 2,
-          "title": "BÖLÜM 3 — DÜĞÜNDEN ÖNCEKİ KORKU",
-          "offset": 12870
+          "title": "BÖLÜM 3 — MERKEZ ŞEHİR'E DÖNÜŞ",
+          "offset": 6009
         },
         "characters": [],
         "discoveries": []
+      },
+      {
+        "id": "navigate-pazar",
+        "node": "pazar",
+        "kind": "city",
+        "name": "Pazar Bölgesi",
+        "label": "Pazar Bölgesi",
+        "x": 32,
+        "y": 54,
+        "src": "assets/images/dwarf-king.webp",
+        "memorySrc": "assets/images/dwarf-king.webp",
+        "quote": "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti.",
+        "sourceStart": 9208,
+        "sourceEnd": 9270,
+        "unlock": 9270,
+        "characters": []
+      },
+      {
+        "id": "navigate-ragewind",
+        "node": "ragewind",
+        "kind": "city",
+        "name": "Ragewind Arenası",
+        "label": "Ragewind Arenası",
+        "x": 51,
+        "y": 54,
+        "src": "assets/images/ragewind-meeting.webp",
+        "memorySrc": "assets/images/ragewind-meeting.webp",
+        "quote": "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi.",
+        "sourceStart": 16785,
+        "sourceEnd": 16852,
+        "unlock": 16852,
+        "characters": []
+      },
+      {
+        "id": "navigate-akademi",
+        "node": "akademi",
+        "kind": "city",
+        "name": "Kutsal Akademi",
+        "label": "Kutsal Akademi",
+        "x": 70,
+        "y": 54,
+        "src": "assets/images/academy-curse.webp",
+        "memorySrc": "assets/images/academy-curse.webp",
+        "quote": "İkisi şehirde dolaşırken Bella, Kutsal Akademi'deki eğitiminden bahsetti.",
+        "sourceStart": 15966,
+        "sourceEnd": 16039,
+        "unlock": 16039,
+        "characters": []
+      },
+      {
+        "id": "navigate-alwyn",
+        "node": "alwyn",
+        "kind": "city",
+        "name": "Alwyn Sarayı",
+        "label": "Alwyn Sarayı",
+        "x": 32,
+        "y": 69,
+        "src": "assets/images/aisha-choice.webp",
+        "memorySrc": "assets/images/aisha-choice.webp",
+        "quote": "Alwyn Hanedanı'nın sarayına vardığında kapıdaki muhafızlar önünü kesti.",
+        "sourceStart": 6898,
+        "sourceEnd": 6969,
+        "unlock": 6969,
+        "characters": []
       }
     ]
   },
-  "meydan": {
-    "name": "Köy Meydanı",
-    "src": "assets/images/interrupted-wedding.webp",
+  "alwyn": {
+    "name": "Alwyn Sarayı",
+    "src": "assets/images/aisha-choice.webp",
     "areas": [
       {
-        "id": "interrupted-wedding",
-        "name": "BÖLÜM 4 — GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
-        "label": "GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
-        "quote": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
-        "sourceChapter": 3,
-        "src": "assets/images/interrupted-wedding.webp",
-        "memorySrc": "assets/images/interrupted-wedding.webp",
+        "id": "aisha-choice",
+        "name": "BÖLÜM 31 — PRENSESİN SEÇİMİ",
+        "label": "PRENSESİN SEÇİMİ",
+        "quote": "Marion şaşkınlıkla ayağa kalktı.",
+        "sourceChapter": 30,
+        "src": "assets/images/aisha-choice.webp",
+        "memorySrc": "assets/images/aisha-choice.webp",
         "x": 33,
         "y": 37,
-        "sourceStart": 20352,
-        "sourceEnd": 20398,
-        "unlock": 20398,
+        "sourceStart": 70431,
+        "sourceEnd": 70463,
+        "unlock": 70463,
+        "chapter": {
+          "id": "chapter-31",
+          "number": 31,
+          "sourceChapter": 30,
+          "title": "BÖLÜM 31 — PRENSESİN SEÇİMİ",
+          "offset": 68778
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "healing-circle",
+        "name": "BÖLÜM 34 — YASAKLI ŞİFA SANATI",
+        "label": "YASAKLI ŞİFA SANATI",
+        "quote": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+        "sourceChapter": 33,
+        "src": "assets/images/healing-circle.webp",
+        "memorySrc": "assets/images/healing-circle.webp",
+        "x": 53,
+        "y": 37,
+        "sourceStart": 74489,
+        "sourceEnd": 74552,
+        "unlock": 74552,
+        "chapter": {
+          "id": "chapter-34",
+          "number": 34,
+          "sourceChapter": 33,
+          "title": "BÖLÜM 34 — YASAKLI ŞİFA SANATI",
+          "offset": 74450
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "celestial-lightning",
+        "name": "BÖLÜM 47 — GÖKSEL YILDIRIMIN HÜKMÜ",
+        "label": "GÖKSEL YILDIRIMIN HÜKMÜ",
+        "quote": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti.",
+        "sourceChapter": 46,
+        "src": "assets/images/celestial-lightning.webp",
+        "memorySrc": "assets/images/celestial-lightning.webp",
+        "x": 73,
+        "y": 37,
+        "sourceStart": 100138,
+        "sourceEnd": 100194,
+        "unlock": 100194,
+        "chapter": {
+          "id": "chapter-47",
+          "number": 47,
+          "sourceChapter": 46,
+          "title": "BÖLÜM 47 — GÖKSEL YILDIRIMIN HÜKMÜ",
+          "offset": 99726
+        },
+        "characters": [],
+        "discoveries": []
+      },
+      {
+        "id": "navigate-arsiv",
+        "node": "arsiv",
+        "kind": "city",
+        "name": "Alwyn Arşivi",
+        "label": "Alwyn Arşivi",
+        "x": 32,
+        "y": 54,
+        "src": "assets/images/forgotten-archive.webp",
+        "memorySrc": "assets/images/forgotten-archive.webp",
+        "quote": "Fredo, Ron'un verdiği ipuçlarını araştırmak için eski arşive geri döndü.",
+        "sourceStart": 90015,
+        "sourceEnd": 90087,
+        "unlock": 90087,
+        "characters": []
+      }
+    ]
+  },
+  "pazar": {
+    "name": "Pazar Bölgesi",
+    "src": "assets/images/dwarf-king.webp",
+    "areas": [
+      {
+        "id": "dwarf-king",
+        "name": "BÖLÜM 4 — LANETLENMİŞ CÜCE KRAL",
+        "label": "LANETLENMİŞ CÜCE KRAL",
+        "quote": "Kralın bedeninden siyah duman yükselmeye başladı.",
+        "sourceChapter": 3,
+        "src": "assets/images/dwarf-king.webp",
+        "memorySrc": "assets/images/dwarf-king.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 10318,
+        "sourceEnd": 10367,
+        "unlock": 10367,
         "chapter": {
           "id": "chapter-04",
           "number": 4,
           "sourceChapter": 3,
-          "title": "BÖLÜM 4 — GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
-          "offset": 17222
+          "title": "BÖLÜM 4 — LANETLENMİŞ CÜCE KRAL",
+          "offset": 9168
         },
         "characters": [],
         "discoveries": []
       }
     ]
   },
-  "kale": {
-    "name": "Kara Yılan Kalesi",
-    "src": "assets/images/betrayal.webp",
+  "ragewind": {
+    "name": "Ragewind Arenası",
+    "src": "assets/images/ragewind-meeting.webp",
     "areas": [
       {
-        "id": "betrayal",
-        "name": "BÖLÜM 5 — ÇOCUKLUK AŞKININ İHANETİ",
-        "label": "ÇOCUKLUK AŞKININ İHANETİ",
-        "quote": "Kırmızı sıvı taşların arasına yayıldı.",
-        "sourceChapter": 4,
-        "src": "assets/images/betrayal.webp",
-        "memorySrc": "assets/images/betrayal.webp",
-        "x": 33,
-        "y": 37,
-        "sourceStart": 29079,
-        "sourceEnd": 29117,
-        "unlock": 29117,
-        "chapter": {
-          "id": "chapter-05",
-          "number": 5,
-          "sourceChapter": 4,
-          "title": "BÖLÜM 5 — ÇOCUKLUK AŞKININ İHANETİ",
-          "offset": 23407
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "navigate-sunak",
-        "node": "sunak",
-        "kind": "city",
-        "name": "On İki Sütunlu Sunak",
-        "label": "On İki Sütunlu Sunak",
-        "x": 64,
-        "y": 54,
-        "src": "assets/images/serpent-battle.webp",
-        "memorySrc": "assets/images/serpent-battle.webp",
-        "quote": "Sunağın çevresinde on iki taş sütun bulunuyordu.",
-        "sourceStart": 30061,
-        "sourceEnd": 30109,
-        "unlock": 30109,
-        "characters": []
-      }
-    ]
-  },
-  "sunak": {
-    "name": "On İki Sütunlu Sunak",
-    "src": "assets/images/serpent-battle.webp",
-    "areas": [
-      {
-        "id": "serpent-battle",
-        "name": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-        "label": "KARA YILAN PRENSİ'NİN KURBANI",
-        "quote": "İki devasa yılan birbirine saldırdı.",
-        "sourceChapter": 5,
-        "src": "assets/images/serpent-battle.webp",
-        "memorySrc": "assets/images/serpent-battle.webp",
-        "x": 33,
-        "y": 37,
-        "sourceStart": 36793,
-        "sourceEnd": 36829,
-        "unlock": 36829,
-        "chapter": {
-          "id": "chapter-06",
-          "number": 6,
-          "sourceChapter": 5,
-          "title": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-          "offset": 29517
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "freedom",
-        "name": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-        "label": "KARA YILAN PRENSİ'NİN KURBANI",
-        "quote": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu.",
-        "sourceChapter": 5,
-        "src": "assets/images/freedom.webp",
-        "memorySrc": "assets/images/freedom.webp",
-        "x": 53,
-        "y": 37,
-        "sourceStart": 37935,
-        "sourceEnd": 38006,
-        "unlock": 38006,
-        "chapter": {
-          "id": "chapter-06",
-          "number": 6,
-          "sourceChapter": 5,
-          "title": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
-          "offset": 29517
-        },
-        "characters": [],
-        "discoveries": []
-      }
-    ]
-  },
-  "saray": {
-    "name": "Gümüş Saray",
-    "src": "assets/images/first-night.webp",
-    "areas": [
-      {
-        "id": "first-night",
-        "name": "BÖLÜM 7 — YILAN SARAYINDA İLK GECE",
-        "label": "YILAN SARAYINDA İLK GECE",
-        "quote": "Silvan yatağın yanındaki sandalyeye oturdu.",
+        "id": "ragewind-meeting",
+        "name": "BÖLÜM 7 — RAGEWIND ARENASI",
+        "label": "RAGEWIND ARENASI",
+        "quote": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
         "sourceChapter": 6,
-        "src": "assets/images/first-night.webp",
-        "memorySrc": "assets/images/first-night.webp",
+        "src": "assets/images/ragewind-meeting.webp",
+        "memorySrc": "assets/images/ragewind-meeting.webp",
         "x": 33,
         "y": 37,
-        "sourceStart": 40765,
-        "sourceEnd": 40808,
-        "unlock": 40808,
+        "sourceStart": 18615,
+        "sourceEnd": 18713,
+        "unlock": 18713,
         "chapter": {
           "id": "chapter-07",
           "number": 7,
           "sourceChapter": 6,
-          "title": "BÖLÜM 7 — YILAN SARAYINDA İLK GECE",
-          "offset": 39318
+          "title": "BÖLÜM 7 — RAGEWIND ARENASI",
+          "offset": 16750
         },
         "characters": [],
         "discoveries": []
       },
       {
-        "id": "necklace",
-        "name": "BÖLÜM 9 — BELLA'NIN KANINDAKİ SIR",
-        "label": "BELLA'NIN KANINDAKİ SIR",
-        "quote": "Bella kolyeyi göğsüne bastırdı.",
-        "sourceChapter": 8,
-        "src": "assets/images/necklace.webp",
-        "memorySrc": "assets/images/necklace.webp",
-        "x": 53,
-        "y": 37,
-        "sourceStart": 54221,
-        "sourceEnd": 54252,
-        "unlock": 54252,
-        "chapter": {
-          "id": "chapter-09",
-          "number": 9,
-          "sourceChapter": 8,
-          "title": "BÖLÜM 9 — BELLA'NIN KANINDAKİ SIR",
-          "offset": 50350
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "poison",
-        "name": "BÖLÜM 10 — ELSA'NIN TEHLİKELİ PLANI",
-        "label": "ELSA'NIN TEHLİKELİ PLANI",
-        "quote": "Adam alnını onun alnına yasladı.",
-        "sourceChapter": 9,
-        "src": "assets/images/poison.webp",
-        "memorySrc": "assets/images/poison.webp",
-        "x": 73,
-        "y": 37,
-        "sourceStart": 58827,
-        "sourceEnd": 58859,
-        "unlock": 58859,
-        "chapter": {
-          "id": "chapter-10",
-          "number": 10,
-          "sourceChapter": 9,
-          "title": "BÖLÜM 10 — ELSA'NIN TEHLİKELİ PLANI",
-          "offset": 55926
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "reunion",
-        "name": "BÖLÜM 11 — GERÇEK AÇIĞA ÇIKIYOR",
-        "label": "GERÇEK AÇIĞA ÇIKIYOR",
-        "quote": "Margaret torununu sıkıca kucakladı.",
-        "sourceChapter": 10,
-        "src": "assets/images/reunion.webp",
-        "memorySrc": "assets/images/reunion.webp",
-        "x": 33,
-        "y": 51,
-        "sourceStart": 63411,
-        "sourceEnd": 63446,
-        "unlock": 63446,
-        "chapter": {
-          "id": "chapter-11",
-          "number": 11,
-          "sourceChapter": 10,
-          "title": "BÖLÜM 11 — GERÇEK AÇIĞA ÇIKIYOR",
-          "offset": 61294
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "wedding",
-        "name": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-        "label": "GÜMÜŞ YILANIN GELİNİ",
-        "quote": "Başrahip altın asasını kaldırdı.",
-        "sourceChapter": 12,
-        "src": "assets/images/wedding.webp",
-        "memorySrc": "assets/images/wedding.webp",
-        "x": 53,
-        "y": 51,
-        "sourceStart": 77622,
-        "sourceEnd": 77654,
-        "unlock": 77654,
-        "chapter": {
-          "id": "chapter-13",
-          "number": 13,
-          "sourceChapter": 12,
-          "title": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-          "offset": 72546
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "navigate-bahce",
-        "node": "bahce",
-        "kind": "city",
-        "name": "Gümüş Saray Bahçesi",
-        "label": "Gümüş Saray Bahçesi",
-        "x": 64,
-        "y": 54,
-        "src": "assets/images/garden.webp",
-        "memorySrc": "assets/images/garden.webp",
-        "quote": "Beyaz güller, gümüş yapraklı ağaçlar ve küçük şelaleler...",
-        "sourceStart": 44269,
-        "sourceEnd": 44327,
-        "unlock": 44327,
-        "characters": []
-      }
-    ]
-  },
-  "bahce": {
-    "name": "Gümüş Saray Bahçesi",
-    "src": "assets/images/garden.webp",
-    "areas": [
-      {
-        "id": "garden",
-        "name": "BÖLÜM 8 — GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
-        "label": "GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
-        "quote": "Elsa'nın yüzündeki gülümseme dondu.",
-        "sourceChapter": 7,
-        "src": "assets/images/garden.webp",
-        "memorySrc": "assets/images/garden.webp",
-        "x": 33,
-        "y": 37,
-        "sourceStart": 45562,
-        "sourceEnd": 45597,
-        "unlock": 45597,
-        "chapter": {
-          "id": "chapter-08",
-          "number": 8,
-          "sourceChapter": 7,
-          "title": "BÖLÜM 8 — GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
-          "offset": 43761
-        },
-        "characters": [],
-        "discoveries": []
-      },
-      {
-        "id": "family",
-        "name": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-        "label": "GÜMÜŞ YILANIN GELİNİ",
-        "quote": "Küçük kız korkmadan ona sarıldı.",
-        "sourceChapter": 12,
-        "src": "assets/images/family.webp",
-        "memorySrc": "assets/images/family.webp",
-        "x": 53,
-        "y": 37,
-        "sourceStart": 79267,
-        "sourceEnd": 79299,
-        "unlock": 79299,
-        "chapter": {
-          "id": "chapter-13",
-          "number": 13,
-          "sourceChapter": 12,
-          "title": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
-          "offset": 72546
-        },
-        "characters": [],
-        "discoveries": []
-      }
-    ]
-  },
-  "dag": {
-    "name": "Ay Dağı",
-    "src": "assets/images/moon-gate.webp",
-    "areas": [
-      {
-        "id": "navigate-kapi",
-        "node": "kapi",
-        "kind": "city",
-        "name": "Ay Kapısı",
-        "label": "Ay Kapısı",
-        "x": 64,
-        "y": 54,
-        "src": "assets/images/moon-gate.webp",
-        "memorySrc": "assets/images/moon-gate.webp",
-        "quote": "Dağın zirvesinde devasa bir taş kapı vardı.",
-        "sourceStart": 66439,
-        "sourceEnd": 66482,
-        "unlock": 66482,
-        "characters": []
-      }
-    ]
-  },
-  "kapi": {
-    "name": "Ay Kapısı",
-    "src": "assets/images/moon-gate.webp",
-    "areas": [
-      {
-        "id": "moon-gate",
-        "name": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-        "label": "AY KAPISI'NDAKİ SON SAVAŞ",
-        "quote": "Genç kadın elini kapıya koydu.",
+        "id": "three-arrows",
+        "name": "BÖLÜM 12 — ÜÇ HAMLELİK SINAV",
+        "label": "ÜÇ HAMLELİK SINAV",
+        "quote": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu.",
         "sourceChapter": 11,
-        "src": "assets/images/moon-gate.webp",
-        "memorySrc": "assets/images/moon-gate.webp",
-        "x": 33,
+        "src": "assets/images/three-arrows.webp",
+        "memorySrc": "assets/images/three-arrows.webp",
+        "x": 53,
         "y": 37,
-        "sourceStart": 68015,
-        "sourceEnd": 68045,
-        "unlock": 68045,
+        "sourceStart": 29530,
+        "sourceEnd": 29594,
+        "unlock": 29594,
         "chapter": {
           "id": "chapter-12",
           "number": 12,
           "sourceChapter": 11,
-          "title": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-          "offset": 65469
+          "title": "BÖLÜM 12 — ÜÇ HAMLELİK SINAV",
+          "offset": 28995
         },
         "characters": [],
         "discoveries": []
-      },
+      }
+    ]
+  },
+  "akademi": {
+    "name": "Kutsal Akademi",
+    "src": "assets/images/academy-curse.webp",
+    "areas": [
       {
-        "id": "seal",
-        "name": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-        "label": "AY KAPISI'NDAKİ SON SAVAŞ",
-        "quote": "Altın ışık bütün dağa yayıldı.",
-        "sourceChapter": 11,
-        "src": "assets/images/seal.webp",
-        "memorySrc": "assets/images/seal.webp",
-        "x": 53,
+        "id": "academy-curse",
+        "name": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
+        "label": "KAN VEBASI'NIN DÖNÜŞÜ",
+        "quote": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti.",
+        "sourceChapter": 20,
+        "src": "assets/images/academy-curse.webp",
+        "memorySrc": "assets/images/academy-curse.webp",
+        "x": 33,
         "y": 37,
-        "sourceStart": 69933,
-        "sourceEnd": 69963,
-        "unlock": 69963,
+        "sourceStart": 50491,
+        "sourceEnd": 50541,
+        "unlock": 50541,
         "chapter": {
-          "id": "chapter-12",
-          "number": 12,
-          "sourceChapter": 11,
-          "title": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-          "offset": 65469
+          "id": "chapter-21",
+          "number": 21,
+          "sourceChapter": 20,
+          "title": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
+          "offset": 48811
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  },
+  "gecit": {
+    "name": "Büyü Bahçesi",
+    "src": "assets/images/wooden-puppets.webp",
+    "areas": [
+      {
+        "id": "wooden-puppets",
+        "name": "BÖLÜM 16 — KARANLIĞIN İLK TUZAĞI",
+        "label": "KARANLIĞIN İLK TUZAĞI",
+        "quote": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu.",
+        "sourceChapter": 15,
+        "src": "assets/images/wooden-puppets.webp",
+        "memorySrc": "assets/images/wooden-puppets.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 39935,
+        "sourceEnd": 40076,
+        "unlock": 40076,
+        "chapter": {
+          "id": "chapter-16",
+          "number": 16,
+          "sourceChapter": 15,
+          "title": "BÖLÜM 16 — KARANLIĞIN İLK TUZAĞI",
+          "offset": 38198
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  },
+  "tuneller": {
+    "name": "Eski Tüneller",
+    "src": "assets/images/tunnel-puppets.webp",
+    "areas": [
+      {
+        "id": "tunnel-puppets",
+        "name": "BÖLÜM 26 — KUKLA USTASI'NIN SON HAMLESİ",
+        "label": "KUKLA USTASI'NIN SON HAMLESİ",
+        "quote": "Duvarlardaki kuklalar canlandı.",
+        "sourceChapter": 25,
+        "src": "assets/images/tunnel-puppets.webp",
+        "memorySrc": "assets/images/tunnel-puppets.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 59967,
+        "sourceEnd": 59998,
+        "unlock": 59998,
+        "chapter": {
+          "id": "chapter-26",
+          "number": 26,
+          "sourceChapter": 25,
+          "title": "BÖLÜM 26 — KUKLA USTASI'NIN SON HAMLESİ",
+          "offset": 58875
+        },
+        "characters": [],
+        "discoveries": []
+      }
+    ]
+  },
+  "arsiv": {
+    "name": "Alwyn Arşivi",
+    "src": "assets/images/forgotten-archive.webp",
+    "areas": [
+      {
+        "id": "forgotten-archive",
+        "name": "BÖLÜM 42 — FROSTHOLD'UN KAYIP MİRASI",
+        "label": "FROSTHOLD'UN KAYIP MİRASI",
+        "quote": "Aisha geri çekildi.",
+        "sourceChapter": 41,
+        "src": "assets/images/forgotten-archive.webp",
+        "memorySrc": "assets/images/forgotten-archive.webp",
+        "x": 33,
+        "y": 37,
+        "sourceStart": 90958,
+        "sourceEnd": 90977,
+        "unlock": 90977,
+        "chapter": {
+          "id": "chapter-42",
+          "number": 42,
+          "sourceChapter": 41,
+          "title": "BÖLÜM 42 — FROSTHOLD'UN KAYIP MİRASI",
+          "offset": 89970
         },
         "characters": [],
         "discoveries": []

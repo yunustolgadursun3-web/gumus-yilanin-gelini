@@ -40,7 +40,7 @@ function assets(directory) {
 }
 const onDemand = new Set(['book-mesh.js','popup-fold-rig.js','book-popup.js','atlas-living.js','location-explorer.js']);
 const core = ['./', ...files.filter(file=>/\.(css|js|webmanifest)$/i.test(file) && file!=='sw.js' && !onDemand.has(file)).map(file=>'./'+file), './offline-manifest.json'];
-for (const file of ['assets/images/cover-480.webp','assets/images/hero-480.webp','assets/images/reading-rabbit.webp','assets/images/sakura-letter.webp','assets/images/book-sigil.svg','assets/images/favicon.svg','assets/fonts/lora.woff2','assets/fonts/lora-italic.woff2','assets/fonts/cinzel.woff2']) {
+for (const file of [plan.cover.src.replace(/\.webp$/, '-480.webp'),'assets/images/frosthold-atlas-480.webp','assets/images/reading-rabbit.webp','assets/images/sakura-letter.webp','assets/images/book-sigil.svg','assets/images/favicon.svg','assets/fonts/lora.woff2','assets/fonts/lora-italic.woff2','assets/fonts/cinzel.woff2']) {
   if (fs.existsSync(path.join(output,file))) core.push('./'+file);
 }
 fs.writeFileSync(path.join(output,'book-worker-data.js'),'self.BOOK_WORKER_DATA = '+JSON.stringify({id,revision,core,allowOffline})+';\n');

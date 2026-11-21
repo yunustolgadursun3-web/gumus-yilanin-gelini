@@ -153,8 +153,9 @@ function chapterHints(text) {
   const pattern = /^(#{1,6})\s+(.+?)(?:\r?\n|$)/gm;
   let match;
   while ((match = pattern.exec(text))) {
-    const isChapter = /^(?:Bölüm\s+\d+|PROLOG|EPİLOG)\s+—/iu.test(match[2]);
-    hints.push({ level: isChapter ? 2 : match[1].length, label: match[2], offset: match.index });
+    const label = stripHeadingEmphasis(match[2]);
+    const isChapter = /^(?:Bölüm\s+\d+|PROLOG|EPİLOG)\s+—/iu.test(label);
+    hints.push({ level: isChapter ? 2 : match[1].length, label, offset: match.index });
   }
   const partPattern = /^((?:BİRİNCİ|İKİNCİ|ÜÇÜNCÜ|DÖRDÜNCÜ|BEŞİNCİ|ALTINCI|YEDİNCİ|SON)\s+KISIM\s+—\s+.+?)(?:\r?\n|$)/gmu;
   while ((match = partPattern.exec(text))) hints.push({ level: 1, label: match[1], offset: match.index });
@@ -163,9 +164,13 @@ function chapterHints(text) {
   return hints.sort((a, b) => a.offset - b.offset || a.level - b.level);
 }
 
+function stripHeadingEmphasis(title) {
+  return title.replace(/^\*\*(.+)\*\*$/u, '$1');
+}
+
 function titleFrom(text, fallback) {
   const heading = text.match(/^#\s+(.+?)(?:\r?\n|$)/m);
-  if (heading) return heading[1];
+  if (heading) return stripHeadingEmphasis(heading[1]);
   const firstLine = text.replace(/^\uFEFF/u, '').split(/\r?\n|\r/u).find((line) => line.trim());
   return firstLine ? firstLine.trim() : fallback;
 }
@@ -313,8 +318,9 @@ function headingRecords(text) {
   const pattern = /^(#{1,6})[ \t]+(.+?)(?:\r?\n|$)/gmu;
   let match;
   while ((match = pattern.exec(text))) {
-    const titleStart = match.index + match[0].indexOf(match[2]);
-    records.push({ level: match[1].length, title: match[2], start: match.index, end: pattern.lastIndex, titleStart, titleEnd: titleStart + match[2].length });
+    const title = stripHeadingEmphasis(match[2]);
+    const titleStart = match.index + match[0].indexOf(title);
+    records.push({ level: match[1].length, title, start: match.index, end: pattern.lastIndex, titleStart, titleEnd: titleStart + title.length });
   }
   const partPattern = /^((?:BİRİNCİ|İKİNCİ|ÜÇÜNCÜ|DÖRDÜNCÜ|BEŞİNCİ|ALTINCI|YEDİNCİ|SON)\s+KISIM\s+—\s+.+?)(?:\r?\n|$)/gmu;
   while ((match = partPattern.exec(text))) {
@@ -336,7 +342,8 @@ function selectVoiceChapters(text, manifest) {
     const openingBody = text.slice(titleLine.length, explicitChapters[0].start);
     const output = [];
     if (/\S/u.test(openingBody)) {
-      output.push({ title: manifest.title, body: openingBody, bodyStart: titleLine.length, titleStart: 0, titleEnd: manifest.title.length });
+      const titleStart = Math.max(0, titleLine.indexOf(manifest.title));
+      output.push({ title: manifest.title, body: openingBody, bodyStart: titleLine.length, titleStart, titleEnd: titleStart + manifest.title.length });
     }
     explicitChapters.forEach((heading, index) => {
       const nextHeading = explicitChapters[index + 1]?.start ?? text.length;

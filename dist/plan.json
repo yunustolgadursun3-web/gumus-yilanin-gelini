@@ -1,23 +1,28 @@
 {
-  "title": "GÜMÜŞ YILANIN GELİNİ",
-  "subtitle": "Gümüş Tahtın Laneti",
-  "storageId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
+  "title": "DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+  "subtitle": "51 Bölümlük Fantastik Roman",
+  "storageId": "dahi-bilginin-geri-donusu",
   "author": "",
   "genre": [
     "Fantastik",
-    "Romantik",
-    "Gümüş Yılanlar"
+    "Büyü",
+    "Macera",
+    "Aksiyon",
+    "Gizem",
+    "İntikam",
+    "Krallıklar",
+    "Romantik Fantastik"
   ],
-  "kicker": "GÜMÜŞ TAHTIN LANETİ",
-  "coverBrand": "GÜMÜŞ YILAN ARŞİVİ",
+  "kicker": "FROSTHOLD ARŞİVİ",
+  "coverBrand": "FROSTHOLD ARŞİVİ",
   "edition": "TAM ROMAN",
-  "coverLocation": "Sisli Orman · Gümüş Saray · Ay Kapısı",
-  "coverMark": "☾",
+  "coverLocation": "Frosthold · Merkez Şehir · Alwyn Sarayı",
+  "coverMark": "✦",
   "cover": {
-    "src": "assets/images/cover.webp",
-    "alt": "Bella ve Silvan, ay ışığındaki ormanda.",
-    "width": 1024,
-    "height": 1536
+    "src": "assets/images/frosthold-cover.webp",
+    "alt": "Fredo, Frosthold’un karlı dağları ve yıkık sarayı önünde kadim bir kitap tutar.",
+    "width": 960,
+    "height": 1440
   },
   "reader": {
     "appendEndPage": true,
@@ -26,82 +31,76 @@
     "chapterEndings": true
   },
   "end": {
-    "title": "GÜMÜŞ TAHTIN LANETİ",
+    "title": "DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
     "mood": "umut"
   },
   "sceneSounds": false,
   "keywords": [
+    "Fredo",
+    "Aisha",
+    "Frosthold",
     "Bella",
-    "Silvan",
-    "Margaret",
-    "Tommy",
-    "Kael",
-    "Elsa",
-    "Ay Kapısı"
+    "Will",
+    "Aragorn",
+    "Marion",
+    "Florent",
+    "Ron",
+    "Darren",
+    "Lich",
+    "Ragewind"
   ],
   "chapters": [
     {
       "id": "chapter-01",
       "number": 1,
       "sourceChapter": 0,
-      "title": "BÖLÜM 1 — BÜYÜKANNENİN SON UYARISI",
+      "title": "BÖLÜM 1 — KÜLLER ALTINDA KALAN KRALLIK",
       "volume": 1,
-      "offset": 68,
-      "mood": "gizem",
+      "offset": 155,
+      "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
         "moon",
         "rings"
       ],
-      "place": "ev",
-      "anchor": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+      "place": "frosthold",
+      "anchor": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı.",
       "artAfter": true,
-      "previewQuote": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
-      "previewUnlock": 1913,
+      "previewQuote": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı.",
+      "previewUnlock": 1906,
       "images": [
         {
-          "id": "warning",
-          "src": "assets/images/warning.webp",
-          "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+          "id": "frosthold-fall",
+          "src": "assets/images/frosthold-fall.webp",
+          "alt": "Büyükbaba, bebek Fredo’yu yanan Frosthold Sarayı’ndan çıkarır.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı.",
           "artAfter": true,
           "placement": "full",
-          "unlock": 1913
-        },
-        {
-          "id": "rescue",
-          "src": "assets/images/rescue.webp",
-          "alt": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi.",
-          "artAfter": true,
-          "placement": "full",
-          "unlock": 6462
+          "unlock": 1906
         }
       ],
       "galleryImage": {
-        "id": "warning",
-        "src": "assets/images/warning.webp",
-        "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
+        "id": "frosthold-fall",
+        "src": "assets/images/frosthold-fall.webp",
+        "alt": "Büyükbaba, bebek Fredo’yu yanan Frosthold Sarayı’ndan çıkarır.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı.",
         "artAfter": true,
         "placement": "full",
-        "unlock": 1913
+        "unlock": 1906
       }
     },
     {
       "id": "chapter-02",
       "number": 2,
       "sourceChapter": 1,
-      "title": "BÖLÜM 2 — GÜMÜŞ KRALIN İŞARETİ",
+      "title": "BÖLÜM 2 — DAĞLARDA YETİŞEN DAHİ",
       "volume": 1,
-      "offset": 7179,
+      "offset": 2784,
       "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
@@ -109,43 +108,43 @@
         "moon",
         "rings"
       ],
-      "place": "orman",
-      "anchor": "Gümüş renkli küçük bir yılan şekli belirdi.",
+      "place": "dag-kulubesi",
+      "anchor": "\"Şimdi bunu parçalamadan yerinden kaldır.\"",
       "artAfter": true,
-      "previewQuote": "Gümüş renkli küçük bir yılan şekli belirdi.",
-      "previewUnlock": 11016,
+      "previewQuote": "\"Şimdi bunu parçalamadan yerinden kaldır.\"",
+      "previewUnlock": 3884,
       "images": [
         {
-          "id": "mark",
-          "src": "assets/images/mark.webp",
-          "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Gümüş renkli küçük bir yılan şekli belirdi.",
+          "id": "mountain-lesson",
+          "src": "assets/images/mountain-lesson.webp",
+          "alt": "Fredo, dağ kulübesinin önünde ustasının gözetiminde bir kayayı kaldırır.",
+          "width": 764,
+          "height": 508,
+          "anchor": "\"Şimdi bunu parçalamadan yerinden kaldır.\"",
           "artAfter": true,
           "placement": "inline",
-          "unlock": 11016
+          "unlock": 3884
         }
       ],
       "galleryImage": {
-        "id": "mark",
-        "src": "assets/images/mark.webp",
-        "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Gümüş renkli küçük bir yılan şekli belirdi.",
+        "id": "mountain-lesson",
+        "src": "assets/images/mountain-lesson.webp",
+        "alt": "Fredo, dağ kulübesinin önünde ustasının gözetiminde bir kayayı kaldırır.",
+        "width": 764,
+        "height": 508,
+        "anchor": "\"Şimdi bunu parçalamadan yerinden kaldır.\"",
         "artAfter": true,
         "placement": "inline",
-        "unlock": 11016
+        "unlock": 3884
       }
     },
     {
       "id": "chapter-03",
       "number": 3,
       "sourceChapter": 2,
-      "title": "BÖLÜM 3 — DÜĞÜNDEN ÖNCEKİ KORKU",
+      "title": "BÖLÜM 3 — MERKEZ ŞEHİR'E DÖNÜŞ",
       "volume": 1,
-      "offset": 12870,
+      "offset": 6009,
       "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
@@ -153,186 +152,107 @@
         "moon",
         "rings"
       ],
-      "place": "kopru",
-      "anchor": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+      "place": "merkez-sehir",
+      "anchor": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
       "artAfter": true,
-      "previewQuote": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
-      "previewUnlock": 16281,
+      "previewQuote": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
+      "previewUnlock": 6202,
       "images": [
         {
-          "id": "bridge",
-          "src": "assets/images/bridge.webp",
-          "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+          "id": "central-city",
+          "src": "assets/images/central-city.webp",
+          "alt": "Fredo, dağlardan sonra Merkez Şehir’e ulaşır.",
+          "width": 564,
+          "height": 377,
+          "anchor": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
           "artAfter": true,
           "placement": "inline",
-          "unlock": 16281
+          "unlock": 6202
         }
       ],
       "galleryImage": {
-        "id": "bridge",
-        "src": "assets/images/bridge.webp",
-        "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
+        "id": "central-city",
+        "src": "assets/images/central-city.webp",
+        "alt": "Fredo, dağlardan sonra Merkez Şehir’e ulaşır.",
+        "width": 564,
+        "height": 377,
+        "anchor": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
         "artAfter": true,
         "placement": "inline",
-        "unlock": 16281
+        "unlock": 6202
       }
     },
     {
       "id": "chapter-04",
       "number": 4,
       "sourceChapter": 3,
-      "title": "BÖLÜM 4 — GÜMÜŞ YILAN KRALI DÜĞÜNE GELİYOR",
+      "title": "BÖLÜM 4 — LANETLENMİŞ CÜCE KRAL",
       "volume": 1,
-      "offset": 17222,
-      "mood": "gizem",
+      "offset": 9168,
+      "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
         "moon",
         "rings"
       ],
-      "place": "meydan",
-      "anchor": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+      "place": "pazar",
+      "anchor": "Kralın bedeninden siyah duman yükselmeye başladı.",
       "artAfter": true,
-      "previewQuote": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
-      "previewUnlock": 20398,
+      "previewQuote": "Kralın bedeninden siyah duman yükselmeye başladı.",
+      "previewUnlock": 10367,
       "images": [
         {
-          "id": "interrupted-wedding",
-          "src": "assets/images/interrupted-wedding.webp",
-          "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+          "id": "dwarf-king",
+          "src": "assets/images/dwarf-king.webp",
+          "alt": "Fredo, pazar yerinde Cüce Kral’ın lanetine müdahale eder.",
+          "width": 654,
+          "height": 436,
+          "anchor": "Kralın bedeninden siyah duman yükselmeye başladı.",
           "artAfter": true,
           "placement": "full",
-          "unlock": 20398
+          "unlock": 10367
         }
       ],
       "galleryImage": {
-        "id": "interrupted-wedding",
-        "src": "assets/images/interrupted-wedding.webp",
-        "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
+        "id": "dwarf-king",
+        "src": "assets/images/dwarf-king.webp",
+        "alt": "Fredo, pazar yerinde Cüce Kral’ın lanetine müdahale eder.",
+        "width": 654,
+        "height": 436,
+        "anchor": "Kralın bedeninden siyah duman yükselmeye başladı.",
         "artAfter": true,
         "placement": "full",
-        "unlock": 20398
+        "unlock": 10367
       }
     },
     {
       "id": "chapter-05",
       "number": 5,
       "sourceChapter": 4,
-      "title": "BÖLÜM 5 — ÇOCUKLUK AŞKININ İHANETİ",
+      "title": "BÖLÜM 5 — ESKİ MÜHRÜN UYANIŞI",
       "volume": 1,
-      "offset": 23407,
-      "mood": "gergin",
+      "offset": 11908,
+      "mood": "gizem",
       "effect": "cizgi",
       "seal": "oath",
       "vignettes": [
         "moon",
         "rings"
       ],
-      "place": "kale",
-      "anchor": "Kırmızı sıvı taşların arasına yayıldı.",
+      "place": "merkez-sehir",
       "artAfter": true,
-      "previewQuote": "Kırmızı sıvı taşların arasına yayıldı.",
-      "previewUnlock": 29117,
-      "images": [
-        {
-          "id": "betrayal",
-          "src": "assets/images/betrayal.webp",
-          "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Kırmızı sıvı taşların arasına yayıldı.",
-          "artAfter": true,
-          "placement": "inline",
-          "unlock": 29117
-        }
-      ],
-      "galleryImage": {
-        "id": "betrayal",
-        "src": "assets/images/betrayal.webp",
-        "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Kırmızı sıvı taşların arasına yayıldı.",
-        "artAfter": true,
-        "placement": "inline",
-        "unlock": 29117
-      }
+      "previewQuote": "Fredo geceyi şehrin kenarındaki küçük bir handa geçirdi.",
+      "previewUnlock": 12002,
+      "images": []
     },
     {
       "id": "chapter-06",
       "number": 6,
       "sourceChapter": 5,
-      "title": "BÖLÜM 6 — KARA YILAN PRENSİ'NİN KURBANI",
+      "title": "BÖLÜM 6 — ÇOCUKLUK ARKADAŞI BELLA",
       "volume": 1,
-      "offset": 29517,
-      "mood": "gergin",
-      "effect": "cizgi",
-      "seal": "oath",
-      "vignettes": [
-        "moon",
-        "rings"
-      ],
-      "place": "sunak",
-      "anchor": "İki devasa yılan birbirine saldırdı.",
-      "artAfter": true,
-      "previewQuote": "İki devasa yılan birbirine saldırdı.",
-      "previewUnlock": 36829,
-      "images": [
-        {
-          "id": "serpent-battle",
-          "src": "assets/images/serpent-battle.webp",
-          "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "İki devasa yılan birbirine saldırdı.",
-          "artAfter": true,
-          "placement": "inline",
-          "unlock": 36829
-        },
-        {
-          "id": "freedom",
-          "src": "assets/images/freedom.webp",
-          "alt": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu.",
-          "artAfter": true,
-          "placement": "full",
-          "unlock": 38006
-        }
-      ],
-      "galleryImage": {
-        "id": "serpent-battle",
-        "src": "assets/images/serpent-battle.webp",
-        "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "İki devasa yılan birbirine saldırdı.",
-        "artAfter": true,
-        "placement": "inline",
-        "unlock": 36829
-      }
-    },
-    {
-      "id": "chapter-07",
-      "number": 7,
-      "sourceChapter": 6,
-      "title": "BÖLÜM 7 — YILAN SARAYINDA İLK GECE",
-      "volume": 1,
-      "offset": 39318,
+      "offset": 14261,
       "mood": "duygusal",
       "effect": "cizgi",
       "seal": "oath",
@@ -340,87 +260,63 @@
         "moon",
         "rings"
       ],
-      "place": "saray",
-      "anchor": "Silvan yatağın yanındaki sandalyeye oturdu.",
+      "place": "merkez-sehir",
       "artAfter": true,
-      "previewQuote": "Silvan yatağın yanındaki sandalyeye oturdu.",
-      "previewUnlock": 40808,
+      "previewQuote": "Bella, Fredo'nun çocukluk yıllarındaki en yakın arkadaşlarından biriydi.",
+      "previewUnlock": 14375,
+      "images": []
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "sourceChapter": 6,
+      "title": "BÖLÜM 7 — RAGEWIND ARENASI",
+      "volume": 1,
+      "offset": 16750,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "ragewind",
+      "anchor": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
+      "artAfter": true,
+      "previewQuote": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
+      "previewUnlock": 18713,
       "images": [
         {
-          "id": "first-night",
-          "src": "assets/images/first-night.webp",
-          "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Silvan yatağın yanındaki sandalyeye oturdu.",
+          "id": "ragewind-meeting",
+          "src": "assets/images/ragewind-meeting.webp",
+          "alt": "Ragewind Arenası’nda Fredo ve Aisha’nın yolları kesişir.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
           "artAfter": true,
           "placement": "full",
-          "unlock": 40808
+          "unlock": 18713
         }
       ],
       "galleryImage": {
-        "id": "first-night",
-        "src": "assets/images/first-night.webp",
-        "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Silvan yatağın yanındaki sandalyeye oturdu.",
+        "id": "ragewind-meeting",
+        "src": "assets/images/ragewind-meeting.webp",
+        "alt": "Ragewind Arenası’nda Fredo ve Aisha’nın yolları kesişir.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
         "artAfter": true,
         "placement": "full",
-        "unlock": 40808
+        "unlock": 18713
       }
     },
     {
       "id": "chapter-08",
       "number": 8,
       "sourceChapter": 7,
-      "title": "BÖLÜM 8 — GÜMÜŞ SARAYIN İSTENMEYEN MİSAFİRİ",
+      "title": "BÖLÜM 8 — PRENSES VE GİZLİ NİŞANLI",
       "volume": 1,
-      "offset": 43761,
-      "mood": "gizem",
-      "effect": "cizgi",
-      "seal": "oath",
-      "vignettes": [
-        "moon",
-        "rings"
-      ],
-      "place": "bahce",
-      "anchor": "Elsa'nın yüzündeki gülümseme dondu.",
-      "artAfter": true,
-      "previewQuote": "Elsa'nın yüzündeki gülümseme dondu.",
-      "previewUnlock": 45597,
-      "images": [
-        {
-          "id": "garden",
-          "src": "assets/images/garden.webp",
-          "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Elsa'nın yüzündeki gülümseme dondu.",
-          "artAfter": true,
-          "placement": "inline",
-          "unlock": 45597
-        }
-      ],
-      "galleryImage": {
-        "id": "garden",
-        "src": "assets/images/garden.webp",
-        "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Elsa'nın yüzündeki gülümseme dondu.",
-        "artAfter": true,
-        "placement": "inline",
-        "unlock": 45597
-      }
-    },
-    {
-      "id": "chapter-09",
-      "number": 9,
-      "sourceChapter": 8,
-      "title": "BÖLÜM 9 — BELLA'NIN KANINDAKİ SIR",
-      "volume": 1,
-      "offset": 50350,
+      "offset": 19441,
       "mood": "duygusal",
       "effect": "cizgi",
       "seal": "oath",
@@ -428,43 +324,39 @@
         "moon",
         "rings"
       ],
-      "place": "saray",
-      "anchor": "Bella kolyeyi göğsüne bastırdı.",
+      "place": "ragewind",
       "artAfter": true,
-      "previewQuote": "Bella kolyeyi göğsüne bastırdı.",
-      "previewUnlock": 54252,
-      "images": [
-        {
-          "id": "necklace",
-          "src": "assets/images/necklace.webp",
-          "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Bella kolyeyi göğsüne bastırdı.",
-          "artAfter": true,
-          "placement": "inline",
-          "unlock": 54252
-        }
+      "previewQuote": "Aisha, Fredo'nun diğer genç erkeklerden farklı olduğunu kısa sürede fark etti.",
+      "previewUnlock": 19562,
+      "images": []
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "sourceChapter": 8,
+      "title": "BÖLÜM 9 — KARA GÜVE'NİN GÖLGESİ",
+      "volume": 1,
+      "offset": 22137,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
       ],
-      "galleryImage": {
-        "id": "necklace",
-        "src": "assets/images/necklace.webp",
-        "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Bella kolyeyi göğsüne bastırdı.",
-        "artAfter": true,
-        "placement": "inline",
-        "unlock": 54252
-      }
+      "place": "ragewind",
+      "artAfter": true,
+      "previewQuote": "Arenadaki gösteriler devam ederken Bella, içecek almak için salondan ayrıldı.",
+      "previewUnlock": 22254,
+      "images": []
     },
     {
       "id": "chapter-10",
       "number": 10,
       "sourceChapter": 9,
-      "title": "BÖLÜM 10 — ELSA'NIN TEHLİKELİ PLANI",
+      "title": "BÖLÜM 10 — DİZ ÇÖKMEYEN ADAM",
       "volume": 1,
-      "offset": 55926,
+      "offset": 24296,
       "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
@@ -472,87 +364,19 @@
         "moon",
         "rings"
       ],
-      "place": "saray",
-      "anchor": "Adam alnını onun alnına yasladı.",
+      "place": "ragewind",
       "artAfter": true,
-      "previewQuote": "Adam alnını onun alnına yasladı.",
-      "previewUnlock": 58859,
-      "images": [
-        {
-          "id": "poison",
-          "src": "assets/images/poison.webp",
-          "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Adam alnını onun alnına yasladı.",
-          "artAfter": true,
-          "placement": "full",
-          "unlock": 58859
-        }
-      ],
-      "galleryImage": {
-        "id": "poison",
-        "src": "assets/images/poison.webp",
-        "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Adam alnını onun alnına yasladı.",
-        "artAfter": true,
-        "placement": "full",
-        "unlock": 58859
-      }
+      "previewQuote": "Orc, arenanın ana salonuna girdiğinde çevresindeki konuşmalar kesildi.",
+      "previewUnlock": 24403,
+      "images": []
     },
     {
       "id": "chapter-11",
       "number": 11,
       "sourceChapter": 10,
-      "title": "BÖLÜM 11 — GERÇEK AÇIĞA ÇIKIYOR",
+      "title": "BÖLÜM 11 — YIKILAN ARENANIN HÜKMÜ",
       "volume": 1,
-      "offset": 61294,
-      "mood": "gizem",
-      "effect": "cizgi",
-      "seal": "oath",
-      "vignettes": [
-        "moon",
-        "rings"
-      ],
-      "place": "saray",
-      "anchor": "Margaret torununu sıkıca kucakladı.",
-      "artAfter": true,
-      "previewQuote": "Margaret torununu sıkıca kucakladı.",
-      "previewUnlock": 63446,
-      "images": [
-        {
-          "id": "reunion",
-          "src": "assets/images/reunion.webp",
-          "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Margaret torununu sıkıca kucakladı.",
-          "artAfter": true,
-          "placement": "inline",
-          "unlock": 63446
-        }
-      ],
-      "galleryImage": {
-        "id": "reunion",
-        "src": "assets/images/reunion.webp",
-        "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Margaret torununu sıkıca kucakladı.",
-        "artAfter": true,
-        "placement": "inline",
-        "unlock": 63446
-      }
-    },
-    {
-      "id": "chapter-12",
-      "number": 12,
-      "sourceChapter": 11,
-      "title": "BÖLÜM 12 — AY KAPISI'NDAKİ SON SAVAŞ",
-      "volume": 1,
-      "offset": 65469,
+      "offset": 26812,
       "mood": "gergin",
       "effect": "cizgi",
       "seal": "oath",
@@ -560,54 +384,227 @@
         "moon",
         "rings"
       ],
-      "place": "kapi",
-      "anchor": "Genç kadın elini kapıya koydu.",
+      "place": "ragewind",
       "artAfter": true,
-      "previewQuote": "Genç kadın elini kapıya koydu.",
-      "previewUnlock": 68045,
+      "previewQuote": "Orc'un duvara çarpmasıyla Ragewind Arenası'nda büyük bir kargaşa başladı.",
+      "previewUnlock": 26927,
+      "images": []
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "sourceChapter": 11,
+      "title": "BÖLÜM 12 — ÜÇ HAMLELİK SINAV",
+      "volume": 1,
+      "offset": 28995,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "ragewind",
+      "anchor": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu.",
+      "artAfter": true,
+      "previewQuote": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu.",
+      "previewUnlock": 29594,
       "images": [
         {
-          "id": "moon-gate",
-          "src": "assets/images/moon-gate.webp",
-          "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Genç kadın elini kapıya koydu.",
+          "id": "three-arrows",
+          "src": "assets/images/three-arrows.webp",
+          "alt": "Gümüş saçlı Aragorn, Fredo’yu büyülü oklarıyla sınar.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu.",
           "artAfter": true,
           "placement": "inline",
-          "unlock": 68045
-        },
-        {
-          "id": "seal",
-          "src": "assets/images/seal.webp",
-          "alt": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Altın ışık bütün dağa yayıldı.",
-          "artAfter": true,
-          "placement": "full",
-          "unlock": 69963
+          "unlock": 29594
         }
       ],
       "galleryImage": {
-        "id": "moon-gate",
-        "src": "assets/images/moon-gate.webp",
-        "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Genç kadın elini kapıya koydu.",
+        "id": "three-arrows",
+        "src": "assets/images/three-arrows.webp",
+        "alt": "Gümüş saçlı Aragorn, Fredo’yu büyülü oklarıyla sınar.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu.",
         "artAfter": true,
         "placement": "inline",
-        "unlock": 68045
+        "unlock": 29594
       }
     },
     {
       "id": "chapter-13",
       "number": 13,
       "sourceChapter": 12,
-      "title": "BÖLÜM 13 — GÜMÜŞ YILANIN GELİNİ",
+      "title": "BÖLÜM 13 — KRALIN SAYGI DUYDUĞU GENÇ",
       "volume": 1,
-      "offset": 72546,
+      "offset": 31205,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "ragewind",
+      "artAfter": true,
+      "previewQuote": "Cüce Kral'ın Fredo'ya gösterdiği saygı, arenadaki herkesi şaşkına çevirmişti.",
+      "previewUnlock": 31327,
+      "images": []
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "sourceChapter": 13,
+      "title": "BÖLÜM 14 — KUKLA USTASI'NIN PLANI",
+      "volume": 1,
+      "offset": 33411,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "merkez-sehir",
+      "artAfter": true,
+      "previewQuote": "Ragewind Arenası'nda yaşanan olaylar kısa sürede Merkez Şehir'in tamamına yayıldı.",
+      "previewUnlock": 33535,
+      "images": []
+    },
+    {
+      "id": "chapter-15",
+      "number": 15,
+      "sourceChapter": 14,
+      "title": "BÖLÜM 15 — GÖRÜNMEYEN DÜŞMANLAR",
+      "volume": 1,
+      "offset": 35716,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "akademi",
+      "artAfter": true,
+      "previewQuote": "Fredo ertesi sabah handa uyandığında yüzüğünün üzerinde soluk bir çatlak fark etti.",
+      "previewUnlock": 35839,
+      "images": []
+    },
+    {
+      "id": "chapter-16",
+      "number": 16,
+      "sourceChapter": 15,
+      "title": "BÖLÜM 16 — KARANLIĞIN İLK TUZAĞI",
+      "volume": 1,
+      "offset": 38198,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "gecit",
+      "anchor": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu.",
+      "artAfter": true,
+      "previewQuote": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu.",
+      "previewUnlock": 40076,
+      "images": [
+        {
+          "id": "wooden-puppets",
+          "src": "assets/images/wooden-puppets.webp",
+          "alt": "Fredo kara büyüyle hareket eden kuklalarla yüzleşir.",
+          "width": 1000,
+          "height": 663,
+          "anchor": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 40076
+        }
+      ],
+      "galleryImage": {
+        "id": "wooden-puppets",
+        "src": "assets/images/wooden-puppets.webp",
+        "alt": "Fredo kara büyüyle hareket eden kuklalarla yüzleşir.",
+        "width": 1000,
+        "height": 663,
+        "anchor": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 40076
+      }
+    },
+    {
+      "id": "chapter-17",
+      "number": 17,
+      "sourceChapter": 16,
+      "title": "BÖLÜM 17 — UNUTULMUŞ BİR HANEDANIN İZİ",
+      "volume": 1,
+      "offset": 40582,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "gecit",
+      "artAfter": true,
+      "previewQuote": "Fredo saldırıdan sonra parçalanan kuklaları inceledi.",
+      "previewUnlock": 40682,
+      "images": []
+    },
+    {
+      "id": "chapter-18",
+      "number": 18,
+      "sourceChapter": 17,
+      "title": "BÖLÜM 18 — GÜCÜN BEDELİ",
+      "volume": 1,
+      "offset": 42577,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "ragewind",
+      "artAfter": true,
+      "previewQuote": "Ertesi gün Fredo, Ragewind Arenası'na yeniden gitti.",
+      "previewUnlock": 42661,
+      "images": []
+    },
+    {
+      "id": "chapter-19",
+      "number": 19,
+      "sourceChapter": 18,
+      "title": "BÖLÜM 19 — PRENSESİN PEŞİNDEKİ SUİKASTÇILAR",
+      "volume": 1,
+      "offset": 44582,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "akademi",
+      "artAfter": true,
+      "previewQuote": "Merkez Şehir'in üzerinde akşam karanlığı çökerken Aisha, Kutsal Akademi'den ayrıldı.",
+      "previewUnlock": 44718,
+      "images": []
+    },
+    {
+      "id": "chapter-20",
+      "number": 20,
+      "sourceChapter": 19,
+      "title": "BÖLÜM 20 — SAKLANAN GERÇEKLER",
+      "volume": 1,
+      "offset": 46660,
       "mood": "duygusal",
       "effect": "cizgi",
       "seal": "oath",
@@ -615,45 +612,846 @@
         "moon",
         "rings"
       ],
-      "place": "saray",
-      "anchor": "Başrahip altın asasını kaldırdı.",
+      "place": "merkez-sehir",
       "artAfter": true,
-      "previewQuote": "Başrahip altın asasını kaldırdı.",
-      "previewUnlock": 77654,
+      "previewQuote": "Fredo suikastçıları şehir muhafızlarına teslim etti.",
+      "previewUnlock": 46750,
+      "images": []
+    },
+    {
+      "id": "chapter-21",
+      "number": 21,
+      "sourceChapter": 20,
+      "title": "BÖLÜM 21 — KAN VEBASI'NIN DÖNÜŞÜ",
+      "volume": 1,
+      "offset": 48811,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "akademi",
+      "anchor": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti.",
+      "artAfter": true,
+      "previewQuote": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti.",
+      "previewUnlock": 50541,
       "images": [
         {
-          "id": "wedding",
-          "src": "assets/images/wedding.webp",
-          "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Başrahip altın asasını kaldırdı.",
+          "id": "academy-curse",
+          "src": "assets/images/academy-curse.webp",
+          "alt": "Kutsal Akademi’de Fredo, Aisha’yı korumak için mühürlü gücünü açar.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti.",
           "artAfter": true,
-          "placement": "full",
-          "unlock": 77654
-        },
-        {
-          "id": "family",
-          "src": "assets/images/family.webp",
-          "alt": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler.",
-          "width": 1200,
-          "height": 800,
-          "anchor": "Küçük kız korkmadan ona sarıldı.",
-          "artAfter": true,
-          "placement": "full",
-          "unlock": 79299
+          "placement": "inline",
+          "unlock": 50541
         }
       ],
       "galleryImage": {
-        "id": "wedding",
-        "src": "assets/images/wedding.webp",
-        "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
-        "width": 1200,
-        "height": 800,
-        "anchor": "Başrahip altın asasını kaldırdı.",
+        "id": "academy-curse",
+        "src": "assets/images/academy-curse.webp",
+        "alt": "Kutsal Akademi’de Fredo, Aisha’yı korumak için mühürlü gücünü açar.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 50541
+      }
+    },
+    {
+      "id": "chapter-22",
+      "number": 22,
+      "sourceChapter": 21,
+      "title": "BÖLÜM 22 — YAŞAMLA ÖLÜM ARASINDA",
+      "volume": 1,
+      "offset": 50950,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "akademi",
+      "artAfter": true,
+      "previewQuote": "Aisha'nın iyileşmesi herkesi rahatlatsa da Fredo, tehlikenin tamamen geçmediğini biliyordu.",
+      "previewUnlock": 51082,
+      "images": []
+    },
+    {
+      "id": "chapter-23",
+      "number": 23,
+      "sourceChapter": 22,
+      "title": "BÖLÜM 23 — TİCARET KRALI'NIN OĞLU",
+      "volume": 1,
+      "offset": 52889,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "merkez-sehir",
+      "artAfter": true,
+      "previewQuote": "Florent, babasının ticaret imparatorluğunun varisi olarak yetiştirilmişti.",
+      "previewUnlock": 53005,
+      "images": []
+    },
+    {
+      "id": "chapter-24",
+      "number": 24,
+      "sourceChapter": 23,
+      "title": "BÖLÜM 24 — GECE YOLCULUĞU",
+      "volume": 1,
+      "offset": 54972,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "merkez-sehir",
+      "artAfter": true,
+      "previewQuote": "Aisha iyileştikten birkaç gün sonra Fredo'yla yeniden görüşmek istedi.",
+      "previewUnlock": 55076,
+      "images": []
+    },
+    {
+      "id": "chapter-25",
+      "number": 25,
+      "sourceChapter": 24,
+      "title": "BÖLÜM 25 — LANETİN SAHİBİ",
+      "volume": 1,
+      "offset": 56947,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "merkez-sehir",
+      "artAfter": true,
+      "previewQuote": "Fredo yakaladığı saldırganı eski bir depoya götürdü.",
+      "previewUnlock": 57033,
+      "images": []
+    },
+    {
+      "id": "chapter-26",
+      "number": 26,
+      "sourceChapter": 25,
+      "title": "BÖLÜM 26 — KUKLA USTASI'NIN SON HAMLESİ",
+      "volume": 1,
+      "offset": 58875,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "tuneller",
+      "anchor": "Duvarlardaki kuklalar canlandı.",
+      "artAfter": true,
+      "previewQuote": "Duvarlardaki kuklalar canlandı.",
+      "previewUnlock": 59998,
+      "images": [
+        {
+          "id": "tunnel-puppets",
+          "src": "assets/images/tunnel-puppets.webp",
+          "alt": "Fredo, Bella ve Will yer altındaki kuklaların izini sürer.",
+          "width": 1000,
+          "height": 663,
+          "anchor": "Duvarlardaki kuklalar canlandı.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 59998
+        }
+      ],
+      "galleryImage": {
+        "id": "tunnel-puppets",
+        "src": "assets/images/tunnel-puppets.webp",
+        "alt": "Fredo, Bella ve Will yer altındaki kuklaların izini sürer.",
+        "width": 1000,
+        "height": 663,
+        "anchor": "Duvarlardaki kuklalar canlandı.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 59998
+      }
+    },
+    {
+      "id": "chapter-27",
+      "number": 27,
+      "sourceChapter": 26,
+      "title": "BÖLÜM 27 — KAÇIRILMA EMRİNİN ORTAYA ÇIKIŞI",
+      "volume": 1,
+      "offset": 61195,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Kukla Ustası'nın saklandığı yerin bulunmasıyla Merkez Şehir'deki bazı karanlık bağlantılar açığa çıktı.",
+      "previewUnlock": 61349,
+      "images": []
+    },
+    {
+      "id": "chapter-28",
+      "number": 28,
+      "sourceChapter": 27,
+      "title": "BÖLÜM 28 — ALWYN HANEDANI'NIN KARARI",
+      "volume": 1,
+      "offset": 63099,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Aisha'nın Florent'i suçlaması, Alwyn Hanedanı içinde büyük bir tartışmaya neden oldu.",
+      "previewUnlock": 63229,
+      "images": []
+    },
+    {
+      "id": "chapter-29",
+      "number": 29,
+      "sourceChapter": 28,
+      "title": "BÖLÜM 29 — KRALİÇENİN ŞÜPHESİ",
+      "volume": 1,
+      "offset": 65216,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Marion, Fredo'nun gerçekten eski evlilik anlaşmasındaki kişi olduğuna inanmak istemiyordu.",
+      "previewUnlock": 65344,
+      "images": []
+    },
+    {
+      "id": "chapter-30",
+      "number": 30,
+      "sourceChapter": 29,
+      "title": "BÖLÜM 30 — FL ORENT'İN SON HEDİYESİ",
+      "volume": 1,
+      "offset": 66939,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Florent, Aisha'nın kendisini herkesin önünde suçlamasını unutamamıştı.",
+      "previewUnlock": 67053,
+      "images": []
+    },
+    {
+      "id": "chapter-31",
+      "number": 31,
+      "sourceChapter": 30,
+      "title": "BÖLÜM 31 — PRENSESİN SEÇİMİ",
+      "volume": 1,
+      "offset": 68778,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "anchor": "Marion şaşkınlıkla ayağa kalktı.",
+      "artAfter": true,
+      "previewQuote": "Marion şaşkınlıkla ayağa kalktı.",
+      "previewUnlock": 70463,
+      "images": [
+        {
+          "id": "aisha-choice",
+          "src": "assets/images/aisha-choice.webp",
+          "alt": "Aisha, Alwyn Sarayı’nın ziyafetinde kendi kararını savunur.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Marion şaşkınlıkla ayağa kalktı.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 70463
+        }
+      ],
+      "galleryImage": {
+        "id": "aisha-choice",
+        "src": "assets/images/aisha-choice.webp",
+        "alt": "Aisha, Alwyn Sarayı’nın ziyafetinde kendi kararını savunur.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Marion şaşkınlıkla ayağa kalktı.",
         "artAfter": true,
         "placement": "full",
-        "unlock": 77654
+        "unlock": 70463
+      }
+    },
+    {
+      "id": "chapter-32",
+      "number": 32,
+      "sourceChapter": 31,
+      "title": "BÖLÜM 32 — SARAYDAKİ ÇATLAKLAR",
+      "volume": 1,
+      "offset": 70841,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Aisha'nın ziyafette yaptığı açıklama, Alwyn Hanedanı'nın içinde derin ayrılıklara neden oldu.",
+      "previewUnlock": 70973,
+      "images": []
+    },
+    {
+      "id": "chapter-33",
+      "number": 33,
+      "sourceChapter": 32,
+      "title": "BÖLÜM 33 — YAŞLI LİDERİN HASTALIĞI",
+      "volume": 1,
+      "offset": 72741,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Yaşlı lider günlerdir yatağından kalkamıyor, sarayın en güçlü şifacıları bile onu iyileştiremiyordu.",
+      "previewUnlock": 72929,
+      "images": []
+    },
+    {
+      "id": "chapter-34",
+      "number": 34,
+      "sourceChapter": 33,
+      "title": "BÖLÜM 34 — YASAKLI ŞİFA SANATI",
+      "volume": 1,
+      "offset": 74450,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "anchor": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+      "artAfter": true,
+      "previewQuote": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+      "previewUnlock": 74552,
+      "images": [
+        {
+          "id": "healing-circle",
+          "src": "assets/images/healing-circle.webp",
+          "alt": "Fredo, Ron’un yatağı çevresine bir şifa çemberi çizer.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+          "artAfter": true,
+          "placement": "full",
+          "unlock": 74552
+        }
+      ],
+      "galleryImage": {
+        "id": "healing-circle",
+        "src": "assets/images/healing-circle.webp",
+        "alt": "Fredo, Ron’un yatağı çevresine bir şifa çemberi çizer.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+        "artAfter": true,
+        "placement": "full",
+        "unlock": 74552
+      }
+    },
+    {
+      "id": "chapter-35",
+      "number": 35,
+      "sourceChapter": 34,
+      "title": "BÖLÜM 35 — BİLGİNİN ÖNÜNDE EĞİLENLER",
+      "volume": 1,
+      "offset": 76286,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Ron'un gözlerini açması sarayda büyük sevinç yarattı.",
+      "previewUnlock": 76384,
+      "images": []
+    },
+    {
+      "id": "chapter-36",
+      "number": 36,
+      "sourceChapter": 35,
+      "title": "BÖLÜM 36 — GEÇMİŞİN KAPILARI",
+      "volume": 1,
+      "offset": 78284,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Yaşlı adamın gözlerinde hem sevinç hem de yıllardır taşıdığı bir pişmanlık vardı.",
+      "previewUnlock": 78436,
+      "images": []
+    },
+    {
+      "id": "chapter-37",
+      "number": 37,
+      "sourceChapter": 36,
+      "title": "BÖLÜM 37 — SARAYIN İÇİNDEKİ DÜŞMAN",
+      "volume": 1,
+      "offset": 80276,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Ron'un iyileşmesiyle Alwyn Sarayı'ndaki güç dengeleri değişmeye başladı.",
+      "previewUnlock": 80391,
+      "images": []
+    },
+    {
+      "id": "chapter-38",
+      "number": 38,
+      "sourceChapter": 37,
+      "title": "BÖLÜM 38 — KRALİÇENİN PİŞMANLIĞI",
+      "volume": 1,
+      "offset": 82478,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Marion, Fredo hakkında duyduklarıyla giderek daha fazla yüzleşmek zorunda kalıyordu.",
+      "previewUnlock": 82603,
+      "images": []
+    },
+    {
+      "id": "chapter-39",
+      "number": 39,
+      "sourceChapter": 38,
+      "title": "BÖLÜM 39 — ESKİ DOSTUN YEMİNİ",
+      "volume": 1,
+      "offset": 84316,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Bir akşam yaşlı lider onu sarayın eski arşivine götürdü.",
+      "previewUnlock": 84538,
+      "images": []
+    },
+    {
+      "id": "chapter-40",
+      "number": 40,
+      "sourceChapter": 39,
+      "title": "BÖLÜM 40 — DÜĞÜNDEN ÖNCEKİ FIRTINA",
+      "volume": 1,
+      "offset": 86343,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Ron, Fredo ile Aisha'yı özel olarak yanına çağırdı.",
+      "previewUnlock": 86437,
+      "images": []
+    },
+    {
+      "id": "chapter-41",
+      "number": 41,
+      "sourceChapter": 40,
+      "title": "BÖLÜM 41 — TAMAMLANMAYAN TEDAVİ",
+      "volume": 1,
+      "offset": 88106,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Ron'un durumu yeniden ağırlaştığında sarayın şifacıları paniğe kapıldı.",
+      "previewUnlock": 88217,
+      "images": []
+    },
+    {
+      "id": "chapter-42",
+      "number": 42,
+      "sourceChapter": 41,
+      "title": "BÖLÜM 42 — FROSTHOLD'UN KAYIP MİRASI",
+      "volume": 1,
+      "offset": 89970,
+      "mood": "gizem",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "arsiv",
+      "anchor": "Aisha geri çekildi.",
+      "artAfter": true,
+      "previewQuote": "Aisha geri çekildi.",
+      "previewUnlock": 90977,
+      "images": [
+        {
+          "id": "forgotten-archive",
+          "src": "assets/images/forgotten-archive.webp",
+          "alt": "Fredo ve Aisha eski arşivde Frosthold’un izini arar.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Aisha geri çekildi.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 90977
+        }
+      ],
+      "galleryImage": {
+        "id": "forgotten-archive",
+        "src": "assets/images/forgotten-archive.webp",
+        "alt": "Fredo ve Aisha eski arşivde Frosthold’un izini arar.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Aisha geri çekildi.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 90977
+      }
+    },
+    {
+      "id": "chapter-43",
+      "number": 43,
+      "sourceChapter": 42,
+      "title": "BÖLÜM 43 — İHANETİN BEDELİ",
+      "volume": 1,
+      "offset": 91877,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Darren, arşivdeki belgelerin incelendiğini öğrenince paniğe kapıldı.",
+      "previewUnlock": 91980,
+      "images": []
+    },
+    {
+      "id": "chapter-44",
+      "number": 44,
+      "sourceChapter": 43,
+      "title": "BÖLÜM 44 — SUÇLANAN MİRASÇI",
+      "volume": 1,
+      "offset": 93992,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Fredo, Alwyn Sarayı'nın büyük salonunda muhafızların karşısına çıkarıldı.",
+      "previewUnlock": 94101,
+      "images": []
+    },
+    {
+      "id": "chapter-45",
+      "number": 45,
+      "sourceChapter": 44,
+      "title": "BÖLÜM 45 — AMCANIN İTİRAFI",
+      "volume": 1,
+      "offset": 95915,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Darren'ın bedeninden yükselen karanlık enerji bütün salonu kapladı.",
+      "previewUnlock": 96017,
+      "images": []
+    },
+    {
+      "id": "chapter-46",
+      "number": 46,
+      "sourceChapter": 45,
+      "title": "BÖLÜM 46 — PRENSESİN SADAKATİ",
+      "volume": 1,
+      "offset": 97854,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "artAfter": true,
+      "previewQuote": "Darren'ın oluşturduğu karanlık büyü çemberi sarayın üzerinde büyümeye devam etti.",
+      "previewUnlock": 97973,
+      "images": []
+    },
+    {
+      "id": "chapter-47",
+      "number": 47,
+      "sourceChapter": 46,
+      "title": "BÖLÜM 47 — GÖKSEL YILDIRIMIN HÜKMÜ",
+      "volume": 1,
+      "offset": 99726,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "alwyn",
+      "anchor": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti.",
+      "artAfter": true,
+      "previewQuote": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti.",
+      "previewUnlock": 100194,
+      "images": [
+        {
+          "id": "celestial-lightning",
+          "src": "assets/images/celestial-lightning.webp",
+          "alt": "Alwyn Sarayı’nda Fredo’nun göksel ışığı karanlık büyüyü karşılar.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 100194
+        }
+      ],
+      "galleryImage": {
+        "id": "celestial-lightning",
+        "src": "assets/images/celestial-lightning.webp",
+        "alt": "Alwyn Sarayı’nda Fredo’nun göksel ışığı karanlık büyüyü karşılar.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 100194
+      }
+    },
+    {
+      "id": "chapter-48",
+      "number": 48,
+      "sourceChapter": 47,
+      "title": "BÖLÜM 48 — KAN VEBASI LICH'İNİN DÖNÜŞÜ",
+      "volume": 1,
+      "offset": 101901,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "frosthold",
+      "anchor": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+      "artAfter": true,
+      "previewQuote": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+      "previewUnlock": 103829,
+      "images": [
+        {
+          "id": "lich-arrival",
+          "src": "assets/images/lich-arrival.webp",
+          "alt": "Fredo, Frosthold harabelerinde kemik taçlı Lich’le karşılaşır.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 103829
+        }
+      ],
+      "galleryImage": {
+        "id": "lich-arrival",
+        "src": "assets/images/lich-arrival.webp",
+        "alt": "Fredo, Frosthold harabelerinde kemik taçlı Lich’le karşılaşır.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 103829
+      }
+    },
+    {
+      "id": "chapter-49",
+      "number": 49,
+      "sourceChapter": 48,
+      "title": "BÖLÜM 49 — YİRMİ YILLIK SIR",
+      "volume": 1,
+      "offset": 103974,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "frosthold",
+      "artAfter": true,
+      "previewQuote": "Lich'in gözlerindeki kırmızı alevler güçlendi.",
+      "previewUnlock": 104354,
+      "images": []
+    },
+    {
+      "id": "chapter-50",
+      "number": 50,
+      "sourceChapter": 49,
+      "title": "BÖLÜM 50 — İLAHİ BEDENİN UYANIŞI",
+      "volume": 1,
+      "offset": 106076,
+      "mood": "gergin",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "frosthold",
+      "anchor": "Fredo yavaşça havaya yükseldi.",
+      "artAfter": true,
+      "previewQuote": "Fredo yavaşça havaya yükseldi.",
+      "previewUnlock": 108234,
+      "images": [
+        {
+          "id": "divine-awakening",
+          "src": "assets/images/divine-awakening.webp",
+          "alt": "Fredo, Frosthold’un karlı harabelerinin üzerinde altın ışıkla yükselir.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Fredo yavaşça havaya yükseldi.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 108234
+        }
+      ],
+      "galleryImage": {
+        "id": "divine-awakening",
+        "src": "assets/images/divine-awakening.webp",
+        "alt": "Fredo, Frosthold’un karlı harabelerinin üzerinde altın ışıkla yükselir.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Fredo yavaşça havaya yükseldi.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 108234
+      }
+    },
+    {
+      "id": "chapter-51",
+      "number": 51,
+      "sourceChapter": 50,
+      "title": "BÖLÜM 51 — DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+      "volume": 1,
+      "offset": 108894,
+      "mood": "duygusal",
+      "effect": "cizgi",
+      "seal": "oath",
+      "vignettes": [
+        "moon",
+        "rings"
+      ],
+      "place": "frosthold",
+      "anchor": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler.",
+      "artAfter": true,
+      "previewQuote": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler.",
+      "previewUnlock": 116755,
+      "images": [
+        {
+          "id": "frosthold-renewed",
+          "src": "assets/images/frosthold-renewed.webp",
+          "alt": "Fredo ve Aisha yeniden kurulan Frosthold Sarayı’na yürür.",
+          "width": 764,
+          "height": 508,
+          "anchor": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler.",
+          "artAfter": true,
+          "placement": "inline",
+          "unlock": 116755
+        }
+      ],
+      "galleryImage": {
+        "id": "frosthold-renewed",
+        "src": "assets/images/frosthold-renewed.webp",
+        "alt": "Fredo ve Aisha yeniden kurulan Frosthold Sarayı’na yürür.",
+        "width": 764,
+        "height": 508,
+        "anchor": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler.",
+        "artAfter": true,
+        "placement": "inline",
+        "unlock": 116755
       }
     }
   ]

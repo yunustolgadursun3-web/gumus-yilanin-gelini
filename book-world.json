@@ -1,657 +1,1054 @@
 {
-  "storyId": "gumus-yilanin-gelini-gumus-tahtin-laneti",
-  "title": "GÜMÜŞ YILANIN GELİNİ",
-  "subtitle": "Gümüş Tahtın Laneti",
+  "storyId": "dahi-bilginin-geri-donusu",
+  "title": "DAHİ BİLGİNİN GERİ DÖNÜŞÜ",
+  "subtitle": "51 Bölümlük Fantastik Roman",
   "author": "",
+  "genre": [
+    "Fantastik",
+    "Büyü",
+    "Macera",
+    "Aksiyon",
+    "Gizem",
+    "İntikam",
+    "Krallıklar",
+    "Romantik Fantastik"
+  ],
+  "kicker": "FROSTHOLD ARŞİVİ",
+  "coverBrand": "FROSTHOLD ARŞİVİ",
+  "coverLocation": "Frosthold · Merkez Şehir · Alwyn Sarayı",
+  "coverArt": "frosthold-cover",
+  "atlasArt": "frosthold-atlas",
+  "keywords": [
+    "Fredo",
+    "Aisha",
+    "Frosthold",
+    "Bella",
+    "Will",
+    "Aragorn",
+    "Marion",
+    "Florent",
+    "Ron",
+    "Darren",
+    "Lich",
+    "Ragewind"
+  ],
   "chapters": [
     {
       "id": "chapter-01",
       "number": 1,
-      "art": "warning",
-      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
-      "place": "ev",
-      "mood": "gizem",
-      "volume": 1
+      "place": "frosthold",
+      "volume": 1,
+      "preview": "Ancak bütün bu güç, krallığı karanlığın hedefi hâline getirmişti.",
+      "mood": "gergin"
     },
     {
       "id": "chapter-02",
       "number": 2,
-      "art": "mark",
-      "phrase": "Gümüş renkli küçük bir yılan şekli belirdi.",
-      "place": "orman",
-      "mood": "gizem",
-      "volume": 1
+      "place": "dag-kulubesi",
+      "volume": 1,
+      "preview": "Kuzey dağlarının en yüksek zirvelerinden birinde, dışarıdan bakıldığında sıradan görünen ahşap bir kulübe bulunuyordu.",
+      "mood": "gizem"
     },
     {
       "id": "chapter-03",
       "number": 3,
-      "art": "bridge",
-      "phrase": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
-      "place": "kopru",
-      "mood": "gizem",
-      "volume": 1
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Fredo dağlardan ayrıldıktan sonra günler boyunca yolculuk yaptı.",
+      "mood": "gizem"
     },
     {
       "id": "chapter-04",
       "number": 4,
-      "art": "interrupted-wedding",
-      "phrase": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
-      "place": "meydan",
-      "mood": "gizem",
-      "volume": 1
+      "place": "pazar",
+      "volume": 1,
+      "preview": "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti.",
+      "mood": "gergin"
     },
     {
       "id": "chapter-05",
       "number": 5,
-      "art": "betrayal",
-      "phrase": "Kırmızı sıvı taşların arasına yayıldı.",
-      "place": "kale",
-      "mood": "gergin",
-      "volume": 1
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Fredo geceyi şehrin kenarındaki küçük bir handa geçirdi.",
+      "mood": "gizem"
     },
     {
       "id": "chapter-06",
       "number": 6,
-      "art": "serpent-battle",
-      "phrase": "İki devasa yılan birbirine saldırdı.",
-      "place": "sunak",
-      "mood": "gergin",
-      "volume": 1
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Bella, Fredo'nun çocukluk yıllarındaki en yakın arkadaşlarından biriydi.",
+      "mood": "duygusal"
     },
     {
       "id": "chapter-07",
       "number": 7,
-      "art": "first-night",
-      "phrase": "Silvan yatağın yanındaki sandalyeye oturdu.",
-      "place": "saray",
-      "mood": "duygusal",
-      "volume": 1
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi.",
+      "mood": "duygusal"
     },
     {
       "id": "chapter-08",
       "number": 8,
-      "art": "garden",
-      "phrase": "Elsa'nın yüzündeki gülümseme dondu.",
-      "place": "bahce",
-      "mood": "gizem",
-      "volume": 1
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Aisha, Fredo'nun diğer genç erkeklerden farklı olduğunu kısa sürede fark etti.",
+      "mood": "duygusal"
     },
     {
       "id": "chapter-09",
       "number": 9,
-      "art": "necklace",
-      "phrase": "Bella kolyeyi göğsüne bastırdı.",
-      "place": "saray",
-      "mood": "duygusal",
-      "volume": 1
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Arenadaki gösteriler devam ederken Bella, içecek almak için salondan ayrıldı.",
+      "mood": "gergin"
     },
     {
       "id": "chapter-10",
       "number": 10,
-      "art": "poison",
-      "phrase": "Adam alnını onun alnına yasladı.",
-      "place": "saray",
-      "mood": "gergin",
-      "volume": 1
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Orc, arenanın ana salonuna girdiğinde çevresindeki konuşmalar kesildi.",
+      "mood": "gergin"
     },
     {
       "id": "chapter-11",
       "number": 11,
-      "art": "reunion",
-      "phrase": "Margaret torununu sıkıca kucakladı.",
-      "place": "saray",
-      "mood": "gizem",
-      "volume": 1
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Orc'un duvara çarpmasıyla Ragewind Arenası'nda büyük bir kargaşa başladı.",
+      "mood": "gergin"
     },
     {
       "id": "chapter-12",
       "number": 12,
-      "art": "moon-gate",
-      "phrase": "Genç kadın elini kapıya koydu.",
-      "place": "kapi",
-      "mood": "gergin",
-      "volume": 1
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Ok, mavi bir ışık çizgisi bırakarak Fredo'ya doğru ilerledi. Sıradan bir savaşçı bu saldırıyı gözleriyle bile takip edemezdi.",
+      "mood": "gergin"
     },
     {
       "id": "chapter-13",
       "number": 13,
-      "art": "wedding",
-      "phrase": "Başrahip altın asasını kaldırdı.",
-      "place": "saray",
-      "mood": "duygusal",
-      "volume": 1
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Cüce Kral'ın Fredo'ya gösterdiği saygı, arenadaki herkesi şaşkına çevirmişti.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Ragewind Arenası'nda yaşanan olaylar kısa sürede Merkez Şehir'in tamamına yayıldı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-15",
+      "number": 15,
+      "place": "akademi",
+      "volume": 1,
+      "preview": "Fredo ertesi sabah handa uyandığında yüzüğünün üzerinde soluk bir çatlak fark etti.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-16",
+      "number": 16,
+      "place": "gecit",
+      "volume": 1,
+      "preview": "Fredo ile Aisha'nın yakınlaştığı haberleri kısa sürede saray çevresine ulaştı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-17",
+      "number": 17,
+      "place": "gecit",
+      "volume": 1,
+      "preview": "Fredo saldırıdan sonra parçalanan kuklaları inceledi.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-18",
+      "number": 18,
+      "place": "ragewind",
+      "volume": 1,
+      "preview": "Ertesi gün Fredo, Ragewind Arenası'na yeniden gitti.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-19",
+      "number": 19,
+      "place": "akademi",
+      "volume": 1,
+      "preview": "Merkez Şehir'in üzerinde akşam karanlığı çökerken Aisha, Kutsal Akademi'den ayrıldı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-20",
+      "number": 20,
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Fredo suikastçıları şehir muhafızlarına teslim etti.",
+      "mood": "duygusal"
+    },
+    {
+      "id": "chapter-21",
+      "number": 21,
+      "place": "akademi",
+      "volume": 1,
+      "preview": "Kutsal Akademi'de birkaç gün sonra büyük bir büyü töreni düzenlendi.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-22",
+      "number": 22,
+      "place": "akademi",
+      "volume": 1,
+      "preview": "Aisha'nın iyileşmesi herkesi rahatlatsa da Fredo, tehlikenin tamamen geçmediğini biliyordu.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-23",
+      "number": 23,
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Florent, babasının ticaret imparatorluğunun varisi olarak yetiştirilmişti.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-24",
+      "number": 24,
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Aisha iyileştikten birkaç gün sonra Fredo'yla yeniden görüşmek istedi.",
+      "mood": "duygusal"
+    },
+    {
+      "id": "chapter-25",
+      "number": 25,
+      "place": "merkez-sehir",
+      "volume": 1,
+      "preview": "Fredo yakaladığı saldırganı eski bir depoya götürdü.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-26",
+      "number": 26,
+      "place": "tuneller",
+      "volume": 1,
+      "preview": "Fredo, Bella ve Will'in yardımıyla karanlık büyülerin izini takip etti.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-27",
+      "number": 27,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Kukla Ustası'nın saklandığı yerin bulunmasıyla Merkez Şehir'deki bazı karanlık bağlantılar açığa çıktı.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-28",
+      "number": 28,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Aisha'nın Florent'i suçlaması, Alwyn Hanedanı içinde büyük bir tartışmaya neden oldu.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-29",
+      "number": 29,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Marion, Fredo'nun gerçekten eski evlilik anlaşmasındaki kişi olduğuna inanmak istemiyordu.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-30",
+      "number": 30,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Florent, Aisha'nın kendisini herkesin önünde suçlamasını unutamamıştı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-31",
+      "number": 31,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Alwyn Sarayı'nda düzenlenen büyük ziyafete Merkez Şehir'in önde gelen aileleri davet edilmişti.",
+      "mood": "duygusal"
+    },
+    {
+      "id": "chapter-32",
+      "number": 32,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Aisha'nın ziyafette yaptığı açıklama, Alwyn Hanedanı'nın içinde derin ayrılıklara neden oldu.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-33",
+      "number": 33,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Yaşlı lider günlerdir yatağından kalkamıyor, sarayın en güçlü şifacıları bile onu iyileştiremiyordu.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-34",
+      "number": 34,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-35",
+      "number": 35,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Ron'un gözlerini açması sarayda büyük sevinç yarattı.",
+      "mood": "duygusal"
+    },
+    {
+      "id": "chapter-36",
+      "number": 36,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Yaşlı adamın gözlerinde hem sevinç hem de yıllardır taşıdığı bir pişmanlık vardı.",
+      "mood": "duygusal"
+    },
+    {
+      "id": "chapter-37",
+      "number": 37,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Ron'un iyileşmesiyle Alwyn Sarayı'ndaki güç dengeleri değişmeye başladı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-38",
+      "number": 38,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Marion, Fredo hakkında duyduklarıyla giderek daha fazla yüzleşmek zorunda kalıyordu.",
+      "mood": "duygusal"
+    },
+    {
+      "id": "chapter-39",
+      "number": 39,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Bir akşam yaşlı lider onu sarayın eski arşivine götürdü.",
+      "mood": "duygusal"
+    },
+    {
+      "id": "chapter-40",
+      "number": 40,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Ron, Fredo ile Aisha'yı özel olarak yanına çağırdı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-41",
+      "number": 41,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Ron'un durumu yeniden ağırlaştığında sarayın şifacıları paniğe kapıldı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-42",
+      "number": 42,
+      "place": "arsiv",
+      "volume": 1,
+      "preview": "Fredo, Ron'un verdiği ipuçlarını araştırmak için eski arşive geri döndü.",
+      "mood": "gizem"
+    },
+    {
+      "id": "chapter-43",
+      "number": 43,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Darren, arşivdeki belgelerin incelendiğini öğrenince paniğe kapıldı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-44",
+      "number": 44,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Fredo, Alwyn Sarayı'nın büyük salonunda muhafızların karşısına çıkarıldı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-45",
+      "number": 45,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Darren'ın bedeninden yükselen karanlık enerji bütün salonu kapladı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-46",
+      "number": 46,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Darren'ın oluşturduğu karanlık büyü çemberi sarayın üzerinde büyümeye devam etti.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-47",
+      "number": 47,
+      "place": "alwyn",
+      "volume": 1,
+      "preview": "Darren bütün karanlık gücünü tek bir saldırıda topladı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-48",
+      "number": 48,
+      "place": "frosthold",
+      "volume": 1,
+      "preview": "Darren'ın ölümünden üç gün sonra Merkez Şehir'in üzerinde tuhaf olaylar yaşanmaya başladı.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-49",
+      "number": 49,
+      "place": "frosthold",
+      "volume": 1,
+      "preview": "Lich'in gözlerindeki kırmızı alevler güçlendi.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-50",
+      "number": 50,
+      "place": "frosthold",
+      "volume": 1,
+      "preview": "Lich'in ordusu karla kaplı vadiden yükselerek harabelere doğru ilerledi.",
+      "mood": "gergin"
+    },
+    {
+      "id": "chapter-51",
+      "number": 51,
+      "place": "frosthold",
+      "volume": 1,
+      "preview": "Frosthold'un harabeleri altın bir ışıkla aydınlanıyordu.",
+      "mood": "duygusal"
     }
   ],
   "scenes": [
     {
       "chapter": 1,
-      "id": "warning",
-      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
-      "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
-      "place": "ev"
-    },
-    {
-      "chapter": 1,
-      "id": "rescue",
-      "phrase": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi.",
-      "alt": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir.",
-      "place": "orman"
+      "id": "frosthold-fall",
+      "phrase": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı.",
+      "alt": "Büyükbaba, bebek Fredo’yu yanan Frosthold Sarayı’ndan çıkarır.",
+      "place": "frosthold"
     },
     {
       "chapter": 2,
-      "id": "mark",
-      "phrase": "Gümüş renkli küçük bir yılan şekli belirdi.",
-      "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
-      "place": "orman"
+      "id": "mountain-lesson",
+      "phrase": "\"Şimdi bunu parçalamadan yerinden kaldır.\"",
+      "alt": "Fredo, dağ kulübesinin önünde ustasının gözetiminde bir kayayı kaldırır.",
+      "place": "dag-kulubesi"
     },
     {
       "chapter": 3,
-      "id": "bridge",
-      "phrase": "Köprünün altında siyah pelerinli bir adam bekliyordu.",
-      "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
-      "place": "kopru"
+      "id": "central-city",
+      "phrase": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
+      "alt": "Fredo, dağlardan sonra Merkez Şehir’e ulaşır.",
+      "place": "merkez-sehir"
     },
     {
       "chapter": 4,
-      "id": "interrupted-wedding",
-      "phrase": "Silvan'ın kuyruğu yerde büyük bir daire çizdi.",
-      "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
-      "place": "meydan"
-    },
-    {
-      "chapter": 5,
-      "id": "betrayal",
-      "phrase": "Kırmızı sıvı taşların arasına yayıldı.",
-      "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
-      "place": "kale"
-    },
-    {
-      "chapter": 6,
-      "id": "serpent-battle",
-      "phrase": "İki devasa yılan birbirine saldırdı.",
-      "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
-      "place": "sunak"
-    },
-    {
-      "chapter": 6,
-      "id": "freedom",
-      "phrase": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu.",
-      "alt": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır.",
-      "place": "sunak"
+      "id": "dwarf-king",
+      "phrase": "Kralın bedeninden siyah duman yükselmeye başladı.",
+      "alt": "Fredo, pazar yerinde Cüce Kral’ın lanetine müdahale eder.",
+      "place": "pazar"
     },
     {
       "chapter": 7,
-      "id": "first-night",
-      "phrase": "Silvan yatağın yanındaki sandalyeye oturdu.",
-      "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
-      "place": "saray"
-    },
-    {
-      "chapter": 8,
-      "id": "garden",
-      "phrase": "Elsa'nın yüzündeki gülümseme dondu.",
-      "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
-      "place": "bahce"
-    },
-    {
-      "chapter": 9,
-      "id": "necklace",
-      "phrase": "Bella kolyeyi göğsüne bastırdı.",
-      "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
-      "place": "saray"
-    },
-    {
-      "chapter": 10,
-      "id": "poison",
-      "phrase": "Adam alnını onun alnına yasladı.",
-      "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
-      "place": "saray"
-    },
-    {
-      "chapter": 11,
-      "id": "reunion",
-      "phrase": "Margaret torununu sıkıca kucakladı.",
-      "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
-      "place": "saray"
+      "id": "ragewind-meeting",
+      "phrase": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
+      "alt": "Ragewind Arenası’nda Fredo ve Aisha’nın yolları kesişir.",
+      "place": "ragewind"
     },
     {
       "chapter": 12,
-      "id": "moon-gate",
-      "phrase": "Genç kadın elini kapıya koydu.",
-      "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
-      "place": "kapi"
+      "id": "three-arrows",
+      "phrase": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu.",
+      "alt": "Gümüş saçlı Aragorn, Fredo’yu büyülü oklarıyla sınar.",
+      "place": "ragewind"
     },
     {
-      "chapter": 12,
-      "id": "seal",
-      "phrase": "Altın ışık bütün dağa yayıldı.",
-      "alt": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar.",
-      "place": "kapi"
+      "chapter": 16,
+      "id": "wooden-puppets",
+      "phrase": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu.",
+      "alt": "Fredo kara büyüyle hareket eden kuklalarla yüzleşir.",
+      "place": "gecit"
     },
     {
-      "chapter": 13,
-      "id": "wedding",
-      "phrase": "Başrahip altın asasını kaldırdı.",
-      "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
-      "place": "saray"
+      "chapter": 21,
+      "id": "academy-curse",
+      "phrase": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti.",
+      "alt": "Kutsal Akademi’de Fredo, Aisha’yı korumak için mühürlü gücünü açar.",
+      "place": "akademi"
     },
     {
-      "chapter": 13,
-      "id": "family",
-      "phrase": "Küçük kız korkmadan ona sarıldı.",
-      "alt": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler.",
-      "place": "bahce"
+      "chapter": 26,
+      "id": "tunnel-puppets",
+      "phrase": "Duvarlardaki kuklalar canlandı.",
+      "alt": "Fredo, Bella ve Will yer altındaki kuklaların izini sürer.",
+      "place": "tuneller"
+    },
+    {
+      "chapter": 31,
+      "id": "aisha-choice",
+      "phrase": "Marion şaşkınlıkla ayağa kalktı.",
+      "alt": "Aisha, Alwyn Sarayı’nın ziyafetinde kendi kararını savunur.",
+      "place": "alwyn"
+    },
+    {
+      "chapter": 34,
+      "id": "healing-circle",
+      "phrase": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi.",
+      "alt": "Fredo, Ron’un yatağı çevresine bir şifa çemberi çizer.",
+      "place": "alwyn"
+    },
+    {
+      "chapter": 42,
+      "id": "forgotten-archive",
+      "phrase": "Aisha geri çekildi.",
+      "alt": "Fredo ve Aisha eski arşivde Frosthold’un izini arar.",
+      "place": "arsiv"
+    },
+    {
+      "chapter": 47,
+      "id": "celestial-lightning",
+      "phrase": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti.",
+      "alt": "Alwyn Sarayı’nda Fredo’nun göksel ışığı karanlık büyüyü karşılar.",
+      "place": "alwyn"
+    },
+    {
+      "chapter": 48,
+      "id": "lich-arrival",
+      "phrase": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi.",
+      "alt": "Fredo, Frosthold harabelerinde kemik taçlı Lich’le karşılaşır.",
+      "place": "frosthold"
+    },
+    {
+      "chapter": 50,
+      "id": "divine-awakening",
+      "phrase": "Fredo yavaşça havaya yükseldi.",
+      "alt": "Fredo, Frosthold’un karlı harabelerinin üzerinde altın ışıkla yükselir.",
+      "place": "frosthold"
+    },
+    {
+      "chapter": 51,
+      "id": "frosthold-renewed",
+      "phrase": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler.",
+      "alt": "Fredo ve Aisha yeniden kurulan Frosthold Sarayı’na yürür.",
+      "place": "frosthold"
     }
   ],
   "facts": [
     {
-      "id": "bella",
-      "name": "Bella Bellamy",
-      "kind": "characters",
+      "id": "fredo",
+      "name": "Fredo",
       "chapter": 1,
-      "phrase": "Uzun kızıl saçları omuzlarına dökülmüştü.",
-      "art": "warning"
-    },
-    {
-      "id": "silvan",
-      "name": "Silvan",
       "kind": "characters",
-      "chapter": 1,
-      "phrase": "\"Ben Silvan.\"",
-      "art": "rescue"
+      "phrase": "Adı Fredo'ydu.",
+      "art": "mountain-lesson"
     },
     {
-      "id": "margaret",
-      "name": "Margaret",
-      "kind": "characters",
-      "chapter": 1,
-      "phrase": "Büyükannesi Margaret, mutfaktaki masada oturuyordu.",
-      "art": "warning"
-    },
-    {
-      "id": "tommy",
-      "name": "Tommy",
-      "kind": "characters",
-      "chapter": 3,
-      "phrase": "Ertesi sabah Tommy geldi.",
-      "art": "bridge"
-    },
-    {
-      "id": "kael",
-      "name": "Prens Kael",
-      "kind": "characters",
-      "chapter": 5,
-      "phrase": "İçeriden uzun siyah saçlı, kırmızı gözlü bir adam çıktı.",
-      "art": "betrayal"
-    },
-    {
-      "id": "mira",
-      "name": "Mira",
-      "kind": "characters",
-      "chapter": 6,
-      "phrase": "Yanındaki genç kızın adı Mira'ydı.",
-      "art": "freedom"
-    },
-    {
-      "id": "nira",
-      "name": "Nira",
-      "kind": "characters",
-      "chapter": 7,
-      "phrase": "\"Ben Nira. Majesteleri size bakmamı istedi.\"",
-      "art": "first-night"
-    },
-    {
-      "id": "elsa",
-      "name": "Elsa",
-      "kind": "characters",
-      "chapter": 8,
-      "phrase": "Uzun, koyu yeşil saçlı bir kadın bahçeye girmişti.",
-      "art": "garden"
-    },
-    {
-      "id": "queen",
-      "name": "Kraliçe Ana",
-      "kind": "characters",
-      "chapter": 8,
-      "phrase": "İçeri uzun boylu, gümüş saçlı yaşlı bir kadın girdi.",
-      "art": "poison"
-    },
-    {
-      "id": "eliana",
-      "name": "Eliana Bellamy",
-      "kind": "characters",
-      "chapter": 9,
-      "phrase": "\"Annenin adı Eliana Bellamy'ydi.\"",
-      "art": "moon-gate"
-    },
-    {
-      "id": "selina",
-      "name": "Selina",
-      "kind": "characters",
-      "chapter": 13,
-      "phrase": "Küçük Selina ellerini çırptı.",
-      "art": "family"
-    },
-    {
-      "id": "ev",
-      "name": "Margaret'in Evi",
-      "kind": "places",
-      "chapter": 1,
-      "phrase": "Odası küçüktü.",
-      "art": "warning",
-      "x": 16,
-      "y": 26,
-      "mapKind": "settlement"
-    },
-    {
-      "id": "orman",
-      "name": "Sisli Orman",
-      "kind": "places",
-      "chapter": 1,
-      "phrase": "Dışarıdaki orman sabah sisiyle kaplanmıştı.",
-      "art": "rescue",
-      "x": 28,
-      "y": 51,
-      "mapKind": "nature"
-    },
-    {
-      "id": "kopru",
-      "name": "Eski Taş Köprü",
-      "kind": "places",
-      "chapter": 3,
-      "phrase": "Aynı gece Tommy, köyden uzaklaşarak eski bir taş köprüye gitti.",
-      "art": "bridge",
-      "x": 28,
-      "y": 76,
-      "mapKind": "landmark"
-    },
-    {
-      "id": "meydan",
-      "name": "Köy Meydanı",
-      "kind": "places",
-      "chapter": 4,
-      "phrase": "Düğün sabahı köy meydanı beyaz çiçeklerle süslenmişti.",
-      "art": "interrupted-wedding",
-      "x": 26,
-      "y": 14,
-      "mapKind": "settlement"
-    },
-    {
-      "id": "kale",
-      "name": "Kara Yılan Kalesi",
-      "kind": "places",
-      "chapter": 5,
-      "phrase": "Birkaç dakika sonra siyah taşlardan yapılmış eski bir kalenin önünde durdular.",
-      "art": "betrayal",
-      "x": 63,
-      "y": 22,
-      "mapKind": "landmark"
-    },
-    {
-      "id": "sunak",
-      "name": "On İki Sütunlu Sunak",
-      "kind": "places",
-      "chapter": 6,
-      "phrase": "Sunağın çevresinde on iki taş sütun bulunuyordu.",
-      "art": "serpent-battle",
-      "x": 64,
-      "y": 31,
-      "mapKind": "landmark"
-    },
-    {
-      "id": "saray",
-      "name": "Gümüş Saray",
-      "kind": "places",
-      "chapter": 7,
-      "phrase": "Odanın duvarları gümüş işlemelerle süslenmişti.",
-      "art": "first-night",
-      "x": 87,
-      "y": 53,
-      "mapKind": "landmark"
-    },
-    {
-      "id": "bahce",
-      "name": "Gümüş Saray Bahçesi",
-      "kind": "places",
-      "chapter": 8,
-      "phrase": "Beyaz güller, gümüş yapraklı ağaçlar ve küçük şelaleler...",
-      "art": "garden",
-      "x": 76,
-      "y": 76,
-      "mapKind": "nature"
-    },
-    {
-      "id": "dag",
-      "name": "Ay Dağı",
-      "kind": "places",
-      "chapter": 12,
-      "phrase": "Uzaklardaki Ay Dağı'nın tepesinde devasa bir ışık yükseldi.",
-      "art": "moon-gate",
-      "x": 86,
-      "y": 25,
-      "mapKind": "nature"
-    },
-    {
-      "id": "kapi",
-      "name": "Ay Kapısı",
-      "kind": "places",
-      "chapter": 12,
-      "phrase": "Dağın zirvesinde devasa bir taş kapı vardı.",
-      "art": "moon-gate",
-      "x": 91,
-      "y": 8,
-      "mapKind": "landmark"
-    },
-    {
-      "id": "event-warning",
-      "name": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır.",
-      "kind": "events",
-      "chapter": 1,
-      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı."
-    },
-    {
-      "id": "event-rescue",
-      "name": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir.",
-      "kind": "events",
-      "chapter": 1,
-      "phrase": "Bella'nın ellerinden ince, altın renkli bir ışık yükseldi."
-    },
-    {
-      "id": "event-mark",
-      "name": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur.",
-      "kind": "events",
+      "id": "usta",
+      "name": "Yaşlı Bilgin",
       "chapter": 2,
-      "phrase": "Gümüş renkli küçük bir yılan şekli belirdi."
+      "kind": "characters",
+      "phrase": "Yaşlı bilgin ona kızmamış, yalnızca başka bir kaya göstermişti.",
+      "art": "mountain-lesson"
     },
     {
-      "id": "event-bridge",
-      "name": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur.",
-      "kind": "events",
-      "chapter": 3,
-      "phrase": "Köprünün altında siyah pelerinli bir adam bekliyordu."
-    },
-    {
-      "id": "event-interrupted-wedding",
-      "name": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür.",
-      "kind": "events",
-      "chapter": 4,
-      "phrase": "Silvan'ın kuyruğu yerde büyük bir daire çizdi."
-    },
-    {
-      "id": "event-betrayal",
-      "name": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür.",
-      "kind": "events",
-      "chapter": 5,
-      "phrase": "Kırmızı sıvı taşların arasına yayıldı."
-    },
-    {
-      "id": "event-serpent-battle",
-      "name": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır.",
-      "kind": "events",
-      "chapter": 6,
-      "phrase": "İki devasa yılan birbirine saldırdı."
-    },
-    {
-      "id": "event-freedom",
-      "name": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır.",
-      "kind": "events",
-      "chapter": 6,
-      "phrase": "Bella ellerini kurtarır kurtarmaz yanındaki Mira'nın zincirine dokundu."
-    },
-    {
-      "id": "event-first-night",
-      "name": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur.",
-      "kind": "events",
+      "id": "aisha",
+      "name": "Prenses Aisha",
       "chapter": 7,
-      "phrase": "Silvan yatağın yanındaki sandalyeye oturdu."
+      "kind": "characters",
+      "phrase": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu.",
+      "art": "ragewind-meeting"
     },
     {
-      "id": "event-garden",
-      "name": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar.",
-      "kind": "events",
-      "chapter": 8,
-      "phrase": "Elsa'nın yüzündeki gülümseme dondu."
+      "id": "cuce-kral",
+      "name": "Cüce Kral",
+      "chapter": 4,
+      "kind": "characters",
+      "phrase": "Cüce Krallığı'na ait altın işlemeli bir araba yolun ortasında durmuştu. Çevresindeki muhafızlar, arabada bulunan yaşlı hükümdarı kurtarmak için çabalıyordu.",
+      "art": "dwarf-king"
     },
     {
-      "id": "event-necklace",
-      "name": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır.",
-      "kind": "events",
-      "chapter": 9,
-      "phrase": "Bella kolyeyi göğsüne bastırdı."
+      "id": "bella",
+      "name": "Bella",
+      "chapter": 6,
+      "kind": "characters",
+      "phrase": "Bella, Fredo'nun çocukluk yıllarındaki en yakın arkadaşlarından biriydi.",
+      "art": "tunnel-puppets"
     },
     {
-      "id": "event-poison",
-      "name": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder.",
-      "kind": "events",
-      "chapter": 10,
-      "phrase": "Adam alnını onun alnına yasladı."
+      "id": "will",
+      "name": "Will",
+      "chapter": 7,
+      "kind": "characters",
+      "phrase": "İri yapılı, kısa saçlı genç adam dikkatle baktıktan sonra sevinçle bağırdı.",
+      "art": "tunnel-puppets"
     },
     {
-      "id": "event-reunion",
-      "name": "Bella saraya gelen büyükannesi Margaret'e sarılır.",
-      "kind": "events",
+      "id": "aragorn",
+      "name": "Aragorn",
       "chapter": 11,
-      "phrase": "Margaret torununu sıkıca kucakladı."
+      "kind": "characters",
+      "phrase": "Uzun siyah bir pelerin giyen, gümüş saçlı bir savaşçı ağır adımlarla salona girdi.",
+      "art": "three-arrows"
     },
     {
-      "id": "event-moon-gate",
-      "name": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür.",
-      "kind": "events",
-      "chapter": 12,
-      "phrase": "Genç kadın elini kapıya koydu."
+      "id": "marion",
+      "name": "Kraliçe Marion",
+      "chapter": 5,
+      "kind": "characters",
+      "phrase": "Kraliçe Marion, önceki gün yaşanan olayların duyulmasından rahatsız olmuştu. Fredo'nun sessizce şehirden ayrılmasını istiyordu.",
+      "art": "aisha-choice"
     },
     {
-      "id": "event-seal",
-      "name": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar.",
-      "kind": "events",
-      "chapter": 12,
-      "phrase": "Altın ışık bütün dağa yayıldı."
+      "id": "florent",
+      "name": "Florent",
+      "chapter": 8,
+      "kind": "characters",
+      "phrase": "Merkez Şehir'in Ticaret Kralı'nın oğlu."
     },
     {
-      "id": "event-wedding",
-      "name": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir.",
-      "kind": "events",
-      "chapter": 13,
-      "phrase": "Başrahip altın asasını kaldırdı."
+      "id": "ron",
+      "name": "Ron",
+      "chapter": 33,
+      "kind": "characters",
+      "phrase": "Ron'un sağlık durumu giderek kötüleşiyordu.",
+      "art": "healing-circle"
     },
     {
-      "id": "event-family",
-      "name": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler.",
-      "kind": "events",
-      "chapter": 13,
-      "phrase": "Küçük kız korkmadan ona sarıldı."
+      "id": "darren",
+      "name": "Darren",
+      "chapter": 32,
+      "kind": "characters",
+      "phrase": "Darren sertçe cevap verdi.",
+      "art": "celestial-lightning"
     },
     {
-      "id": "bileklik",
-      "name": "Mavi Taşlı Bileklik",
-      "kind": "objects",
+      "id": "lich",
+      "name": "Kan Vebası Lich’i",
       "chapter": 1,
-      "phrase": "Bileğinde küçük, mavi taşlı gümüş bir bileklik vardı.",
-      "art": "warning"
+      "kind": "characters",
+      "phrase": "Saldırının ardındaki varlık, yüzlerce yıldır ölümün sınırlarını aşmaya çalışan Kan Vebası Lich'iydi.",
+      "art": "lich-arrival"
     },
     {
-      "id": "ay-kolyesi",
-      "name": "Eliana'nın Ay Kolyesi",
-      "kind": "objects",
-      "chapter": 9,
-      "phrase": "Kolyenin üzerinde küçük bir ay sembolü bulunuyordu.",
-      "art": "necklace"
+      "id": "frosthold",
+      "kind": "places",
+      "name": "Frosthold",
+      "chapter": 1,
+      "phrase": "Yirmi yıl önce, kıtanın kuzeyinde Frosthold adında görkemli bir krallık bulunuyordu. Sonsuz karlarla kaplı dağların arasında yükselen bu krallık, yalnızca askerî gücüyle değil, büyü ve bilgelik alanındaki üstünlüğüyle de tanınıyordu.",
+      "art": "frosthold-fall",
+      "x": 25,
+      "y": 18,
+      "mapKind": "region"
+    },
+    {
+      "id": "dag-kulubesi",
+      "kind": "places",
+      "name": "Dağ Kulübesi",
+      "chapter": 2,
+      "phrase": "Kuzey dağlarının en yüksek zirvelerinden birinde, dışarıdan bakıldığında sıradan görünen ahşap bir kulübe bulunuyordu.",
+      "art": "mountain-lesson",
+      "x": 18,
+      "y": 46,
+      "mapKind": "nature"
+    },
+    {
+      "id": "merkez-sehir",
+      "kind": "places",
+      "name": "Merkez Şehir",
+      "chapter": 3,
+      "phrase": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı.",
+      "art": "central-city",
+      "x": 61,
+      "y": 55,
+      "mapKind": "settlement"
+    },
+    {
+      "id": "alwyn",
+      "kind": "places",
+      "name": "Alwyn Sarayı",
+      "chapter": 3,
+      "phrase": "Alwyn Hanedanı'nın sarayına vardığında kapıdaki muhafızlar önünü kesti.",
+      "art": "aisha-choice",
+      "x": 80,
+      "y": 37,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "pazar",
+      "kind": "places",
+      "name": "Pazar Bölgesi",
+      "chapter": 4,
+      "phrase": "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti.",
+      "art": "dwarf-king",
+      "x": 38,
+      "y": 52,
+      "mapKind": "settlement"
+    },
+    {
+      "id": "ragewind",
+      "kind": "places",
+      "name": "Ragewind Arenası",
+      "chapter": 7,
+      "phrase": "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi.",
+      "art": "ragewind-meeting",
+      "x": 46,
+      "y": 65,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "akademi",
+      "kind": "places",
+      "name": "Kutsal Akademi",
+      "chapter": 6,
+      "phrase": "İkisi şehirde dolaşırken Bella, Kutsal Akademi'deki eğitiminden bahsetti.",
+      "art": "academy-curse",
+      "x": 77,
+      "y": 73,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "gecit",
+      "kind": "places",
+      "name": "Büyü Bahçesi",
+      "chapter": 16,
+      "phrase": "Ertesi gün Aisha, Fredo'yu akademinin yakınındaki eski bir büyü bahçesine davet etti.",
+      "art": "wooden-puppets",
+      "x": 70,
+      "y": 80,
+      "mapKind": "nature"
+    },
+    {
+      "id": "tuneller",
+      "kind": "places",
+      "name": "Eski Tüneller",
+      "chapter": 26,
+      "phrase": "İzler onları Merkez Şehir'in altındaki eski tünellere götürdü.",
+      "art": "tunnel-puppets",
+      "x": 65,
+      "y": 68,
+      "mapKind": "landmark"
+    },
+    {
+      "id": "arsiv",
+      "kind": "places",
+      "name": "Alwyn Arşivi",
+      "chapter": 42,
+      "phrase": "Fredo, Ron'un verdiği ipuçlarını araştırmak için eski arşive geri döndü.",
+      "art": "forgotten-archive",
+      "x": 88,
+      "y": 43,
+      "mapKind": "landmark"
     },
     {
       "id": "yuzuk",
-      "name": "Yılan ve Ay Yüzüğü",
+      "name": "Mühürlü Yüzük",
+      "chapter": 15,
       "kind": "objects",
-      "chapter": 13,
-      "phrase": "Yüzüğün üzerinde küçük bir yılan ve ay sembolü işlenmişti.",
-      "art": "wedding"
+      "phrase": "Fredo ertesi sabah handa uyandığında yüzüğünün üzerinde soluk bir çatlak fark etti."
     },
     {
-      "id": "bella-silvan",
-      "name": "Bella ve Silvan'ın Seçimi",
+      "id": "ruh-tasi",
+      "name": "Ruh Taşı",
+      "chapter": 4,
+      "kind": "objects",
+      "phrase": "\"Bu taş krallığımızın en değerli hazinelerinden biridir. Ruhsal enerjiyi güçlendirebilir ve gizlenmiş lanetleri ortaya çıkarabilir.\""
+    },
+    {
+      "id": "frosthold-isareti",
+      "name": "Frosthold İşareti",
+      "chapter": 17,
+      "kind": "objects",
+      "phrase": "Sembol, yüzüğünün iç kısmına işlenmiş işaretle aynıydı."
+    },
+    {
+      "id": "event-frosthold-fall",
+      "kind": "events",
+      "name": "Büyükbaba, bebek Fredo’yu yanan Frosthold Sarayı’ndan çıkarır.",
+      "chapter": 1,
+      "phrase": "Saray alevler içinde kalırken yaşlı bir adam, kucağında taşıdığı bebeği gizli bir geçitten çıkardı. Bu adam Fredo'nun büyükbabasıydı."
+    },
+    {
+      "id": "event-mountain-lesson",
+      "kind": "events",
+      "name": "Fredo, dağ kulübesinin önünde ustasının gözetiminde bir kayayı kaldırır.",
+      "chapter": 2,
+      "phrase": "\"Şimdi bunu parçalamadan yerinden kaldır.\""
+    },
+    {
+      "id": "event-central-city",
+      "kind": "events",
+      "name": "Fredo, dağlardan sonra Merkez Şehir’e ulaşır.",
+      "chapter": 3,
+      "phrase": "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı."
+    },
+    {
+      "id": "event-dwarf-king",
+      "kind": "events",
+      "name": "Fredo, pazar yerinde Cüce Kral’ın lanetine müdahale eder.",
+      "chapter": 4,
+      "phrase": "Kralın bedeninden siyah duman yükselmeye başladı."
+    },
+    {
+      "id": "event-ragewind-meeting",
+      "kind": "events",
+      "name": "Ragewind Arenası’nda Fredo ve Aisha’nın yolları kesişir.",
+      "chapter": 7,
+      "phrase": "Açık renk saçları omuzlarına dökülüyor, mavi gözleri çevresindeki kalabalığı dikkatle inceliyordu."
+    },
+    {
+      "id": "event-three-arrows",
+      "kind": "events",
+      "name": "Gümüş saçlı Aragorn, Fredo’yu büyülü oklarıyla sınar.",
+      "chapter": 12,
+      "phrase": "Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu."
+    },
+    {
+      "id": "event-wooden-puppets",
+      "kind": "events",
+      "name": "Fredo kara büyüyle hareket eden kuklalarla yüzleşir.",
+      "chapter": 16,
+      "phrase": "Ağaçların arasından insan biçiminde üç kukla çıktı. Tahtadan yapılmış gibi görünüyorlardı, ancak içlerinde karanlık ruh enerjisi dolaşıyordu."
+    },
+    {
+      "id": "event-academy-curse",
+      "kind": "events",
+      "name": "Kutsal Akademi’de Fredo, Aisha’yı korumak için mühürlü gücünü açar.",
+      "chapter": 21,
+      "phrase": "Fredo yüzüğünün üzerindeki mührü hafifçe gevşetti."
+    },
+    {
+      "id": "event-tunnel-puppets",
+      "kind": "events",
+      "name": "Fredo, Bella ve Will yer altındaki kuklaların izini sürer.",
+      "chapter": 26,
+      "phrase": "Duvarlardaki kuklalar canlandı."
+    },
+    {
+      "id": "event-aisha-choice",
+      "kind": "events",
+      "name": "Aisha, Alwyn Sarayı’nın ziyafetinde kendi kararını savunur.",
+      "chapter": 31,
+      "phrase": "Marion şaşkınlıkla ayağa kalktı."
+    },
+    {
+      "id": "event-healing-circle",
+      "kind": "events",
+      "name": "Fredo, Ron’un yatağı çevresine bir şifa çemberi çizer.",
+      "chapter": 34,
+      "phrase": "Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi."
+    },
+    {
+      "id": "event-forgotten-archive",
+      "kind": "events",
+      "name": "Fredo ve Aisha eski arşivde Frosthold’un izini arar.",
+      "chapter": 42,
+      "phrase": "Aisha geri çekildi."
+    },
+    {
+      "id": "event-celestial-lightning",
+      "kind": "events",
+      "name": "Alwyn Sarayı’nda Fredo’nun göksel ışığı karanlık büyüyü karşılar.",
+      "chapter": 47,
+      "phrase": "Beyaz yıldırımlar, altın mühürlerin çevresinde birleşti."
+    },
+    {
+      "id": "event-lich-arrival",
+      "kind": "events",
+      "name": "Fredo, Frosthold harabelerinde kemik taçlı Lich’le karşılaşır.",
+      "chapter": 48,
+      "phrase": "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi."
+    },
+    {
+      "id": "event-divine-awakening",
+      "kind": "events",
+      "name": "Fredo, Frosthold’un karlı harabelerinin üzerinde altın ışıkla yükselir.",
+      "chapter": 50,
+      "phrase": "Fredo yavaşça havaya yükseldi."
+    },
+    {
+      "id": "event-frosthold-renewed",
+      "kind": "events",
+      "name": "Fredo ve Aisha yeniden kurulan Frosthold Sarayı’na yürür.",
+      "chapter": 51,
+      "phrase": "Birlikte yeniden yükselen Frosthold Sarayı'na doğru yürüdüler."
+    },
+    {
+      "id": "fredo-bella",
+      "name": "Çocukluk Arkadaşlığı",
+      "chapter": 6,
+      "from": "fredo",
+      "to": "bella",
       "kind": "connections",
-      "from": "bella",
-      "to": "silvan",
-      "chapter": 13,
-      "phrase": "\"Seni seviyorum, Bella.\""
+      "phrase": "Bella, Fredo'nun çocukluk yıllarındaki en yakın arkadaşlarından biriydi."
+    },
+    {
+      "id": "fredo-will",
+      "name": "Eski Dostlar",
+      "chapter": 7,
+      "from": "fredo",
+      "to": "will",
+      "kind": "connections",
+      "phrase": "İri yapılı, kısa saçlı genç adam dikkatle baktıktan sonra sevinçle bağırdı."
+    },
+    {
+      "id": "fredo-aisha",
+      "name": "Fredo ve Aisha’nın Seçimi",
+      "chapter": 31,
+      "from": "fredo",
+      "to": "aisha",
+      "kind": "connections",
+      "phrase": "Fredo ise Aisha'nın elini tuttu."
     }
   ],
   "art": {
-    "cover": {
-      "alt": "Bella ve Silvan, ay ışığındaki ormanda."
+    "frosthold-cover": {
+      "alt": "Fredo, Frosthold’un karlı dağları ve yıkık sarayı önünde kadim bir kitap tutar."
     },
-    "atlas": {
-      "alt": "Orman, Kara Yılan Kalesi, Gümüş Saray ve Ay Dağı'nın temsili keşif haritası."
+    "frosthold-atlas": {
+      "alt": "Frosthold, Merkez Şehir ve çevresini gösteren resimli keşif atlası."
     },
-    "warning": {
-      "alt": "Margaret, Bella'nın mavi taşlı bilekliğini göstererek onu uyarır."
+    "frosthold-fall": {
+      "alt": "Büyükbaba, bebek Fredo’yu yanan Frosthold Sarayı’ndan çıkarır."
     },
-    "rescue": {
-      "alt": "Bella'nın ellerinden yükselen altın ışık Silvan'ın zehirli yarasını iyileştirir."
+    "mountain-lesson": {
+      "alt": "Fredo, dağ kulübesinin önünde ustasının gözetiminde bir kayayı kaldırır."
     },
-    "mark": {
-      "alt": "Silvan'ın verdiği pul Bella'nın bileğinde gümüş yılan işareti oluşturur."
+    "central-city": {
+      "alt": "Fredo, dağlardan sonra Merkez Şehir’e ulaşır."
     },
-    "bridge": {
-      "alt": "Tommy, eski taş köprünün altında Kara Yılan Prensi'nin elçisiyle buluşur."
+    "dwarf-king": {
+      "alt": "Fredo, pazar yerinde Cüce Kral’ın lanetine müdahale eder."
     },
-    "interrupted-wedding": {
-      "alt": "Silvan'ın gümüş yılan kuyruğu köydeki yarım kalan düğünde görünür."
+    "ragewind-meeting": {
+      "alt": "Ragewind Arenası’nda Fredo ve Aisha’nın yolları kesişir."
     },
-    "betrayal": {
-      "alt": "Kael'in kırdığı iksir şişesinin önünde Tommy diz çökerken Bella kaleye götürülür."
+    "three-arrows": {
+      "alt": "Gümüş saçlı Aragorn, Fredo’yu büyülü oklarıyla sınar."
     },
-    "serpent-battle": {
-      "alt": "Kara Yılan Kalesi'nin sütunlu salonunda Silvan ile Kael yılan biçiminde savaşır."
+    "wooden-puppets": {
+      "alt": "Fredo kara büyüyle hareket eden kuklalarla yüzleşir."
     },
-    "freedom": {
-      "alt": "Bella altın ışıkla zincirleri kırıp Mira'yı ve tutsakları kurtarır."
+    "academy-curse": {
+      "alt": "Kutsal Akademi’de Fredo, Aisha’yı korumak için mühürlü gücünü açar."
     },
-    "first-night": {
-      "alt": "Bella, Gümüş Saray'da yatağının yanındaki Silvan ile konuşur."
+    "tunnel-puppets": {
+      "alt": "Fredo, Bella ve Will yer altındaki kuklaların izini sürer."
     },
-    "garden": {
-      "alt": "Elsa, gümüş yapraklı saray bahçesinde Bella ve Silvan'ın karşısına çıkar."
+    "aisha-choice": {
+      "alt": "Aisha, Alwyn Sarayı’nın ziyafetinde kendi kararını savunur."
     },
-    "necklace": {
-      "alt": "Bella annesinden kalan ay sembollü gümüş kolyeyi göğsüne bastırır."
+    "healing-circle": {
+      "alt": "Fredo, Ron’un yatağı çevresine bir şifa çemberi çizer."
     },
-    "poison": {
-      "alt": "Zehirli büyüyle sarsılan Bella'ya Silvan ziyafet salonunda yardım eder."
+    "forgotten-archive": {
+      "alt": "Fredo ve Aisha eski arşivde Frosthold’un izini arar."
     },
-    "reunion": {
-      "alt": "Bella saraya gelen büyükannesi Margaret'e sarılır."
+    "celestial-lightning": {
+      "alt": "Alwyn Sarayı’nda Fredo’nun göksel ışığı karanlık büyüyü karşılar."
     },
-    "moon-gate": {
-      "alt": "Bella Ay Kapısı'na dokunurken annesi Eliana'nın beyaz silueti görünür."
+    "lich-arrival": {
+      "alt": "Fredo, Frosthold harabelerinde kemik taçlı Lich’le karşılaşır."
     },
-    "seal": {
-      "alt": "Bella'nın altın ışığı Ay Kapısı'ndaki kara büyüyü kırar."
+    "divine-awakening": {
+      "alt": "Fredo, Frosthold’un karlı harabelerinin üzerinde altın ışıkla yükselir."
     },
-    "wedding": {
-      "alt": "Bella ile Silvan gümüş çiçeklerle süslü sarayda evlenir."
-    },
-    "family": {
-      "alt": "Selina saray bahçesinde babasının gümüş yılan biçimine sarılırken Bella izler."
+    "frosthold-renewed": {
+      "alt": "Fredo ve Aisha yeniden kurulan Frosthold Sarayı’na yürür."
     }
-  }
+  },
+  "atlasHierarchy": [
+    [
+      "merkez-sehir",
+      "pazar"
+    ],
+    [
+      "merkez-sehir",
+      "ragewind"
+    ],
+    [
+      "merkez-sehir",
+      "akademi"
+    ],
+    [
+      "merkez-sehir",
+      "alwyn"
+    ],
+    [
+      "alwyn",
+      "arsiv"
+    ]
+  ],
+  "routes": [
+    [
+      "frosthold",
+      "dag-kulubesi",
+      1,
+      "Büyükbaba, çocuğu karla kaplı dağların ötesinde yaşayan kadim bir bilgine götürdü."
+    ],
+    [
+      "dag-kulubesi",
+      "merkez-sehir",
+      3,
+      "Sonunda kıtanın en büyük ticaret ve büyü merkezlerinden biri olan Merkez Şehir'e ulaştı."
+    ],
+    [
+      "merkez-sehir",
+      "pazar",
+      4,
+      "Fredo saraydan ayrıldıktan sonra şehrin pazar bölgesine gitti."
+    ],
+    [
+      "merkez-sehir",
+      "ragewind",
+      7,
+      "Ragewind Arenası, Merkez Şehir'in en görkemli yapılarından biriydi."
+    ],
+    [
+      "merkez-sehir",
+      "akademi",
+      15,
+      "Birlikte Kutsal Akademi'ye gittiler."
+    ],
+    [
+      "merkez-sehir",
+      "tuneller",
+      26,
+      "İzler onları Merkez Şehir'in altındaki eski tünellere götürdü."
+    ],
+    [
+      "merkez-sehir",
+      "alwyn",
+      31,
+      "Alwyn Sarayı'nda düzenlenen büyük ziyafete Merkez Şehir'in önde gelen aileleri davet edilmişti."
+    ],
+    [
+      "alwyn",
+      "frosthold",
+      48,
+      "Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi."
+    ]
+  ]
 }

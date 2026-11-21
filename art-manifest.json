@@ -1,59 +1,56 @@
 [
   {
-    "src": "assets/images/cover.webp"
+    "src": "assets/images/frosthold-cover.webp"
   },
   {
-    "src": "assets/images/atlas.webp"
+    "src": "assets/images/frosthold-atlas.webp"
   },
   {
-    "src": "assets/images/warning.webp"
+    "src": "assets/images/frosthold-fall.webp"
   },
   {
-    "src": "assets/images/rescue.webp"
+    "src": "assets/images/mountain-lesson.webp"
   },
   {
-    "src": "assets/images/mark.webp"
+    "src": "assets/images/central-city.webp"
   },
   {
-    "src": "assets/images/bridge.webp"
+    "src": "assets/images/dwarf-king.webp"
   },
   {
-    "src": "assets/images/interrupted-wedding.webp"
+    "src": "assets/images/ragewind-meeting.webp"
   },
   {
-    "src": "assets/images/betrayal.webp"
+    "src": "assets/images/three-arrows.webp"
   },
   {
-    "src": "assets/images/serpent-battle.webp"
+    "src": "assets/images/wooden-puppets.webp"
   },
   {
-    "src": "assets/images/freedom.webp"
+    "src": "assets/images/academy-curse.webp"
   },
   {
-    "src": "assets/images/first-night.webp"
+    "src": "assets/images/tunnel-puppets.webp"
   },
   {
-    "src": "assets/images/garden.webp"
+    "src": "assets/images/aisha-choice.webp"
   },
   {
-    "src": "assets/images/necklace.webp"
+    "src": "assets/images/healing-circle.webp"
   },
   {
-    "src": "assets/images/poison.webp"
+    "src": "assets/images/forgotten-archive.webp"
   },
   {
-    "src": "assets/images/reunion.webp"
+    "src": "assets/images/celestial-lightning.webp"
   },
   {
-    "src": "assets/images/moon-gate.webp"
+    "src": "assets/images/lich-arrival.webp"
   },
   {
-    "src": "assets/images/seal.webp"
+    "src": "assets/images/divine-awakening.webp"
   },
   {
-    "src": "assets/images/wedding.webp"
-  },
-  {
-    "src": "assets/images/family.webp"
+    "src": "assets/images/frosthold-renewed.webp"
   }
 ]
