@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "Gümüş Yılanın Gelini",
-  "short_name": "Gümüş Yılan",
+  "name": "Dahi Bilginin Geri Dönüşü",
+  "short_name": "Dahi Bilgin",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -20,5 +20,5 @@
       "type": "image/png"
     }
   ],
-  "description": "Gümüş Tahtın Laneti — Fantastik Romantik Roman"
+  "description": "51 Bölümlük Fantastik Roman"
 }
