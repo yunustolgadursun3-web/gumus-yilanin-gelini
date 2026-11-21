@@ -15,15 +15,15 @@
       <div class="thank-you-petals" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
       <article class="thank-you-paper">
         <span class="thank-you-blossom">${blossom}</span>
-        <p class="thank-you-eyebrow">SANA KÜÇÜK BİR NOT</p>
-        <h2 id="thank-you-title">İyi ki okudun,<br><em>hatun.</em></h2>
+        <p class="thank-you-eyebrow">SON SAYFADAN SEVGİYLE</p>
+        <h2 id="thank-you-title">Bu çiçek sana,<br><em>güzel hatun.</em></h2>
         <span class="thank-you-rule" aria-hidden="true">♡</span>
         <div class="thank-you-message">
-          <p>Hikâyeyi bitirdin! Umarım bu yolculuğu sen de benim kadar sevmişsindir.</p>
-          <p>Beğendiysen bu ekranın bir görüntüsünü alıp bana atar mısın, rica etsem?</p>
-          <p>Okuduğun ve bu hikâyeye zaman ayırdığın için teşekkür ederim.</p>
+          <p>Fredo’nun yolculuğu bitti. Ben de tam bu sayfada sana küçük bir sakura çiçeği sakladım.</p>
+          <p>Aklında kalan bir sahne varsa bana anlat. Mektubun ekran görüntüsünü de atarsan çok sevinirim.</p>
+          <p>İyi ki okudun. Bir dahaki hikâyede yine buluşalım.</p>
         </div>
-        <p class="thank-you-signature">Sevgiyle <span aria-hidden="true">♡</span></p>
+        <p class="thank-you-signature">Tavşanlardan da selam <span aria-hidden="true">♡</span></p>
       </article>
       <button class="thank-you-return" type="button">Mektubu kapat <span aria-hidden="true">♡</span></button>
     </div>`;
