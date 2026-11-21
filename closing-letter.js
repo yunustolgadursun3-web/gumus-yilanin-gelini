@@ -26,17 +26,46 @@
         <p class="thank-you-signature">Tavşanlardan da selam <span aria-hidden="true">♡</span></p>
       </article>
       <button class="thank-you-return" type="button">Mektubu kapat <span aria-hidden="true">♡</span></button>
+      <button class="rabbit-story-trigger" type="button" aria-haspopup="dialog" aria-controls="rabbit-story" aria-expanded="false">
+        <span aria-hidden="true">♡</span> Tavşanların küçük aşkı
+      </button>
     </div>`;
-  app.append(dialog);
+  const rabbitStory = document.createElement('dialog');
+  rabbitStory.id = 'rabbit-story';
+  rabbitStory.className = 'rabbit-story';
+  rabbitStory.setAttribute('aria-labelledby', 'rabbit-story-title');
+  rabbitStory.innerHTML = `
+    <form method="dialog">
+      <button class="thank-you-close" aria-label="Tavşanların hikâyesini kapat" autofocus>×</button>
+      <img class="rabbit-story-art" src="./assets/images/sakura-rabbit-story.webp" width="508" height="508" loading="lazy" alt="Sakura dallarının altında burun buruna iki beyaz tavşan.">
+      <div class="rabbit-story-paper">
+        <h2 id="rabbit-story-title">Tavşanların küçük aşkı</h2>
+        <p>Misket, sakura ağacının altında bulduğu en güzel yoncayı Boncuk’a uzattı. Boncuk yarısını ona geri verdi. “Böyle daha lezzetli,” dedi.</p>
+        <p>Derken yağmur başladı. İki tavşan, tek bir yaprağın altına sığmaya çalışırken kulakları birbirine dolandı. İkisi de gülmekten yerinden kıpırdayamadı.</p>
+        <p>O günden sonra gün batımında hep aynı ağacın altında buluştular. Misket yoncayı getirdi, Boncuk da yanına sokulması için her seferinde biraz yer açtı.</p>
+        <button class="thank-you-return">Mektuba dön <span aria-hidden="true">♡</span></button>
+      </div>
+    </form>`;
+  app.append(dialog, rabbitStory);
+
+  const rabbitButton = dialog.querySelector('.rabbit-story-trigger');
+  rabbitButton.addEventListener('click', () => {
+    rabbitStory.showModal();
+    rabbitStory.scrollTop = 0;
+    rabbitButton.setAttribute('aria-expanded', 'true');
+  });
+  rabbitStory.addEventListener('close', () => rabbitButton.setAttribute('aria-expanded', 'false'));
 
   function close() { dialog.close(); }
   dialog.querySelector('.thank-you-close').addEventListener('click', close);
   dialog.querySelector('.thank-you-return').addEventListener('click', close);
-  dialog.addEventListener('click', event => {
-    if (event.target !== dialog) return;
-    const bounds = dialog.getBoundingClientRect();
-    if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) close();
-  });
+  for (const panel of [dialog, rabbitStory]) {
+    panel.addEventListener('click', event => {
+      if (event.target !== panel) return;
+      const bounds = panel.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) panel.close();
+    });
+  }
   dialog.addEventListener('close', () => {
     document.querySelectorAll('.ending-letter-button').forEach(button => button.setAttribute('aria-expanded', 'false'));
   });

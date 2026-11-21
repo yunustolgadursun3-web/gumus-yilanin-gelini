@@ -73,7 +73,7 @@ const scenes = bible.scenes.map(input => {
   const anchor = point(input.phrase, chapter);
   const src = art(input.id);
   return { id: input.id, chapter: chapter.sourceChapter, anchor: anchor.quote, memoryQuote: anchor.quote,
-    src, alt: input.alt, ...imageSize(src), places: [input.place],
+    src, alt: input.alt, ...imageSize(src), places: [input.place], placement: input.placement,
     offset: anchor.sourceStart, memoryOffset: anchor.sourceStart, memoryUnlock: anchor.unlock };
 });
 const plan = {
@@ -91,7 +91,7 @@ const plan = {
     const images = chapterScenes.map((scene, sceneIndex) => ({
       id: scene.id, src: scene.src, alt: scene.alt, width: scene.width, height: scene.height,
       anchor: scene.anchor, artAfter: true,
-      placement: sceneIndex > 0 || index % 3 === 0 ? 'full' : 'inline',
+      placement: scene.placement || (sceneIndex > 0 || index % 3 === 0 ? 'full' : 'inline'),
       unlock: scene.memoryUnlock,
     }));
     const first = chapterScenes[0];
@@ -116,10 +116,13 @@ for (const place of facts.filter(item => item.kind === 'places')) {
   visuals[place.id] = { src: scene.src, type: 'illustration', scene: scene.id,
     unlock: Math.max(unlock, scene.memoryUnlock) };
   const memories = scenes.filter(s => s.places.includes(place.id));
+  const columns = memories.length > 9 ? 5 : 3;
+  const rows = Math.max(1, Math.ceil(memories.length / columns));
   locations[place.id] = { name: place.name, src: scene.src, areas: memories.map((memory, i) => ({
     id: memory.id, name: chapters[memory.chapter].title, label: chapters[memory.chapter].title.replace(/^BÖLÜM \d+ — /u, ''),
     quote: memory.anchor, sourceChapter: memory.chapter, src: memory.src, memorySrc: memory.src,
-    x: 33 + (i % 3) * 20, y: 37 + Math.floor(i / 3) * 14,
+    x: columns === 3 ? 28 + (i % columns) * 22 : 14 + (i % columns) * 18,
+    y: rows < 4 ? 37 + Math.floor(i / columns) * 14 : 23 + Math.floor(i / columns) * 54 / (rows - 1),
     sourceStart: memory.offset, sourceEnd: memory.memoryUnlock, unlock: Math.max(memory.memoryUnlock, place.unlock),
     chapter: { id: chapters[memory.chapter].id, number: chapters[memory.chapter].number,
       sourceChapter: memory.chapter, title: chapters[memory.chapter].title, offset: chapters[memory.chapter].offset },
