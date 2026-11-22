@@ -1468,7 +1468,10 @@
     let top = page.offsetTop;
     const offset = sourceOffsetForCurrentPage();
     if (offset > Number(page.dataset.sourceStart) && page.dataset.pageType === 'text') {
-      const character = rangeForSource(offset, offset, page)?.getBoundingClientRect();
+      // A collapsed range can land on the line breaks before the requested paragraph.
+      const end = Math.min(offset + 1, Number(page.dataset.sourceEnd));
+      const glyph = rangeForSource(offset, end, page)?.getBoundingClientRect();
+      const character = glyph?.height ? glyph : rangeForSource(offset, offset, page)?.getBoundingClientRect();
       if (character?.height) top = el.spread.scrollTop + character.top - el.spread.getBoundingClientRect().top - 24;
     }
     el.spread.scrollTop = top;

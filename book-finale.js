@@ -3,6 +3,7 @@
   const app = document.getElementById('app');
   const world = window.STORY_WORLD;
   if (!app || !world) return;
+  const questions = world.chronicle?.quiz || [];
 
   const journey = [
     ['mountain-lesson', 'Dağ kulübesindeki ilk ders'],
@@ -30,6 +31,7 @@
       <button type="button" data-finale-view="letters" aria-controls="finale-letters">Mektuplar</button>
       <button type="button" data-finale-view="album" aria-controls="finale-album">Final albümü</button>
       <button type="button" data-finale-view="newspaper" aria-controls="finale-newspaper">Gazete</button>
+      ${questions.length ? '<button type="button" data-finale-view="quiz" aria-controls="finale-quiz">Bilgi testi</button>' : ''}
     </nav>
     <div class="finale-content">
       <section id="finale-compare" data-finale-panel="compare">
@@ -117,6 +119,7 @@
           </div>
         </div>
       </section>
+      ${questions.length ? '<section id="finale-quiz" data-finale-panel="quiz" hidden><h3>Yolculuğu ne kadar hatırlıyorsun?</h3><div class="finale-quiz-body"></div></section>' : ''}
     </div>`;
   app.append(dialog);
 
@@ -177,6 +180,104 @@
       showScene();
     });
   }
+  if (questions.length) setupQuiz(dialog.querySelector('.finale-quiz-body'));
+
+  function setupQuiz(body) {
+    let answers = [];
+    const make = (tag, text) => {
+      const node = document.createElement(tag);
+      if (text !== undefined) node.textContent = text;
+      return node;
+    };
+    function action(label, click) {
+      const control = make('button', label);
+      control.type = 'button';
+      control.addEventListener('click', click);
+      return control;
+    }
+    function focusHeading(node) {
+      node.tabIndex = -1;
+      node.focus();
+    }
+
+    function questionPage() {
+      const index = answers.length;
+      const question = questions[index];
+      const step = make('p', `Soru ${index + 1} / ${questions.length}`);
+      step.className = 'finale-quiz-step';
+      const form = make('form');
+      const choices = make('fieldset');
+      const questionLabel = make('legend', question.question);
+      choices.append(questionLabel);
+      const options = question.choices.map((choice, number) => {
+        const label = make('label');
+        const radio = make('input');
+        radio.type = 'radio';
+        radio.name = 'quiz-answer';
+        radio.value = String(number);
+        radio.required = true;
+        label.append(radio, make('span', choice));
+        choices.append(label);
+        return label;
+      });
+      const check = make('button', 'Cevabı kontrol et');
+      check.type = 'submit';
+      const feedback = make('div');
+      feedback.className = 'finale-quiz-feedback';
+      feedback.setAttribute('role', 'status');
+      const controls = make('div');
+      controls.className = 'finale-quiz-controls';
+      controls.append(check);
+      form.append(choices, feedback, controls);
+      form.addEventListener('submit', event => {
+        event.preventDefault();
+        const selected = choices.querySelector('input:checked');
+        if (!selected || choices.disabled) return;
+        const answer = Number(selected.value);
+        answers.push(answer);
+        choices.disabled = true;
+        options[question.answer].dataset.answer = 'correct';
+        if (answer !== question.answer) options[answer].dataset.answer = 'wrong';
+        const result = answer === question.answer ? 'Doğru cevap!' : 'Doğru cevap · ' + question.choices[question.answer];
+        feedback.append(make('strong', result), make('blockquote', question.quote));
+        const done = answers.length === questions.length;
+        const next = action(done ? 'Sonucu gör' : 'Sonraki soru →', done ? resultPage : questionPage);
+        controls.replaceChildren(next);
+        next.focus({ preventScroll: true });
+      });
+      body.replaceChildren(step, form);
+      focusHeading(questionLabel);
+    }
+
+    function resultPage() {
+      const correct = answers.filter((answer, index) => answer === questions[index].answer).length;
+      const score = make('h4', `${questions.length} soruda ${correct} doğru`);
+      score.className = 'finale-quiz-score';
+      const review = make('ol');
+      review.className = 'finale-quiz-review';
+      questions.forEach((question, index) => {
+        const item = make('li');
+        const answer = question.choices[question.answer];
+        const correct = answers[index] === question.answer;
+        item.append(make('strong', question.question), make('p', (correct ? 'Doğru · ' : 'Doğru cevap · ') + answer),
+          action('Sahneye dön', async () => {
+            dialog.close();
+            await window.BookReader.seek(question.sourceStart, { preferText: true });
+            window.BookChronicle?.readingFocus();
+          }));
+        review.append(item);
+      });
+      body.replaceChildren(score, review, action('Tekrar çöz', () => {
+        answers = [];
+        questionPage();
+      }));
+      focusHeading(score);
+    }
+
+    const intro = make('p', 'Dağ kulübesinden Frosthold meydanına uzanan yolculuktan beş soru.');
+    body.append(intro, action('Teste başla', questionPage));
+  }
+
   function show(view) {
     for (const section of sections) section.hidden = section.dataset.finalePanel !== view;
     for (const button of tabs) {
