@@ -1038,6 +1038,20 @@
       "sha256": "6ba5370be1df1c13b2fc36fa32dc6f6064125dfbf545b5cb541164856c5a0d40"
     },
     {
+      "id": "frosthold-final-once.webp",
+      "src": "assets/images/frosthold-final-once.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "c6e0996b3f94de441fbd168e369fc5fc6949b6642b7081e51169bf8c0a9deaca"
+    },
+    {
+      "id": "frosthold-final-sonra.webp",
+      "src": "assets/images/frosthold-final-sonra.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "2d5aaeae6ffa1e17613c07ead0068a538aae43b432839222728b7fa5a16e9e97"
+    },
+    {
       "id": "frosthold-hatira-karti-preview.webp",
       "src": "assets/images/frosthold-hatira-karti-preview.webp",
       "storyId": "dahi-bilginin-geri-donusu",

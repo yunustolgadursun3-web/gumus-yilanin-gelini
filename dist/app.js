@@ -119,7 +119,6 @@
     pageNext: document.querySelector('#page-next'),
     shell: document.querySelector('#book-shell'),
     spread: document.querySelector('#book-spread'),
-    turnLayer: document.querySelector('#turn-layer'),
     range: document.querySelector('#progress-range'),
     pageCount: document.querySelector('#page-count'),
     coverButton: document.querySelector('#cover-button'),
@@ -165,7 +164,6 @@
     coverTimer: 0,
     gesture: null,
     isTurning: false,
-    activeTurn: null,
     turnTimer: 0,
     audio: {
       context: null,
@@ -362,7 +360,7 @@
       if (bookPlan.cover?.alt) coverImage.alt = bookPlan.cover.alt;
       if (bookPlan.cover?.width) coverImage.width = bookPlan.cover.width;
       if (bookPlan.cover?.height) coverImage.height = bookPlan.cover.height;
-      cover.setAttribute('aria-label', info.title + ' kitabının üç boyutlu önizlemesini aç');
+      cover.setAttribute('aria-label', info.title + ' kitabını aç');
       const print = cover.querySelector('.cover-print-title');
       if (print) {
         const title = [...print.childNodes].filter(node => node.nodeType === Node.TEXT_NODE).map(node => node.textContent.trim()).filter(Boolean).join(' ');
@@ -1589,8 +1587,6 @@
     el.pageCount.textContent = label;
     const offset = sourceOffsetForCurrentPage();
     if (el.gallery.open) syncGallery(offset);
-    const bound = ['physical', 'cinematic'].includes(state.settings.readingMode) && state.settings.bookDepth !== 'flat';
-    window.BookPhysics?.binding(el.shell, offset, state.text.length, singlePage(), bound);
     el.range.setAttribute('aria-valuetext', `${continuousMode() ? 'Kesit' : 'Sayfa'} ${label}`);
     const step = singlePage() ? 1 : 2;
     const setNavState = (button, disabled) => {
@@ -1615,8 +1611,9 @@
   function fadeSpread() {
     if (motionReduced()) return;
     const single = singlePage();
+    const speed = Math.max(.6, Math.min(1.6, Number(state.settings.turnSpeed) || 1));
     return el.spread.animate?.([{ opacity: single ? .88 : .62 }, { opacity: 1 }],
-      { duration: single ? 140 : 170, easing: 'ease-out' });
+      { duration: (single ? 140 : 170) / speed, easing: 'ease-out' });
   }
 
   function goTo(target, { animate = false, source = 'user', offset = null } = {}) {
@@ -1648,56 +1645,11 @@
     return target >= 0 && target < state.pages.length ? target : null;
   }
 
-  function physicalMotion() {
-    return ['physical', 'cinematic'].includes(state.settings.readingMode) &&
-      window.BookPhysics?.canAnimate(motionReduced() || state.settings.focusMode, state.settings.bookDepth);
-  }
-
-  function startLeaf(direction, target) {
-    if (singlePage() || !physicalMotion()) return null;
-    const side = direction > 0 ? 'right' : 'left';
-    const other = direction > 0 ? 'left' : 'right';
-    const outgoing = el.spread.querySelector(`.book-page--${side}`);
-    if (!outgoing) return null;
-    const reverseIndex = direction < 0 ? target + 1 : target;
-    const underIndex = direction > 0 ? target + 1 : target;
-    const preview = (index, position) => makePage(state.pages[index] || { type: 'rear' }, position, index, true);
-    const effect = window.BookPhysics.leaf({
-      layer: el.turnLayer, outgoing, direction,
-      reverse: preview(reverseIndex, other),
-      under: preview(underIndex, side),
-      light: state.settings.bookDepth === 'light', speed: state.settings.turnSpeed,
-    });
-    if (!effect) return null;
-    state.isTurning = true;
-    const turn = { effect, target, direction, settling: false };
-    state.activeTurn = turn;
-    return turn;
-  }
-
-  function settleLeaf(turn, commit, fraction, velocity = 0) {
-    if (state.activeTurn !== turn || turn.settling) return;
-    turn.settling = true;
-    if (commit) window.BookSounds?.page();
-    turn.effect.settle(commit, fraction, velocity, () => {
-      if (state.activeTurn !== turn) return;
-      state.activeTurn = null;
-      turn.effect.destroy();
-      try {
-        if (commit && state.readerOpen) goTo(turn.target, { source: 'turn' });
-      } finally {
-        state.isTurning = false;
-      }
-    });
-  }
-
   function cancelTurn() {
     state.gesture = null;
     window.clearTimeout(state.turnTimer);
     state.turnAnimation?.cancel();
     state.turnAnimation = null;
-    state.activeTurn?.effect.destroy();
-    state.activeTurn = null;
     state.isTurning = false;
   }
 
@@ -1707,12 +1659,6 @@
     if (target === null) return;
     if (continuousMode()) {
       goTo(target);
-      return;
-    }
-    stopCoverTransition();
-    const turn = startLeaf(direction, target);
-    if (turn) {
-      settleLeaf(turn, true, 0);
       return;
     }
     state.isTurning = true;
@@ -1725,7 +1671,7 @@
       state.turnAnimation = null;
       state.isTurning = false;
     };
-    state.turnTimer = window.setTimeout(unlock, animation ? 260 : 100);
+    state.turnTimer = window.setTimeout(unlock, animation ? Number(animation.effect.getTiming().duration) + 80 : 100);
     animation?.finished.then(unlock, unlock);
   }
 
@@ -1862,10 +1808,6 @@
     el.app.dataset.atmosphereIntensity = state.settings.atmosphereIntensity;
     const effectsToggle = document.querySelector('#scene-effects');
     if (effectsToggle) effectsToggle.checked = state.settings.microEffects !== false;
-    if (!physicalMotion()) {
-      if (state.activeTurn) cancelTurn();
-      stopCoverTransition();
-    }
     if (motionReduced() || state.settings.microEffects === false || state.settings.atmosphereIntensity === 'off' || state.settings.focusMode) window.BookSceneFx?.clear();
     document.querySelector('#focus-exit').hidden = !state.settings.focusMode;
     const focusToggle = document.querySelector('#focus-mode');
@@ -2163,7 +2105,7 @@
     window.clearTimeout(state.resizing);
     state.resizing = window.setTimeout(() => {
       if (!state.readerOpen) return;
-      if (state.isTurning || activeCoverTransition) {
+      if (state.isTurning) {
         if (attempts < 6) requestRebuild(120, attempts + 1);
         return;
       }
@@ -2173,10 +2115,6 @@
 
   async function showReader({ restore = false, anchor = null, preferText = false, leaf = null, preserveBookmark = false } = {}) {
     if (state.isTurning) return;
-    stopCoverTransition();
-    stopCoverDemo();
-    const cover = el.cover.querySelector('.cover-art');
-    const closedBox = !el.cover.hidden ? cover?.getBoundingClientRect() : null;
     state.isTurning = true;
     const startLabel = el.start.querySelector('span');
     const originalLabel = startLabel?.textContent;
@@ -2203,7 +2141,6 @@
       window.clearTimeout(state.coverTimer);
       el.cover.classList.remove('is-opening');
       el.cover.hidden = true;
-      moveCover(cover, closedBox, el.shell.getBoundingClientRect(), false);
       (continuousMode() ? el.spread : el.stage).focus({ preventScroll: true });
       if (!continuousMode()) showGestureHint();
     } finally {
@@ -2213,200 +2150,12 @@
     }
   }
 
-  let activeCoverTransition;
-
-  function stopCoverTransition() {
-    activeCoverTransition?.();
-    activeCoverTransition = null;
-  }
-
-  function moveCover(source, closedBox, openBox, closing) {
-    if (!source || !closedBox || !physicalMotion()) return;
-    activeCoverTransition = window.BookPhysics.cover({
-      app: el.app, source, shell: el.shell, closedBox, openBox, closing, single: singlePage(),
-      finish() { activeCoverTransition = null; },
-    });
-  }
-
-  // A self-contained cover preview: no reader navigation, story or storage writes.
-  let stopCoverDemo = () => {};
-  function initCoverDemo() {
-    const book = el.cover.querySelector('.cover-art');
-    const hint = book.querySelector('.cover-open-hint');
-    const idleHint = hint.textContent;
-    let run = null;
-    const node = (className, parent) => {
-      const item = document.createElement('div');
-      item.className = className;
-      parent.append(item);
-      return item;
-    };
-    // Decorative flyleaves only; these never enter the story or narration.
-    const journalPrint = (parent, page) => {
-      const print = node('demo-paper-print demo-story-print', parent);
-      const limit=readerLocation().offset;
-      const available=bookPlan.preview.filter(item=>{const chapter=bookPlan.chapters.find(c=>c.title===item.title),scene=window.STORY_WORLD?.scenes.find(s=>s.id===chapter?.id);return scene&&(scene.memoryUnlock??scene.offset)<=limit;});
-      const safePreview=available.length?available:[bookPlan.preview[0]];
-      const item = safePreview[page % safePreview.length];
-      const header = document.createElement('small');
-      header.textContent = bookPlan.title;
-      const heading = document.createElement('strong');
-      heading.textContent = item.title;
-      const image = document.createElement('img');
-      image.className = 'demo-story-image';
-      image.src = './' + item.image;
-      image.alt = '';
-      image.decoding = 'async';
-      image.loading = 'lazy';
-      const quote = document.createElement('blockquote');
-      quote.textContent = item.quote;
-      const folio = document.createElement('small');
-      folio.textContent = String(page + 1).padStart(2, '0') + ' · ALTI KRALLIK ARŞİVİ';
-      print.append(header, heading, image, quote, folio);
-      window.BookEnchant?.decoratePreview(print, item);
-      return print;
-    };
-    stopCoverDemo = () => {
-      if (!run) return;
-      const current = run;
-      run = null;
-      window.BookEnchant?.clearPreview();
-      window.clearTimeout(current.timer);
-      current.animations.forEach((animation) => animation.cancel());
-      current.rig.remove();
-      book.classList.remove('is-book-demo');
-      book.removeAttribute('aria-busy');
-      hint.textContent = idleHint;
-    };
-    const start = async () => {
-      if (run || el.cover.hidden) return;
-      window.BookSounds?.page();
-      const rig = node('demo-rig', book);
-      rig.setAttribute('aria-hidden', 'true');
-      const pose = node('demo-pose', rig);
-      const shadow = node('demo-ground-shadow', pose);
-      const left = node('demo-board demo-board--left', pose);
-      const right = node('demo-board demo-board--right', pose);
-      window.BookPhysics?.solidify(left);
-      window.BookPhysics?.solidify(right);
-      journalPrint(left, 14);
-      journalPrint(right, 15);
-      node('demo-gutter', pose);
-      const sheets = [];
-      for (let i = 0; i < 7; i += 1) {
-        const sheet = node('demo-sheet', pose);
-        sheet.dataset.leaf = String(i + 1);
-        let parent = sheet;
-        const bends = [];
-        for (let part = 0; part < 4; part += 1) {
-          const strip = node(`demo-strip${part ? ' demo-strip--nested' : ''}`, parent);
-          for (const back of [false, true]) {
-            const face = node(`demo-paper-face demo-paper-${back ? 'back' : 'front'}`, strip);
-            const print = journalPrint(face, i * 2 + Number(back));
-            print.style.left = `${-(back ? 3 - part : part) * 100}%`;
-          }
-          bends.push(strip);
-          parent = strip;
-        }
-        sheets.push({ sheet, bends });
-      }
-      const front = node('demo-cover-hinge', pose);
-      const frontFace = node('demo-cover-face demo-cover-front', front);
-      const image = book.querySelector(':scope > img').cloneNode(true);
-      image.alt = '';
-      frontFace.append(image);
-      node('demo-cover-face demo-cover-back', front);
-      window.BookPhysics?.solidify(front, { back: false });
-      const current = { rig, animations: [], timer: 0 };
-      run = current;
-      book.classList.add('is-book-demo');
-      book.setAttribute('aria-busy', 'true');
-      hint.textContent = 'Kitap önizlemesi · Esc ile kapat';
-      const width = book.clientWidth;
-      const scale = Math.min(isMobile() ? .96 : .7, (innerWidth - 48) / (2 * width));
-      const opened = `translate3d(${width * scale / 2}px,-4px,20px) scale(${scale})`;
-      const coverOpen = 'translateZ(-3px) rotateY(-178deg)';
-      if (motionReduced() || !Element.prototype.animate) {
-        pose.style.transform = opened;
-        front.style.transform = coverOpen;
-        sheets.forEach(({ sheet }, i) => { sheet.style.transform = `translateZ(${5 + i * .5}px) rotateY(-178deg)`; });
-        current.timer = window.setTimeout(stopCoverDemo, 1600);
-        return;
-      }
-      const duration = 7800;
-      const animate = (target, frames) => {
-        const animation = target.animate(frames, { duration, fill: 'both', easing: 'linear' });
-        current.animations.push(animation);
-      };
-      const resting = 'translate3d(0,0,0) scale(1)';
-      animate(pose, [
-        { offset: 0, transform: resting, easing: 'ease-in-out' },
-        { offset: .13, transform: opened }, { offset: .84, transform: opened, easing: 'ease-in-out' },
-        { offset: 1, transform: resting }
-      ]);
-      animate(front, [
-        { offset: 0, transform: 'translateZ(14px) rotateY(0deg)', easing: 'cubic-bezier(.3,.6,.25,1)' },
-        { offset: .14, transform: coverOpen }, { offset: .83, transform: coverOpen, easing: 'ease-in-out' },
-        { offset: .96, transform: 'translateZ(14px) rotateY(0deg)' }, { offset: 1, transform: 'translateZ(14px) rotateY(0deg)' }
-      ]);
-      for (const surface of [left, shadow]) animate(surface, [{ opacity: 0, offset: 0 }, { opacity: 1, offset: .14 }, { opacity: 1, offset: .86 }, { opacity: 0, offset: 1 }]);
-      sheets.forEach(({ sheet, bends }, i) => {
-        const begin = 1100 + i * 480, end = begin + 900;
-        const back = 5350 + (6 - i) * 75, finish = back + 600;
-        const closed = `translateZ(${8 - i * .6}px) rotateY(0deg)`;
-        const turned = `translateZ(${9 + i * .45}px) rotateY(-178deg)`;
-        animate(sheet, [
-          { offset: 0, transform: closed }, { offset: begin / duration, transform: closed, easing: 'cubic-bezier(.4,.05,.25,1)' },
-          { offset: end / duration, transform: turned }, { offset: back / duration, transform: turned, easing: 'ease-in-out' },
-          { offset: finish / duration, transform: closed }, { offset: 1, transform: closed }
-        ]);
-        bends.forEach((strip, part) => {
-          const curl = 7 + part * 3;
-          animate(strip, [
-            { offset: 0, transform: 'rotateY(0deg)' }, { offset: begin / duration, transform: 'rotateY(0deg)' },
-            { offset: (begin + 330) / duration, transform: `rotateY(${curl}deg)` },
-            { offset: (begin + 650) / duration, transform: `rotateY(${-curl * .4}deg)` },
-            { offset: end / duration, transform: 'rotateY(0deg)' }, { offset: back / duration, transform: 'rotateY(0deg)' },
-            { offset: (back + 220) / duration, transform: `rotateY(${-curl}deg)` },
-            { offset: finish / duration, transform: 'rotateY(0deg)' }, { offset: 1, transform: 'rotateY(0deg)' }
-          ]);
-        });
-      });
-      try { await Promise.all(current.animations.map((animation) => animation.finished)); }
-      catch { /* Navigation, resize and hidden tabs cancel this decorative preview. */ }
-      finally { if (run === current) stopCoverDemo(); }
-    };
-    book.addEventListener('click', (event) => { event.stopPropagation(); start(); });
-    book.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') { stopCoverDemo(); return; }
-      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); event.stopPropagation(); if (!event.repeat) start(); }
-    });
-    el.coverTocOpen.addEventListener('click', stopCoverDemo);
-    window.addEventListener('resize', stopCoverDemo, { passive: true });
-    document.addEventListener('visibilitychange', () => { if (document.hidden) stopCoverDemo(); });
-    REDUCED_MOTION.addEventListener?.('change', stopCoverDemo);
-  }
-
-  let foldingCover = false;
-  function showCover(event, folded = false) {
-    if (foldingCover) return;
+  function showCover() {
     document.dispatchEvent(new CustomEvent('book:panel-open', { detail: 'home' }));
     if (!state.readerOpen) {
       el.start.focus({ preventScroll: true });
       return;
     }
-    if (!folded && state.readerOpen && physicalMotion() && !state.activeTurn &&
-        window.BookPopup?.closeBeforeCover(() => {
-          foldingCover = false;
-          state.isTurning = false;
-          showCover(null, true);
-        })) {
-      foldingCover = true;
-      state.isTurning = true;
-      return;
-    }
-    const openBox = el.shell.getBoundingClientRect();
-    stopCoverTransition();
     cancelTurn();
     window.BookSceneFx?.clear();
     if (!state.bookmarkSuspended) persistBookmark();
@@ -2423,8 +2172,6 @@
     el.cover.classList.remove('is-opening');
     el.cover.hidden = false;
     syncCoverResume();
-    const cover = el.cover.querySelector('.cover-art');
-    moveCover(cover, cover?.getBoundingClientRect(), openBox, true);
     el.start.focus({ preventScroll: true });
   }
 
@@ -2438,41 +2185,9 @@
   function handlePointerDown(event) {
     if (!state.readerOpen || continuousMode() || state.isTurning || state.gesture || event.button > 0) return;
     if (el.stage.dataset.selectText === 'true' || event.target.closest('button, a, input, select, textarea, [contenteditable]')) return;
-    stopCoverTransition();
     const rect = el.stage.getBoundingClientRect();
-    const box = el.shell.getBoundingClientRect();
-    const x = (event.clientX - box.left) / box.width;
-    const y = (event.clientY - box.top) / box.height;
-    const inCorner = !singlePage() && y >= 0 && y <= 1 && (y < .28 || y > .72);
-    const direction = inCorner && x >= 0 && x <= 1 ? (x > .77 ? 1 : x < .23 ? -1 : 0) : 0;
-    const now = performance.now();
-    state.gesture = {
-      pointer: event.pointerId, x: event.clientX, y: event.clientY, at: now, rect,
-      direction, travel: box.width, fraction: 0, lastX: event.clientX, lastAt: now, velocity: 0, turn: null,
-    };
+    state.gesture = { pointer: event.pointerId, x: event.clientX, y: event.clientY, at: performance.now(), rect };
     try { el.stage.setPointerCapture(event.pointerId); } catch { /* no-op */ }
-  }
-
-  function handlePointerMove(event) {
-    const gesture = state.gesture;
-    if (!gesture || gesture.pointer !== event.pointerId || !gesture.direction) return;
-    const dx = (gesture.x - event.clientX) * gesture.direction;
-    const dy = event.clientY - gesture.y;
-    const now = performance.now();
-    const delta = (gesture.lastX - event.clientX) * gesture.direction;
-    if (Math.abs(delta) > .5) {
-      const instantaneous = delta / Math.max(6, now - gesture.lastAt);
-      gesture.velocity = gesture.velocity * .25 + instantaneous * .75;
-      gesture.lastX = event.clientX;
-      gesture.lastAt = now;
-    }
-    if (!gesture.turn && !state.isTurning && dx > 7 && dx > Math.abs(dy) * 1.05) {
-      const target = turnTarget(gesture.direction);
-      if (target !== null) gesture.turn = startLeaf(gesture.direction, target);
-    }
-    if (!gesture.turn) return;
-    gesture.fraction = Math.max(0, Math.min(1, dx / Math.max(1, gesture.travel * .76)));
-    gesture.turn.effect.move(gesture.fraction);
   }
 
   function handlePointerUp(event) {
@@ -2483,13 +2198,6 @@
     const dx = event.clientX - gesture.x;
     const dy = event.clientY - gesture.y;
     const elapsed = performance.now() - gesture.at;
-    if (gesture.turn) {
-      const fraction = Math.max(0, Math.min(1, -dx * gesture.direction / Math.max(1, gesture.travel * .76)));
-      const velocity = performance.now() - gesture.lastAt <= 115 ? gesture.velocity : 0;
-      const commit = fraction >= .30 || (fraction >= .075 && velocity > .42);
-      settleLeaf(gesture.turn, commit, fraction, velocity);
-      return;
-    }
     const horizontalSwipe = Math.abs(dx) > 42 && Math.abs(dx) > Math.abs(dy) * 1.2;
     if (horizontalSwipe) {
       navigate(dx < 0 ? 1 : -1);
@@ -2514,7 +2222,6 @@
     const gesture = state.gesture;
     if (!gesture || (event && gesture.pointer !== event.pointerId)) return;
     state.gesture = null;
-    if (gesture.turn) settleLeaf(gesture.turn, false, gesture.fraction);
   }
 
   function bindEvents() {
@@ -2530,7 +2237,15 @@
       state.settings.microEffects = event.target.checked;
       applySettings();
     });
-    el.start.addEventListener('click', () => { showReader({ restore: false }).catch(fail); });
+    const openBook = () => showReader({ restore: false }).catch(fail);
+    el.start.addEventListener('click', openBook);
+    const coverArt = el.cover.querySelector('.cover-art');
+    coverArt?.addEventListener('click', openBook);
+    coverArt?.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      openBook();
+    });
     el.continueReading?.addEventListener('click', () => { showReader({ restore: true }).catch(fail); });
     el.coverTocOpen?.addEventListener('click', openGallery);
     document.querySelector('#reader-toc-open').addEventListener('click', openGallery);
@@ -2591,7 +2306,6 @@
       clearFlowTracking();
     });
     el.stage.addEventListener('pointerdown', handlePointerDown);
-    el.stage.addEventListener('pointermove', handlePointerMove, { passive: true });
     el.stage.addEventListener('pointerup', handlePointerUp);
     el.stage.addEventListener('pointercancel', handlePointerCancel);
     el.stage.addEventListener('lostpointercapture', handlePointerCancel);
@@ -2601,7 +2315,7 @@
         closeSettings({ restoreFocus: true });
         return;
       }
-      if (event.key === 'Escape' && state.gesture?.turn) { handlePointerCancel(); return; }
+      if (event.key === 'Escape' && state.gesture) { handlePointerCancel(); return; }
       if (!el.settings.hidden || document.querySelector('#music-panel:not([hidden]), #reader-quick-panel:not([hidden])')) return;
       // Do not steal native keyboard behaviour from controls in the settings panel,
       // the cover button, or the progress slider.
@@ -2616,17 +2330,14 @@
       }
     });
     window.addEventListener('resize', () => {
-      if (state.activeTurn) cancelTurn();
-      stopCoverTransition();
       requestRebuild();
     }, { passive: true });
     document.addEventListener('visibilitychange', () => {
       if (!document.hidden) return;
       cancelTurn();
-      stopCoverTransition();
     });
     REDUCED_MOTION.addEventListener?.('change', () => {
-      if (motionReduced()) { cancelTurn(); stopCoverTransition(); }
+      if (motionReduced()) cancelTurn();
     });
     MOBILE_QUERY.addEventListener?.('change', () => {
       requestRebuild(0);
@@ -2683,7 +2394,6 @@
       applySettings({ fromProfile:true });
       setCoverContent();
       bindEvents();
-      initCoverDemo();
       bindAmbientPointer();
       document.fonts?.addEventListener('loadingdone', () => {
         pageLayouts.clear();
@@ -2759,7 +2469,6 @@ document.addEventListener('visibilitychange', () => {
       if (mode === 'cinematic') exitCinematicFullscreen();
       el.hint.hidden = true;
       cancelTurn();
-      stopCoverTransition();
     }
     const geometry = ['fontScale','lineHeight','readerFont','letterSpacing','paragraphSpacing','textWidth','pageMargin','textAlign','theme',...window.BookStyleStudio?.geometry || []];
     const repaginate = modeChanged || geometry.some((key) => key in next && next[key] !== state.settings[key]);

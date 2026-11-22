@@ -12,17 +12,15 @@ for (const script of ['build.js', 'validate.js']) {
 }
 const output = path.join(root, 'dist');
 fs.mkdirSync(output, {recursive:true});
-const files = ['index.html','style.css','world.css','app.js','reader-comfort.js','world-data.js','story-world.js','living-world.js','manuscript.js','location-explorer.js','atlas-ui.js','atlas-living.js','story-effects.js','media-manifest.json','story-theme.json','kitap-sesleri.js','sahne-fx.js','story.js','sw.js','manifest.webmanifest','svg-sahne.js','video-manifest.json','plan.json'];
-files.push('book-physics.js', 'book-physics.css');
-files.push('book-mesh.js', 'popup-fold-rig.js', 'book-popup.js', 'book-popup.css');
+const files = ['index.html','style.css','world.css','app.js','reader-comfort.js','world-data.js','story-world.js','living-world.js','manuscript.js','atlas-ui.js','story-effects.js','media-manifest.json','story-theme.json','kitap-sesleri.js','sahne-fx.js','story.js','sw.js','manifest.webmanifest','svg-sahne.js','video-manifest.json','plan.json'];
 files.push('reader-modes.css', 'book-notebook.js', 'book-notebook.css');
 files.push('reader-focus.js', 'reader-focus.css');
 files.push('book-style-studio.js', 'book-style-studio.css', 'book-binding-studio.js');
-files.push('book-room.js', 'book-room.css', 'book-layer-scenes.js', 'book-illustration-studio.js', 'book-illustration-studio.css');
+files.push('book-room.js', 'book-room.css');
 files.push('reader-notes.js', 'reader-notes.css');
 files.push('book-library.js', 'book-library.css', 'book-library-data.js', 'book-offline.js', 'book-audiobook.js');
 files.push('edition.css', 'edition.js', 'reading-route.js', 'scene-seals.js');
-files.push('closing-letter.css', 'closing-letter.js');
+files.push('closing-letter.css', 'closing-letter.js', 'book-finale.css', 'book-finale.js');
 for (const file of files) fs.copyFileSync(path.join(root,file),path.join(output,file));
 fs.cpSync(path.join(root,'assets'),path.join(output,'assets'),{recursive:true,filter:file=>!file.endsWith('.json')||file.endsWith('muzik.json')});
 const config = JSON.parse(fs.readFileSync(path.join(root,'book.config.json'),'utf8'));
@@ -38,8 +36,7 @@ function assets(directory) {
     return entry.isDirectory() ? assets(name) : [name];
   });
 }
-const onDemand = new Set(['book-mesh.js','popup-fold-rig.js','book-popup.js','atlas-living.js','location-explorer.js']);
-const core = ['./', ...files.filter(file=>/\.(css|js|webmanifest)$/i.test(file) && file!=='sw.js' && !onDemand.has(file)).map(file=>'./'+file), './offline-manifest.json'];
+const core = ['./', ...files.filter(file=>/\.(css|js|webmanifest)$/i.test(file) && file!=='sw.js').map(file=>'./'+file), './offline-manifest.json'];
 for (const file of [plan.cover.src.replace(/\.webp$/, '-480.webp'),'assets/images/frosthold-atlas-480.webp','assets/images/reading-rabbit.webp','assets/images/sakura-letter.webp','assets/images/sakura-rabbit-story.webp','assets/images/book-sigil.svg','assets/images/favicon.svg','assets/fonts/lora.woff2','assets/fonts/lora-italic.woff2','assets/fonts/cinzel.woff2']) {
   if (fs.existsSync(path.join(output,file))) core.push('./'+file);
 }

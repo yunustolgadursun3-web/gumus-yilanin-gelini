@@ -1,0 +1,104 @@
+#app .finale-entry,
+#app #book-finale button {
+  min-height: 2.75rem;
+  padding: .55rem .9rem;
+  border: 1px solid #b29362;
+  border-radius: .45rem;
+  background: #f3e7ce;
+  color: #4b3c26;
+  font: 600 .8rem/1.35 system-ui, sans-serif;
+  cursor: pointer;
+}
+#app .finale-entry { flex: none; margin-top: .85rem; }
+#app .finale-entry:hover,
+#app #book-finale button[aria-current="true"] { background: #274443; color: #fff2d8; border-color: #557d77; }
+#app #book-finale button:disabled { opacity: .52; cursor: default; }
+#app :is(.finale-entry, #book-finale button, #book-finale summary, #book-finale input):focus-visible {
+  outline: 2px solid #8d622f;
+  outline-offset: 3px;
+}
+#app #book-finale {
+  position: fixed;
+  width: min(54rem, calc(100vw - 1.25rem));
+  max-height: calc(100dvh - 1.25rem);
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 1px solid #a88e5d;
+  border-radius: .85rem;
+  background: #f6efdf;
+  color: #2c3732;
+  box-shadow: 0 18px 65px #0c1b1db3;
+}
+#app #book-finale::backdrop { background: #0b181bba; backdrop-filter: blur(4px); }
+#app .finale-header {
+  display: flex;
+  gap: .75rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: .85rem clamp(.9rem, 4vw, 1.8rem);
+  background: linear-gradient(115deg, #153233, #244947);
+  color: #f8ecd0;
+  border-bottom: 1px solid #ac8e59;
+}
+#app .finale-header h2 { margin: 0; font: 600 clamp(1.2rem, 4.6vw, 1.8rem)/1.24 Lora, Georgia, serif; }
+#app #book-finale .finale-close { width: 2.75rem; padding: 0; font-size: 1.35rem; }
+#app .finale-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .42rem;
+  padding: .75rem clamp(.75rem, 4vw, 1.8rem);
+  border-bottom: 1px solid #d9c9a9;
+}
+#app .finale-menu button { flex: 1 1 auto; padding-inline: .6rem; }
+#app .finale-content { padding: .9rem clamp(.75rem, 4vw, 1.8rem) 1.35rem; }
+#app .finale-content h3 { margin: 0 0 .75rem; color: #324e47; font: 600 1.25rem/1.4 Lora, Georgia, serif; }
+#app .finale-compare-art {
+  --before-width: 50%;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3 / 2;
+  border: 1px solid #947c52;
+  border-radius: .45rem;
+  background: #304c53;
+}
+#app .finale-compare-art img { display: block; width: 100%; height: 100%; object-fit: cover; }
+#app .finale-before { position: absolute; inset: 0; clip-path: inset(0 calc(100% - var(--before-width)) 0 0); }
+#app .finale-divider {
+  position: absolute;
+  inset: 0 auto 0 var(--before-width);
+  width: 2px;
+  background: #fff1c6;
+  box-shadow: 0 0 8px #1b2d2c;
+  pointer-events: none;
+}
+#app .finale-range {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: .15rem;
+  margin-top: .4rem;
+  color: #634e33;
+  font: 600 .7rem/1.4 system-ui, sans-serif;
+}
+#app .finale-range input { grid-column: 1 / -1; width: 100%; min-height: 44px; margin: 0; accent-color: #3c6660; }
+#app .finale-range span:last-child { text-align: right; }
+#app .finale-letter { margin-top: .65rem; border: 1px solid #bfaa82; border-radius: .45rem; background: #fbf2df; }
+#app .finale-letter summary { padding: .8rem .95rem; color: #38524b; cursor: pointer; font: 600 .92rem/1.4 Lora, Georgia, serif; }
+#app .finale-letter-paper {
+  padding: .9rem clamp(.8rem, 4vw, 1.45rem) 1.1rem;
+  border-top: 1px solid #d7c19a;
+  color: #4f4232;
+  font: 400 .93rem/1.75 Lora, Georgia, serif;
+}
+#app .finale-letter-paper img { float: right; width: min(40%, 14rem); height: auto; margin: 0 0 .65rem .9rem; border-radius: .3rem; }
+#app .finale-letter-paper::after { display: block; clear: both; content: ''; }
+#app .finale-letter-paper p { margin: 0 0 .75rem; }
+#app .finale-letter-paper .finale-signature { margin: 0; color: #633e35; font-style: italic; }
+#app .finale-album-frame { padding: .6rem; margin: 0; border: 1px solid #bdab85; border-radius: .45rem; background: #fbf3e3; }
+#app .finale-album-frame img { display: block; width: 100%; height: min(48dvh, 27rem); object-fit: contain; border-radius: .3rem; background: #213738; }
+#app .finale-album-frame figcaption { padding: .7rem .2rem .1rem; color: #355249; font: 500 .9rem/1.5 Lora, Georgia, serif; }
+#app .finale-album-frame p { margin: .25rem 0; color: #635746; font-size: .8rem; }
+#app .finale-album-controls { display: flex; gap: .6rem; justify-content: space-between; align-items: center; margin-top: .65rem; }
+#app .finale-album-controls output { font: 600 .78rem/1.4 system-ui, sans-serif; white-space: nowrap; }

@@ -47,7 +47,7 @@
   const modeSelect=make('select');
   modeSelect.id='comfort-reading-mode';
   for(const [value,label] of [
-    ['physical','Fiziksel 3D kitap'],['classic','Klasik çift sayfa'],
+    ['physical','Kitap görünümü'],['classic','Klasik çift sayfa'],
     ['single','Tek sayfalık roman'],['scroll','Dikey kaydırmalı okuma'],
     ['cinematic','Sinematik tam ekran'],['focus','Odaklı sade okuma'],
   ]){

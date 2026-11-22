@@ -4,6 +4,13 @@
   "groups": [
     {
       "files": [
+        "assets/images/frosthold-final-once.webp",
+        "assets/images/frosthold-final-sonra.webp"
+      ],
+      "prompt": "Illustration-story, production diptych on ONE 3:4 portrait canvas. EXACTLY two separate equal-height landscape images, stacked top and bottom with the cut precisely at y=50%, no divider, no frame, no padding. Both show the SAME exact composition and camera from a fixed distant hillside: grand Gothic Frosthold citadel on a steep snowy rocky ridge in the center-right, pointed palace tower at 63% across, lower fortified stone bridge over snowy gorge in the center-left foreground, three distinctive high mountain peaks behind, pine forest, same silhouette landmarks, matching scale and horizon. TOP HALF: Frosthold fallen into ancient snowy ruins, portions of roof fallen, shattered stone towers, cold blue overcast winter light and low violet mist, no injuries or people. BOTTOM HALF: the SAME city rebuilt along same stone walls and ridge, restored blue stone roofs and elegant intact spires, warm golden sunrise, white birds, soft flags in upper tower, illuminated windows and tiny dots of activity far away. Beautiful detailed naturalistic hand-painted gouache and oil fantasy novel illustration. Same angle, horizon and topographic features in both halves, so a horizontal wipe will align them. No text, lettering, logo, no gutter."
+    },
+    {
+      "files": [
         "assets/images/frosthold-cover.webp"
       ],
       "prompt": "Portrait 2:3 hero cover art. High-end illustrated fantasy novel, painterly realistic gouache and oil, fine brushwork, cool icy teal blue and gray, amber magic and fire. Medieval fantasy, clean readable compositions. Throughout, adult Fredo (age 20, wavy dark brown hair, gray eyes, clean-shaven, dark navy coat and silver ring), adult Aisha (long pale blonde hair, blue eyes, ivory and deep blue royal dress), consistent faces, no modern objects. No writing, lettering, text, labels or watermark. No graphic injuries. Fredo foreground waist-up, holding an ancient brass-bound book with an icy blue sigil and faint gold magic around his ring. Behind him Frosthold's snowy jagged mountains and magnificent ruined castle under a crimson aurora. Solemn adventure, detailed face, centered. Leave dark lower quarter with no high contrast details for book title added later."
