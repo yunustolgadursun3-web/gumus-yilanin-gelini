@@ -1,0 +1,228 @@
+#app a.story-person-link {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-decoration-color: color-mix(in srgb, var(--accent) 72%, transparent);
+  text-decoration-thickness: .065em;
+  text-underline-offset: .19em;
+  cursor: pointer;
+}
+#app a.story-person-link:is(:hover, :focus-visible) {
+  text-decoration-color: currentColor;
+  background: color-mix(in srgb, var(--accent) 13%, transparent);
+}
+#app #book-stage[data-select-text="true"] a.story-person-link { pointer-events: none; }
+
+#app .character-reminder {
+  position: fixed;
+  box-sizing: border-box;
+  width: min(28rem, calc(100vw - 1.25rem));
+  max-height: calc(100dvh - 1.25rem);
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 1px solid #ad9076;
+  border-radius: .85rem;
+  background: #f5eadb;
+  color: #342b26;
+  box-shadow: 0 18px 65px #190f1fb0;
+  font: 400 .95rem/1.65 Lora, Georgia, serif;
+}
+#app .character-reminder::backdrop { background: #120e1ab0; }
+#app .character-reminder-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .65rem 1rem;
+  border-bottom: 1px solid #ab8a73;
+  background: #39283c;
+  color: #f6e9dd;
+}
+#app .character-reminder-head h2 { margin: 0; font: 600 1.15rem/1.3 Lora, Georgia, serif; }
+#app .character-reminder-body { padding: 1rem clamp(.9rem, 5vw, 1.35rem) 1.2rem; }
+#app .character-reminder-body h3 { margin: 0; font-size: clamp(1.35rem, 5vw, 1.8rem); color: #513848; }
+#app .character-reminder-description { margin: .45rem 0 .9rem; }
+#app .character-reminder-memory {
+  margin-top: .85rem;
+  padding: .85rem .95rem;
+  border-inline-start: 3px solid #aa806b;
+  border-radius: .2rem .45rem .45rem .2rem;
+  background: #eee0cf;
+}
+#app .character-reminder-memory h4 { margin: 0; color: #684a55; font: 650 .78rem/1.4 system-ui, sans-serif; }
+#app .character-reminder-memory blockquote { margin: .55rem 0 .75rem; font-style: italic; overflow-wrap: anywhere; }
+#app .character-reminder .chronicle-button { color: #432e3a; background: #fff5e8; border-color: #ad9076; }
+#app .character-reminder .character-reminder-close { width: 44px; padding: 0; font-size: 1.3rem; }
+
+#app .chronicle-panel {
+  --chronicle-border: color-mix(in srgb, var(--accent) 37%, var(--paper-edge));
+  --chronicle-fill: color-mix(in srgb, var(--paper) 93%, var(--accent));
+  min-width: 0;
+  color: var(--ink);
+  font: 400 .92rem/1.6 Lora, Georgia, serif;
+}
+#app .chronicle-heading { margin: 0 0 .9rem; color: var(--accent); font: 600 clamp(1.15rem, 4vw, 1.65rem)/1.3 Lora, Georgia, serif; }
+#app .chronicle-empty { margin: .6rem 0 0; font-size: .9rem; }
+#app :is(.chronicle-button, .chronicle-select, .chronicle-search, .chronicle-edge, .chronicle-map-person, .chronicle-event) {
+  box-sizing: border-box;
+  min-height: 44px;
+  border: 1px solid var(--chronicle-border, var(--paper-edge));
+  border-radius: .4rem;
+  background: var(--paper);
+  color: var(--ink);
+}
+#app :is(.chronicle-button, .chronicle-edge, .chronicle-map-person, .chronicle-event) { cursor: pointer; }
+#app :is(.chronicle-button, .chronicle-select, .chronicle-search) { padding: .45rem .7rem; font: 600 .82rem/1.35 system-ui, sans-serif; }
+#app :is(.story-person-link, .chronicle-button, .chronicle-select, .chronicle-search, .chronicle-edge, .chronicle-event, .chronicle-map-person):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+#app .chronicle-button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+#app .chronicle-field { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; margin-bottom: .9rem; font: 600 .8rem/1.4 system-ui, sans-serif; }
+#app .chronicle-field select { flex: 1 1 12rem; max-width: 17rem; }
+#app .chronicle-select { max-width: 100%; }
+#app .chronicle-search { width: 100%; font-size: max(16px, .9rem); font-weight: 450; }
+#app .chronicle-shortcuts { display: flex; flex-wrap: wrap; gap: .45rem; margin: 1rem 0; }
+#app .chronicle-shortcuts .world-button { flex: 1 1 8rem; display: inline-flex; gap: .35rem; justify-content: center; align-items: center; margin: 0; }
+#app .chronicle-shortcuts svg { width: 1.15rem; height: 1.15rem; }
+
+#app .chronicle-graph {
+  --branch-gap: .65rem;
+  padding: clamp(.65rem, 2.6vw, 1.2rem);
+  margin-bottom: 1.1rem;
+  border: 1px solid var(--chronicle-border);
+  border-radius: .65rem;
+  background: var(--chronicle-fill);
+}
+#app .chronicle-map-center {
+  position: relative;
+  z-index: 1;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: .7rem 1rem;
+  border: 1px solid var(--chronicle-border);
+  border-radius: .55rem;
+  background: var(--ink);
+  color: var(--paper);
+  text-align: center;
+}
+#app .chronicle-map-center h4 { margin: 0; font-size: 1.13rem; }
+#app .chronicle-map-center p { margin: .28rem 0 0; font-size: .82rem; line-height: 1.5; }
+#app .chronicle-branches {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: calc(var(--branch-gap) * 2);
+  margin: 0;
+  padding: .95rem 0 0;
+  list-style: none;
+}
+#app .chronicle-branches::before {
+  position: absolute;
+  inset: 0 auto .45rem 50%;
+  border-inline-start: 1px solid var(--chronicle-border);
+  content: '';
+}
+#app .chronicle-branch {
+  position: relative;
+  display: grid;
+  gap: .32rem;
+  min-width: 0;
+  padding: .4rem;
+  border: 1px solid var(--chronicle-border);
+  border-radius: .5rem;
+  background: var(--paper);
+}
+#app .chronicle-branch::before {
+  position: absolute;
+  top: 1.5rem;
+  width: calc(var(--branch-gap) + 1px);
+  border-top: 1px solid var(--chronicle-border);
+  content: '';
+}
+#app .chronicle-branch:nth-child(odd)::before { left: 100%; }
+#app .chronicle-branch:nth-child(even)::before { right: 100%; }
+#app .chronicle-map-person {
+  width: 100%;
+  padding: .35rem .55rem;
+  background: var(--chronicle-fill);
+  color: var(--accent);
+  font: 650 .9rem/1.35 Lora, Georgia, serif;
+  text-align: start;
+}
+#app .chronicle-edge { padding: .42rem .55rem; text-align: start; font: 500 .8rem/1.35 system-ui, sans-serif; }
+#app .chronicle-edge span { display: block; margin-top: .2rem; color: var(--accent); font-size: .69rem; }
+#app :is(.chronicle-button, .chronicle-edge, .chronicle-map-person, .chronicle-event):hover:not([aria-pressed="true"]) {
+  border-color: var(--accent);
+}
+
+#app .chronicle-filters { display: flex; gap: .4rem; flex-wrap: wrap; margin: .65rem 0 .85rem; }
+#app .chronicle-definitions { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14.7rem), 1fr)); gap: .65rem; }
+#app .chronicle-term {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: .8rem .9rem;
+  border: 1px solid var(--chronicle-border);
+  border-inline-start: 3px solid var(--chronicle-border);
+  border-radius: .45rem;
+  background: var(--chronicle-fill);
+}
+#app .chronicle-term small,
+#app .chronicle-event-copy small { color: var(--accent); font: 650 .74rem/1.4 system-ui, sans-serif; }
+#app .chronicle-term h4 { margin: .3rem 0 0; font-size: 1.05rem; line-height: 1.35; }
+#app .chronicle-term p { margin: .4rem 0 .7rem; font-size: .86rem; }
+#app .chronicle-term .chronicle-button { margin-top: auto; }
+
+#app .chronicle-era { margin-top: 1rem; }
+#app .chronicle-era-title { margin: 0 0 .5rem; color: var(--accent); font-size: 1.02rem; scroll-margin-block-start: .5rem; }
+#app .chronicle-events {
+  display: grid;
+  gap: .45rem;
+  margin: 0 0 .75rem .35rem;
+  padding: 0 0 0 .75rem;
+  border-inline-start: 1px solid var(--chronicle-border);
+  list-style: none;
+}
+#app .chronicle-moment { position: relative; min-width: 0; }
+#app .chronicle-moment::before {
+  position: absolute;
+  inset: 1.35rem auto auto -.95rem;
+  width: .38rem;
+  height: .38rem;
+  border-radius: 50%;
+  background: var(--accent);
+  content: '';
+}
+#app .chronicle-event {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  width: 100%;
+  padding: .5rem .65rem;
+  background: var(--chronicle-fill);
+  font: 500 .86rem/1.4 Lora, Georgia, serif;
+  text-align: start;
+}
+#app .chronicle-event img {
+  flex: 0 0 auto;
+  display: block;
+  width: clamp(2.6rem, 10vw, 4.7rem);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: .28rem;
+}
+#app .chronicle-event-copy { flex: 1 1 auto; min-width: 0; }
+#app .chronicle-event-copy strong { display: block; margin-top: .18rem; overflow-wrap: anywhere; }
+#app .chronicle-event-arrow { color: var(--accent); }
+@media (max-width: 540px) {
+  #app .chronicle-branches { grid-template-columns: minmax(0, 1fr); padding-inline-start: .8rem; }
+  #app .chronicle-branches::before { left: 0; }
+  #app .chronicle-branch:nth-child(n)::before { right: 100%; left: auto; width: .85rem; }
+  #app .chronicle-select { font-size: 16px; }
+}

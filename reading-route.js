@@ -8,19 +8,17 @@
 
   const route = document.createElement('span');
   route.className = 'reading-route';
-  route.setAttribute('role', 'progressbar');
-  route.setAttribute('aria-label', 'Hikâye rotası');
-  route.setAttribute('aria-valuemin', '0');
   route.innerHTML = `
-    <span class="reading-route-map" aria-hidden="true">
-      <svg class="reading-route-road" viewBox="0 0 100 32" preserveAspectRatio="none">
+    <span class="sr-only reading-route-progress" role="progressbar" aria-label="Hikâye rotası" aria-valuemin="0"></span>
+    <span class="reading-route-map">
+      <svg class="reading-route-road" viewBox="0 0 100 32" preserveAspectRatio="none" aria-hidden="true">
         <path class="reading-route-base" d="M4 20 C16 10 23 10 34 18 S51 27 63 17 S83 9 96 18"/>
         <path class="reading-route-fill" pathLength="100" d="M4 20 C16 10 23 10 34 18 S51 27 63 17 S83 9 96 18"/>
         <g class="reading-route-arrows"></g>
       </svg>
-      <span class="reading-route-stops"></span>
-      <span class="reading-route-runner"><img src="./assets/images/reading-rabbit.webp" alt="" draggable="false"></span>
-      <span class="reading-route-heart" hidden>♥</span>
+      <span class="reading-route-stops" aria-hidden="true"></span>
+      <button class="reading-route-runner" type="button" aria-label="Tavşana aksesuar seç"><img src="./assets/images/reading-rabbit.webp" alt="" draggable="false"></button>
+      <span class="reading-route-heart" aria-hidden="true" hidden>♥</span>
     </span>
     <span class="reading-route-range" aria-hidden="true">
       <span data-route-start>0</span><span class="reading-route-caption">Başlangıç</span><span data-route-end>50</span>
@@ -28,10 +26,12 @@
   clock.append(route);
 
   const map = route.querySelector('.reading-route-map');
+  const progressbar = route.querySelector('.reading-route-progress');
   const path = route.querySelector('.reading-route-base');
   const fill = route.querySelector('.reading-route-fill');
   const stops = route.querySelector('.reading-route-stops');
   const runner = route.querySelector('.reading-route-runner');
+  window.BookRabbitWardrobe?.mount(runner);
   const heart = route.querySelector('.reading-route-heart');
   const startLabel = route.querySelector('[data-route-start]');
   const endLabel = route.querySelector('[data-route-end]');
@@ -125,9 +125,9 @@
     route.dataset.page = String(page);
     route.dataset.windowStart = String(start);
     route.dataset.windowEnd = String(end);
-    route.setAttribute('aria-valuenow', String(page));
-    route.setAttribute('aria-valuemax', String(location.total));
-    route.setAttribute('aria-valuetext', `${page} / ${location.total}. ${location.chapter}. ${start}–${end} aralığı.${finalPage ? ' Yolculuk tamamlandı.' : ''}`);
+    progressbar.setAttribute('aria-valuenow', String(page));
+    progressbar.setAttribute('aria-valuemax', String(location.total));
+    progressbar.setAttribute('aria-valuetext', `${page} / ${location.total}. ${location.chapter}. ${start}–${end} aralığı.${finalPage ? ' Yolculuk tamamlandı.' : ''}`);
     const unit = location.mode === 'scroll' ? 'Kesit' : 'Sayfa';
     route.title = `${unit} ${page} / ${location.total} · ${location.chapter}`;
     startLabel.textContent = String(start);

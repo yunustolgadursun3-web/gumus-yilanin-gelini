@@ -165,6 +165,46 @@
   padding-top: .7rem;
   border-top: 1px solid #8c7d60;
 }
+#app .finale-quiz-body {
+  padding: clamp(.8rem, 3vw, 1.35rem);
+  border: 1px solid #c7b48e;
+  border-radius: .55rem;
+  background: #fff8e9;
+  color: #393a30;
+  font: 400 .92rem/1.55 Lora, Georgia, serif;
+}
+#app .finale-quiz-body > p { margin: 0 0 .65rem; }
+#app .finale-quiz-step { color: #55685b; font: 650 .76rem/1.4 system-ui, sans-serif; }
+#app .finale-quiz-body fieldset { display: grid; gap: .4rem; min-width: 0; padding: 0; margin: 0; border: 0; }
+#app .finale-quiz-body legend { padding: 0; margin-bottom: .65rem; color: #304940; font-weight: 650; }
+#app .finale-quiz-body label {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  min-height: 44px;
+  padding: .48rem .65rem;
+  border: 1px solid #c5b390;
+  border-radius: .4rem;
+  background: #fffdf2;
+  cursor: pointer;
+}
+#app .finale-quiz-body input { flex: none; margin: 0; accent-color: #386451; }
+#app .finale-quiz-body label:has(:checked) { border-color: #62836c; background: #e7efdd; }
+#app .finale-quiz-body label[data-answer="correct"] { border-color: #62836c; background: #e2efda; }
+#app .finale-quiz-body label[data-answer="wrong"] { border-color: #bc8a82; background: #fae4dd; }
+#app .finale-quiz-body fieldset:disabled label { cursor: default; }
+#app .finale-quiz-feedback:not(:empty) {
+  margin-top: .65rem;
+  padding: .55rem .75rem;
+  border-inline-start: 3px solid #8aa689;
+  background: #eff2df;
+}
+#app .finale-quiz-feedback blockquote { margin: .25rem 0 0; font-style: italic; }
+#app .finale-quiz-controls { display: flex; justify-content: flex-end; margin-top: .75rem; }
+#app .finale-quiz-score { margin: 0; color: #304940; font-size: clamp(1.2rem, 4vw, 1.65rem); }
+#app .finale-quiz-review { display: grid; gap: .55rem; margin: .85rem 0; padding-inline-start: 1.35rem; }
+#app .finale-quiz-review li { padding: .55rem .65rem; border: 1px solid #d6c6a4; border-radius: .4rem; }
+#app .finale-quiz-review p { margin: .2rem 0 .4rem; color: #4c604e; }
 @media (max-width: 450px) {
   #app .finale-menu button { flex-basis: 40%; }
   #app .finale-newspaper-briefs { grid-template-columns: 1fr; }

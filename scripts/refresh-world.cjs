@@ -68,6 +68,24 @@ const fact = id => {
 for (const item of facts) {
   if (item.kind === 'connections') item.unlock = Math.max(item.unlock, fact(item.from).unlock, fact(item.to).unlock);
 }
+const companion = read('book-chronicle.json');
+function chronicleEntry(input) {
+  if (input.fact) {
+    const { name, quote, sourceStart, sourceEnd, sourceChapter, chapter } = fact(input.fact);
+    return { name, ...input, quote, sourceStart, sourceEnd, sourceChapter, chapter };
+  }
+  const chapter = sourceChapter(input.chapter);
+  if (!chapter) throw Error('Unknown chronicle chapter for ' + (input.id || input.question));
+  const { phrase, ...entry } = input;
+  return { ...entry, ...point(phrase, chapter), sourceChapter: chapter.sourceChapter, chapter: chapter.title };
+}
+const chronicle = companion.storyId === bible.storyId ? {
+  characters: companion.characters.map(chronicleEntry),
+  relationships: [...facts.filter(item => item.kind === 'connections'), ...companion.relationships.map(chronicleEntry)],
+  glossary: companion.glossary.map(chronicleEntry),
+  pastEvents: companion.pastEvents.map(chronicleEntry),
+  quiz: companion.quiz.map(chronicleEntry),
+} : null;
 const scenes = bible.scenes.map(input => {
   const chapter = sourceChapter(input.chapter);
   const anchor = point(input.phrase, chapter);
@@ -178,7 +196,7 @@ write('plan.json', plan);
 write('story-theme.json', theme);
 write('locations.json', locations);
 fs.writeFileSync(path.join(root, 'world-data.js'), 'window.STORY_WORLD=' + JSON.stringify({
-  storyId: bible.storyId, chapters: theme.chapters, facts, scenes, atlas, visuals, imageDetails, locations, videos: []
+  storyId: bible.storyId, chapters: theme.chapters, facts, scenes, atlas, visuals, imageDetails, locations, videos: [], chronicle
 }) + ';\n');
 const assets = [];
 function scan(directory) {

@@ -1,0 +1,65 @@
+{
+  "storyId": "dahi-bilginin-geri-donusu",
+  "characters": [
+    {"id":"fredo","name":"Fredo","aliases":["Fredo"],"detail":"Frosthold’un yıkıldığı gece büyükbabası onu saraydan çıkardı.","chapter":1,"phrase":"Bu adam Fredo'nun büyükbabasıydı."},
+    {"id":"usta","name":"Yaşlı Bilgin","aliases":["yaşlı bilgin"],"detail":"Dağ kulübesinde Fredo’ya büyü gücünü kontrol etmeyi öğreten bilgin.","chapter":2,"phrase":"Yaşlı bilgin ona kızmamış, yalnızca başka bir kaya göstermişti."},
+    {"id":"aisha","name":"Aisha","aliases":["Aisha"],"detail":"Alwyn Elf Hanedanı’nın prensesi. Fredo, adını dağ kulübesindeki mektupta öğrenir.","chapter":2,"phrase":"Alwyn Elf Hanedanı'nın prensesi Aisha ile nişanlıydı."},
+    {"id":"cuce-kral","name":"Cüce Kral","aliases":["Cüce Kral"],"detail":"Fredo’nun Merkez Şehir’in pazarında karşılaştığı cüce hükümdar.","chapter":4,"phrase":"Çevresindeki muhafızlar, arabada bulunan yaşlı hükümdarı kurtarmak için çabalıyordu."},
+    {"id":"bella","name":"Bella","aliases":["Bella"],"detail":"Fredo’nun Merkez Şehir’de yeniden karşılaştığı çocukluk arkadaşı.","chapter":6,"phrase":"Bella, Fredo'nun çocukluk yıllarındaki en yakın arkadaşlarından biriydi."},
+    {"id":"will","name":"Will","aliases":["Will"],"detail":"Ragewind Arenası’nın muhafızlarından biri. Fredo’yu yıllar sonra arenanın girişinde tanır.","chapter":7,"phrase":"Will artık arenanın güvenlik muhafızlarından biriydi."},
+    {"id":"aragorn","name":"Aragorn","aliases":["Aragorn"],"detail":"Ragewind’e gelen gümüş saçlı savaşçı.","chapter":11,"phrase":"Bu kişi Aragorn'du."},
+    {"id":"marion","name":"Kraliçe Marion","aliases":["Marion"],"detail":"Alwyn sarayının kraliçesi. Fredo’nun sessizce şehirden ayrılmasını ister.","chapter":5,"phrase":"Fredo'nun sessizce şehirden ayrılmasını istiyordu."},
+    {"id":"florent","name":"Florent","aliases":["Florent"],"detail":"Merkez Şehir’in Ticaret Kralı’nın oğlu.","chapter":8,"phrase":"Merkez Şehir'in Ticaret Kralı'nın oğlu."},
+    {"id":"ron","name":"Ron","aliases":["Ron"],"detail":"Alwyn Hanedanı’nın uzun süredir hasta olan lideri.","chapter":32,"phrase":"Ancak sarayın gerçek lideri yaşlı Ron, uzun süredir ağır hastaydı."},
+    {"id":"darren","name":"Darren","aliases":["Darren"],"detail":"Aisha’nın amcası. Alwyn ailesinin siyasi işlerini yürütür.","chapter":32,"phrase":"Aisha'nın amcası olan Darren, yıllardır Alwyn ailesinin siyasi işlerini yürütüyordu."},
+    {"id":"lich","name":"Kan Vebası Lich’i","aliases":["Lich"],"detail":"Frosthold’a saldıran ve ölümün sınırlarını aşmayı amaçlayan varlık.","chapter":1,"phrase":"Saldırının ardındaki varlık, yüzlerce yıldır ölümün sınırlarını aşmaya çalışan Kan Vebası Lich'iydi."},
+    {"id":"orc","name":"Orc","aliases":["Orc"],"detail":"Ragewind’de adamlarıyla ortaya çıkan Kara Güve lideri.","chapter":9,"phrase":"Kara Güve'nin lideri Orc gelmişti."},
+    {"id":"kukla","name":"Kukla Ustası","aliases":["Kukla Ustası"],"detail":"Şehrin altındaki bir odada kuklalarla çalışan maskeli büyücü.","chapter":14,"phrase":"Bu kişi Kukla Ustası olarak biliniyordu."}
+  ],
+  "relationships": [
+    {"id":"fredo-usta","from":"fredo","to":"usta","name":"Usta ve öğrenci","chapter":2,"phrase":"Fakat öğretmeni ona gücünü göstermekten çok kontrol etmeyi öğretiyordu."},
+    {"id":"fredo-cuce-kral","from":"fredo","to":"cuce-kral","name":"Pazardaki yardım","chapter":4,"phrase":"Cüce Krallığı sana sonsuza kadar borçlu."},
+    {"id":"fredo-aisha-mektup","from":"fredo","to":"aisha","name":"Mektupta öğrenilen aile sözü","chapter":2,"phrase":"Alwyn Elf Hanedanı'nın prensesi Aisha ile nişanlıydı."},
+    {"id":"fredo-aisha-ragewind","from":"fredo","to":"aisha","name":"Bella onları Ragewind’de tanıştırır","chapter":7,"phrase":"Aisha, bu benim çocukluk arkadaşım Fredo."},
+    {"id":"bella-aisha","from":"bella","to":"aisha","name":"Arenadaki arkadaşlar","chapter":7,"phrase":"Bir süre sonra Bella kalabalığın arasında tanıdığı birini gördü."},
+    {"id":"aisha-florent","from":"aisha","to":"florent","name":"Aisha’nın reddettiği evlilik teklifleri","chapter":8,"phrase":"Ancak prenses onun tekliflerini sürekli reddediyordu."},
+    {"id":"fredo-aragorn","from":"fredo","to":"aragorn","name":"Üç okla sınav","chapter":12,"phrase":"Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu."},
+    {"id":"lich-kukla","from":"lich","to":"kukla","name":"Lich’in hizmetkârı","chapter":14,"phrase":"Kan Vebası Lich'inin hizmetkârlarından biriydi."},
+    {"id":"florent-kukla","from":"florent","to":"kukla","name":"Saray mühürleri için bilgi paylaşımı","chapter":23,"phrase":"O gece Kukla Ustası, Florent'in verdiği bilgiler sayesinde Alwyn Sarayı'nın koruyucu mühürlerini incelemeye başladı."},
+    {"id":"aisha-marion","from":"aisha","to":"marion","name":"Anne ve kız","chapter":28,"phrase":"Aisha ilk kez annesine bu kadar açık şekilde karşı çıkıyordu."},
+    {"id":"aisha-darren","from":"aisha","to":"darren","name":"Amca ve yeğen","chapter":32,"phrase":"Aisha'nın amcası olan Darren, yıllardır Alwyn ailesinin siyasi işlerini yürütüyordu."},
+    {"id":"aisha-ron","from":"aisha","to":"ron","name":"Büyükbaba ve torun","chapter":33,"phrase":"Aisha büyükbabasının yanından ayrılmıyordu."},
+    {"id":"fredo-ron","from":"fredo","to":"ron","name":"Yatağın çevresindeki şifa çemberi","chapter":34,"phrase":"Fredo, Ron'un yatağının çevresine büyük bir büyü çemberi çizdi."},
+    {"id":"darren-florent","from":"darren","to":"florent","name":"Gizli odadaki buluşma","chapter":37,"phrase":"Bir gece Darren gizli çalışma odasında Florent'le buluştu."},
+    {"id":"ron-darren","from":"ron","to":"darren","name":"Darren’ın lanet itirafı","chapter":45,"phrase":"Frosthold düştükten sonra Lich benden Ron'u kontrol altında tutmamı istedi. Bu yüzden onu lanetledim."},
+    {"id":"fredo-aisha-saray","from":"fredo","to":"aisha","name":"Aisha sarayda Fredo’nun yanında kalır","chapter":46,"phrase":"Seninle bir gelecek istiyorsam geçmişinden de kaçamam."},
+    {"id":"fredo-lich","from":"fredo","to":"lich","name":"Harabelerdeki yüzleşme","chapter":48,"phrase":"Karşısında uzun siyah bir cübbe giymiş, kemikten bir taç taşıyan korkunç bir varlık belirdi."}
+  ],
+  "glossary": [
+    {"id":"ruh-muhru","name":"Ruh mührü","category":"Mühürler","detail":"Frosthold sarayında nesiller boyu korunmuş kadim büyü bilgisinin bir parçası. Her mührün görevi farklıdır.","chapter":1,"phrase":"Frosthold'un sarayında nesiller boyunca korunmuş kadim büyü kitapları, insanların henüz anlayamadığı ruh mühürleri"},
+    {"id":"ruh-tasi","fact":"ruh-tasi","category":"Eşyalar","detail":"Cüce Kral’ın Fredo’ya verdiği mavi taş. Ruhsal enerjiyi güçlendirir ve gizli lanetleri ortaya çıkarabilir."},
+    {"id":"yuzuk","name":"Mühürlü yüzük","category":"Eşyalar","detail":"Fredo’nun gücünü gizleyen yüzük, geçmişine ait bazı hatıraları da bastırır.","chapter":5,"phrase":"Yüzük, geçmişine ilişkin bazı hatıraları da bastırıyordu."},
+    {"id":"ruh-enerjisi","name":"Ruh enerjisi","category":"Büyüler","detail":"Büyülerin kullanılmasında harcanan güç. Fredo, arenadaki iki büyücünün enerjilerini gereğinden fazla harcadığını fark eder.","chapter":7,"phrase":"Ancak ikisi de ruh enerjilerini gereğinden fazla harcıyor ve büyülerini yanlış zamanlarda kullanıyordu."},
+    {"id":"uc-ok","name":"Aragorn’un üç oku","category":"Eşyalar","detail":"Fredo’yu sınamak için hazırlanan büyülü oklar ayrı ayrı ateş, buz ve yıldırım enerjisi taşır.","chapter":12,"phrase":"Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu."},
+    {"id":"ruh-tuketen-muhur","name":"Kan Vebası mührü","category":"Mühürler","detail":"Tahta kuklaların kalbine yerleştirilen küçük mühür, kullanıcının ruh enerjisini yavaşça tüketir.","chapter":17,"phrase":"Bu mühür, kullanıcının ruh enerjisini yavaşça tüketmek için hazırlanmıştı."},
+    {"id":"frosthold-isareti","fact":"frosthold-isareti","category":"Mühürler","detail":"Üç yıldızla çevrelenmiş gümüş taç. Fredo, Frosthold’un eski hükümdar ailesinin bu işaretini yüzüğünün içinde de bulur."},
+    {"id":"kan-vebasi","name":"Kan Vebası","category":"Lanetler","detail":"Bedenden çıkarıldıktan sonra bile kişinin ruhunda görünmeyen izler bırakabilen bir lanet.","chapter":22,"phrase":"Kan Vebası'nın bedenden çıkarılması her zaman yeterli değildi. Bazen lanet, kurbanın ruhunda görünmeyen izler bırakıyordu."},
+    {"id":"kan-bagi","name":"Kan bağı doğrulaması","category":"Mühürler","detail":"Fredo’nun yüzüğüyle belgedeki gümüş taç aynı anda ışık verir. Saray danışmanları bu tepkiyle soy bağını doğrular.","chapter":29,"phrase":"Fredo'nun gerçekten anlaşmada adı geçen kişi olduğu artık inkâr edilemezdi."},
+    {"id":"sifa-cemberi","name":"Şifa çemberi","category":"Büyüler","detail":"Fredo’nun Ron’un yatağı çevresine çizdiği, kadim Frosthold dilindeki işaretlerden oluşan büyü çemberi.","chapter":34,"phrase":"Büyü çemberi, kadim Frosthold dilinde yazılmış işaretlerden oluşuyordu."},
+    {"id":"ruh-paraziti","name":"Ruh paraziti","category":"Lanetler","detail":"Ron’un bedeninden çıkan varlık, Kan Vebası’nın taşıyıcısıdır ve uzun süre onun yaşam enerjisiyle beslenmiştir.","chapter":34,"phrase":"Yıllardır bu adamın yaşam enerjisini tüketmişsin."},
+    {"id":"goksel-beden","name":"Göksel Beden Sanatı","category":"Büyüler","detail":"Ron’un anlattığına göre bu eski sanat yalnızca belirli bir kan bağını taşıyan kişiler tarafından kullanılabilir.","chapter":36,"phrase":"Ve yalnızca belirli bir kan bağına sahip insanların kullanabildiği Göksel Beden Sanatı."},
+    {"id":"koruma-kubbesi","name":"Koruma kubbesi","category":"Büyüler","detail":"Fredo, Alwyn Sarayı’ndaki insanları karanlık çemberden korumak için altın renkli bir kubbe kurar.","chapter":46,"phrase":"Saray halkı bu kubbenin içine alındı."},
+    {"id":"goksel-yildirim","name":"Göksel Yıldırım Sanatı","category":"Büyüler","detail":"Fredo’nun sarayı korurken başvurduğu büyü. Beyaz yıldırımlar altın mühürlerin çevresinde birleşir.","chapter":47,"phrase":"Göksel Yıldırım Sanatı bütün gücüyle ortaya çıktı."}
+  ],
+  "pastEvents": [
+    {"id":"muhurlerin-kapatilmasi","era":"before","name":"Koruyucu mühürler içeriden kapatılır","chapter":42,"phrase":"Mektupta saldırıdan birkaç gün önce bazı büyü mühürlerinin içeriden devre dışı bırakıldığı yazıyordu."},
+    {"id":"fredonun-ilk-karsiligi","era":"fall","name":"Bebek Fredo’nun ruh enerjisi Lich’in büyüsünü geri püskürtür","chapter":49,"phrase":"Ancak o gece hiç beklemediğim bir şey oldu. Henüz bebek olmana rağmen ruh enerjin benim büyümü geri püskürttü."}
+  ],
+  "quiz": [
+    {"question":"Usta, Fredo’dan dağ kulübesinin önündeki kayayı nasıl kaldırmasını istedi?","choices":["Önce küçük parçalara ayırarak","Kayayı parçalamadan","Bir büyü çemberi çizerek"],"answer":1,"chapter":2,"phrase":"Şimdi bunu parçalamadan yerinden kaldır."},
+    {"question":"Cüce Kral’ın verdiği ruh taşı hangi işe yarar?","choices":["Ruhsal enerjiyi güçlendirir, gizli lanetleri ortaya çıkarır.","Mühürleri yazıldığı dile çevirir.","Büyülü okların yönünü değiştirir."],"answer":0,"chapter":4,"phrase":"Ruhsal enerjiyi güçlendirebilir ve gizlenmiş lanetleri ortaya çıkarabilir."},
+    {"question":"Fredo, Aisha’nın takıldığı formülde enerjiyi önce nerede dengelemesini önerdi?","choices":["Asasının ucunda","Çemberin kenarında","Kendi merkezinde"],"answer":2,"chapter":8,"phrase":"Formülde enerjiyi dışarı doğru yayıyorsunuz. Oysa önce kendi merkezinizde dengelemeniz gerekiyor."},
+    {"question":"Aragorn’un üç oku hangi enerjileri taşıyordu?","choices":["Su, toprak ve rüzgâr","Ateş, buz ve yıldırım","Işık, ateş ve rüzgâr"],"answer":1,"chapter":12,"phrase":"Okların biri ateş, biri buz, diğeri yıldırım enerjisi taşıyordu."},
+    {"question":"Frosthold meydanındaki konuşmadan sonra Fredo’ya «Artık gerçekten geri döndün.» diyen kimdi?","choices":["Aisha","Bella","Ron"],"answer":0,"chapter":51,"phrase":"Artık gerçekten geri döndün."}
+  ]
+}
