@@ -22,19 +22,17 @@
     <link rel="manifest" href="./manifest.webmanifest">
     <link rel="preload" href="./assets/fonts/cinzel.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="./style.css?v=5">
-    <link rel="stylesheet" href="./world.css?v=1">
-    <link rel="stylesheet" href="./book-physics.css?v=43">
+    <link rel="stylesheet" href="./world.css?v=2">
     <link rel="stylesheet" href="./reader-modes.css?v=1">
     <link rel="stylesheet" href="./reader-focus.css?v=1">
     <link rel="stylesheet" href="./book-notebook.css?v=1">
     <link rel="stylesheet" href="./book-style-studio.css?v=1">
-    <link rel="stylesheet" href="./book-room.css?v=1">
-    <link rel="stylesheet" href="./book-illustration-studio.css?v=2">
+    <link rel="stylesheet" href="./book-room.css?v=2">
     <link rel="stylesheet" href="./reader-notes.css?v=1">
     <link rel="stylesheet" href="./book-library.css?v=1">
-    <link rel="stylesheet" href="./book-popup.css?v=7">
-    <link rel="stylesheet" href="./edition.css?v=dahi3">
+    <link rel="stylesheet" href="./edition.css?v=dahi4">
     <link rel="stylesheet" href="./closing-letter.css?v=3">
+    <link rel="stylesheet" href="./book-finale.css?v=1">
     <title>DAHİ BİLGİNİN GERİ DÖNÜŞÜ — Dijital Kitap</title>
   </head>
   <body>
@@ -48,7 +46,7 @@
 
       <section class="cover-view" id="cover-view" aria-labelledby="cover-title" hidden>
         <picture class="cover-environment" aria-hidden="true"><source media="(max-width: 600px)" srcset="./assets/images/frosthold-atlas-480.webp"><img src="./assets/images/frosthold-atlas.webp" width="1200" height="800" alt="" fetchpriority="high" decoding="async"></picture>
-        <div class="cover-art" role="button" tabindex="0" aria-label="Dahi Bilginin Geri Dönüşü kitabının üç boyutlu önizlemesini aç" aria-describedby="cover-open-hint"><img src="./assets/images/frosthold-cover.webp" srcset="./assets/images/frosthold-cover-480.webp 480w, ./assets/images/frosthold-cover.webp 960w" sizes="(max-width: 819px) 180px, 390px" width="960" height="1440" alt="Fredo, Frosthold’un karlı dağları ve yıkık sarayı önünde kadim bir kitap tutar." fetchpriority="high" decoding="async"><span class="cover-open-hint" id="cover-open-hint">Kitabı açmak için dokun</span><span class="royal-silk" aria-hidden="true"></span><span class="cover-print-title" aria-hidden="true">DAHİ BİLGİNİN<br>GERİ DÖNÜŞÜ</span></div>
+        <div class="cover-art" role="button" tabindex="0" aria-label="Dahi Bilginin Geri Dönüşü kitabını aç" aria-describedby="cover-open-hint"><img src="./assets/images/frosthold-cover.webp" srcset="./assets/images/frosthold-cover-480.webp 480w, ./assets/images/frosthold-cover.webp 960w" sizes="(max-width: 819px) 180px, 390px" width="960" height="1440" alt="Fredo, Frosthold’un karlı dağları ve yıkık sarayı önünde kadim bir kitap tutar." fetchpriority="high" decoding="async"><span class="cover-open-hint" id="cover-open-hint">Kitabı açmak için dokun</span><span class="royal-silk" aria-hidden="true"></span><span class="cover-print-title" aria-hidden="true">DAHİ BİLGİNİN<br>GERİ DÖNÜŞÜ</span></div>
         <div class="cover-vignette" aria-hidden="true"></div><div class="royal-stage" aria-hidden="true"><span></span><i></i></div>
         <div class="cover-topbar" aria-label="Dahi Bilginin Geri Dönüşü · Frosthold Arşivi">
           <span class="session-clock" role="timer" aria-label="Sitede geçen süre" aria-live="off">
@@ -110,7 +108,6 @@
           <button class="edge-nav edge-nav--previous" id="page-previous" type="button" aria-label="Önceki sayfa" title="Önceki sayfa"><span aria-hidden="true">‹</span></button>
           <div class="book-shell" id="book-shell">
             <div class="book-spread" id="book-spread" aria-live="polite"></div>
-            <div class="turn-layer" id="turn-layer" aria-hidden="true"></div>
           </div>
           <button class="edge-nav edge-nav--next" id="page-next" type="button" aria-label="Sonraki sayfa" title="Sonraki sayfa"><span aria-hidden="true">›</span></button>
         </section>
@@ -213,63 +210,28 @@
       <div id="pagination-lab" aria-hidden="true"></div>
     </div>
 
-    <script>
-      (() => {
-        const base = document.baseURI;
-        const pending = new Map();
-        function load(file) {
-          if (!pending.has(file)) {
-            pending.set(file, new Promise((resolve, reject) => {
-              const script = document.createElement('script');
-              script.src = new URL(file, base).href;
-              script.onload = resolve;
-              script.onerror = () => { pending.delete(file); script.remove(); reject(new Error(file)); };
-              document.head.append(script);
-            }));
-          }
-          return pending.get(file);
-        }
-        window.BookAssets = Object.freeze({
-          atlas: () => Promise.all([load('atlas-living.js?v=5'), load('location-explorer.js?v=5')]),
-          popup: () => load('book-mesh.js?v=7').then(() => load('popup-fold-rig.js?v=7')).then(() => load('book-popup.js?v=7')),
-        });
-        function loadVisiblePopup() {
-          if (window.BookPopup || !window.BookReader) return;
-          const reader = window.BookReader;
-          if (reader.settings().popupPages === false) return;
-          const visible = reader.visiblePages().some(page =>
-            [...page.querySelectorAll('figure[data-chapter-art]')].some(figure =>
-              window.BOOK_POPUP_SCENES?.some(scene => scene.chapterId === figure.dataset.chapterArt)));
-          if (visible) window.BookAssets.popup().catch(() => {});
-        }
-        document.addEventListener('book:location', loadVisiblePopup);
-        document.addEventListener('book:settings', loadVisiblePopup);
-      })();
-    </script>
     <script src="./story.js?v=dahi2"></script>
     <script src="./svg-sahne.js?v=1"></script>
     <script src="./kitap-sesleri.js?v=30"></script>
     <script src="./sahne-fx.js?v=1"></script>
-    <script src="./book-physics.js?v=4"></script>
     <script src="./book-style-studio.js?v=1"></script>
-    <script src="./app.js?v=dahi1"></script>
+    <script src="./app.js?v=dahi2"></script>
     <script src="./edition.js?v=dahi1"></script>
     <script src="./reading-route.js?v=2"></script>
     <script src="./closing-letter.js?v=4"></script>
     <script src="./scene-seals.js?v=1"></script>
-    <script src="./reader-comfort.js?v=30"></script>
+    <script src="./reader-comfort.js?v=31"></script>
     <script src="./world-data.js?v=dahi2"></script>
-    <script src="./living-world.js?v=dahi1"></script>
-    <script src="./atlas-ui.js?v=dahi1"></script>
-    <script src="./story-world.js?v=dahi1"></script>
+    <script src="./book-finale.js?v=1"></script>
+    <script src="./living-world.js?v=dahi2"></script>
+    <script src="./atlas-ui.js?v=dahi2"></script>
+    <script src="./story-world.js?v=dahi2"></script>
     <script src="./story-effects.js?v=1"></script>
     <script src="./manuscript.js?v=30"></script>
     <script src="./book-notebook.js?v=1"></script>
     <script src="./reader-focus.js?v=1"></script>
-    <script src="./book-binding-studio.js?v=1"></script>
-    <script src="./book-room.js?v=5"></script>
-    <script src="./book-layer-scenes.js?v=dahi1"></script>
-    <script src="./book-illustration-studio.js?v=5"></script>
+    <script src="./book-binding-studio.js?v=2"></script>
+    <script src="./book-room.js?v=6"></script>
     <script src="./reader-notes.js?v=1"></script>
     <script src="./book-library-data.js?v=7"></script>
     <script src="./book-library.js?v=40"></script>

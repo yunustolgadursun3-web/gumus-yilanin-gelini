@@ -451,3 +451,11 @@
   font: 1.45rem/1 system-ui, sans-serif;
 }
 #app .scene-seal-return { padding: .55rem 1rem; font: 500 .75rem/1.3 system-ui, sans-serif; }
+
+#app #cover-view .cover-art {
+  animation: none;
+  transform: none;
+}
+#app .private-desk-header img,
+#app .world-character-grid .portrait-card:is(:hover, :focus-within) > img { transform: none; }
+#app .flat-world-image { display: block; width: 100%; height: auto; max-height: 60dvh; object-fit: contain; border-radius: .3rem; }

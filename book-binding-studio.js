@@ -3,9 +3,8 @@
 
   const app = document.getElementById('app');
   const reader = window.BookReader;
-  const physics = window.BookPhysics;
   const comfort = window.BookComfort;
-  if (!app || !reader || !physics || !comfort) return;
+  if (!app || !reader || !comfort) return;
 
   const materials = [
     ['classic-leather', 'Klasik deri', 'Taneli yüzey, dikiş izi ve kaburgalı sırt'],
@@ -23,20 +22,27 @@
     bindingSpine: [['material', 'Cilde uygun'], ['ribbed', 'Kaburgalı'], ['smooth', 'Düz']],
     bindingFrame: [['material', 'Cilde uygun'], ['line', 'İnce çizgi'], ['double', 'Çift çerçeve'], ['none', 'Çerçevesiz']],
     bindingTitle: [['raised', 'Kabartma etkisi'], ['printed', 'Düz baskı']],
-    bookDepth: [['full', 'Tam 3B'], ['light', 'Hafif 3B'], ['flat', 'Düz geçiş']],
   };
   const defaults = Object.freeze({
     bindingMaterial: 'dark-leather', bindingTrim: 'theme', bindingCorners: 'brackets', bindingEdge: 'paper',
     bindingSpine: 'material', bindingFrame: 'material', bindingTitle: 'raised', bindingThickness: 16,
-    bookDepth: 'full', turnSpeed: 1,
+    turnSpeed: 1,
   });
 
   const page = comfort.addTab('binding', 'Kitap');
   const fields = new Map();
   const swatches = new Map();
   const cover = document.querySelector('#cover-view .cover-art');
-  const shell = document.getElementById('book-shell');
-  physics.decorateCover(cover);
+  if (cover) decorateCover(cover);
+
+  function decorateCover(element) {
+    const hardware = create('div', 'binding-hardware');
+    hardware.setAttribute('aria-hidden', 'true');
+    for (const corner of ['tl', 'tr', 'bl', 'br']) {
+      hardware.append(create('div', 'binding-corner binding-corner--' + corner));
+    }
+    element.append(hardware);
+  }
 
   function create(tag, className, label) {
     const element = document.createElement(tag);
@@ -103,7 +109,7 @@
     coverImage.loading = 'lazy';
     mock.append(coverImage);
   }
-  physics.decorateCover(mock);
+  decorateCover(mock);
   const previewCopy = create('div', 'binding-preview-copy');
   const previewName = create('strong');
   const previewDescription = create('p');
@@ -139,9 +145,7 @@
   range(details, 'bindingThickness', 'Cilt kalınlığı', 8, 30, 1, value => `Yaklaşık ${value} mm`);
 
   const motion = group('Sayfa hareketi');
-  select(motion, 'bookDepth', 'Üç boyut düzeyi');
   range(motion, 'turnSpeed', 'Sayfa çevirme hızı', .6, 1.6, .1, value => `Yüzde ${Math.round(value * 100)}`);
-  motion.append(create('p', 'hub-hint', 'Üç boyut ve hız, Fiziksel 3D kitap ile Sinematik okuma biçimlerinde uygulanır.'));
 
   function syncSettings() {
     const saved = reader.settings();
@@ -170,11 +174,7 @@
     previewName.textContent = material[1];
     previewDescription.textContent = material[2];
     for (const [key, button] of swatches) button.setAttribute('aria-pressed', String(key === settings.bindingMaterial));
-    const location = reader.location();
-    if (location.open && shell) {
-      const active = ['physical', 'cinematic'].includes(location.mode) && settings.bookDepth !== 'flat';
-      physics.binding(shell, location.offset, location.length, app.dataset.readerLayout === 'single', active);
-    }
+
   }
 
   function styleProfile(input) {

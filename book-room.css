@@ -1,5 +1,4 @@
 #app {
-  --room-tilt: 0deg;
   --room-shadow-x: 0px;
   --room-glow: transparent;
   --room-shadow: #140c1b75;
@@ -15,8 +14,6 @@
 #app .reading-room-table {
   display: none;
   inset: 38% 1% -10%;
-  transform-origin: center bottom;
-  transform: perspective(930px) rotateX(calc(19deg + var(--room-tilt)));
   border-radius: 2.2rem 2.2rem 0 0;
   border: 1px solid #fae7cf33;
   box-shadow: 0 -1.1rem 4.5rem #0e081775, inset 0 1px #ffffff33;
@@ -47,9 +44,6 @@
 }
 #app[data-reading-light]:not([data-reading-light="story"]) .reader-view .book-shell {
   filter: drop-shadow(var(--room-shadow-x) .55rem .8rem var(--room-shadow));
-}
-#app[data-reader-layout="spread"][data-reading-desk]:not([data-reading-desk="off"]):not([data-focus="true"]) .physical-binding {
-  transform: perspective(2400px) rotateX(calc(var(--room-tilt) * .42));
 }
 #app[data-focus="true"] .reading-room { display: none; }
 @media (max-width: 819px) {
