@@ -1038,6 +1038,20 @@
       "sha256": "6ba5370be1df1c13b2fc36fa32dc6f6064125dfbf545b5cb541164856c5a0d40"
     },
     {
+      "id": "frosthold-hatira-karti-preview.webp",
+      "src": "assets/images/frosthold-hatira-karti-preview.webp",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "d6c39bddd3c9a4989af3ab94ad509533bf10df5b41baad325a385ebfe515af7a"
+    },
+    {
+      "id": "frosthold-hatira-karti.png",
+      "src": "assets/images/frosthold-hatira-karti.png",
+      "storyId": "dahi-bilginin-geri-donusu",
+      "type": "image",
+      "sha256": "c22890370ca7e42fbee2763689e5456a5680eb9b5be4f341b09e9bfffe349bbb"
+    },
+    {
       "id": "frosthold-renewed-480.webp",
       "src": "assets/images/frosthold-renewed-480.webp",
       "storyId": "dahi-bilginin-geri-donusu",
