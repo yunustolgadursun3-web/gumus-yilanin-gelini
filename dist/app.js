@@ -2481,13 +2481,19 @@ document.addEventListener('visibilitychange', () => {
       document.querySelector('#focus-exit').focus({ preventScroll: true });
     }
   }
+  let chapterLayout;
+  function readerChapters() {
+    if (chapterLayout?.pages !== state.pages || chapterLayout.chapters !== state.chapters) {
+      const pageNumbers = state.chapters.map(chapter => state.pages.findIndex(page => page.type === 'text' &&
+        page.sourceStart <= chapter.offset && chapter.offset < page.sourceEnd) + 1);
+      chapterLayout = { pages: state.pages, chapters: state.chapters, pageNumbers };
+    }
+    return state.chapters.map((chapter, index) => ({ ...chapter, page: chapterLayout.pageNumbers[index] }));
+  }
+
   window.BookReader = Object.freeze({
     settings: () => ({...state.settings}), defaults: () => ({...DEFAULT_SETTINGS}), location: readerLocation,
-    chapters: () => state.chapters.map(chapter => ({
-      ...chapter,
-      page: state.pages.findIndex(page => page.type === 'text' &&
-        page.sourceStart <= chapter.offset && chapter.offset < page.sourceEnd) + 1,
-    })),
+    chapters: readerChapters,
     illustrations: () => state.pages.filter(page => page.scene?.kind === 'image').map(page => ({
       src: page.scene.src, chapterId: page.scene.chapter?.id, offset: page.sourceStart, leaf: leafIdentity(page),
     })),
