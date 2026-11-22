@@ -184,6 +184,10 @@
     return REDUCED_MOTION.matches || Boolean(state.settings.reduceMotion);
   }
 
+  function liteRendering() {
+    return el.app.dataset.performanceLite === 'true';
+  }
+
   function storageGet(key) {
     try { return localStorage.getItem(key); } catch { return null; }
   }
@@ -850,7 +854,10 @@
     image.fetchPriority = prominent ? 'high' : 'low';
     image.decoding = 'async';
     if (/\.webp$/iu.test(source)) {
-      image.srcset = source.replace(/\.webp$/iu, '-480.webp') + ' 480w, ' + source + ` ${scene.width || 1024}w`;
+      const thumbnail = source.replace(/\.webp$/iu, '-480.webp');
+      image.srcset = liteRendering() && isMobile() && state.settings.quality !== 'high'
+        ? thumbnail + ' 480w'
+        : thumbnail + ' 480w, ' + source + ` ${scene.width || 1024}w`;
       image.sizes = className === 'art-illustration' ? '(max-width: 819px) 100vw, 50vw' : '(max-width: 819px) 86vw, 40vw';
       image.width = scene.width || 1024;
       image.height = scene.height || 1536;
@@ -1533,7 +1540,7 @@
     const first = visible[0];
     el.app.dataset.mood = first?.chapter?.mood || first?.scene?.mood || presentationFor(chapterAt(first?.sourceStart)?.label).mood;
     updateProgress();
-    if (!continuousMode()) {
+    if (!continuousMode() && !liteRendering()) {
       placeVignettes();
       window.BookSceneFx?.render(el.spread, visible.map((page, i) => ({
         index: start + i, type: page.type, raw: page.raw, chapter: chapterFor(chapterAt(page.sourceStart)?.label),
@@ -1612,7 +1619,7 @@
   }
 
   function fadeSpread() {
-    if (motionReduced()) return;
+    if (motionReduced() || liteRendering()) return;
     const single = singlePage();
     const speed = Math.max(.6, Math.min(1.6, Number(state.settings.turnSpeed) || 1));
     return el.spread.animate?.([{ opacity: single ? .88 : .62 }, { opacity: 1 }],

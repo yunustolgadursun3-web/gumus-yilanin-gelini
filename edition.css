@@ -122,10 +122,21 @@
 /* Lightweight compositing keeps the same paper, artwork and page-turn design. */
 #app .physical-turn * { animation:none!important; transition:none!important; }
 #app .world-content :is(.world-card,.world-chapter-card) { content-visibility:auto; contain-intrinsic-size:auto 420px; }
-#app[data-performance-lite="true"] :is(.cover-environment img,.reading-room-light,.royal-map-weather) { animation-iteration-count:1!important; }
-#app[data-performance-lite="true"] :is(.settings-panel,.music-panel,.world-dialog,.floating-audio-button) { backdrop-filter:none!important; -webkit-backdrop-filter:none!important; }
-#app[data-performance-lite="true"] .reading-room-light { filter:blur(12px); }
-#app[data-performance-lite="true"] .book-shell { box-shadow:0 10px 24px #0005; }
+#app[data-performance-lite="true"] :is(.cover-environment img,.cover-art,.cover-content > *,.reading-room-light,.royal-map-weather,.chapter-arrive) {
+  animation:none!important;
+  will-change:auto;
+}
+#app[data-performance-lite="true"] #cover-view::before,
+#app[data-performance-lite="true"] .cover-vignette::before { animation:none!important; }
+#app[data-performance-lite="true"] .cover-vignette::after { display:none; }
+#app[data-performance-lite="true"] :is(.cover-topbar,.reader-header,.reader-footer,.settings-panel,.music-panel,.world-dialog,.narrator-player,.floating-audio-button),
+#app[data-performance-lite="true"] dialog::backdrop {
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+}
+#app[data-performance-lite="true"] :is(.reading-room-light,.reader-view .book-shell) { filter:none!important; }
+#app[data-performance-lite="true"] .book-shell { box-shadow:0 5px 14px #0005; }
+#app[data-performance-lite="true"] .book-page[data-page-type="text"] { background-image:none; }
 
 /* Silver moonlight and worn red oath thread frame the book's printed art. */
 #app #cover-view .cover-environment { opacity:.62; }
