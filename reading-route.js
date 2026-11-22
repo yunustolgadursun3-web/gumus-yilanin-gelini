@@ -20,6 +20,7 @@
       </svg>
       <span class="reading-route-stops"></span>
       <span class="reading-route-runner"><img src="./assets/images/reading-rabbit.webp" alt="" draggable="false"></span>
+      <span class="reading-route-heart" hidden>♥</span>
     </span>
     <span class="reading-route-range" aria-hidden="true">
       <span data-route-start>0</span><span class="reading-route-caption">Başlangıç</span><span data-route-end>50</span>
@@ -31,10 +32,15 @@
   const fill = route.querySelector('.reading-route-fill');
   const stops = route.querySelector('.reading-route-stops');
   const runner = route.querySelector('.reading-route-runner');
+  const heart = route.querySelector('.reading-route-heart');
   const startLabel = route.querySelector('[data-route-start]');
   const endLabel = route.querySelector('[data-route-end]');
   const caption = route.querySelector('.reading-route-caption');
   const pathLength = path.getTotalLength();
+  const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+  const celebrated = new Set();
+  let previousLocation;
+  let hop;
   let previousWindow = -1;
   let stopSignature = '';
   let resizeFrame = 0;
@@ -61,9 +67,31 @@
     arrowGroup.append(arrow);
   }
 
-  function update() {
+  function celebrate(location, completed, finalPage, reduced, locationChanged) {
+    if (reduced) hop?.cancel();
+    if (!locationChanged) return;
+    const previous = previousLocation;
+    previousLocation = location;
+    if (!previous || location.page <= previous.page || location.offset < previous.offset) return;
+    const milestone = finalPage ? 'end' : location.page - previous.page <= 2 ? completed : null;
+    if (!milestone || celebrated.has(milestone)) return;
+    celebrated.add(milestone);
+    if (reduced) return;
+    hop?.cancel();
+    hop = runner.animate([
+      { transform: 'translate(-50%, -50%)' },
+      { transform: 'translate(-50%, calc(-50% - 6px)) scale(1.07)', offset: .48 },
+      { transform: 'translate(-50%, -50%)' },
+    ], { id: 'rabbit-hop', duration: 450, easing: 'ease-in-out' });
+  }
+
+  function update(locationChanged = false) {
     const location = reader.location();
-    if (!location.open || !location.total) return;
+    if (!location.open || !location.total) {
+      previousLocation = undefined;
+      hop?.cancel();
+      return;
+    }
 
     const page = Math.max(1, Math.min(location.total, location.page));
     const start = Math.floor((page - 1) / 50) * 50;
@@ -72,8 +100,16 @@
     const fraction = (page - start) / span;
     const chapters = reader.chapters().filter(chapter => chapter.page > 0);
     const current = plan.chapters.filter(chapter => chapter.offset <= location.offset).at(-1);
-    const reduced = reader.settings().reduceMotion || matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const reduced = reader.settings().reduceMotion || motionPreference.matches;
     route.dataset.motion = reduced ? 'off' : 'on';
+    const visibleLeaves = location.mode === 'scroll' ? [] : reader.visiblePages();
+    const finalPage = location.anchor.leaf === 'end' || visibleLeaves.some(node => node.dataset.pageType === 'end');
+    const summary = visibleLeaves.find(node => node.dataset.pageType === 'discovery');
+    const completed = location.anchor.leaf === 'discovery' ? current?.id
+      : summary && plan.chapters.findLast(chapter => chapter.offset <= Number(summary.dataset.sourceStart))?.id;
+    heart.hidden = !finalPage;
+    if (finalPage) position(heart, fraction);
+    celebrate(location, completed, finalPage, reduced, locationChanged);
 
     if (previousWindow !== start) {
       cancelAnimationFrame(resetFrame);
@@ -91,7 +127,7 @@
     route.dataset.windowEnd = String(end);
     route.setAttribute('aria-valuenow', String(page));
     route.setAttribute('aria-valuemax', String(location.total));
-    route.setAttribute('aria-valuetext', `${page} / ${location.total}. ${location.chapter}. ${start}–${end} aralığı.`);
+    route.setAttribute('aria-valuetext', `${page} / ${location.total}. ${location.chapter}. ${start}–${end} aralığı.${finalPage ? ' Yolculuk tamamlandı.' : ''}`);
     const unit = location.mode === 'scroll' ? 'Kesit' : 'Sayfa';
     route.title = `${unit} ${page} / ${location.total} · ${location.chapter}`;
     startLabel.textContent = String(start);
@@ -142,8 +178,9 @@
     }
   }
 
-  document.addEventListener('book:location', update);
-  document.addEventListener('book:settings', update);
+  document.addEventListener('book:location', () => update(true));
+  document.addEventListener('book:settings', () => update());
+  motionPreference.addEventListener('change', () => update());
   new ResizeObserver(() => {
     cancelAnimationFrame(resizeFrame);
     resizeFrame = requestAnimationFrame(() => {

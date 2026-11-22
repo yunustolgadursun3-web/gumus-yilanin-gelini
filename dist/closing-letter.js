@@ -25,7 +25,10 @@
         </div>
         <p class="thank-you-signature">Tavşanlardan da selam <span aria-hidden="true">♡</span></p>
       </article>
-      <button class="thank-you-return" type="button">Mektubu kapat <span aria-hidden="true">♡</span></button>
+      <div class="thank-you-actions">
+        <button class="thank-you-return" type="button">Mektubu kapat <span aria-hidden="true">♡</span></button>
+        <button class="thank-you-return keepsake-trigger" type="button" aria-haspopup="dialog" aria-controls="keepsake-card" aria-expanded="false">Hatıra kartı</button>
+      </div>
       <button class="rabbit-story-trigger" type="button" aria-haspopup="dialog" aria-controls="rabbit-story" aria-expanded="false">
         <span aria-hidden="true">♡</span> Tavşanların küçük aşkı
       </button>
@@ -46,20 +49,35 @@
         <button class="thank-you-return">Mektuba dön <span aria-hidden="true">♡</span></button>
       </div>
     </form>`;
-  app.append(dialog, rabbitStory);
+  const keepsake = document.createElement('dialog');
+  keepsake.id = 'keepsake-card';
+  keepsake.className = 'keepsake-dialog';
+  keepsake.setAttribute('aria-label', 'Sakuralı hatıra kartı');
+  keepsake.innerHTML = `
+    <form method="dialog">
+      <button class="thank-you-close" aria-label="Hatıra kartını kapat" autofocus>×</button>
+      <img class="keepsake-preview" src="./assets/images/frosthold-hatira-karti-preview.webp" width="540" height="720" loading="lazy" alt="Dahi Bilginin Geri Dönüşü. Bu hikâyeyi bitirdim. Sakura dalları altında Misket ile Boncuk.">
+      <div class="keepsake-actions">
+        <a class="thank-you-return keepsake-download" href="./assets/images/frosthold-hatira-karti.png" download="Dahi-Bilginin-Geri-Donusu-Hatira-Karti.png">PNG kartı indir</a>
+        <button class="thank-you-return">Mektuba dön</button>
+      </div>
+    </form>`;
+  app.append(dialog, rabbitStory, keepsake);
 
-  const rabbitButton = dialog.querySelector('.rabbit-story-trigger');
-  rabbitButton.addEventListener('click', () => {
-    rabbitStory.showModal();
-    rabbitStory.scrollTop = 0;
-    rabbitButton.setAttribute('aria-expanded', 'true');
-  });
-  rabbitStory.addEventListener('close', () => rabbitButton.setAttribute('aria-expanded', 'false'));
+  for (const [selector, panel] of [['.rabbit-story-trigger', rabbitStory], ['.keepsake-trigger', keepsake]]) {
+    const trigger = dialog.querySelector(selector);
+    trigger.addEventListener('click', () => {
+      panel.showModal();
+      panel.scrollTop = 0;
+      trigger.setAttribute('aria-expanded', 'true');
+    });
+    panel.addEventListener('close', () => trigger.setAttribute('aria-expanded', 'false'));
+  }
 
   function close() { dialog.close(); }
   dialog.querySelector('.thank-you-close').addEventListener('click', close);
   dialog.querySelector('.thank-you-return').addEventListener('click', close);
-  for (const panel of [dialog, rabbitStory]) {
+  for (const panel of [dialog, rabbitStory, keepsake]) {
     panel.addEventListener('click', event => {
       if (event.target !== panel) return;
       const bounds = panel.getBoundingClientRect();

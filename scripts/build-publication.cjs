@@ -21,7 +21,7 @@ files.push('book-style-studio.js', 'book-style-studio.css', 'book-binding-studio
 files.push('book-room.js', 'book-room.css', 'book-layer-scenes.js', 'book-illustration-studio.js', 'book-illustration-studio.css');
 files.push('reader-notes.js', 'reader-notes.css');
 files.push('book-library.js', 'book-library.css', 'book-library-data.js', 'book-offline.js', 'book-audiobook.js');
-files.push('edition.css', 'edition.js', 'reading-route.js');
+files.push('edition.css', 'edition.js', 'reading-route.js', 'scene-seals.js');
 files.push('closing-letter.css', 'closing-letter.js');
 for (const file of files) fs.copyFileSync(path.join(root,file),path.join(output,file));
 fs.cpSync(path.join(root,'assets'),path.join(output,'assets'),{recursive:true,filter:file=>!file.endsWith('.json')||file.endsWith('muzik.json')});

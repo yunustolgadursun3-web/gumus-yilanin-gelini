@@ -130,6 +130,10 @@
 #app .thank-you-return { border: 1px solid #bd8da08a; background: #fff7edeb; color: #744957; cursor: pointer; }
 #app .thank-you-close { position: absolute; z-index: 3; top: .75rem; right: .75rem; display: grid; place-items: center; width: 2.75rem; height: 2.75rem; padding: 0; border-radius: 50%; font: 1.65rem/1 system-ui, sans-serif; }
 #app .thank-you-return { z-index: 1; min-height: 2.75rem; padding: .65rem 1.1rem; border-radius: 2rem; font: 500 .75rem/1.3 system-ui, sans-serif; box-shadow: 0 3px 10px #9b687516; }
+#app .thank-you-actions,
+#app .keepsake-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .45rem; }
+#app .keepsake-trigger,
+#app .keepsake-download { background: #f6dce5; border-color: #b67e95; color: #683f50; }
 #app .thank-you-close:focus-visible,
 #app .thank-you-return:focus-visible { outline: 2px solid #9f526f; outline-offset: 3px; }
 #app .thank-you-petals { position: absolute; z-index: -1; inset: 0; overflow: hidden; pointer-events: none; }
@@ -203,7 +207,7 @@
 }
 #app .rabbit-story-trigger:hover { background: #ffe5ed; }
 #app .rabbit-story-trigger:focus-visible { outline: 2px solid #9f526f; outline-offset: 3px; }
-#app .rabbit-story {
+#app :is(.rabbit-story, .keepsake-dialog) {
   position: fixed;
   width: min(30rem, calc(100vw - 1.25rem));
   max-width: none;
@@ -218,7 +222,7 @@
   box-shadow: 0 18px 65px #351b2b6b;
   overscroll-behavior: contain;
 }
-#app .rabbit-story::backdrop { background: #3d233a9c; backdrop-filter: blur(4px); }
+#app :is(.rabbit-story, .keepsake-dialog)::backdrop { background: #3d233a9c; backdrop-filter: blur(4px); }
 #app .rabbit-story-art {
   display: block;
   width: 100%;
@@ -242,3 +246,13 @@
   font: 400 .88rem/1.65 Lora, Georgia, serif;
 }
 #app .rabbit-story-paper .thank-you-return { margin-top: .25rem; }
+#app .keepsake-dialog { width: min(26rem, calc(100vw - 1.25rem)); }
+#app .keepsake-preview {
+  display: block;
+  width: 100%;
+  height: min(69dvh, 34rem);
+  object-fit: contain;
+  background: #f7e4e7;
+}
+#app .keepsake-actions { padding: .8rem; }
+#app .keepsake-download { display: inline-grid; place-items: center; text-decoration: none; box-sizing: border-box; }

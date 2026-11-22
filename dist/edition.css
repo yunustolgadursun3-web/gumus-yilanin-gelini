@@ -324,6 +324,15 @@
   transition: left 900ms cubic-bezier(.2,.65,.3,1), top 900ms cubic-bezier(.2,.65,.3,1);
 }
 #app .reading-route-runner img { object-position: 91% center; }
+#app .reading-route-heart {
+  position: absolute;
+  z-index: 3;
+  color: #ffd1de;
+  font: 1.1rem/1 Georgia, serif;
+  text-shadow: 0 1px 5px #0f1e11;
+  transform: translate(-180%, -103%);
+  pointer-events: none;
+}
 #app .reading-route-range {
   display: flex;
   align-items: center;
@@ -366,3 +375,79 @@
     width: min(100%, 36dvh);
   }
 }
+
+#app .scene-seal-trigger {
+  position: absolute;
+  inset: .38rem auto auto .38rem;
+  z-index: 6;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fbe9bd;
+  font: 1rem/1 Georgia, serif;
+  isolation: isolate;
+  visibility: hidden;
+  cursor: pointer;
+}
+#app .illustration-image.is-loaded ~ .scene-seal-trigger { visibility: visible; }
+#app .scene-seal-trigger::before {
+  position: absolute;
+  inset: .36rem;
+  z-index: -1;
+  content: '';
+  border: 1px solid #e6cc96;
+  border-radius: 50%;
+  background: #1b2c29e8;
+  box-shadow: inset 0 0 0 3px #bc99532a, 0 2px 5px #101a16a0;
+}
+#app .scene-seal-trigger:is(:hover,:focus-visible)::before { background: #514632; }
+#app .scene-seal-trigger:focus-visible { outline: 2px solid #fff2ca; outline-offset: -1px; border-radius: 50%; }
+#app #scene-seal {
+  position: fixed;
+  width: min(27rem, calc(100vw - 1.5rem));
+  max-height: calc(100dvh - 1.5rem);
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1.6rem clamp(1.15rem, 5vw, 2.25rem) 1.5rem;
+  overflow: auto;
+  border: 1px solid #a78b5e;
+  border-radius: .55rem;
+  background: radial-gradient(ellipse at top, #fff6df, #f1e6cf 80%);
+  color: #47392a;
+  box-shadow: 0 14px 45px #0d141758;
+  text-align: center;
+}
+#app #scene-seal::backdrop { background: #111b1caa; }
+#app .scene-seal-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border: 1px solid #9e8455;
+  border-radius: 50%;
+  color: #896837;
+}
+#app #scene-seal h2 { margin: .7rem 0; color: #67512e; font: 500 1.42rem/1.3 Lora, Georgia, serif; }
+#app #scene-seal blockquote { margin: .8rem 0; font: italic .96rem/1.68 Lora, Georgia, serif; }
+#app .scene-seal-chapter { margin: .75rem 0 1rem; color: #745e3a; font: 600 .65rem/1.5 system-ui, sans-serif; }
+#app .scene-seal-close, #app .scene-seal-return {
+  min-height: 2.75rem;
+  border: 1px solid #ae966c;
+  border-radius: 1.5rem;
+  background: #fbefd7;
+  color: #654b27;
+  cursor: pointer;
+}
+#app .scene-seal-close {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  width: 2.75rem;
+  padding: 0;
+  font: 1.45rem/1 system-ui, sans-serif;
+}
+#app .scene-seal-return { padding: .55rem 1rem; font: 500 .75rem/1.3 system-ui, sans-serif; }
