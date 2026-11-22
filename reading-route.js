@@ -110,7 +110,8 @@
     const span = Math.max(1, end - start);
     const fraction = (page - start) / span;
     const current = plan.chapters.findLast(chapter => chapter.offset <= location.offset);
-    const reduced = reader.settings().reduceMotion || motionPreference.matches;
+    const reduced = reader.settings().reduceMotion || motionPreference.matches ||
+      document.getElementById('app').dataset.performanceLite === 'true';
     setAttribute(route, 'data-motion', reduced ? 'off' : 'on');
     const visibleLeaves = location.mode === 'scroll' ? [] : reader.visiblePages();
     const finalPage = location.anchor.leaf === 'end' || visibleLeaves.some(node => node.dataset.pageType === 'end');

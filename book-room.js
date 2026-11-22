@@ -39,12 +39,12 @@
     tab.append(label);
     fields[key] = field;
   }
-  const mobilePerformance=matchMedia('(max-width:819px)');
+  const mobilePerformance=matchMedia('(max-width:819px), (pointer:coarse)');
   mobilePerformance.addEventListener('change',apply);
   function apply() {
     const settings = reader.settings();
-    const limited=mobilePerformance.matches||navigator.connection?.saveData||(navigator.deviceMemory>0&&navigator.deviceMemory<=4)||(navigator.hardwareConcurrency>0&&navigator.hardwareConcurrency<=4);
-    app.dataset.performanceLite=String(settings.quality==='low'||(settings.quality==='balanced'||((settings.quality||'auto')==='auto'&&limited)));
+    const limited=navigator.connection?.saveData||(navigator.deviceMemory>0&&navigator.deviceMemory<=4)||(navigator.hardwareConcurrency>0&&navigator.hardwareConcurrency<=4);
+    app.dataset.performanceLite=String(mobilePerformance.matches||settings.quality==='low'||settings.quality==='balanced'||((settings.quality||'auto')==='auto'&&limited));
     for (const [key, [, allowed]] of Object.entries(choices)) {
       const value = Object.hasOwn(allowed, settings[key]) ? settings[key] : Object.keys(allowed)[0];
       fields[key].value = value;
