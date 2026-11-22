@@ -6,12 +6,12 @@
   const bookId = String(plan.storageId || plan.title).toLocaleLowerCase('tr-TR').replace(/[^\p{L}\d]+/gu, '-');
   const searchKey = 'book:' + bookId + ':search-ranges:v1';
 
-  function readingRanges(location) {
+  function readingRanges(hash, length) {
     let stored;
     try { stored = JSON.parse(localStorage.getItem(searchKey) || 'null'); } catch { return []; }
-    if (stored?.hash !== location.anchor.sourceHash || !Array.isArray(stored.ranges)) return [];
+    if (stored?.hash !== hash || !Array.isArray(stored.ranges)) return [];
     return stored.ranges.filter(range => Array.isArray(range) && range.length === 2 &&
-      range.every(Number.isInteger) && range[0] >= 0 && range[1] <= location.length && range[0] < range[1]);
+      range.every(Number.isInteger) && range[0] >= 0 && range[1] <= length && range[0] < range[1]);
   }
 
   function flowRanges(page, viewport) {
@@ -56,13 +56,51 @@
   }
 
   let reachedHash;
+  let reachedSource = '';
   let reached = [];
+  let cancelWrite;
+
+  function mergeRanges(incoming) {
+    const ordered = [...reached, ...incoming].sort(([a], [b]) => a - b);
+    const merged = [];
+    for (const [start, end] of ordered) {
+      const previous = merged.at(-1);
+      if (previous && (start <= previous[1] || /^[\s*#]*$/u.test(reachedSource.slice(previous[1], start)))) {
+        previous[1] = Math.max(previous[1], end);
+      } else {
+        merged.push([start, end]);
+      }
+    }
+    reached = merged;
+  }
+
+  function persistReached() {
+    if (!cancelWrite) return;
+    cancelWrite();
+    cancelWrite = null;
+    mergeRanges(readingRanges(reachedHash, reachedSource.length));
+    try { localStorage.setItem(searchKey, JSON.stringify({ hash: reachedHash, ranges: reached })); } catch {}
+  }
+
+  function queueWrite() {
+    if (cancelWrite) return;
+    if (typeof requestIdleCallback === 'function') {
+      const job = requestIdleCallback(persistReached, { timeout: 700 });
+      cancelWrite = () => cancelIdleCallback(job);
+    } else {
+      const job = setTimeout(persistReached, 300);
+      cancelWrite = () => clearTimeout(job);
+    }
+  }
+
   function rememberVisibleText(location) {
     const { open, length, mode, anchor } = location;
     if (!length || !anchor.sourceHash) return;
     if (reachedHash !== anchor.sourceHash) {
+      persistReached();
       reachedHash = anchor.sourceHash;
-      reached = readingRanges(location);
+      reachedSource = reader.source();
+      reached = readingRanges(reachedHash, length);
     }
     if (!open) return;
     const pages = reader.visiblePages().filter(page => page.dataset.pageType === 'text');
@@ -71,22 +109,19 @@
       [[Number(page.dataset.sourceStart), Number(page.dataset.sourceEnd)]]);
     if (ranges.every(([start, end]) => reached.some(([a, b]) => a <= start && end <= b))) return;
 
-    const source = reader.source();
-    const all = [...reached, ...readingRanges(location), ...ranges].sort(([a], [b]) => a - b);
-    reached = [];
-    for (const [start, end] of all) {
-      const previous = reached.at(-1);
-      if (previous && (start <= previous[1] || /^[\s*#]*$/u.test(source.slice(previous[1], start)))) {
-        previous[1] = Math.max(previous[1], end);
-      } else {
-        reached.push([start, end]);
-      }
-    }
-    try { localStorage.setItem(searchKey, JSON.stringify({ hash: reachedHash, ranges: reached })); } catch {}
+    mergeRanges(ranges);
+    queueWrite();
   }
   document.addEventListener('book:location', event => rememberVisibleText(event.detail));
   window.addEventListener('storage', event => {
-    if (event.key === searchKey || event.key === null) reachedHash = undefined;
+    if (!reachedHash || (event.key !== searchKey && event.key !== null)) return;
+    const stored = readingRanges(reachedHash, reachedSource.length);
+    if (cancelWrite) mergeRanges(stored);
+    else reached = stored;
+  });
+  window.addEventListener('pagehide', persistReached);
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) persistReached();
   });
 
   window.BookReadingHistory = Object.freeze({

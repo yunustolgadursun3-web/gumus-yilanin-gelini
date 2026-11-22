@@ -39,9 +39,12 @@
   const pathLength = path.getTotalLength();
   const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
   const celebrated = new Set();
+  const plannedChapters = new Map(plan.chapters.map(chapter => [chapter.id, chapter]));
   let previousLocation;
   let hop;
   let previousWindow = -1;
+  let previousFraction = -1;
+  let mapWidth = 0;
   let stopSignature = '';
   let resizeFrame = 0;
   let resetFrame = 0;
@@ -54,6 +57,15 @@
     const at = point(fraction);
     node.style.left = at.x + '%';
     node.style.top = at.y / 32 * 100 + '%';
+  }
+
+  function setLabel(node, text) {
+    if (node.textContent !== text) node.textContent = text;
+  }
+
+  function setAttribute(node, name, value) {
+    const text = String(value);
+    if (node.getAttribute(name) !== text) node.setAttribute(name, text);
   }
 
   const arrowGroup = route.querySelector('.reading-route-arrows');
@@ -85,8 +97,7 @@
     ], { id: 'rabbit-hop', duration: 450, easing: 'ease-in-out' });
   }
 
-  function update(locationChanged = false) {
-    const location = reader.location();
+  function update(location = reader.location(), locationChanged = false) {
     if (!location.open || !location.total) {
       previousLocation = undefined;
       hop?.cancel();
@@ -98,17 +109,17 @@
     const end = Math.min(start + 50, location.total);
     const span = Math.max(1, end - start);
     const fraction = (page - start) / span;
-    const chapters = reader.chapters().filter(chapter => chapter.page > 0);
-    const current = plan.chapters.filter(chapter => chapter.offset <= location.offset).at(-1);
+    const current = plan.chapters.findLast(chapter => chapter.offset <= location.offset);
     const reduced = reader.settings().reduceMotion || motionPreference.matches;
-    route.dataset.motion = reduced ? 'off' : 'on';
+    setAttribute(route, 'data-motion', reduced ? 'off' : 'on');
     const visibleLeaves = location.mode === 'scroll' ? [] : reader.visiblePages();
     const finalPage = location.anchor.leaf === 'end' || visibleLeaves.some(node => node.dataset.pageType === 'end');
     const summary = visibleLeaves.find(node => node.dataset.pageType === 'discovery');
     const completed = location.anchor.leaf === 'discovery' ? current?.id
       : summary && plan.chapters.findLast(chapter => chapter.offset <= Number(summary.dataset.sourceStart))?.id;
-    heart.hidden = !finalPage;
-    if (finalPage) position(heart, fraction);
+    const finalChanged = heart.hidden === finalPage;
+    if (finalChanged) heart.hidden = !finalPage;
+    if (finalPage && (finalChanged || fraction !== previousFraction)) position(heart, fraction);
     celebrate(location, completed, finalPage, reduced, locationChanged);
 
     if (previousWindow !== start) {
@@ -120,35 +131,39 @@
       previousWindow = start;
     }
 
-    position(runner, fraction);
-    fill.style.strokeDashoffset = String(100 - fraction * 100);
-    route.dataset.page = String(page);
-    route.dataset.windowStart = String(start);
-    route.dataset.windowEnd = String(end);
-    progressbar.setAttribute('aria-valuenow', String(page));
-    progressbar.setAttribute('aria-valuemax', String(location.total));
-    progressbar.setAttribute('aria-valuetext', `${page} / ${location.total}. ${location.chapter}. ${start}–${end} aralığı.${finalPage ? ' Yolculuk tamamlandı.' : ''}`);
+    if (fraction !== previousFraction) {
+      position(runner, fraction);
+      fill.style.strokeDashoffset = String(100 - fraction * 100);
+      previousFraction = fraction;
+    }
+    setAttribute(route, 'data-page', page);
+    setAttribute(route, 'data-window-start', start);
+    setAttribute(route, 'data-window-end', end);
+    setAttribute(progressbar, 'aria-valuenow', page);
+    setAttribute(progressbar, 'aria-valuemax', location.total);
+    setAttribute(progressbar, 'aria-valuetext', `${page} / ${location.total}. ${location.chapter}. ${start}–${end} aralığı.${finalPage ? ' Yolculuk tamamlandı.' : ''}`);
     const unit = location.mode === 'scroll' ? 'Kesit' : 'Sayfa';
-    route.title = `${unit} ${page} / ${location.total} · ${location.chapter}`;
-    startLabel.textContent = String(start);
-    endLabel.textContent = String(end);
-    caption.textContent = current ? `Bölüm ${current.number}` : 'Başlangıç';
+    setAttribute(route, 'title', `${unit} ${page} / ${location.total} · ${location.chapter}`);
+    setLabel(startLabel, String(start));
+    setLabel(endLabel, String(end));
+    setLabel(caption, current ? `Bölüm ${current.number}` : 'Başlangıç');
 
+    const chapters = reader.chapters().filter(chapter => chapter.page > 0);
     const candidates = chapters.filter(chapter => chapter.page >= start && chapter.page <= end);
     const preceding = chapters.filter(chapter => chapter.page < start).at(-1);
     if (preceding) candidates.unshift(preceding);
-    const minimumGap = 29 / Math.max(100, map.clientWidth);
+    const minimumGap = 29 / Math.max(100, mapWidth);
     const visible = [];
     candidates.sort((left, right) => Math.abs(left.page - page) - Math.abs(right.page - page));
     for (const chapter of candidates) {
       const progress = Math.max(0, Math.min(1, (chapter.page - start) / span));
       if (visible.length >= 4 || visible.some(item => Math.abs(item.progress - progress) < minimumGap)) continue;
-      const planned = plan.chapters.find(item => item.id === chapter.id);
+      const planned = plannedChapters.get(chapter.id);
       const image = planned?.galleryImage;
       visible.push({ chapter, image, progress, revealed: Boolean(image && image.unlock <= location.offset) });
     }
     visible.sort((left, right) => left.progress - right.progress);
-    const signature = visible.map(item => `${item.chapter.id}:${item.chapter.page}:${item.revealed}`).join('|') + ':' + start;
+    const signature = visible.map(item => `${item.chapter.id}:${item.chapter.page}:${item.revealed}`).join('|') + ':' + start + ':' + end + ':' + unit;
     if (signature === stopSignature) return;
     stopSignature = signature;
     stops.replaceChildren();
@@ -168,7 +183,7 @@
       } else {
         const landscape = document.createElement('span');
         landscape.className = 'reading-route-landscape';
-        const planned = plan.chapters.find(chapter => chapter.id === item.chapter.id);
+        const planned = plannedChapters.get(item.chapter.id);
         const place = window.STORY_WORLD?.facts.find(fact => fact.kind === 'places' && fact.id === planned?.place);
         landscape.style.backgroundPosition = `${place?.x || 50}% ${place?.y || 50}%`;
         stop.append(landscape);
@@ -178,15 +193,15 @@
     }
   }
 
-  document.addEventListener('book:location', () => update(true));
+  document.addEventListener('book:location', event => update(event.detail, true));
   document.addEventListener('book:settings', () => update());
   motionPreference.addEventListener('change', () => update());
-  new ResizeObserver(() => {
+  new ResizeObserver(([entry]) => {
+    const width = Math.round(entry.contentRect.width);
+    if (width === mapWidth) return;
+    mapWidth = width;
     cancelAnimationFrame(resizeFrame);
-    resizeFrame = requestAnimationFrame(() => {
-      stopSignature = '';
-      update();
-    });
+    resizeFrame = requestAnimationFrame(() => update());
   }).observe(map);
   update();
 })();
