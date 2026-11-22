@@ -29,6 +29,7 @@
       <button type="button" data-finale-view="compare" aria-current="true" aria-controls="finale-compare">Önce ve sonra</button>
       <button type="button" data-finale-view="letters" aria-controls="finale-letters">Mektuplar</button>
       <button type="button" data-finale-view="album" aria-controls="finale-album">Final albümü</button>
+      <button type="button" data-finale-view="newspaper" aria-controls="finale-newspaper">Gazete</button>
     </nav>
     <div class="finale-content">
       <section id="finale-compare" data-finale-panel="compare">
@@ -65,6 +66,16 @@
             <p>Ragewind’de çözemediğim o büyüyü nasıl anlattığını hatırlıyor musun? Eve döner dönmez defterime yazmıştım. Bugün defteri açınca kenarına küçük harflerle adını da yazdığımı gördüm.</p>
             <p>Yarın güneş doğarken meydanda buluşalım. Bu kez acelemiz yok. Yol boyunca bana dağdaki kulübeyi anlatırsın.</p>
             <p class="finale-signature">Aisha</p>
+            <details class="finale-reply">
+              <summary>Mektuba cevap yaz</summary>
+              <form class="finale-reply-form">
+                <label for="finale-reply-text">Aisha’ya cevabın</label>
+                <textarea id="finale-reply-text" rows="5" maxlength="2400" placeholder="Sevgili Aisha," aria-describedby="finale-reply-help"></textarea>
+                <p id="finale-reply-help">Cevabın yalnızca bu tarayıcıda saklanır.</p>
+                <button type="submit">Cevabı kaydet</button>
+                <p class="finale-reply-status" role="status"></p>
+              </form>
+            </details>
           </div>
         </details>
       </section>
@@ -80,8 +91,57 @@
           <button type="button" data-album-step="1">Sonraki →</button>
         </div>
       </section>
+      <section id="finale-newspaper" data-finale-panel="newspaper" hidden>
+        <div class="finale-newspaper">
+          <header class="finale-newspaper-head">
+            <h3>Frosthold Gazetesi</h3>
+            <p>İlk sayı · Yeniden kuruluş</p>
+          </header>
+          <article class="finale-newspaper-lead">
+            <h4>Meydanın ilk pazarı</h4>
+            <p>Frosthold’un büyük meydanında bu sabah ilk tezgâhlar açıldı. Dağ köylerinden gelenler bal ve yün sattı. Fırıncılar, meydanı onaran ustalara ilk somunları ayırdı. Gelecek hafta pazara komşu krallıklardan tüccarlar da katılacak.</p>
+            <figure>
+              <img src="./assets/images/frosthold-final-sonra.webp" width="1080" height="720" loading="lazy" alt="Gün doğarken yeniden kurulan Frosthold ve evlerinin arasından geçen sokaklar.">
+              <figcaption>Yeni Frosthold’da sabah.</figcaption>
+            </figure>
+          </article>
+          <div class="finale-newspaper-briefs">
+            <article>
+              <h4>Okul yeniden açıldı</h4>
+              <p>Meydanın yanındaki okul ilk öğrencilerini karşıladı. Kütüphaneden getirilen kitaplar raflara dizildi. İlk dersin ardından öğrenciler, avluya astıkları panoya öğrenmek istedikleri konuları yazdı.</p>
+            </article>
+            <article>
+              <h4>Köprünün fenerleri yandı</h4>
+              <p>Kuzey köprüsüne yeni fenerler takıldı. Mahalleli, akşam ilk fenerleri yakmak için köprü başında buluştu. Köprüden geçen ilk yolcular, dağ köylerine dönen pazar esnafıydı.</p>
+            </article>
+          </div>
+        </div>
+      </section>
     </div>`;
   app.append(dialog);
+
+  const replyForm = dialog.querySelector('.finale-reply-form');
+  const reply = replyForm.querySelector('textarea');
+  const replyStatus = replyForm.querySelector('[role="status"]');
+  const replyKey = `${window.BOOK_PLAN.storageId}:aisha-reply:v1`;
+  let savedReply = '';
+  try { savedReply = localStorage.getItem(replyKey) || ''; } catch {}
+  reply.value = savedReply;
+  reply.addEventListener('input', () => {
+    replyStatus.textContent = reply.value === savedReply ? '' : 'Henüz kaydedilmedi.';
+  });
+  replyForm.addEventListener('submit', event => {
+    event.preventDefault();
+    const value = reply.value.trim();
+    try {
+      if (value) localStorage.setItem(replyKey, value);
+      else localStorage.removeItem(replyKey);
+      reply.value = savedReply = value;
+      replyStatus.textContent = value ? 'Cevabın bu tarayıcıya kaydedildi.' : 'Kayıtlı cevap temizlendi.';
+    } catch {
+      replyStatus.textContent = 'Cevap kaydedilemedi. Tarayıcının depolama iznini kontrol et.';
+    }
+  });
 
   const sections = [...dialog.querySelectorAll('[data-finale-panel]')];
   const tabs = [...dialog.querySelectorAll('[data-finale-view]')];

@@ -22,9 +22,9 @@
 #app .annotation-card { margin:.55rem 0; padding:.6rem .7rem; border:1px solid #a77b5d66; border-radius:.42rem; background:#fffaf26b; overflow-wrap:anywhere; }
 #app .annotation-card small { font-weight:600; }
 #app .annotation-card p { white-space:pre-wrap; margin:.4rem 0; }
-#app :is(.annotation-search,.annotation-search-gate) { display:flex; width:100%; gap:.4rem; align-items:center; }
-#app .annotation-search-gate { min-height:44px; }
-#app .annotation-search-gate input { min-height:0; }
+#app .annotation-search { display:block; width:100%; }
+#app .annotation-search-help { margin:.5rem 0 .8rem; font-size:.82rem; }
+#app #reader-quick-panel button[aria-controls="book-notebook"] { flex-basis:100%; }
 #app .annotation-overlay { position:absolute; z-index:2; pointer-events:none; background:var(--annotation-color); }
 #app .annotation-page-mark { position:absolute; z-index:4; min-width:44px; min-height:44px; border:0; cursor:pointer; color:var(--ink); background:var(--annotation-color); }
 #app .annotation-page-mark[data-kind="corner"] { inset:0 0 auto auto; clip-path:polygon(0 0,100% 0,100% 100%); text-align:right; padding:0 .3rem 1rem 0; }

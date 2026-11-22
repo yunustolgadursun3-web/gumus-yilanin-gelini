@@ -11,6 +11,7 @@
   const bookId = String(plan.storageId || plan.title).toLocaleLowerCase('tr-TR').replace(/[^\p{L}\d]+/gu, '-');
   const key = 'book:' + bookId + ':annotations:v1';
   const journalKey = 'book:' + bookId + ':journal:v1';
+  const searchKey = 'book:' + bookId + ':search-ranges:v1';
   const types = {note:'Not', highlight:'Vurgu', tag:'Etiket', corner:'Köşe işareti'};
   const colors = {amber:'Kehribar', rose:'Gül', jade:'Yeşim', sky:'Gök'};
   let records = readRecords();
@@ -311,8 +312,89 @@
     list();
   });
 
+  function readingRanges(location) {
+    const stored = readJson(searchKey);
+    if (stored?.hash !== location.anchor.sourceHash || !Array.isArray(stored.ranges)) return [];
+    return stored.ranges.filter(range => Array.isArray(range) && range.length === 2 &&
+      range.every(Number.isInteger) && range[0] >= 0 && range[1] <= location.length && range[0] < range[1]);
+  }
+
+  function flowRanges(page, viewport) {
+    const ranges = [];
+    const measure = document.createRange();
+    for (const span of page.querySelectorAll('[data-book-source-start]')) {
+      const box = span.getBoundingClientRect();
+      if (!box.height || box.bottom <= viewport.top || box.top >= viewport.bottom) continue;
+      let start = Number(span.dataset.bookSourceStart);
+      if (box.top >= viewport.top && box.bottom <= viewport.bottom) {
+        ranges.push([start, start + span.textContent.length]);
+        continue;
+      }
+
+      // Source spans can cover a whole chapter in scrolling mode. Measure only
+      // the visible lines without treating an offscreen part as already opened.
+      const walker = document.createTreeWalker(span, NodeFilter.SHOW_TEXT);
+      for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+        measure.selectNodeContents(node);
+        const bounds = measure.getBoundingClientRect();
+        if (bounds.height && bounds.top < viewport.bottom && bounds.bottom > viewport.top) {
+          const boundary = (beforeViewportEdge) => {
+            let low = 0;
+            let high = node.length;
+            while (low < high) {
+              const mid = (low + high) >>> 1;
+              measure.setStart(node, mid);
+              measure.setEnd(node, mid + 1);
+              if (beforeViewportEdge(measure.getBoundingClientRect())) low = mid + 1;
+              else high = mid;
+            }
+            return low;
+          };
+          const first = bounds.top < viewport.top ? boundary(rect => rect.top < viewport.top) : 0;
+          const last = bounds.bottom > viewport.bottom ? boundary(rect => rect.bottom <= viewport.bottom) : node.length;
+          if (first < last) ranges.push([start + first, start + last]);
+        }
+        start += node.length;
+      }
+    }
+    return ranges;
+  }
+
+  let reachedHash;
+  let reached = [];
+  function rememberVisibleText(location) {
+    const { open, length, mode, anchor } = location;
+    if (!open || !length || !anchor.sourceHash) return;
+    if (reachedHash !== anchor.sourceHash) {
+      reachedHash = anchor.sourceHash;
+      reached = readingRanges(location);
+    }
+    const pages = reader.visiblePages().filter(page => page.dataset.pageType === 'text');
+    const viewport = mode === 'scroll' ? document.getElementById('book-spread').getBoundingClientRect() : null;
+    const ranges = pages.flatMap(page => viewport ? flowRanges(page, viewport) :
+      [[Number(page.dataset.sourceStart), Number(page.dataset.sourceEnd)]]);
+    if (ranges.every(([start, end]) => reached.some(([a, b]) => a <= start && end <= b))) return;
+
+    const source = reader.source();
+    const all = [...reached, ...readingRanges(location), ...ranges].sort(([a], [b]) => a - b);
+    reached = [];
+    for (const [start, end] of all) {
+      const previous = reached.at(-1);
+      if (previous && (start <= previous[1] || /^[\s*#]*$/u.test(source.slice(previous[1], start)))) {
+        previous[1] = Math.max(previous[1], end);
+      } else {
+        reached.push([start, end]);
+      }
+    }
+    try { localStorage.setItem(searchKey, JSON.stringify({ hash: reachedHash, ranges: reached })); } catch {}
+  }
+  document.addEventListener('book:location', event => rememberVisibleText(event.detail));
+  window.addEventListener('storage', event => {
+    if (event.key === searchKey && event.newValue) reachedHash = undefined;
+  });
+
   const fold = value => String(value || '').toLocaleLowerCase('tr-TR');
-  function sourceMatches(source,query) {
+  function sourceMatches(source, pattern, limit) {
     const whole = fold(source);
     const offsets = whole.length === source.length ? null : [];
     let searchable = whole;
@@ -327,10 +409,11 @@
       }
     }
     const found = [];
-    let at = searchable.indexOf(query);
-    while (at >= 0 && found.length < 160) {
-      found.push(offsets ? offsets[at] : at);
-      at = searchable.indexOf(query,at+query.length);
+    for (const match of searchable.matchAll(pattern)) {
+      const start = match.index;
+      const end = start + match[0].length;
+      found.push(offsets ? [offsets[start], offsets[end] ?? source.length] : [start, end]);
+      if (found.length >= limit) break;
     }
     return found;
   }
@@ -339,45 +422,58 @@
     const query = make('input','annotation-search');
     query.type = 'search';
     query.maxLength = 120;
-    query.placeholder = 'Kitapta, notlarda ve vurgularda ara';
-    query.setAttribute('aria-label','Kitapta ara');
-    const gate = make('label','annotation-search-gate');
-    const spoiler = make('input');
-    spoiler.type = 'checkbox';
-    spoiler.checked = true;
-    gate.append(spoiler,' İlerideki bölümleri gizle');
+    query.placeholder = 'Örneğin ruh taşı';
+    query.setAttribute('aria-label','Okunan metinde ara');
+    query.setAttribute('aria-describedby','annotation-search-help');
+    const help = make('p','annotation-search-help','Arama, açtığın metinle sınırlı.');
+    help.id = 'annotation-search-help';
     const output = make('div');
     output.setAttribute('aria-live','polite');
-    pane.append(query,gate,output);
+    pane.append(query,help,output);
     let pending;
     function search() {
       output.replaceChildren();
-      const text = fold(query.value.trim());
+      const text = fold(query.value.trim()).replace(/[?!.…]+$/u,'')
+        .replace(/\s+(?:ilk\s+)?(?:nerede|ne zaman)(?:\s+(?:geçti|geçmişti|geçiyor|geçiyordu|geçmiş|göründü|bulunuyor|var))?$/u,'').trim();
       if (text.length < 2) {output.append(make('p','notebook-empty','En az iki karakter yaz.'));return;}
+      const location = reader.location();
+      rememberVisibleText(location);
       const source = reader.source();
-      const chapters = reader.chapters();
-      const at = reader.location().offset;
-      const limit = spoiler.checked ? (chapterAt(at)?.end ?? chapters[0]?.offset ?? at) : source.length;
       const result = [];
-      for (const chapter of chapters) if (chapter.offset < limit && fold(chapter.title).includes(text)) result.push([chapter.title,'Bölüm başlığı',chapter.offset]);
-      for (const item of records) {
-        const target = locate(item);
-        if (target && target.start < limit && fold([item.quote,item.text,item.collection].join(' ')).includes(text))
-          result.push([types[item.kind],item.text || item.quote,target.start]);
-      }
-      for (const offset of sourceMatches(source.slice(0,limit),text)) {
+      const escaped = text.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/gu,'\\s+');
+      const pattern = new RegExp(escaped,'gu');
+      for (const [start,end] of reached) {
         if (result.length >= 60) break;
-        const title = chapterAt(offset)?.title || plan.title;
-        const excerpt = source.slice(Math.max(0,offset-38), Math.min(limit,offset+text.length+52)).replace(/\s+/gu,' ').trim();
-        result.push([title,excerpt,offset]);
+        for (const [from,to] of sourceMatches(source.slice(start,end),pattern,60-result.length)) {
+          const offset = start + from;
+          const excerpt = source.slice(Math.max(start,offset-38),Math.min(end,start+to+52)).replace(/\s+/gu,' ').trim();
+          const chapter = chapterAt(offset);
+          const title = chapter && reached.some(([a,b]) => a <= chapter.offset && chapter.offset < b) ? chapter.title : plan.title;
+          result.push([title,excerpt,offset]);
+        }
       }
-      if (!result.length) output.append(make('p','notebook-empty','Sonuç bulunamadı.'));
-      for (const [title,excerpt,offset] of result.slice(0,60)) output.append(row(title,excerpt,offset,{preferText:true}));
+      for (const item of records) {
+        if (result.length >= 60) break;
+        const target = locate(item);
+        if (target && reached.some(([a,b]) => a <= target.start && target.end <= b) &&
+            fold([item.quote,item.text,item.collection].join(' ')).includes(text)) {
+          result.push([types[item.kind],item.text || item.quote,target.start]);
+        }
+      }
+      if (!result.length) output.append(make('p','notebook-empty','Açtığın metinde sonuç bulunamadı.'));
+      for (const [title,excerpt,offset] of result) output.append(row(title,excerpt,offset,{preferText:true}));
     }
     query.addEventListener('input',()=>{clearTimeout(pending);pending=setTimeout(search,120);});
-    spoiler.addEventListener('change',search);
     search();
   });
+
+  const quickSearch = button('Okunan metinde ara', () => {
+    notebook.open('search');
+    document.querySelector('.annotation-search')?.focus();
+  }, 'hub-button');
+  quickSearch.setAttribute('aria-haspopup','dialog');
+  quickSearch.setAttribute('aria-controls','book-notebook');
+  document.getElementById('reader-quick-panel')?.append(quickSearch);
 
   function persistJournal() {
     clearTimeout(journalTimer);

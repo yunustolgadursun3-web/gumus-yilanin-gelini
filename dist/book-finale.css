@@ -13,7 +13,7 @@
 #app .finale-entry:hover,
 #app #book-finale button[aria-current="true"] { background: #274443; color: #fff2d8; border-color: #557d77; }
 #app #book-finale button:disabled { opacity: .52; cursor: default; }
-#app :is(.finale-entry, #book-finale button, #book-finale summary, #book-finale input):focus-visible {
+#app :is(.finale-entry, #book-finale button, #book-finale summary, #book-finale input, #book-finale textarea):focus-visible {
   outline: 2px solid #8d622f;
   outline-offset: 3px;
 }
@@ -102,3 +102,70 @@
 #app .finale-album-frame p { margin: .25rem 0; color: #635746; font-size: .8rem; }
 #app .finale-album-controls { display: flex; gap: .6rem; justify-content: space-between; align-items: center; margin-top: .65rem; }
 #app .finale-album-controls output { font: 600 .78rem/1.4 system-ui, sans-serif; white-space: nowrap; }
+#app .finale-reply { clear: both; margin-top: 1rem; border-top: 1px solid #d7c19a; }
+#app .finale-reply > summary { padding-inline: 0; }
+#app .finale-reply-form { display: grid; gap: .45rem; }
+#app .finale-reply-form label { font-weight: 600; }
+#app .finale-reply-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: .6rem;
+  border: 1px solid #a88e5d;
+  border-radius: .4rem;
+  background: #fff9ec;
+  color: #4f4232;
+  font: inherit;
+  resize: vertical;
+}
+#app .finale-reply-form button { justify-self: start; }
+#app .finale-reply-form p { margin: 0; font: 400 .8rem/1.5 system-ui, sans-serif; }
+#app .finale-reply-status { color: #38524b; }
+#app .finale-reply-status:empty { display: none; }
+#app .finale-newspaper {
+  padding: clamp(.75rem, 3vw, 1.45rem);
+  border: 1px solid #bea87b;
+  background: #fff8e8;
+  color: #423827;
+  font: 400 .94rem/1.6 Lora, Georgia, serif;
+}
+#app .finale-newspaper-head {
+  padding: .55rem 0 .6rem;
+  border-block: 4px double #566151;
+  text-align: center;
+}
+#app .finale-newspaper-head h3 {
+  margin: 0;
+  font-size: clamp(1.45rem, 6vw, 3rem);
+  line-height: 1.15;
+}
+#app .finale-newspaper-head p {
+  margin: .45rem 0 0;
+  font: 600 .72rem/1.4 system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+#app .finale-newspaper h4 { margin: 0 0 .25rem; color: #31483e; font-size: 1.1rem; }
+#app .finale-newspaper p { margin-block-end: 0; }
+#app .finale-newspaper-lead { margin-top: .85rem; }
+#app .finale-newspaper-lead h4 { font-size: clamp(1.2rem, 4vw, 1.5rem); }
+#app .finale-newspaper-lead figure { margin: .8rem 0; }
+#app .finale-newspaper-lead img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 17rem;
+  object-fit: cover;
+  object-position: center 60%;
+}
+#app .finale-newspaper-lead figcaption { margin-top: .2rem; font-size: .78rem; font-style: italic; }
+#app .finale-newspaper-briefs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding-top: .7rem;
+  border-top: 1px solid #8c7d60;
+}
+@media (max-width: 450px) {
+  #app .finale-menu button { flex-basis: 40%; }
+  #app .finale-newspaper-briefs { grid-template-columns: 1fr; }
+}
